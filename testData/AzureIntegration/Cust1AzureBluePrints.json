@@ -1,0 +1,186 @@
+{ 
+	"VirtualNetwork" :
+	{
+		"bluePrintName": "VirtualNetwork",
+		"descriptiveText": "Virtual Network",
+		"provider": "Azure",
+		"serviceName": "testVirtualNetwork",
+		"Category": "Unknown",
+		"EstimatedPrice": "$20.00/ HR + $10.00",
+		"textinputdetails":
+		 [
+			 {
+				 "textinputDetailsId": "text-input-newResourceGroup",
+				 "label" : "New Resource Group:",
+				 "value": "TestResource"
+		 	 },
+		 	 {
+				 "textinputDetailsId": "text-input-name",
+				 "label" : "Name:",
+				 "value": "testauto"
+		 	 },
+			 {
+				 "textinputDetailsId": "text-input-addressPrefix",
+				 "label" : "Address Prefix:",
+				 "value": "10.0.0.0/24"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-subnetName",
+				 "label" : "Subnet Name:",
+				 "value": "testsubnet"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-subnetAddressPrefix",
+				 "label" : "Subnet Address Prefix:",
+				 "value": "10.0.0.0/24"
+		 	}
+		],
+		"dropdownLabels": 
+			[{
+				"dropdownLabelId": "bx--dropdown-single-parent_location",
+				"label": "Location:",
+				"value": "East US"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_new-resource-group-required",
+				"label": "New Resource Group Required:",
+				"value": "No"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_existing-resource-group-list",
+				"label": "Existing Resource Group List:",
+				"value": "azurevmrg1"
+			}
+		] 
+	},
+	"WindowsVirtualMachine" :
+	{
+		"bluePrintName": "Windows Virtual Machine",
+		"descriptiveText": "Windows Virtual Machine",
+		"provider": "Azure",
+		"serviceName": "testWindowsVM",
+		"Category": "Unknown",
+		"EstimatedPrice": "$3.00/ HR + $2.00",
+		"textinputdetails":
+		 [
+			 {
+				 "textinputDetailsId": "text-input-addressPrefix",
+				 "label" : "Address Prefix:",
+				 "value": "10.0.0.0/24"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-networkInterfaceName",
+				 "label" : "Network Interface Name:",
+				 "value": "testauto"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-newResourceGroup",
+				 "label" : "New Resource Group:",
+				 "value": "testresource"
+		 	}, 
+		 	{
+				 "textinputDetailsId": "text-input-subnetName",
+				 "label" : "Subnet Name:",
+				 "value": "testsubnet"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-subnetPrefix",
+				 "label" : "Subnet Prefix:",
+				 "value": "10.0.0.0/24"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-virtualMachineName",
+				 "label" : "Virtual Machine Name:",
+				 "value": "testvmname"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-adminUsername",
+				 "label" : "Admin Username:",
+				 "value": "TestAdmin"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-adminPassword",
+				 "label" : "Admin Password:",
+				 "value": "Pas$w0rd"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-sshKeyData",
+				 "label" : "Ssh Key Data:",
+				 "value": " "
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-virtualNetworkName",
+				 "label" : "Virtual Network Name:",
+				 "value": "testvn"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-networkSecurityGroupName",
+				 "label" : "Network Security Group Name:",
+				 "value": "testnwsecuritygroup"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-availabilitySetName",
+				 "label" : "Availability Set Name:",
+				 "value": "testavailabilitysetname"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-diagnosticsStorageAccountName",
+				 "label" : "Diagnostics Storage Account Name:",
+				 "value": "teststoragename"
+		 	},
+		 	{
+				 "textinputDetailsId": "text-input-publicIpAddressName",
+				 "label" : "Public Ip Address Name:",
+				 "value": "testpublicipaddressname"
+		 	}
+		],
+		"dropdownLabels": 
+			[{			
+				"dropdownLabelId": "bx--dropdown-single-parent_location",
+				"label": "Location:",
+				"value": "East US"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_new-resource-group-required",
+				"label": "New Resource Group Required:",
+				"value": "No"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_existing-resource-group-list",
+				"label": "Existing Resource Group List:",
+				"value": "azurevmrg1"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_authentication-type",
+				"label": "Authentication Type:",
+				"value": "Password"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_virtual-machine-size",
+				"label": "Virtual Machine Size: ",
+				"value": "Standard_A0"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_availability-set-platform-fault-domain-count",
+				"label": "Availability Set Platform Fault Domain Count:",
+				"value": "1"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_availability-set-platform-update-domain-count",
+				"label": "Availability Set Platform Update Domain Count:",
+				"value": "4"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_diagnostics-storage-account-type",
+				"label": "Diagnostics Storage Account Type:",
+				"value": "Standard_LRS"
+			},		
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_public-ip-address-type",
+				"label": "Public Ip Address Type:",
+				"value": "dynamic"
+			}
+			
+		] 
+	}
+}

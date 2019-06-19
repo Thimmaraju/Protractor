@@ -1,0 +1,49 @@
+{
+    "roles":{
+        "technicalapprover":
+        {
+            "username":"cbtechnicalapprover@gmail.com",
+            "password":"Gravitant123#",
+            "firstname":"Technical",
+            "lastname":"Approver",
+            "displayname":"Technical Approver",
+            "description":"Logging in as Technical Approver"
+        },
+        "financialapprover":
+        {
+            "username":"cbfinancialapprover@gmail.com",
+            "password":"Gravitant123#",
+            "firstname":"Financial",
+            "lastname":"Approver",
+            "displayname":"Financial Approver",
+            "description":"Logging in as Financial Approver"
+        },
+        "buyer":
+        {
+            "username":"consumebuyer@gmail.com",
+            "password":"Gravitant123#",
+            "firstname":"cb",
+            "lastname":"buyer",
+            "displayname":"cb buyer",
+            "description":"Logging in as Buyer"
+        },
+        "legalfulfillsupport":
+        {
+            "username":"cblegalfulfillsupport@gmail.com",
+            "password":"Gravitant123#",
+            "firstname":"cb",
+            "lastname":"LegalFulfillSupport",
+            "displayname":"cb legalfulfillsupport",
+            "description":"Logging in as LegalFulfillSupport"
+        },
+        "admin":
+        {
+            "username":"cbadmn@outlook.com",
+            "password":"Gravitant123#",
+            "firstname":"cb",
+            "lastname":"admin",
+            "displayname":"cb admin",
+            "description":"Logging in as Admin"
+        }
+    }
+}

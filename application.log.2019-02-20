@@ -1,0 +1,1848 @@
+[20-02-2019 14:01:13] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 14:01:13] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 14:01:13] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 14:01:17] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 14:01:23] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 14:01:23] [INFO] - Cleared Username input box
+[20-02-2019 14:01:23] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 14:01:23] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 14:01:24] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 14:01:24] [INFO] - Clicked on Sign In button
+[20-02-2019 14:01:30] [INFO] - Navigated to Dashboard page...
+[20-02-2019 14:01:31] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 14:01:31] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 14:01:31] [INFO] - Switched to child window
+[20-02-2019 14:01:33] [INFO] - Switched back to parent window
+[20-02-2019 14:01:33] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 14:01:33] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 14:01:33] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 14:01:33] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 14:19:38] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 14:19:38] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 14:19:38] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 14:19:42] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 14:19:47] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 14:19:47] [INFO] - Cleared Username input box
+[20-02-2019 14:19:47] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 14:19:47] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 14:19:48] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 14:19:48] [INFO] - Clicked on Sign In button
+[20-02-2019 14:19:54] [INFO] - Navigated to Dashboard page...
+[20-02-2019 14:19:55] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 14:19:56] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 14:19:56] [INFO] - Switched to child window
+[20-02-2019 14:19:59] [INFO] - Switched back to parent window
+[20-02-2019 14:19:59] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 14:19:59] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 14:19:59] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 14:19:59] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 14:20:00] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:20:07] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 14:20:08] [INFO] - Succesfully clicked on Provider : Amazon
+[20-02-2019 14:20:09] [INFO] - Succesfully clicked on Provider : Compute
+[20-02-2019 14:20:10] [INFO] - Got all the elemets. Going to find the index of Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:10] [INFO] - Comparing EC2 Reserved Instance with Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:10] [INFO] - Comparing Elastic Block Store (EBS) with Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:10] [INFO] - Comparing Elastic Compute Cloud (EC2) with Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:10] [INFO] - Clicked configure button for Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:11] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/place-order/main-parameters/CB_AWS_CF_EC2_S00
+[20-02-2019 14:20:11] [INFO] - Blue Print Name : The Amazon Elastic Compute Cloud (EC2) service creates virtual computers in the cloud. Users create, access, and terminate these computers as needed, paying for only the compute capacity used.
+[20-02-2019 14:20:14] [INFO] - Team selected from drop down
+[20-02-2019 14:20:16] [INFO] - Environment selected from drop down
+[20-02-2019 14:20:22] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:20:29] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 14:20:30] [INFO] - Succesfully clicked on Provider : Amazon
+[20-02-2019 14:20:31] [INFO] - Succesfully clicked on Provider : Compute
+[20-02-2019 14:20:32] [INFO] - Got all the elemets. Going to find the index of Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:32] [INFO] - Comparing EC2 Reserved Instance with Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:32] [INFO] - Comparing Elastic Block Store (EBS) with Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:32] [INFO] - Comparing Elastic Compute Cloud (EC2) with Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:32] [INFO] - Clicked configure button for Elastic Compute Cloud (EC2)
+[20-02-2019 14:20:33] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 14:20:33] [INFO] - Entered TestAutomationJLlcR in Service Instance Name textbox
+[20-02-2019 14:20:34] [INFO] - Cleared Quantity textbox
+[20-02-2019 14:20:34] [INFO] - Entered 1 in Quantity textbox
+[20-02-2019 14:20:37] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 14:20:45] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 14:21:02] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:21:15] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 14:21:16] [INFO] - Succesfully clicked on Provider : Amazon
+[20-02-2019 14:21:16] [INFO] - AWS Region key has value as: us-east-1
+[20-02-2019 14:21:16] [INFO] - Resource Name key has value as: EC2Instance
+[20-02-2019 14:21:16] [INFO] - Instance Type key has value as: t2.small
+[20-02-2019 14:21:16] [INFO] - Architecture key has value as: x86_64
+[20-02-2019 14:21:16] [INFO] - Virtualization Type key has value as: hvm
+[20-02-2019 14:21:16] [INFO] - Image Name key has value as: testami
+[20-02-2019 14:21:16] [INFO] - Availability Zone key has value as: us-east-1a
+[20-02-2019 14:21:16] [INFO] - VPC Creation Mode key has value as: Create with Default VPC and Subnet
+[20-02-2019 14:21:16] [INFO] - IAM Role key has value as: testEC2123
+[20-02-2019 14:21:16] [INFO] - Shutdown Behavior key has value as: stop
+[20-02-2019 14:21:16] [INFO] - Enable Termination Protection key has value as: false
+[20-02-2019 14:21:16] [INFO] - Monitoring key has value as: false
+[20-02-2019 14:21:16] [INFO] - T2/T3 Unlimited key has value as: Disable
+[20-02-2019 14:21:16] [INFO] - SSH Key Name key has value as: 1qaz
+[20-02-2019 14:21:16] [INFO] - SSH Location key has value as: 0.0.0.0/0
+[20-02-2019 14:21:16] [INFO] - User Data key has value as: Test User
+[20-02-2019 14:21:17] [INFO] - Succesfully clicked on Provider : Compute
+[20-02-2019 14:21:19] [INFO] - Got all the elemets. Going to find the index of Elastic Compute Cloud (EC2)
+[20-02-2019 14:21:19] [INFO] - Comparing EC2 Reserved Instance with Elastic Compute Cloud (EC2)
+[20-02-2019 14:21:19] [INFO] - Comparing Elastic Block Store (EBS) with Elastic Compute Cloud (EC2)
+[20-02-2019 14:21:19] [INFO] - Comparing Elastic Compute Cloud (EC2) with Elastic Compute Cloud (EC2)
+[20-02-2019 14:21:19] [INFO] - Clicked configure button for Elastic Compute Cloud (EC2)
+[20-02-2019 14:21:20] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 14:21:20] [INFO] - Entered TestAutomationyblAH in Service Instance Name textbox
+[20-02-2019 14:21:20] [INFO] - Cleared Quantity textbox
+[20-02-2019 14:21:20] [INFO] - Entered 1 in Quantity textbox
+[20-02-2019 14:21:24] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 14:21:32] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 14:21:49] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:21:56] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 14:21:57] [INFO] - Succesfully clicked on Provider : Azure
+[20-02-2019 14:21:57] [INFO] - Waiting for the Category to be identified and Click it
+[20-02-2019 14:22:08] [INFO] - Succesfully clicked on Category : Compute
+[20-02-2019 14:22:10] [INFO] - Got all the elemets. Going to find the index of Linux Virtual Machine
+[20-02-2019 14:22:10] [INFO] - Comparing Availability Set with Linux Virtual Machine
+[20-02-2019 14:22:10] [INFO] - Comparing Batch Account with Linux Virtual Machine
+[20-02-2019 14:22:10] [INFO] - Comparing Container Instance with Linux Virtual Machine
+[20-02-2019 14:22:10] [INFO] - Comparing Container Registry with Linux Virtual Machine
+[20-02-2019 14:22:10] [INFO] - Comparing Image from VM with Linux Virtual Machine
+[20-02-2019 14:22:10] [INFO] - Comparing Linux Virtual Machine with Linux Virtual Machine
+[20-02-2019 14:22:10] [INFO] - Clicked configure button for Linux Virtual Machine
+[20-02-2019 14:22:11] [INFO] - The estimated price in Main Params is :USD 0.011/ HOUR + USD 0.00
+[20-02-2019 14:22:11] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:22:18] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 14:22:19] [INFO] - Succesfully clicked on Provider : Azure
+[20-02-2019 14:22:19] [INFO] - Waiting for the Category to be identified and Click it
+[20-02-2019 14:22:30] [INFO] - Succesfully clicked on Category : Compute
+[20-02-2019 14:22:32] [INFO] - Got all the elemets. Going to find the index of Linux Virtual Machine
+[20-02-2019 14:22:32] [INFO] - Comparing Availability Set with Linux Virtual Machine
+[20-02-2019 14:22:32] [INFO] - Comparing Batch Account with Linux Virtual Machine
+[20-02-2019 14:22:32] [INFO] - Comparing Container Instance with Linux Virtual Machine
+[20-02-2019 14:22:32] [INFO] - Comparing Container Registry with Linux Virtual Machine
+[20-02-2019 14:22:32] [INFO] - Comparing Image from VM with Linux Virtual Machine
+[20-02-2019 14:22:32] [INFO] - Comparing Linux Virtual Machine with Linux Virtual Machine
+[20-02-2019 14:22:32] [INFO] - Clicked configure button for Linux Virtual Machine
+[20-02-2019 14:22:33] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 14:22:33] [INFO] - Entered TestAutomationOIZ0 in Service Instance Name textbox
+[20-02-2019 14:22:36] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 14:22:44] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 14:22:52] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 14:22:55] [INFO] - Selected azure-qa / azure-qa from Provider Account dropdown
+[20-02-2019 14:22:59] [INFO] - Clicked on Next button
+[20-02-2019 14:23:06] [INFO] - Selected Yes from New Resource Group Required dropdown
+[20-02-2019 14:23:08] [INFO] - Cleared New Resource Group textbox
+[20-02-2019 14:23:09] [INFO] - Entered gslautotc_azureWVM-RG101NMmp in New Resource Group textbox
+[20-02-2019 14:23:13] [INFO] - Selected East US from Location dropdown
+[20-02-2019 14:23:16] [INFO] - Clicked on Next button
+[20-02-2019 14:23:16] [INFO] - Cleared Virtual Machine Name textbox
+[20-02-2019 14:23:17] [INFO] - Entered auto-VM101PrD6 in Virtual Machine Name textbox
+[20-02-2019 14:23:21] [INFO] - Selected Australia East from Virtual Machine Location dropdown
+[20-02-2019 14:23:26] [INFO] - Cleared Number Of Instances textbox
+[20-02-2019 14:23:26] [INFO] - Entered 2 in Number Of Instances textbox
+[20-02-2019 14:23:26] [INFO] - Cleared Username textbox
+[20-02-2019 14:23:27] [INFO] - Entered vmAdmin in Username textbox
+[20-02-2019 14:23:30] [INFO] - Selected Password from Authentication Type dropdown
+[20-02-2019 14:23:30] [INFO] - Cleared Admin Password textbox
+[20-02-2019 14:23:31] [INFO] - Entered virtual!Admin in Admin Password textbox
+[20-02-2019 14:23:34] [INFO] - Selected RedHat from Operating System Publisher dropdown
+[20-02-2019 14:23:41] [INFO] - Selected RHEL from Operating System dropdown
+[20-02-2019 14:23:48] [INFO] - Selected 7.3 from Operating System Version dropdown
+[20-02-2019 14:23:55] [INFO] - Selected Basic_A0 ( 1 vCPUs,0.75 GB RAM ) from Virtual Machine Size dropdown
+[20-02-2019 14:23:59] [INFO] - Clicked on Next button
+[20-02-2019 14:24:05] [INFO] - Selected yes from New Virtual Network Required dropdown
+[20-02-2019 14:24:05] [INFO] - Cleared Virtual Network Name textbox
+[20-02-2019 14:24:05] [INFO] - Entered auto-VN101yBLY in Virtual Network Name textbox
+[20-02-2019 14:24:05] [INFO] - Cleared Address Prefix textbox
+[20-02-2019 14:24:06] [INFO] - Entered 10.0.0.0/24 in Address Prefix textbox
+[20-02-2019 14:24:06] [INFO] - Cleared Subnet Name textbox
+[20-02-2019 14:24:06] [INFO] - Entered auto-SN1015xRm in Subnet Name textbox
+[20-02-2019 14:24:06] [INFO] - Cleared Subnet Prefix textbox
+[20-02-2019 14:24:06] [INFO] - Entered 10.0.0.0/24 in Subnet Prefix textbox
+[20-02-2019 14:24:06] [INFO] - Cleared Network Interface Name textbox
+[20-02-2019 14:24:07] [INFO] - Entered auto-NIN101sSFf in Network Interface Name textbox
+[20-02-2019 14:24:10] [INFO] - Selected yes from New Network Security Group Required dropdown
+[20-02-2019 14:24:11] [INFO] - Cleared Network Security Group Name textbox
+[20-02-2019 14:24:11] [INFO] - Entered AutoWVM-RG101UyLL in Network Security Group Name textbox
+[20-02-2019 14:24:11] [INFO] - Cleared Public IP Address Name textbox
+[20-02-2019 14:24:12] [INFO] - Entered auto-pIPaN1013M1F in Public IP Address Name textbox
+[20-02-2019 14:24:15] [INFO] - Clicked on Next button
+[20-02-2019 14:24:18] [INFO] - Selected yes from New Availability Set Required dropdown
+[20-02-2019 14:24:19] [INFO] - Cleared Availability Set Name textbox
+[20-02-2019 14:24:19] [INFO] - Entered AutoWVM-RG101POG8 in Availability Set Name textbox
+[20-02-2019 14:24:19] [INFO] - Cleared Availability Set Fault Domains textbox
+[20-02-2019 14:24:19] [INFO] - Entered 2 in Availability Set Fault Domains textbox
+[20-02-2019 14:24:19] [INFO] - Cleared Availability Set Update Domains textbox
+[20-02-2019 14:24:19] [INFO] - Entered 5 in Availability Set Update Domains textbox
+[20-02-2019 14:24:23] [INFO] - Clicked on Next button
+[20-02-2019 14:24:27] [INFO] - Selected Enabled from Boot Diagnostics dropdown
+[20-02-2019 14:24:32] [INFO] - Selected yes from New Diagnostics Storage Account Required dropdown
+[20-02-2019 14:24:34] [INFO] - Cleared Diagnostics Storage Account Name textbox
+[20-02-2019 14:24:34] [INFO] - Entered autosanw8cf in Diagnostics Storage Account Name textbox
+[20-02-2019 14:24:38] [INFO] - Selected Standard_LRS from Diagnostics Storage Account Type dropdown
+[20-02-2019 14:24:41] [INFO] - Clicked on Next button
+[20-02-2019 14:24:46] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:24:54] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 14:24:55] [INFO] - Succesfully clicked on Provider : Azure
+[20-02-2019 14:24:55] [INFO] - Waiting for the Category to be identified and Click it
+[20-02-2019 14:24:55] [INFO] - New Resource Group Required key has value as: Yes
+[20-02-2019 14:24:55] [INFO] - Location key has value as: East US
+[20-02-2019 14:24:55] [INFO] - Virtual Machine Location key has value as: Australia East
+[20-02-2019 14:24:55] [INFO] - Number Of Instances key has value as: 2
+[20-02-2019 14:24:55] [INFO] - Username key has value as: vmAdmin
+[20-02-2019 14:24:55] [INFO] - Authentication Type key has value as: Password
+[20-02-2019 14:24:55] [INFO] - Operating System Publisher key has value as: RedHat
+[20-02-2019 14:24:55] [INFO] - Operating System key has value as: RHEL
+[20-02-2019 14:24:55] [INFO] - Operating System Version key has value as: 7.3
+[20-02-2019 14:24:55] [INFO] -  Virtual Machine Size key has value as: Basic_A0 ( 1 vCPUs,0.75 GB RAM )
+[20-02-2019 14:24:55] [INFO] - New Virtual Network Required key has value as: yes
+[20-02-2019 14:24:55] [INFO] - Address Prefix key has value as: 10.0.0.0/24
+[20-02-2019 14:24:55] [INFO] - Subnet Prefix key has value as: 10.0.0.0/24
+[20-02-2019 14:24:55] [INFO] - New Network Security Group Required key has value as: yes
+[20-02-2019 14:24:55] [INFO] - New Availability Set Required key has value as: yes
+[20-02-2019 14:24:55] [INFO] - Availability Set Fault Domains key has value as: 2
+[20-02-2019 14:24:55] [INFO] - Availability Set Update Domains key has value as: 5
+[20-02-2019 14:24:55] [INFO] - Boot Diagnostics key has value as: Enabled
+[20-02-2019 14:24:55] [INFO] - New Diagnostics Storage Account Required key has value as: yes
+[20-02-2019 14:24:55] [INFO] - Diagnostics Storage Account Type key has value as: Standard_LRS
+[20-02-2019 14:25:07] [INFO] - Succesfully clicked on Category : Compute
+[20-02-2019 14:25:09] [INFO] - Got all the elemets. Going to find the index of Linux Virtual Machine
+[20-02-2019 14:25:09] [INFO] - Comparing Availability Set with Linux Virtual Machine
+[20-02-2019 14:25:09] [INFO] - Comparing Batch Account with Linux Virtual Machine
+[20-02-2019 14:25:09] [INFO] - Comparing Container Instance with Linux Virtual Machine
+[20-02-2019 14:25:09] [INFO] - Comparing Container Registry with Linux Virtual Machine
+[20-02-2019 14:25:09] [INFO] - Comparing Image from VM with Linux Virtual Machine
+[20-02-2019 14:25:09] [INFO] - Comparing Linux Virtual Machine with Linux Virtual Machine
+[20-02-2019 14:25:09] [INFO] - Clicked configure button for Linux Virtual Machine
+[20-02-2019 14:25:10] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 14:25:10] [INFO] - Entered TestAutomationCfMx in Service Instance Name textbox
+[20-02-2019 14:25:14] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 14:25:22] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 14:25:29] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 14:25:33] [INFO] - Selected azure-qa / azure-qa from Provider Account dropdown
+[20-02-2019 14:25:36] [INFO] - Clicked on Next button
+[20-02-2019 14:25:45] [INFO] - Selected Yes from New Resource Group Required dropdown
+[20-02-2019 14:25:47] [INFO] - Cleared New Resource Group textbox
+[20-02-2019 14:25:47] [INFO] - Entered gslautotc_azureWVM-RG101meAu in New Resource Group textbox
+[20-02-2019 14:25:51] [INFO] - Selected East US from Location dropdown
+[20-02-2019 14:25:55] [INFO] - Clicked on Next button
+[20-02-2019 14:25:55] [INFO] - Cleared Virtual Machine Name textbox
+[20-02-2019 14:25:55] [INFO] - Entered auto-VM101gZWZ in Virtual Machine Name textbox
+[20-02-2019 14:25:59] [INFO] - Selected Australia East from Virtual Machine Location dropdown
+[20-02-2019 14:26:06] [INFO] - Cleared Number Of Instances textbox
+[20-02-2019 14:26:06] [INFO] - Entered 2 in Number Of Instances textbox
+[20-02-2019 14:26:06] [INFO] - Cleared Username textbox
+[20-02-2019 14:26:06] [INFO] - Entered vmAdmin in Username textbox
+[20-02-2019 14:26:10] [INFO] - Selected Password from Authentication Type dropdown
+[20-02-2019 14:26:10] [INFO] - Cleared Admin Password textbox
+[20-02-2019 14:26:10] [INFO] - Entered virtual!Admin in Admin Password textbox
+[20-02-2019 14:26:14] [INFO] - Selected RedHat from Operating System Publisher dropdown
+[20-02-2019 14:26:21] [INFO] - Selected RHEL from Operating System dropdown
+[20-02-2019 14:26:28] [INFO] - Selected 7.3 from Operating System Version dropdown
+[20-02-2019 14:26:36] [INFO] - Selected Basic_A0 ( 1 vCPUs,0.75 GB RAM ) from Virtual Machine Size dropdown
+[20-02-2019 14:26:39] [INFO] - Clicked on Next button
+[20-02-2019 14:26:45] [INFO] - Selected yes from New Virtual Network Required dropdown
+[20-02-2019 14:26:45] [INFO] - Cleared Virtual Network Name textbox
+[20-02-2019 14:26:46] [INFO] - Entered auto-VN1014awy in Virtual Network Name textbox
+[20-02-2019 14:26:46] [INFO] - Cleared Address Prefix textbox
+[20-02-2019 14:26:46] [INFO] - Entered 10.0.0.0/24 in Address Prefix textbox
+[20-02-2019 14:26:46] [INFO] - Cleared Subnet Name textbox
+[20-02-2019 14:26:46] [INFO] - Entered auto-SN101NtTv in Subnet Name textbox
+[20-02-2019 14:26:47] [INFO] - Cleared Subnet Prefix textbox
+[20-02-2019 14:26:47] [INFO] - Entered 10.0.0.0/24 in Subnet Prefix textbox
+[20-02-2019 14:26:47] [INFO] - Cleared Network Interface Name textbox
+[20-02-2019 14:26:47] [INFO] - Entered auto-NIN101w11Z in Network Interface Name textbox
+[20-02-2019 14:26:51] [INFO] - Selected yes from New Network Security Group Required dropdown
+[20-02-2019 14:26:51] [INFO] - Cleared Network Security Group Name textbox
+[20-02-2019 14:26:51] [INFO] - Entered AutoWVM-RG101SRsD in Network Security Group Name textbox
+[20-02-2019 14:26:52] [INFO] - Cleared Public IP Address Name textbox
+[20-02-2019 14:26:52] [INFO] - Entered auto-pIPaN101gLHr in Public IP Address Name textbox
+[20-02-2019 14:26:55] [INFO] - Clicked on Next button
+[20-02-2019 14:26:59] [INFO] - Selected yes from New Availability Set Required dropdown
+[20-02-2019 14:26:59] [INFO] - Cleared Availability Set Name textbox
+[20-02-2019 14:26:59] [INFO] - Entered AutoWVM-RG1010Y2s in Availability Set Name textbox
+[20-02-2019 14:26:59] [INFO] - Cleared Availability Set Fault Domains textbox
+[20-02-2019 14:26:59] [INFO] - Entered 2 in Availability Set Fault Domains textbox
+[20-02-2019 14:27:00] [INFO] - Cleared Availability Set Update Domains textbox
+[20-02-2019 14:27:00] [INFO] - Entered 5 in Availability Set Update Domains textbox
+[20-02-2019 14:27:03] [INFO] - Clicked on Next button
+[20-02-2019 14:27:08] [INFO] - Selected Enabled from Boot Diagnostics dropdown
+[20-02-2019 14:27:13] [INFO] - Selected yes from New Diagnostics Storage Account Required dropdown
+[20-02-2019 14:27:15] [INFO] - Cleared Diagnostics Storage Account Name textbox
+[20-02-2019 14:27:15] [INFO] - Entered autosan981e in Diagnostics Storage Account Name textbox
+[20-02-2019 14:27:18] [INFO] - Selected Standard_LRS from Diagnostics Storage Account Type dropdown
+[20-02-2019 14:27:22] [INFO] - Clicked on Next button
+[20-02-2019 14:27:42] [INFO] - Order number : 2O80ZQO0
+[20-02-2019 14:27:47] [INFO] - Order Submitted !
+[20-02-2019 14:28:09] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 14:28:09] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 14:28:12] [INFO] - Order Service Name in Order details page : TestAutomationCfMx
+[20-02-2019 14:28:12] [INFO] - Order Provider Name in Order details page : Azure
+[20-02-2019 14:28:12] [INFO] - Clicked on Service Configurations tab
+[20-02-2019 14:28:12] [INFO] - The value for New Resource Group Required is : Yes
+[20-02-2019 14:28:12] [INFO] - The value for Location is : East US
+[20-02-2019 14:28:12] [INFO] - The value for New Resource Group is : gslautotc_azureWVM-RG101meAu
+[20-02-2019 14:28:12] [INFO] - The value for Virtual Machine Name is : auto-VM101gZWZ
+[20-02-2019 14:28:12] [INFO] - The value for Virtual Machine Location is : Australia East
+[20-02-2019 14:28:12] [INFO] - The value for Number Of Instances is : 2
+[20-02-2019 14:28:13] [INFO] - The value for Username is : vmAdmin
+[20-02-2019 14:28:13] [INFO] - The value for Authentication Type is : Password
+[20-02-2019 14:28:13] [INFO] - The value for Operating System Publisher is : RedHat
+[20-02-2019 14:28:13] [INFO] - The value for Operating System is : RHEL
+[20-02-2019 14:28:13] [INFO] - The value for Operating System Version is : 7.3
+[20-02-2019 14:28:13] [INFO] - The value for Virtual Machine Size is : Basic_A0 ( 1 vCPUs,0.75 GB RAM )
+[20-02-2019 14:28:13] [INFO] - The value for New Virtual Network Required is : yes
+[20-02-2019 14:28:13] [INFO] - The value for Virtual Network Name is : auto-VN1014awy
+[20-02-2019 14:28:13] [INFO] - The value for Address Prefix is : 10.0.0.0/24
+[20-02-2019 14:28:13] [INFO] - The value for Subnet Name is : auto-SN101NtTv
+[20-02-2019 14:28:13] [INFO] - The value for Subnet Prefix is : 10.0.0.0/24
+[20-02-2019 14:28:13] [INFO] - The value for Network Interface Name is : auto-NIN101w11Z
+[20-02-2019 14:28:13] [INFO] - The value for New Network Security Group Required is : yes
+[20-02-2019 14:28:13] [INFO] - The value for Network Security Group Name is : AutoWVM-RG101SRsD
+[20-02-2019 14:28:13] [INFO] - The value for Public IP Address Name is : auto-pIPaN101gLHr
+[20-02-2019 14:28:13] [INFO] - The value for New Availability Set Required is : yes
+[20-02-2019 14:28:13] [INFO] - The value for Availability Set Name is : AutoWVM-RG1010Y2s
+[20-02-2019 14:28:13] [INFO] - The value for Availability Set Fault Domains is : 2
+[20-02-2019 14:28:14] [INFO] - The value for Availability Set Update Domains is : 5
+[20-02-2019 14:28:14] [INFO] - The value for Boot Diagnostics is : Enabled
+[20-02-2019 14:28:14] [INFO] - The value for New Diagnostics Storage Account Required is : yes
+[20-02-2019 14:28:14] [INFO] - The value for Diagnostics Storage Account Name is : autosan981e
+[20-02-2019 14:28:14] [INFO] - The value for Diagnostics Storage Account Type is : Standard_LRS
+[20-02-2019 14:28:14] [INFO] - Clicked on Bill of Materials tab
+[20-02-2019 14:28:30] [INFO] - Order Details page is loaded, now waiting for Deny button to be displayed
+[20-02-2019 14:28:30] [INFO] - Checked Technical Approval checkbox for Deny Order
+[20-02-2019 14:28:31] [INFO] - confirm for Deny Order
+[20-02-2019 14:28:36] [INFO] - click Ok Denial Was Processed
+[20-02-2019 14:28:44] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:28:44] [INFO] - Waiting for the Category to be identified and Click it
+[20-02-2019 14:28:44] [INFO] - Succesfully clicked on Provider : Google
+[20-02-2019 14:28:56] [INFO] - Succesfully clicked on Category : Compute
+[20-02-2019 14:28:58] [INFO] - Got all the elemets. Going to find the index of Compute Engine (Multi Quantity)
+[20-02-2019 14:28:58] [INFO] - Comparing Compute Engine with Compute Engine (Multi Quantity)
+[20-02-2019 14:28:58] [INFO] - Comparing Compute Engine (Multi Quantity) with Compute Engine (Multi Quantity)
+[20-02-2019 14:28:58] [INFO] - Clicked configure button for Compute Engine (Multi Quantity)
+[20-02-2019 14:28:59] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/place-order/main-parameters/CB_GCP_DEPMGR_COMPUTE_ENGINE_S01
+[20-02-2019 14:28:59] [INFO] - Blue Print Name : The Google Compute Engine is the same engine Google uses to run services like its search engine, maps, and mail. This Infrastructure as an Service (IaaS) allows users to build virtual machines based on images of their own systems.
+[20-02-2019 14:29:01] [INFO] - Team selected from drop down
+[20-02-2019 14:29:03] [INFO] - Environment selected from drop down
+[20-02-2019 14:29:17] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:29:17] [INFO] - Waiting for the Category to be identified and Click it
+[20-02-2019 14:29:18] [INFO] - Succesfully clicked on Provider : Google
+[20-02-2019 14:29:30] [INFO] - Succesfully clicked on Category : Compute
+[20-02-2019 14:29:31] [INFO] - Got all the elemets. Going to find the index of Compute Engine (Multi Quantity)
+[20-02-2019 14:29:31] [INFO] - Comparing Compute Engine with Compute Engine (Multi Quantity)
+[20-02-2019 14:29:31] [INFO] - Comparing Compute Engine (Multi Quantity) with Compute Engine (Multi Quantity)
+[20-02-2019 14:29:31] [INFO] - Clicked configure button for Compute Engine (Multi Quantity)
+[20-02-2019 14:29:32] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 14:29:32] [INFO] - Entered att-compute-engine-SWmKG in Service Instance Name textbox
+[20-02-2019 14:29:32] [INFO] - Cleared Quantity textbox
+[20-02-2019 14:29:33] [INFO] - Entered 2 in Quantity textbox
+[20-02-2019 14:29:36] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 14:29:44] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 14:29:51] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 14:29:55] [INFO] - Selected gcpQA-TEAM1 / gcpQA-TEAM1 from Provider Account dropdown
+[20-02-2019 14:29:58] [INFO] - Clicked on Next button
+[20-02-2019 14:30:07] [INFO] - Selected asia-east1 from Region dropdown
+[20-02-2019 14:30:17] [INFO] - Selected asia-east1-a from Zone dropdown
+[20-02-2019 14:30:27] [INFO] - Clicked on Next button
+[20-02-2019 14:30:28] [INFO] - Cleared Instance Name textbox
+[20-02-2019 14:30:28] [INFO] - Entered att-vm-c8d in Instance Name textbox
+[20-02-2019 14:30:32] [INFO] - Clicked on Next button
+[20-02-2019 14:30:37] [INFO] - Selected Basic view radio button for Machine Type Edit Option
+[20-02-2019 14:30:41] [INFO] - Selected g1-small from Machine type dropdown
+[20-02-2019 14:30:44] [INFO] - Clicked on Next button
+[20-02-2019 14:30:50] [INFO] - Selected No radio button for Deploy Container
+[20-02-2019 14:30:54] [INFO] - Clicked on Next button
+[20-02-2019 14:30:58] [INFO] - Selected OS Images from Source Image Type dropdown
+[20-02-2019 14:31:02] [INFO] - Selected CentOS 6 ( x86_64 built on 20190213) from OS Images dropdown
+[20-02-2019 14:31:05] [INFO] - Selected pd-standard radio button for Boot Disk Type
+[20-02-2019 14:31:06] [INFO] - Cleared Boot Disk Size in GB textbox
+[20-02-2019 14:31:06] [INFO] - Entered 10 in Boot Disk Size in GB textbox
+[20-02-2019 14:31:09] [INFO] - Selected No radio button for Deletion Rule ?
+[20-02-2019 14:31:14] [INFO] - Selected Automatic(recommended) from Encryption dropdown
+[20-02-2019 14:31:17] [INFO] - Clicked on Next button
+[20-02-2019 14:31:30] [INFO] - Selected No radio button for Add Additional Disk
+[20-02-2019 14:31:34] [INFO] - Clicked on Next button
+[20-02-2019 14:31:49] [INFO] - Clicked on Next button
+[20-02-2019 14:31:52] [INFO] - Selected No radio button for Enable HTTP
+[20-02-2019 14:31:55] [INFO] - Selected No radio button for Enable HTTPS
+[20-02-2019 14:31:59] [INFO] - Clicked on Next button
+[20-02-2019 14:32:00] [INFO] - Cleared Network Tags textbox
+[20-02-2019 14:32:00] [INFO] - Entered gcp-test-netins in Network Tags textbox
+[20-02-2019 14:32:04] [INFO] - Selected No radio button for Network Interface?
+[20-02-2019 14:32:07] [INFO] - Clicked on Next button
+[20-02-2019 14:32:10] [INFO] - Selected No radio button for Block project wide SSH keys
+[20-02-2019 14:32:13] [INFO] - Selected No radio button for Add Public SSH Key
+[20-02-2019 14:32:17] [INFO] - Clicked on Next button
+[20-02-2019 14:32:17] [INFO] - Cleared Description textbox
+[20-02-2019 14:32:17] [INFO] - Entered e in Description textbox
+[20-02-2019 14:32:20] [INFO] - Clicked on Next button
+[20-02-2019 14:32:27] [INFO] - Service Name on Review Order page : att-compute-engine-SWmKG
+[20-02-2019 14:32:27] [INFO] - Estimated price on Review Order page : USD 0.00 ONE TIME CHARGE + USD 44.64 / MONTH
+[20-02-2019 14:32:41] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:32:41] [INFO] - Waiting for the Category to be identified and Click it
+[20-02-2019 14:32:41] [INFO] - Region key has value as: asia-east1
+[20-02-2019 14:32:41] [INFO] - Machine type key has value as: g1-small
+[20-02-2019 14:32:41] [INFO] - Zone key has value as: asia-east1-a
+[20-02-2019 14:32:41] [INFO] - Encryption key has value as: Automatic(recommended)
+[20-02-2019 14:32:41] [INFO] - Source Image Type key has value as: OS Images
+[20-02-2019 14:32:41] [INFO] - Boot Disk Type key has value as: pd-standard
+[20-02-2019 14:32:41] [INFO] - Boot Disk Size in GB key has value as: 10
+[20-02-2019 14:32:41] [INFO] - Encryption key has value as: Automatic(recommended)
+[20-02-2019 14:32:41] [INFO] - Succesfully clicked on Provider : Google
+[20-02-2019 14:32:53] [INFO] - Succesfully clicked on Category : Compute
+[20-02-2019 14:32:54] [INFO] - Got all the elemets. Going to find the index of Compute Engine (Multi Quantity)
+[20-02-2019 14:32:54] [INFO] - Comparing Compute Engine with Compute Engine (Multi Quantity)
+[20-02-2019 14:32:54] [INFO] - Comparing Compute Engine (Multi Quantity) with Compute Engine (Multi Quantity)
+[20-02-2019 14:32:54] [INFO] - Clicked configure button for Compute Engine (Multi Quantity)
+[20-02-2019 14:32:55] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 14:32:56] [INFO] - Entered att-compute-engine-USH3S in Service Instance Name textbox
+[20-02-2019 14:32:56] [INFO] - Cleared Quantity textbox
+[20-02-2019 14:32:56] [INFO] - Entered 2 in Quantity textbox
+[20-02-2019 14:32:59] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 14:33:08] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 14:33:15] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 14:33:19] [INFO] - Selected gcpQA-TEAM1 / gcpQA-TEAM1 from Provider Account dropdown
+[20-02-2019 14:33:22] [INFO] - Clicked on Next button
+[20-02-2019 14:33:31] [INFO] - Selected asia-east1 from Region dropdown
+[20-02-2019 14:33:41] [INFO] - Selected asia-east1-a from Zone dropdown
+[20-02-2019 14:33:50] [INFO] - Clicked on Next button
+[20-02-2019 14:33:50] [INFO] - Cleared Instance Name textbox
+[20-02-2019 14:33:50] [INFO] - Entered att-vm-jed in Instance Name textbox
+[20-02-2019 14:33:54] [INFO] - Clicked on Next button
+[20-02-2019 14:33:58] [INFO] - Selected Basic view radio button for Machine Type Edit Option
+[20-02-2019 14:34:03] [INFO] - Selected g1-small from Machine type dropdown
+[20-02-2019 14:34:06] [INFO] - Clicked on Next button
+[20-02-2019 14:34:12] [INFO] - Selected No radio button for Deploy Container
+[20-02-2019 14:34:15] [INFO] - Clicked on Next button
+[20-02-2019 14:34:19] [INFO] - Selected OS Images from Source Image Type dropdown
+[20-02-2019 14:34:24] [INFO] - Selected CentOS 6 ( x86_64 built on 20190213) from OS Images dropdown
+[20-02-2019 14:34:27] [INFO] - Selected pd-standard radio button for Boot Disk Type
+[20-02-2019 14:34:27] [INFO] - Cleared Boot Disk Size in GB textbox
+[20-02-2019 14:34:28] [INFO] - Entered 10 in Boot Disk Size in GB textbox
+[20-02-2019 14:34:31] [INFO] - Selected No radio button for Deletion Rule ?
+[20-02-2019 14:34:35] [INFO] - Selected Automatic(recommended) from Encryption dropdown
+[20-02-2019 14:34:38] [INFO] - Clicked on Next button
+[20-02-2019 14:34:51] [INFO] - Selected No radio button for Add Additional Disk
+[20-02-2019 14:34:54] [INFO] - Clicked on Next button
+[20-02-2019 14:35:09] [INFO] - Clicked on Next button
+[20-02-2019 14:35:12] [INFO] - Selected No radio button for Enable HTTP
+[20-02-2019 14:35:15] [INFO] - Selected No radio button for Enable HTTPS
+[20-02-2019 14:35:19] [INFO] - Clicked on Next button
+[20-02-2019 14:35:21] [INFO] - Cleared Network Tags textbox
+[20-02-2019 14:35:21] [INFO] - Entered gcp-test-netins in Network Tags textbox
+[20-02-2019 14:35:24] [INFO] - Selected No radio button for Network Interface?
+[20-02-2019 14:35:28] [INFO] - Clicked on Next button
+[20-02-2019 14:35:31] [INFO] - Selected No radio button for Block project wide SSH keys
+[20-02-2019 14:35:34] [INFO] - Selected No radio button for Add Public SSH Key
+[20-02-2019 14:35:38] [INFO] - Clicked on Next button
+[20-02-2019 14:35:38] [INFO] - Cleared Description textbox
+[20-02-2019 14:35:38] [INFO] - Entered e in Description textbox
+[20-02-2019 14:35:41] [INFO] - Clicked on Next button
+[20-02-2019 14:36:07] [INFO] - Order Submitted !
+[20-02-2019 14:36:07] [INFO] - Order number : KJ5PALGW
+[20-02-2019 14:36:16] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/orders/approver-orders
+[20-02-2019 14:36:24] [INFO] - Order ID :: KJ5PALGW
+[20-02-2019 14:36:40] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 14:36:40] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 14:36:43] [INFO] - Order Service Name in Order details page : att-compute-engine-USH3S
+[20-02-2019 14:36:43] [INFO] - Order Provider Name in Order details page : Google
+[20-02-2019 14:36:44] [INFO] - Order status of the first order from Order table is: Approval In Progress
+[20-02-2019 14:36:44] [INFO] - Approve button display status: true
+[20-02-2019 14:36:44] [INFO] - The value for Region is : asia-east1
+[20-02-2019 14:36:44] [INFO] - The value for Machine type is : g1-small
+[20-02-2019 14:36:44] [INFO] - The value for Zone is : asia-east1-a
+[20-02-2019 14:36:44] [INFO] - The value for Encryption is : Automatic(recommended)
+[20-02-2019 14:36:44] [INFO] - The value for Source Image Type is : OS Images
+[20-02-2019 14:36:44] [INFO] - The value for Boot Disk Type is : pd-standard
+[20-02-2019 14:36:44] [INFO] - The value for Boot Disk Size in GB is : 10
+[20-02-2019 14:36:44] [INFO] - The value for Encryption is : Automatic(recommended)
+[20-02-2019 14:36:44] [INFO] - Clicked on Bill of Materials tab
+[20-02-2019 14:36:44] [INFO] - 
+Total Cost on Bill of Materials tab on Order details page : USD 44.64
+[20-02-2019 14:36:55] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 14:36:55] [INFO] - Waiting for the Category to be identified and Click it
+[20-02-2019 14:36:56] [INFO] - Succesfully clicked on Provider : Google
+[20-02-2019 14:37:08] [INFO] - Succesfully clicked on Category : Compute
+[20-02-2019 14:37:09] [INFO] - Got all the elemets. Going to find the index of Compute Engine (Multi Quantity)
+[20-02-2019 14:37:09] [INFO] - Comparing Compute Engine with Compute Engine (Multi Quantity)
+[20-02-2019 14:37:09] [INFO] - Comparing Compute Engine (Multi Quantity) with Compute Engine (Multi Quantity)
+[20-02-2019 14:37:09] [INFO] - Clicked configure button for Compute Engine (Multi Quantity)
+[20-02-2019 14:37:10] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 14:37:10] [INFO] - Entered att-compute-engine-RBqo0 in Service Instance Name textbox
+[20-02-2019 14:37:10] [INFO] - Cleared Quantity textbox
+[20-02-2019 14:37:10] [INFO] - Entered 2 in Quantity textbox
+[20-02-2019 14:37:14] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 14:37:22] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 14:37:29] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 14:37:33] [INFO] - Selected gcpQA-TEAM1 / gcpQA-TEAM1 from Provider Account dropdown
+[20-02-2019 14:37:36] [INFO] - Clicked on Next button
+[20-02-2019 14:37:44] [INFO] - Selected asia-east1 from Region dropdown
+[20-02-2019 14:37:54] [INFO] - Selected asia-east1-a from Zone dropdown
+[20-02-2019 14:38:04] [INFO] - Clicked on Next button
+[20-02-2019 14:38:04] [INFO] - Cleared Instance Name textbox
+[20-02-2019 14:38:04] [INFO] - Entered att-vm-jhh in Instance Name textbox
+[20-02-2019 14:38:08] [INFO] - Clicked on Next button
+[20-02-2019 14:38:13] [INFO] - Selected Basic view radio button for Machine Type Edit Option
+[20-02-2019 14:38:17] [INFO] - Selected g1-small from Machine type dropdown
+[20-02-2019 14:38:20] [INFO] - Clicked on Next button
+[20-02-2019 14:38:25] [INFO] - Selected No radio button for Deploy Container
+[20-02-2019 14:38:29] [INFO] - Clicked on Next button
+[20-02-2019 14:38:33] [INFO] - Selected OS Images from Source Image Type dropdown
+[20-02-2019 14:38:37] [INFO] - Selected CentOS 6 ( x86_64 built on 20190213) from OS Images dropdown
+[20-02-2019 14:38:41] [INFO] - Selected pd-standard radio button for Boot Disk Type
+[20-02-2019 14:38:41] [INFO] - Cleared Boot Disk Size in GB textbox
+[20-02-2019 14:38:41] [INFO] - Entered 10 in Boot Disk Size in GB textbox
+[20-02-2019 14:38:45] [INFO] - Selected No radio button for Deletion Rule ?
+[20-02-2019 14:38:48] [INFO] - Selected Automatic(recommended) from Encryption dropdown
+[20-02-2019 14:38:52] [INFO] - Clicked on Next button
+[20-02-2019 14:39:02] [INFO] - Selected No radio button for Add Additional Disk
+[20-02-2019 14:39:05] [INFO] - Clicked on Next button
+[20-02-2019 14:39:16] [INFO] - Clicked on Next button
+[20-02-2019 14:39:20] [INFO] - Selected No radio button for Enable HTTP
+[20-02-2019 14:39:23] [INFO] - Selected No radio button for Enable HTTPS
+[20-02-2019 14:39:26] [INFO] - Clicked on Next button
+[20-02-2019 14:39:28] [INFO] - Cleared Network Tags textbox
+[20-02-2019 14:39:28] [INFO] - Entered gcp-test-netins in Network Tags textbox
+[20-02-2019 14:39:31] [INFO] - Selected No radio button for Network Interface?
+[20-02-2019 14:39:35] [INFO] - Clicked on Next button
+[20-02-2019 14:39:38] [INFO] - Selected No radio button for Block project wide SSH keys
+[20-02-2019 14:39:41] [INFO] - Selected No radio button for Add Public SSH Key
+[20-02-2019 14:39:45] [INFO] - Clicked on Next button
+[20-02-2019 14:39:45] [INFO] - Cleared Description textbox
+[20-02-2019 14:39:45] [INFO] - Entered e in Description textbox
+[20-02-2019 14:39:48] [INFO] - Clicked on Next button
+[20-02-2019 14:39:52] [INFO] - Order details are filled.
+[20-02-2019 14:40:14] [INFO] - Order number : 75Q1MDP0
+[20-02-2019 14:40:14] [INFO] - Total Price : USD 0.00 ONE TIME CHARGE + USD 44.64 / MONTH
+[20-02-2019 14:40:19] [INFO] - Order Submitted !
+[20-02-2019 14:40:34] [INFO] - Approve button display status: true
+[20-02-2019 14:40:34] [INFO] - Approve/Deny button is shown...
+[20-02-2019 14:40:34] [INFO] - Clicked on approve Button
+[20-02-2019 14:40:35] [INFO] - Checked Financial Approval checkbox
+[20-02-2019 14:40:36] [INFO] - Checked Technical Approval checkbox
+[20-02-2019 14:40:36] [INFO] - Clicked Approve button on Order Approval modal dialog
+[20-02-2019 14:40:44] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[20-02-2019 14:41:03] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:41:46] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 14:41:46] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 14:41:49] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[20-02-2019 14:42:18] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:43:01] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 14:43:01] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 14:43:04] [INFO] - Order status is changed to: Completed, breaking the loop
+[20-02-2019 14:43:35] [INFO] - Clicked on the Actions icon from the first row on Inventory page
+[20-02-2019 14:43:39] [INFO] - Clicked on Edit Service button
+[20-02-2019 14:44:01] [INFO] - Clicked on Next button
+[20-02-2019 14:44:24] [INFO] - Clicked on Next button
+[20-02-2019 14:44:31] [INFO] - Clicked on Next button
+[20-02-2019 14:44:36] [INFO] - Selected Customize radio button for Machine Type Edit Option
+[20-02-2019 14:44:39] [INFO] - Selected vCPU radio button for CPU Type
+[20-02-2019 14:44:39] [INFO] - Cleared CPU Cores textbox
+[20-02-2019 14:44:39] [INFO] - Entered 4 in CPU Cores textbox
+[20-02-2019 14:44:40] [INFO] - Cleared CPU Memory textbox
+[20-02-2019 14:44:40] [INFO] - Entered 15 in CPU Memory textbox
+[20-02-2019 14:44:44] [INFO] - Selected Intel Skylake or later from CPU platform dropdown
+[20-02-2019 14:44:48] [INFO] - Clicked on Next button
+[20-02-2019 14:44:56] [INFO] - Clicked on Next button
+[20-02-2019 14:45:17] [INFO] - Clicked on Next button
+[20-02-2019 14:45:28] [INFO] - Clicked on Next button
+[20-02-2019 14:45:38] [INFO] - Clicked on Next button
+[20-02-2019 14:45:48] [INFO] - Clicked on Next button
+[20-02-2019 14:45:58] [INFO] - Clicked on Next button
+[20-02-2019 14:46:08] [INFO] - Clicked on Next button
+[20-02-2019 14:46:14] [INFO] - Clicked on Next button
+[20-02-2019 14:46:18] [INFO] - Edit parameter details are filled.
+[20-02-2019 14:46:37] [INFO] - Order number : VRCHL4YH
+[20-02-2019 14:46:42] [INFO] - Order Submitted !
+[20-02-2019 14:46:59] [INFO] - Approve button display status: true
+[20-02-2019 14:46:59] [INFO] - Approve/Deny button is shown...
+[20-02-2019 14:46:59] [INFO] - Clicked on approve Button
+[20-02-2019 14:47:00] [INFO] - Checked Financial Approval checkbox
+[20-02-2019 14:47:00] [INFO] - Checked Technical Approval checkbox
+[20-02-2019 14:47:00] [INFO] - Clicked Approve button on Order Approval modal dialog
+[20-02-2019 14:47:08] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[20-02-2019 14:47:27] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:48:10] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 14:48:10] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 14:48:13] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[20-02-2019 14:48:42] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:49:25] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 14:49:25] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 14:49:28] [INFO] - Order status is changed to: Completed, breaking the loop
+[20-02-2019 14:49:40] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:49:53] [INFO] - Order status of the first order from Order table is: Completed
+[20-02-2019 14:49:53] [INFO] - Machine Type Edit Option key has value as: Customize
+[20-02-2019 14:49:53] [INFO] - CPU Type key has value as: vCPU
+[20-02-2019 14:49:53] [INFO] - CPU Cores key has value as: 4
+[20-02-2019 14:49:53] [INFO] - CPU platform key has value as: Intel Skylake or later
+[20-02-2019 14:50:00] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 14:50:00] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 14:50:04] [INFO] - The value for Machine Type Edit Option is : Customize
+[20-02-2019 14:50:04] [INFO] - The value for CPU Type is : vCPU
+[20-02-2019 14:50:04] [INFO] - The value for CPU Cores is : 4
+[20-02-2019 14:50:04] [INFO] - The value for CPU platform is : Intel Skylake or later
+[20-02-2019 14:50:37] [INFO] - Clicked on the Actions icon from the first row on Inventory page
+[20-02-2019 14:50:40] [INFO] - Clicked on Delete Service button
+[20-02-2019 14:50:44] [INFO] - Checked Confirm checkbox on Delete Service modal dialog
+[20-02-2019 14:50:44] [INFO] - Clicked on OK button on Delete Service modal dialog
+[20-02-2019 14:50:48] [INFO] - Waited till Delete Service Info tool tip appears
+[20-02-2019 14:50:48] [INFO] - Delete Order Number:NGUTAO10
+[20-02-2019 14:51:07] [INFO] - Order Type in orders Table is :: Delete
+[20-02-2019 14:51:23] [INFO] - Approve/Deny button is shown...
+[20-02-2019 14:51:23] [INFO] - Clicked on approve Button
+[20-02-2019 14:51:24] [INFO] - Checked Financial Approval checkbox
+[20-02-2019 14:51:25] [INFO] - Checked Technical Approval checkbox
+[20-02-2019 14:51:25] [INFO] - Clicked Approve button on Order Approval modal dialog
+[20-02-2019 14:51:32] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[20-02-2019 14:51:51] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:52:16] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[20-02-2019 14:52:46] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:53:11] [INFO] - Delete order status is changed to: Completed, breaking the loop
+[20-02-2019 14:53:23] [INFO] - Clicked on All Orders Tab...
+[20-02-2019 14:53:33] [INFO] - Order status of the first order from Order table is: Completed
+[20-02-2019 14:54:06] [INFO] - Clicked on Reboot button
+[20-02-2019 14:54:06] [INFO] - Clicked on Ok button for Reboot
+[20-02-2019 14:54:21] [INFO] - Current Status:On
+[20-02-2019 14:54:21] [INFO] - Instance Status is changed to: On
+[20-02-2019 14:55:32] [INFO] - Clicked on Turn OFF button
+[20-02-2019 14:55:32] [INFO] - Clicked on Ok button for Turn OFF
+[20-02-2019 14:55:32] [INFO] - Service Components are 
+[20-02-2019 14:55:32] [INFO] - Dummy adapter : }
+[20-02-2019 14:55:47] [INFO] - Current Status:On
+[20-02-2019 14:55:47] [INFO] - Status Check - 12 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:56:10] [INFO] - Current Status:On
+[20-02-2019 14:56:10] [INFO] - Status Check - 11 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:56:33] [INFO] - Current Status:On
+[20-02-2019 14:56:33] [INFO] - Status Check - 10 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:56:55] [INFO] - Current Status:On
+[20-02-2019 14:56:55] [INFO] - Status Check - 9 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:57:19] [INFO] - Current Status:On
+[20-02-2019 14:57:19] [INFO] - Status Check - 8 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:57:42] [INFO] - Current Status:On
+[20-02-2019 14:57:42] [INFO] - Status Check - 7 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:58:05] [INFO] - Current Status:On
+[20-02-2019 14:58:05] [INFO] - Status Check - 6 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:58:28] [INFO] - Current Status:On
+[20-02-2019 14:58:28] [INFO] - Status Check - 5 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:58:50] [INFO] - Current Status:On
+[20-02-2019 14:58:50] [INFO] - Status Check - 4 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:59:13] [INFO] - Current Status:On
+[20-02-2019 14:59:13] [INFO] - Status Check - 3 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:59:36] [INFO] - Current Status:On
+[20-02-2019 14:59:36] [INFO] - Status Check - 2 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 14:59:59] [INFO] - Current Status:On
+[20-02-2019 14:59:59] [INFO] - Status Check - 1 : Waiting for instance status to be TERMINATED, current status: On
+[20-02-2019 15:04:28] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:04:28] [INFO] - Test browser: chrome
+[20-02-2019 15:04:28] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:04:28] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:04:28] [INFO] - Suites: e2e3TierWithCustomProperties
+[20-02-2019 15:04:28] [INFO] - Provisioning: true
+[20-02-2019 15:04:28] [INFO] - Post to Slack: false
+[20-02-2019 15:04:28] [INFO] - *******************************************
+[20-02-2019 15:04:28] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2e3TierWithCustomProperties.spec.js' ]
+[20-02-2019 15:04:31] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:04:32] [INFO] - Suite started: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:04:32] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:04:32] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:04:41] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:04:47] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:04:47] [INFO] - Cleared Username input box
+[20-02-2019 15:04:47] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:04:47] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:04:47] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:04:47] [INFO] - Clicked on Sign In button
+[20-02-2019 15:04:53] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:04:54] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:04:54] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:04:54] [INFO] - Switched to child window
+[20-02-2019 15:05:01] [INFO] - Switched back to parent window
+[20-02-2019 15:05:01] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:05:01] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:05:01] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:05:01] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:05:02] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:05:02] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:05:10] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:05:10] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:05:12] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload Cus...
+[20-02-2019 15:05:12] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload Cus...
+[20-02-2019 15:05:12] [INFO] - Clicked configure button for 3 Tier Traditional Workload Cus...
+[20-02-2019 15:05:13] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:05:14] [INFO] - Entered TestAutomationYL9sO in Service Instance Name textbox
+[20-02-2019 15:05:17] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:05:25] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:05:33] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:05:36] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:05:39] [INFO] - Clicked on Next button
+[20-02-2019 15:05:42] [INFO] - Cleared App CPU textbox
+[20-02-2019 15:05:42] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 15:05:42] [INFO] - Cleared Description textbox
+[20-02-2019 15:05:43] [INFO] - Entered App Server with Custom Properties in Description textbox
+[20-02-2019 15:05:43] [INFO] - Cleared App Memory (GB) textbox
+[20-02-2019 15:05:43] [INFO] - Entered 1024 in App Memory (GB) textbox
+[20-02-2019 15:05:43] [INFO] - Cleared App Storage (GB) textbox
+[20-02-2019 15:05:44] [INFO] - Entered 5 in App Storage (GB) textbox
+[20-02-2019 15:05:44] [INFO] - Cleared VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:05:44] [INFO] - Entered True in VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:05:47] [INFO] - Clicked on Next button
+[20-02-2019 15:05:47] [INFO] - Cleared Web CPU textbox
+[20-02-2019 15:05:47] [INFO] - Entered 1 in Web CPU textbox
+[20-02-2019 15:05:48] [INFO] - Cleared Web Memory (GB) textbox
+[20-02-2019 15:05:48] [INFO] - Entered 1024 in Web Memory (GB) textbox
+[20-02-2019 15:05:48] [INFO] - Cleared Web Storage (GB) textbox
+[20-02-2019 15:05:48] [INFO] - Entered 5 in Web Storage (GB) textbox
+[20-02-2019 15:05:48] [INFO] - Cleared VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:05:48] [INFO] - Entered True in VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:05:52] [INFO] - Clicked on Next button
+[20-02-2019 15:05:52] [INFO] - Cleared Enabling Machine SSH textbox
+[20-02-2019 15:05:52] [INFO] - Entered True in Enabling Machine SSH textbox
+[20-02-2019 15:05:55] [INFO] - Clicked on Next button
+[20-02-2019 15:05:56] [INFO] - Cleared Db CPU textbox
+[20-02-2019 15:05:56] [INFO] - Entered 1 in Db CPU textbox
+[20-02-2019 15:05:56] [INFO] - Cleared Db Memory (GB) textbox
+[20-02-2019 15:05:56] [INFO] - Entered 1024 in Db Memory (GB) textbox
+[20-02-2019 15:05:56] [INFO] - Cleared Db Storage (GB) textbox
+[20-02-2019 15:05:56] [INFO] - Entered 5 in Db Storage (GB) textbox
+[20-02-2019 15:05:57] [INFO] - Cleared VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:05:57] [INFO] - Entered True in VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:06:00] [INFO] - Clicked on Next button
+[20-02-2019 15:06:09] [INFO] - Actual Values: 1
+[20-02-2019 15:06:09] [INFO] - Service Name on Review Order page : TestAutomationYL9sO
+[20-02-2019 15:06:09] [INFO] - Service Name on Review Order page : TestAutomationYL9sO
+[20-02-2019 15:06:09] [INFO] - Test failed: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:06:09] [INFO] - Failure reason: Failed: No element found using locator: By(xpath, //span[contains(text(), 'App CPU')]/following-sibling::span)
+[20-02-2019 15:06:09] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:06:09] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:06:09] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:06:09] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:06:09] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:06:09] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:06:09] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:06:09] [INFO] - Test started: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:06:09] [INFO] - Test disabled: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:06:09] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:06:09] [INFO] - Suite completed: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:06:09] [INFO] - ===========================================================================================
+[20-02-2019 15:08:03] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:08:03] [INFO] - Test browser: chrome
+[20-02-2019 15:08:03] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:08:03] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:08:03] [INFO] - Suites: e2e3TierWithCustomProperties
+[20-02-2019 15:08:03] [INFO] - Provisioning: true
+[20-02-2019 15:08:03] [INFO] - Post to Slack: false
+[20-02-2019 15:08:03] [INFO] - *******************************************
+[20-02-2019 15:08:03] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2e3TierWithCustomProperties.spec.js' ]
+[20-02-2019 15:08:06] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:08:06] [INFO] - Suite started: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:08:06] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:08:06] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:08:12] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:08:17] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:08:17] [INFO] - Cleared Username input box
+[20-02-2019 15:08:17] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:08:17] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:08:18] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:08:18] [INFO] - Clicked on Sign In button
+[20-02-2019 15:08:25] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:08:26] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:08:26] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:08:26] [INFO] - Switched to child window
+[20-02-2019 15:08:33] [INFO] - Switched back to parent window
+[20-02-2019 15:08:33] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:08:33] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:08:33] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:08:34] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:08:35] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:08:35] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:08:54] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:08:54] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:08:57] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload Cus...
+[20-02-2019 15:08:57] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload Cus...
+[20-02-2019 15:08:57] [INFO] - Clicked configure button for 3 Tier Traditional Workload Cus...
+[20-02-2019 15:08:58] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:08:58] [INFO] - Entered TestAutomationcjNf7 in Service Instance Name textbox
+[20-02-2019 15:09:01] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:09:10] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:09:17] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:09:20] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:09:24] [INFO] - Clicked on Next button
+[20-02-2019 15:09:26] [INFO] - Cleared App CPU textbox
+[20-02-2019 15:09:26] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 15:09:26] [INFO] - Cleared Description textbox
+[20-02-2019 15:09:27] [INFO] - Entered App Server with Custom Properties in Description textbox
+[20-02-2019 15:09:27] [INFO] - Cleared App Memory (GB) textbox
+[20-02-2019 15:09:27] [INFO] - Entered 1024 in App Memory (GB) textbox
+[20-02-2019 15:09:27] [INFO] - Cleared App Storage (GB) textbox
+[20-02-2019 15:09:28] [INFO] - Entered 5 in App Storage (GB) textbox
+[20-02-2019 15:09:28] [INFO] - Cleared VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:09:28] [INFO] - Entered True in VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:09:31] [INFO] - Clicked on Next button
+[20-02-2019 15:09:31] [INFO] - Cleared Web CPU textbox
+[20-02-2019 15:09:32] [INFO] - Entered 1 in Web CPU textbox
+[20-02-2019 15:09:32] [INFO] - Cleared Web Memory (GB) textbox
+[20-02-2019 15:09:32] [INFO] - Entered 1024 in Web Memory (GB) textbox
+[20-02-2019 15:09:32] [INFO] - Cleared Web Storage (GB) textbox
+[20-02-2019 15:09:32] [INFO] - Entered 5 in Web Storage (GB) textbox
+[20-02-2019 15:09:33] [INFO] - Cleared VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:09:33] [INFO] - Entered True in VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:09:36] [INFO] - Clicked on Next button
+[20-02-2019 15:09:36] [INFO] - Cleared Enabling Machine SSH textbox
+[20-02-2019 15:09:37] [INFO] - Entered True in Enabling Machine SSH textbox
+[20-02-2019 15:09:40] [INFO] - Clicked on Next button
+[20-02-2019 15:09:40] [INFO] - Cleared Db CPU textbox
+[20-02-2019 15:09:40] [INFO] - Entered 1 in Db CPU textbox
+[20-02-2019 15:09:40] [INFO] - Cleared Db Memory (GB) textbox
+[20-02-2019 15:09:41] [INFO] - Entered 1024 in Db Memory (GB) textbox
+[20-02-2019 15:09:41] [INFO] - Cleared Db Storage (GB) textbox
+[20-02-2019 15:09:41] [INFO] - Entered 5 in Db Storage (GB) textbox
+[20-02-2019 15:09:41] [INFO] - Cleared VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:09:41] [INFO] - Entered True in VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:09:45] [INFO] - Clicked on Next button
+[20-02-2019 15:09:53] [INFO] - Actual Values: 1
+[20-02-2019 15:09:53] [INFO] - DB CPU key has value as: undefined
+[20-02-2019 15:09:53] [INFO] - Test failed: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:09:53] [INFO] - Failure reason: Failed: Cannot read property 'trim' of undefined
+[20-02-2019 15:09:53] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:09:53] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:09:53] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:09:53] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:09:53] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:09:53] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:09:53] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:09:53] [INFO] - Test started: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:09:53] [INFO] - Test disabled: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:09:53] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:09:53] [INFO] - Suite completed: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:09:53] [INFO] - ===========================================================================================
+[20-02-2019 15:11:19] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:11:19] [INFO] - Test browser: chrome
+[20-02-2019 15:11:19] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:11:19] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:11:19] [INFO] - Suites: e2e3TierWithCustomProperties
+[20-02-2019 15:11:19] [INFO] - Provisioning: true
+[20-02-2019 15:11:19] [INFO] - Post to Slack: false
+[20-02-2019 15:11:19] [INFO] - *******************************************
+[20-02-2019 15:11:19] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2e3TierWithCustomProperties.spec.js' ]
+[20-02-2019 15:11:23] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:11:23] [INFO] - Suite started: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:11:23] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:11:23] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:11:26] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:11:32] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:11:32] [INFO] - Cleared Username input box
+[20-02-2019 15:11:32] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:11:32] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:11:32] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:11:32] [INFO] - Clicked on Sign In button
+[20-02-2019 15:11:40] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:11:41] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:11:41] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:11:41] [INFO] - Switched to child window
+[20-02-2019 15:11:43] [INFO] - Switched back to parent window
+[20-02-2019 15:11:44] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:11:44] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:11:44] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:11:44] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:11:45] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:11:45] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:11:54] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:11:54] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:11:56] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload Cus...
+[20-02-2019 15:11:56] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload Cus...
+[20-02-2019 15:11:56] [INFO] - Clicked configure button for 3 Tier Traditional Workload Cus...
+[20-02-2019 15:11:57] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:11:57] [INFO] - Entered TestAutomationZdopv in Service Instance Name textbox
+[20-02-2019 15:12:01] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:12:09] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:12:16] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:12:20] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:12:23] [INFO] - Clicked on Next button
+[20-02-2019 15:12:26] [INFO] - Cleared App CPU textbox
+[20-02-2019 15:12:26] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 15:12:26] [INFO] - Cleared Description textbox
+[20-02-2019 15:12:27] [INFO] - Entered App Server with Custom Properties in Description textbox
+[20-02-2019 15:12:27] [INFO] - Cleared App Memory (GB) textbox
+[20-02-2019 15:12:27] [INFO] - Entered 1024 in App Memory (GB) textbox
+[20-02-2019 15:12:27] [INFO] - Cleared App Storage (GB) textbox
+[20-02-2019 15:12:27] [INFO] - Entered 5 in App Storage (GB) textbox
+[20-02-2019 15:12:27] [INFO] - Cleared VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:12:28] [INFO] - Entered True in VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:12:31] [INFO] - Clicked on Next button
+[20-02-2019 15:12:31] [INFO] - Cleared Web CPU textbox
+[20-02-2019 15:12:31] [INFO] - Entered 1 in Web CPU textbox
+[20-02-2019 15:12:32] [INFO] - Cleared Web Memory (GB) textbox
+[20-02-2019 15:12:32] [INFO] - Entered 1024 in Web Memory (GB) textbox
+[20-02-2019 15:12:32] [INFO] - Cleared Web Storage (GB) textbox
+[20-02-2019 15:12:32] [INFO] - Entered 5 in Web Storage (GB) textbox
+[20-02-2019 15:12:32] [INFO] - Cleared VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:12:33] [INFO] - Entered True in VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:12:36] [INFO] - Clicked on Next button
+[20-02-2019 15:12:36] [INFO] - Cleared Enabling Machine SSH textbox
+[20-02-2019 15:12:36] [INFO] - Entered True in Enabling Machine SSH textbox
+[20-02-2019 15:12:40] [INFO] - Clicked on Next button
+[20-02-2019 15:12:40] [INFO] - Cleared Db CPU textbox
+[20-02-2019 15:12:40] [INFO] - Entered 1 in Db CPU textbox
+[20-02-2019 15:12:40] [INFO] - Cleared Db Memory (GB) textbox
+[20-02-2019 15:12:40] [INFO] - Entered 1024 in Db Memory (GB) textbox
+[20-02-2019 15:12:41] [INFO] - Cleared Db Storage (GB) textbox
+[20-02-2019 15:12:41] [INFO] - Entered 5 in Db Storage (GB) textbox
+[20-02-2019 15:12:41] [INFO] - Cleared VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:12:41] [INFO] - Entered True in VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:12:44] [INFO] - Clicked on Next button
+[20-02-2019 15:12:53] [INFO] - Actual Values: 1
+[20-02-2019 15:12:53] [INFO] - Db CPU key has value as: 1
+[20-02-2019 15:12:53] [INFO] - App CPU key has value as: 1
+[20-02-2019 15:12:53] [INFO] - Web CPU key has value as: 1
+[20-02-2019 15:12:53] [INFO] - Db Memory (MB) key has value as: undefined
+[20-02-2019 15:12:54] [INFO] - Test failed: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:12:54] [INFO] - Failure reason: Failed: Cannot read property 'trim' of undefined
+[20-02-2019 15:12:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:12:54] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:12:54] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:12:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:12:54] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:12:54] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:12:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:12:54] [INFO] - Test started: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:12:54] [INFO] - Test disabled: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:12:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:12:54] [INFO] - Suite completed: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:12:54] [INFO] - ===========================================================================================
+[20-02-2019 15:14:05] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:14:05] [INFO] - Test browser: chrome
+[20-02-2019 15:14:05] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:14:05] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:14:05] [INFO] - Suites: e2e3TierWithCustomProperties
+[20-02-2019 15:14:05] [INFO] - Provisioning: true
+[20-02-2019 15:14:05] [INFO] - Post to Slack: false
+[20-02-2019 15:14:05] [INFO] - *******************************************
+[20-02-2019 15:14:05] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2e3TierWithCustomProperties.spec.js' ]
+[20-02-2019 15:14:08] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:14:08] [INFO] - Suite started: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:14:08] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:14:08] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:14:16] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:14:21] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:14:21] [INFO] - Cleared Username input box
+[20-02-2019 15:14:21] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:14:21] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:14:22] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:14:22] [INFO] - Clicked on Sign In button
+[20-02-2019 15:14:28] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:14:29] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:14:29] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:14:29] [INFO] - Switched to child window
+[20-02-2019 15:14:35] [INFO] - Switched back to parent window
+[20-02-2019 15:14:35] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:14:35] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:14:35] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:14:35] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:14:36] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:14:36] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:14:44] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:14:45] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:14:46] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload Cus...
+[20-02-2019 15:14:46] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload Cus...
+[20-02-2019 15:14:46] [INFO] - Clicked configure button for 3 Tier Traditional Workload Cus...
+[20-02-2019 15:14:47] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:14:48] [INFO] - Entered TestAutomationbAiIp in Service Instance Name textbox
+[20-02-2019 15:14:51] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:15:00] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:15:07] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:15:10] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:15:14] [INFO] - Clicked on Next button
+[20-02-2019 15:15:16] [INFO] - Cleared App CPU textbox
+[20-02-2019 15:15:17] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 15:15:17] [INFO] - Cleared Description textbox
+[20-02-2019 15:15:17] [INFO] - Entered App Server with Custom Properties in Description textbox
+[20-02-2019 15:15:18] [INFO] - Cleared App Memory (GB) textbox
+[20-02-2019 15:15:18] [INFO] - Entered 1024 in App Memory (GB) textbox
+[20-02-2019 15:15:18] [INFO] - Cleared App Storage (GB) textbox
+[20-02-2019 15:15:18] [INFO] - Entered 5 in App Storage (GB) textbox
+[20-02-2019 15:15:18] [INFO] - Cleared VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:15:19] [INFO] - Entered True in VirtualMachine Admin AllowLogin textbox
+[20-02-2019 15:15:22] [INFO] - Clicked on Next button
+[20-02-2019 15:15:22] [INFO] - Cleared Web CPU textbox
+[20-02-2019 15:15:22] [INFO] - Entered 1 in Web CPU textbox
+[20-02-2019 15:15:22] [INFO] - Cleared Web Memory (GB) textbox
+[20-02-2019 15:15:23] [INFO] - Entered 1024 in Web Memory (GB) textbox
+[20-02-2019 15:15:23] [INFO] - Cleared Web Storage (GB) textbox
+[20-02-2019 15:15:23] [INFO] - Entered 5 in Web Storage (GB) textbox
+[20-02-2019 15:15:23] [INFO] - Cleared VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:15:23] [INFO] - Entered True in VirtualMachineScriptPathDecrypt textbox
+[20-02-2019 15:15:26] [INFO] - Clicked on Next button
+[20-02-2019 15:15:27] [INFO] - Cleared Enabling Machine SSH textbox
+[20-02-2019 15:15:27] [INFO] - Entered True in Enabling Machine SSH textbox
+[20-02-2019 15:15:30] [INFO] - Clicked on Next button
+[20-02-2019 15:15:30] [INFO] - Cleared Db CPU textbox
+[20-02-2019 15:15:30] [INFO] - Entered 1 in Db CPU textbox
+[20-02-2019 15:15:31] [INFO] - Cleared Db Memory (GB) textbox
+[20-02-2019 15:15:31] [INFO] - Entered 1024 in Db Memory (GB) textbox
+[20-02-2019 15:15:31] [INFO] - Cleared Db Storage (GB) textbox
+[20-02-2019 15:15:31] [INFO] - Entered 5 in Db Storage (GB) textbox
+[20-02-2019 15:15:31] [INFO] - Cleared VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:15:32] [INFO] - Entered True in VirtualMachine ScriptPath Decrypt textbox
+[20-02-2019 15:15:35] [INFO] - Clicked on Next button
+[20-02-2019 15:15:43] [INFO] - Actual Values: 1
+[20-02-2019 15:15:43] [INFO] - Db CPU key has value as: 1
+[20-02-2019 15:15:43] [INFO] - App CPU key has value as: 1
+[20-02-2019 15:15:43] [INFO] - Web CPU key has value as: 1
+[20-02-2019 15:15:43] [INFO] - Db Memory (GB) key has value as: 1024
+[20-02-2019 15:15:43] [INFO] - App Memory (GB) key has value as: 1024
+[20-02-2019 15:15:43] [INFO] - Web Memory (GB) key has value as: 1024
+[20-02-2019 15:15:43] [INFO] - Db Storage (GB) key has value as: 5
+[20-02-2019 15:15:43] [INFO] - App Storage (GB) key has value as: 5
+[20-02-2019 15:15:43] [INFO] - Web Storage (GB) key has value as: 5
+[20-02-2019 15:15:43] [INFO] - Service Name on Review Order page : TestAutomationbAiIp
+[20-02-2019 15:15:43] [INFO] - Service Name on Review Order page : TestAutomationbAiIp
+[20-02-2019 15:15:43] [INFO] - The value for CPU is : 1,1,1
+[20-02-2019 15:15:43] [INFO] - The value for Memory (MB) is : 1024,1024,1024
+[20-02-2019 15:15:43] [INFO] - The value for Storage (GB) is : 5,5,5
+[20-02-2019 15:15:43] [INFO] - Estimated price on Review Order page : N/A
+[20-02-2019 15:15:43] [INFO] - Test failed: VRA : 3Tier Custom Properties ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:15:43] [INFO] - Failure reason: Expected 'N/A' to be 'USD 90.00 ONE TIME CHARGE + USD 226.1492 / MONTH'.
+[20-02-2019 15:15:43] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:15:43] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:15:43] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify fields on Main Parameters page of 3Tier Custom Properties is working fine
+[20-02-2019 15:15:43] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:15:43] [INFO] - Test started: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:15:43] [INFO] - Test disabled: VRA : 3Tier Custom Properties ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:15:43] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:15:43] [INFO] - Test started: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:15:43] [INFO] - Test disabled: Verify 3Tier Custom Properties blueprint working fine from consume App
+[20-02-2019 15:15:44] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:15:44] [INFO] - Suite completed: e2e Test cases for 3Tier Custom Properties
+[20-02-2019 15:15:44] [INFO] - ===========================================================================================
+[20-02-2019 15:30:55] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:30:55] [INFO] - Test browser: chrome
+[20-02-2019 15:30:55] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:30:55] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:30:55] [INFO] - Suites: e2eDynamic
+[20-02-2019 15:30:55] [INFO] - Provisioning: true
+[20-02-2019 15:30:55] [INFO] - Post to Slack: false
+[20-02-2019 15:30:55] [INFO] - *******************************************
+[20-02-2019 15:30:55] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eDynamic.spec.js' ]
+[20-02-2019 15:30:58] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:30:58] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:30:58] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:31:02] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:31:09] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:31:09] [INFO] - Cleared Username input box
+[20-02-2019 15:31:09] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:31:10] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:31:10] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:31:10] [INFO] - Clicked on Sign In button
+[20-02-2019 15:31:16] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:31:17] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:31:17] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:31:17] [INFO] - Switched to child window
+[20-02-2019 15:31:19] [INFO] - Switched back to parent window
+[20-02-2019 15:31:19] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:31:19] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:31:19] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:31:19] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:31:58] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:31:58] [INFO] - Test browser: chrome
+[20-02-2019 15:31:58] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:31:58] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:31:58] [INFO] - Suites: e2eDynamicDropdown
+[20-02-2019 15:31:58] [INFO] - Provisioning: true
+[20-02-2019 15:31:58] [INFO] - Post to Slack: false
+[20-02-2019 15:31:58] [INFO] - *******************************************
+[20-02-2019 15:31:58] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eDynamicDropdown.spec.js' ]
+[20-02-2019 15:32:02] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:32:02] [INFO] - Suite started: e2e Test cases for Dynamic dropdown for CentOS
+[20-02-2019 15:32:02] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:32:02] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:32:05] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:32:10] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:32:10] [INFO] - Cleared Username input box
+[20-02-2019 15:32:11] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:32:11] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:32:11] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:32:11] [INFO] - Clicked on Sign In button
+[20-02-2019 15:32:23] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:32:26] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:32:26] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:32:26] [INFO] - Switched to child window
+[20-02-2019 15:32:32] [INFO] - Switched back to parent window
+[20-02-2019 15:32:32] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:32:32] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:32:32] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:32:32] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:32:33] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:32:33] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:32:42] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:32:43] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:32:45] [INFO] - Got all the elemets. Going to find the index of Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing 3 Tier Traditional Workload Cus... with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing 3 Tier VRA74 with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing 3 Tier Traditional Workload with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing Add Amazon Account with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing CentOS-CustomAttribute with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing CentOS65 with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing CentOS65-HideExpressionVRA73 with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing Clone_CentOS6.6 with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing Cost Center Details_BFAST with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing Cost Center_WithContext with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing VTS with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing VTS XaaS UI Linux Server with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing XaaS - output properties - Fra... with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing XaaS_OutPut_Properties with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Comparing Dynamic Dropdown with Dynamic Dropdown
+[20-02-2019 15:32:45] [INFO] - Clicked configure button for Dynamic Dropdown
+[20-02-2019 15:32:46] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:32:46] [INFO] - Entered TestAutomationP9tlc in Service Instance Name textbox
+[20-02-2019 15:32:49] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:32:58] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:33:05] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:33:08] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:33:11] [INFO] - Clicked on Next button
+[20-02-2019 15:33:20] [INFO] - Cleared CPU textbox
+[20-02-2019 15:33:20] [INFO] - Entered 1 in CPU textbox
+[20-02-2019 15:33:20] [INFO] - Cleared Memory (MB) textbox
+[20-02-2019 15:33:20] [INFO] - Entered 1024 in Memory (MB) textbox
+[20-02-2019 15:33:20] [INFO] - Cleared Storage (GB) textbox
+[20-02-2019 15:33:21] [INFO] - Entered 5 in Storage (GB) textbox
+[20-02-2019 15:33:24] [INFO] - Clicked on Next button
+[20-02-2019 15:35:58] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:35:58] [INFO] - Test browser: chrome
+[20-02-2019 15:35:58] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:35:58] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:35:58] [INFO] - Suites: e2eDynamicDropdown
+[20-02-2019 15:35:58] [INFO] - Provisioning: true
+[20-02-2019 15:35:58] [INFO] - Post to Slack: false
+[20-02-2019 15:35:58] [INFO] - *******************************************
+[20-02-2019 15:35:58] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eDynamicDropdown.spec.js' ]
+[20-02-2019 15:36:01] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:36:01] [INFO] - Suite started: e2e Test cases for Dynamic dropdown for CentOS
+[20-02-2019 15:36:01] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:36:01] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:36:05] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:36:12] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:36:12] [INFO] - Cleared Username input box
+[20-02-2019 15:36:12] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:36:12] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:36:12] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:36:13] [INFO] - Clicked on Sign In button
+[20-02-2019 15:36:26] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:36:27] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:36:27] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:36:27] [INFO] - Switched to child window
+[20-02-2019 15:36:35] [INFO] - Switched back to parent window
+[20-02-2019 15:36:35] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:36:35] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:36:35] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:36:35] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:36:36] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:36:36] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:36:44] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:36:45] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:36:46] [INFO] - Got all the elemets. Going to find the index of Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing 3 Tier Traditional Workload Cus... with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing 3 Tier VRA74 with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing 3 Tier Traditional Workload with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing Add Amazon Account with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing CentOS-CustomAttribute with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing CentOS65 with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing CentOS65-HideExpressionVRA73 with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing Clone_CentOS6.6 with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing Cost Center Details_BFAST with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing Cost Center_WithContext with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing VTS with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing VTS XaaS UI Linux Server with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing XaaS - output properties - Fra... with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing XaaS_OutPut_Properties with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Comparing Dynamic Dropdown with Dynamic Dropdown
+[20-02-2019 15:36:46] [INFO] - Clicked configure button for Dynamic Dropdown
+[20-02-2019 15:36:47] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:36:48] [INFO] - Entered TestAutomation0kZe4 in Service Instance Name textbox
+[20-02-2019 15:36:51] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:37:00] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:37:07] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:37:10] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:37:13] [INFO] - Clicked on Next button
+[20-02-2019 15:37:18] [INFO] - Cleared CPU textbox
+[20-02-2019 15:37:18] [INFO] - Entered 1 in CPU textbox
+[20-02-2019 15:37:18] [INFO] - Cleared Memory (MB) textbox
+[20-02-2019 15:37:19] [INFO] - Entered 1024 in Memory (MB) textbox
+[20-02-2019 15:37:19] [INFO] - Cleared Storage (GB) textbox
+[20-02-2019 15:37:19] [INFO] - Entered 5 in Storage (GB) textbox
+[20-02-2019 15:37:22] [INFO] - Clicked on Next button
+[20-02-2019 15:37:26] [INFO] - Selected Centos6.6-7.5WA5GBFinal from Select Template dropdown
+[20-02-2019 15:37:29] [INFO] - Clicked on Next button
+[20-02-2019 15:37:34] [INFO] - Actual Values: 1
+[20-02-2019 15:37:34] [INFO] - Service Name on Review Order page : TestAutomation0kZe4
+[20-02-2019 15:37:35] [INFO] - Service Name on Review Order page : TestAutomation0kZe4
+[20-02-2019 15:37:35] [INFO] - Estimated price on Review Order page : N/A
+[20-02-2019 15:37:35] [INFO] - Test failed: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:37:35] [INFO] - Failure reason: Expected undefined to equal '1'.
+[20-02-2019 15:37:35] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:37:35] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[20-02-2019 15:37:35] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[20-02-2019 15:37:35] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:37:35] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:37:35] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:37:35] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:37:35] [INFO] - Test started: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[20-02-2019 15:37:35] [INFO] - Test disabled: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[20-02-2019 15:37:35] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:37:35] [INFO] - Suite completed: e2e Test cases for Dynamic dropdown for CentOS
+[20-02-2019 15:37:35] [INFO] - ===========================================================================================
+[20-02-2019 15:40:36] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:40:36] [INFO] - Test browser: chrome
+[20-02-2019 15:40:36] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:40:36] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:40:36] [INFO] - Suites: e2eDynamicDropdown
+[20-02-2019 15:40:36] [INFO] - Provisioning: true
+[20-02-2019 15:40:36] [INFO] - Post to Slack: false
+[20-02-2019 15:40:36] [INFO] - *******************************************
+[20-02-2019 15:40:36] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eDynamicDropdown.spec.js' ]
+[20-02-2019 15:40:39] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:40:40] [INFO] - Suite started: e2e Test cases for Dynamic dropdown for CentOS
+[20-02-2019 15:40:40] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:40:40] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:40:43] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:40:49] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:40:49] [INFO] - Cleared Username input box
+[20-02-2019 15:40:49] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:40:49] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:40:49] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:40:49] [INFO] - Clicked on Sign In button
+[20-02-2019 15:40:55] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:40:56] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:40:56] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:40:56] [INFO] - Switched to child window
+[20-02-2019 15:41:02] [INFO] - Switched back to parent window
+[20-02-2019 15:41:03] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:41:03] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:41:03] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:41:03] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:41:04] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:41:05] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:41:12] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:41:13] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:41:14] [INFO] - Got all the elemets. Going to find the index of Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing 3 Tier Traditional Workload Cus... with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing 3 Tier VRA74 with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing 3 Tier Traditional Workload with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing Add Amazon Account with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing CentOS-CustomAttribute with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing CentOS65 with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing CentOS65-HideExpressionVRA73 with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing Clone_CentOS6.6 with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing Cost Center Details_BFAST with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing Cost Center_WithContext with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing VTS with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing VTS XaaS UI Linux Server with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing XaaS - output properties - Fra... with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing XaaS_OutPut_Properties with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Comparing Dynamic Dropdown with Dynamic Dropdown
+[20-02-2019 15:41:14] [INFO] - Clicked configure button for Dynamic Dropdown
+[20-02-2019 15:41:15] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:41:16] [INFO] - Entered TestAutomationDX8RZ in Service Instance Name textbox
+[20-02-2019 15:41:19] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:41:27] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:41:34] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:41:38] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:41:41] [INFO] - Clicked on Next button
+[20-02-2019 15:41:46] [INFO] - Cleared CPUs textbox
+[20-02-2019 15:41:46] [INFO] - Entered 1 in CPUs textbox
+[20-02-2019 15:41:46] [INFO] - Cleared Memory (MB) textbox
+[20-02-2019 15:41:46] [INFO] - Entered 1024 in Memory (MB) textbox
+[20-02-2019 15:41:47] [INFO] - Cleared Storage (GB) textbox
+[20-02-2019 15:41:47] [INFO] - Entered 5 in Storage (GB) textbox
+[20-02-2019 15:41:50] [INFO] - Clicked on Next button
+[20-02-2019 15:41:54] [INFO] - Selected Centos6.6-7.5WA5GBFinal from Select Template dropdown
+[20-02-2019 15:41:57] [INFO] - Clicked on Next button
+[20-02-2019 15:42:01] [INFO] - Actual Values: 1
+[20-02-2019 15:42:01] [INFO] - Service Name on Review Order page : TestAutomationDX8RZ
+[20-02-2019 15:42:01] [INFO] - Service Name on Review Order page : TestAutomationDX8RZ
+[20-02-2019 15:42:01] [INFO] - Estimated price on Review Order page : N/A
+[20-02-2019 15:42:01] [INFO] - Test passed: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[20-02-2019 15:42:01] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:42:01] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[20-02-2019 15:42:01] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[20-02-2019 15:42:01] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:42:01] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:42:01] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:42:01] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:42:01] [INFO] - Test started: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[20-02-2019 15:42:01] [INFO] - Test disabled: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[20-02-2019 15:42:01] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:42:01] [INFO] - Suite completed: e2e Test cases for Dynamic dropdown for CentOS
+[20-02-2019 15:42:01] [INFO] - ===========================================================================================
+[20-02-2019 15:52:57] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:52:57] [INFO] - Test browser: chrome
+[20-02-2019 15:52:57] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:52:57] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:52:57] [INFO] - Suites: e2eVRA
+[20-02-2019 15:52:57] [INFO] - Provisioning: true
+[20-02-2019 15:52:57] [INFO] - Post to Slack: false
+[20-02-2019 15:52:57] [INFO] - *******************************************
+[20-02-2019 15:52:57] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[20-02-2019 15:53:00] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:53:00] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 15:53:00] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:53:00] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:53:04] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:53:09] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:53:09] [INFO] - Cleared Username input box
+[20-02-2019 15:53:09] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:53:09] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:53:09] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:53:09] [INFO] - Clicked on Sign In button
+[20-02-2019 15:53:16] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:53:17] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:53:17] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:53:18] [INFO] - Switched to child window
+[20-02-2019 15:53:24] [INFO] - Switched back to parent window
+[20-02-2019 15:53:24] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:53:24] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:53:24] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:53:24] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:53:26] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:53:26] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:53:34] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:53:34] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:53:34] [INFO] - First username extracted :: cbadmn
+[20-02-2019 15:53:34] [INFO] - Test failed: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:53:34] [INFO] - Failure reason: Failed: threeTierCustomTemplateObject is not defined
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 15:53:34] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 15:53:34] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 15:53:34] [INFO] - Test disabled: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 15:53:34] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:53:34] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 15:53:34] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 15:53:34] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 15:53:34] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:53:34] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 15:53:34] [INFO] - ===========================================================================================
+[20-02-2019 15:55:29] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 15:55:29] [INFO] - Test browser: chrome
+[20-02-2019 15:55:29] [INFO] - Test environment: cb-qa-6
+[20-02-2019 15:55:29] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 15:55:29] [INFO] - Suites: e2eVRA
+[20-02-2019 15:55:29] [INFO] - Provisioning: true
+[20-02-2019 15:55:29] [INFO] - Post to Slack: false
+[20-02-2019 15:55:29] [INFO] - *******************************************
+[20-02-2019 15:55:29] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[20-02-2019 15:55:32] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 15:55:32] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 15:55:32] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 15:55:32] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 15:55:35] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 15:55:41] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 15:55:41] [INFO] - Cleared Username input box
+[20-02-2019 15:55:41] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 15:55:41] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 15:55:41] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 15:55:41] [INFO] - Clicked on Sign In button
+[20-02-2019 15:55:48] [INFO] - Navigated to Dashboard page...
+[20-02-2019 15:55:49] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 15:55:49] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 15:55:49] [INFO] - Switched to child window
+[20-02-2019 15:55:56] [INFO] - Switched back to parent window
+[20-02-2019 15:55:56] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 15:55:56] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 15:55:56] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 15:55:56] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 15:55:57] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:55:57] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 15:56:05] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 15:56:05] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 15:56:05] [INFO] - First username extracted :: cbadmn
+[20-02-2019 15:56:05] [INFO] - Db CPU key has value as: 1
+[20-02-2019 15:56:05] [INFO] - App CPU key has value as: 1
+[20-02-2019 15:56:05] [INFO] - Web CPU key has value as: 1
+[20-02-2019 15:56:05] [INFO] - Db Memory (GB) key has value as: 1024
+[20-02-2019 15:56:05] [INFO] - App Memory (GB) key has value as: 1024
+[20-02-2019 15:56:05] [INFO] - Web Memory (GB) key has value as: 1024
+[20-02-2019 15:56:05] [INFO] - Db Storage (GB) key has value as: 5
+[20-02-2019 15:56:05] [INFO] - App Storage (GB) key has value as: 5
+[20-02-2019 15:56:05] [INFO] - Web Storage (GB) key has value as: 5
+[20-02-2019 15:56:07] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[20-02-2019 15:56:07] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload
+[20-02-2019 15:56:07] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[20-02-2019 15:56:07] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[20-02-2019 15:56:07] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[20-02-2019 15:56:08] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 15:56:08] [INFO] - Entered TestAutomationqcu9z in Service Instance Name textbox
+[20-02-2019 15:56:15] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 15:56:24] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 15:56:32] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 15:56:35] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 15:56:38] [INFO] - Clicked on Next button
+[20-02-2019 15:56:41] [INFO] - Cleared App CPU textbox
+[20-02-2019 15:56:41] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 15:57:41] [INFO] - Test failed: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:57:41] [INFO] - Failure reason: Failed: Wait timed out after 60008ms
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 15:57:41] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 15:57:41] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 15:57:41] [INFO] - Test disabled: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 15:57:41] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:57:41] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 15:57:41] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 15:57:41] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 15:57:41] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 15:57:41] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 15:57:41] [INFO] - ===========================================================================================
+[20-02-2019 17:14:13] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 17:14:13] [INFO] - Test browser: chrome
+[20-02-2019 17:14:13] [INFO] - Test environment: cb-qa-6
+[20-02-2019 17:14:13] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 17:14:13] [INFO] - Suites: e2eVRA
+[20-02-2019 17:14:13] [INFO] - Provisioning: true
+[20-02-2019 17:14:13] [INFO] - Post to Slack: false
+[20-02-2019 17:14:13] [INFO] - *******************************************
+[20-02-2019 17:14:13] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[20-02-2019 17:14:17] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 17:14:17] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:14:17] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 17:14:17] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 17:14:21] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 17:14:26] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 17:14:26] [INFO] - Cleared Username input box
+[20-02-2019 17:14:27] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 17:14:27] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 17:14:27] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 17:14:27] [INFO] - Clicked on Sign In button
+[20-02-2019 17:14:35] [INFO] - Navigated to Dashboard page...
+[20-02-2019 17:14:36] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 17:14:37] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 17:14:37] [INFO] - Switched to child window
+[20-02-2019 17:14:39] [INFO] - Switched back to parent window
+[20-02-2019 17:14:40] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 17:14:40] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 17:14:40] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 17:14:40] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 17:14:41] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:14:41] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 17:14:54] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 17:14:55] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 17:14:55] [INFO] - First username extracted :: cbadmn
+[20-02-2019 17:14:55] [INFO] - Db CPU key has value as: 1
+[20-02-2019 17:14:55] [INFO] - App CPU key has value as: 1
+[20-02-2019 17:14:55] [INFO] - Web CPU key has value as: 1
+[20-02-2019 17:14:55] [INFO] - Db Memory (GB) key has value as: undefined
+[20-02-2019 17:14:55] [INFO] - Test failed: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:14:55] [INFO] - Failure reason: Failed: Cannot read property 'trim' of undefined
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:14:55] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:14:55] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:14:55] [INFO] - Test disabled: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:14:55] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:14:55] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:14:55] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:14:55] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:14:55] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:14:55] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:14:55] [INFO] - ===========================================================================================
+[20-02-2019 17:15:33] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 17:15:33] [INFO] - Test browser: chrome
+[20-02-2019 17:15:33] [INFO] - Test environment: cb-qa-6
+[20-02-2019 17:15:33] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 17:15:33] [INFO] - Suites: e2eVRA
+[20-02-2019 17:15:33] [INFO] - Provisioning: true
+[20-02-2019 17:15:33] [INFO] - Post to Slack: false
+[20-02-2019 17:15:33] [INFO] - *******************************************
+[20-02-2019 17:15:33] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[20-02-2019 17:15:36] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 17:15:37] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:15:37] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 17:15:37] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 17:15:41] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 17:15:46] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 17:15:46] [INFO] - Cleared Username input box
+[20-02-2019 17:15:46] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 17:15:47] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 17:15:47] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 17:15:47] [INFO] - Clicked on Sign In button
+[20-02-2019 17:15:53] [INFO] - Navigated to Dashboard page...
+[20-02-2019 17:15:54] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 17:15:54] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 17:15:54] [INFO] - Switched to child window
+[20-02-2019 17:16:00] [INFO] - Switched back to parent window
+[20-02-2019 17:16:00] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 17:16:00] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 17:16:00] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 17:16:00] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 17:16:01] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:16:01] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 17:16:10] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 17:16:11] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 17:16:11] [INFO] - First username extracted :: cbadmn
+[20-02-2019 17:16:11] [INFO] - Db CPU key has value as: 1
+[20-02-2019 17:16:11] [INFO] - App CPU key has value as: 1
+[20-02-2019 17:16:11] [INFO] - Web CPU key has value as: 1
+[20-02-2019 17:16:11] [INFO] - Db Memory (MB) key has value as: 1024
+[20-02-2019 17:16:11] [INFO] - App Memory (MB) key has value as: 1024
+[20-02-2019 17:16:11] [INFO] - Web Memory (MB) key has value as: 1024
+[20-02-2019 17:16:11] [INFO] - Db Storage (GB) key has value as: 5
+[20-02-2019 17:16:11] [INFO] - App Storage (GB) key has value as: 5
+[20-02-2019 17:16:11] [INFO] - Web Storage (GB) key has value as: 5
+[20-02-2019 17:16:16] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[20-02-2019 17:16:16] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload
+[20-02-2019 17:16:16] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[20-02-2019 17:16:16] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[20-02-2019 17:16:16] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[20-02-2019 17:16:18] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 17:16:18] [INFO] - Entered TestAutomationzERfm in Service Instance Name textbox
+[20-02-2019 17:16:25] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 17:16:35] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 17:16:42] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 17:16:46] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 17:16:50] [INFO] - Clicked on Next button
+[20-02-2019 17:16:54] [INFO] - Cleared App CPU textbox
+[20-02-2019 17:16:54] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 17:17:54] [INFO] - Test failed: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:17:54] [INFO] - Failure reason: Failed: Wait timed out after 60047ms
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:17:54] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:17:54] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:17:54] [INFO] - Test disabled: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:17:54] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:17:54] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:17:54] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:17:54] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:17:54] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:17:54] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:17:54] [INFO] - ===========================================================================================
+[20-02-2019 17:20:41] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 17:20:41] [INFO] - Test browser: chrome
+[20-02-2019 17:20:41] [INFO] - Test environment: cb-qa-6
+[20-02-2019 17:20:41] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 17:20:41] [INFO] - Suites: e2eVRA
+[20-02-2019 17:20:41] [INFO] - Provisioning: true
+[20-02-2019 17:20:41] [INFO] - Post to Slack: false
+[20-02-2019 17:20:41] [INFO] - *******************************************
+[20-02-2019 17:20:41] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[20-02-2019 17:20:44] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 17:20:44] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:20:44] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 17:20:44] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 17:20:48] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 17:20:53] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 17:20:54] [INFO] - Cleared Username input box
+[20-02-2019 17:20:54] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 17:20:54] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 17:20:54] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 17:20:54] [INFO] - Clicked on Sign In button
+[20-02-2019 17:21:04] [INFO] - Navigated to Dashboard page...
+[20-02-2019 17:21:06] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 17:21:06] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 17:21:06] [INFO] - Switched to child window
+[20-02-2019 17:21:11] [INFO] - Switched back to parent window
+[20-02-2019 17:21:12] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 17:21:12] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 17:21:12] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 17:21:12] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 17:21:13] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:21:13] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 17:21:24] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 17:21:26] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 17:21:26] [INFO] - First username extracted :: cbadmn
+[20-02-2019 17:21:26] [INFO] - Db CPU key has value as: 1
+[20-02-2019 17:21:26] [INFO] - App CPU key has value as: 1
+[20-02-2019 17:21:26] [INFO] - Web CPU key has value as: 1
+[20-02-2019 17:21:26] [INFO] - Db Memory (MB) key has value as: 1024
+[20-02-2019 17:21:26] [INFO] - App Memory (MB) key has value as: 1024
+[20-02-2019 17:21:26] [INFO] - Web Memory (MB) key has value as: 1024
+[20-02-2019 17:21:26] [INFO] - Db Storage (GB) key has value as: 5
+[20-02-2019 17:21:26] [INFO] - App Storage (GB) key has value as: 5
+[20-02-2019 17:21:26] [INFO] - Web Storage (GB) key has value as: 5
+[20-02-2019 17:21:28] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[20-02-2019 17:21:28] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload
+[20-02-2019 17:21:28] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[20-02-2019 17:21:28] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[20-02-2019 17:21:28] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[20-02-2019 17:21:29] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 17:21:30] [INFO] - Entered TestAutomationGvZ5D in Service Instance Name textbox
+[20-02-2019 17:21:37] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 17:21:47] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 17:21:54] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 17:21:58] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 17:22:02] [INFO] - Clicked on Next button
+[20-02-2019 17:22:05] [INFO] - Cleared App CPU textbox
+[20-02-2019 17:22:06] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 17:22:06] [INFO] - Cleared App Memory (MB) textbox
+[20-02-2019 17:22:06] [INFO] - Entered 1024 in App Memory (MB) textbox
+[20-02-2019 17:22:06] [INFO] - Cleared App Storage (GB) textbox
+[20-02-2019 17:22:07] [INFO] - Entered 5 in App Storage (GB) textbox
+[20-02-2019 17:23:07] [INFO] - Test failed: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:23:07] [INFO] - Failure reason: Failed: Wait timed out after 60040ms
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:23:07] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:23:07] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:23:07] [INFO] - Test disabled: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:23:07] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:23:07] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:23:07] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:23:07] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:23:07] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:23:07] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:23:07] [INFO] - ===========================================================================================
+[20-02-2019 17:25:17] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 17:25:17] [INFO] - Test browser: chrome
+[20-02-2019 17:25:17] [INFO] - Test environment: cb-qa-6
+[20-02-2019 17:25:17] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 17:25:17] [INFO] - Suites: e2eVRA
+[20-02-2019 17:25:17] [INFO] - Provisioning: true
+[20-02-2019 17:25:17] [INFO] - Post to Slack: false
+[20-02-2019 17:25:17] [INFO] - *******************************************
+[20-02-2019 17:25:17] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[20-02-2019 17:25:20] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 17:25:20] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:25:20] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 17:25:20] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 17:25:26] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 17:25:32] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 17:25:32] [INFO] - Cleared Username input box
+[20-02-2019 17:25:32] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 17:25:32] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 17:25:32] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 17:25:33] [INFO] - Clicked on Sign In button
+[20-02-2019 17:25:41] [INFO] - Navigated to Dashboard page...
+[20-02-2019 17:25:43] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 17:25:43] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 17:25:43] [INFO] - Switched to child window
+[20-02-2019 17:25:53] [INFO] - Switched back to parent window
+[20-02-2019 17:25:54] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 17:25:54] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 17:25:54] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 17:25:54] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 17:25:55] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:25:55] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 17:26:05] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 17:26:06] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 17:26:06] [INFO] - First username extracted :: cbadmn
+[20-02-2019 17:26:06] [INFO] - Db CPU key has value as: 1
+[20-02-2019 17:26:06] [INFO] - App CPU key has value as: 1
+[20-02-2019 17:26:06] [INFO] - Web CPU key has value as: 1
+[20-02-2019 17:26:06] [INFO] - Db Memory (MB) key has value as: 1024
+[20-02-2019 17:26:06] [INFO] - App Memory (MB) key has value as: 1024
+[20-02-2019 17:26:06] [INFO] - Web Memory (MB) key has value as: 1024
+[20-02-2019 17:26:06] [INFO] - Db Storage (GB) key has value as: 5
+[20-02-2019 17:26:06] [INFO] - App Storage (GB) key has value as: 5
+[20-02-2019 17:26:06] [INFO] - Web Storage (GB) key has value as: 5
+[20-02-2019 17:26:08] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[20-02-2019 17:26:08] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier Traditional Workload
+[20-02-2019 17:26:08] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[20-02-2019 17:26:08] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[20-02-2019 17:26:08] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[20-02-2019 17:26:09] [INFO] - Cleared Service Instance Name textbox
+[20-02-2019 17:26:10] [INFO] - Entered TestAutomationoqCaM in Service Instance Name textbox
+[20-02-2019 17:26:17] [INFO] - Selected TEAM1 from Team dropdown
+[20-02-2019 17:26:27] [INFO] - Selected NONE from Environment dropdown
+[20-02-2019 17:26:34] [INFO] - Selected NONE from Application dropdown
+[20-02-2019 17:26:38] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[20-02-2019 17:26:42] [INFO] - Clicked on Next button
+[20-02-2019 17:26:44] [INFO] - Cleared App CPU textbox
+[20-02-2019 17:26:45] [INFO] - Entered 1 in App CPU textbox
+[20-02-2019 17:26:45] [INFO] - Cleared App Memory (MB) textbox
+[20-02-2019 17:26:45] [INFO] - Entered 1024 in App Memory (MB) textbox
+[20-02-2019 17:26:45] [INFO] - Cleared App Storage (GB) textbox
+[20-02-2019 17:26:46] [INFO] - Entered 5 in App Storage (GB) textbox
+[20-02-2019 17:26:46] [INFO] - Cleared VirtualMachine.Admin.AllowLogin textbox
+[20-02-2019 17:26:46] [INFO] - Entered True in VirtualMachine.Admin.AllowLogin textbox
+[20-02-2019 17:26:50] [INFO] - Clicked on Next button
+[20-02-2019 17:26:50] [INFO] - Cleared Web CPU textbox
+[20-02-2019 17:26:50] [INFO] - Entered 1 in Web CPU textbox
+[20-02-2019 17:26:51] [INFO] - Cleared Web Memory (MB) textbox
+[20-02-2019 17:26:51] [INFO] - Entered 1024 in Web Memory (MB) textbox
+[20-02-2019 17:26:51] [INFO] - Cleared Web Storage (GB) textbox
+[20-02-2019 17:26:51] [INFO] - Entered 5 in Web Storage (GB) textbox
+[20-02-2019 17:26:52] [INFO] - Cleared VirtualMachine.ScriptPath.Decrypt textbox
+[20-02-2019 17:26:52] [INFO] - Entered True in VirtualMachine.ScriptPath.Decrypt textbox
+[20-02-2019 17:26:56] [INFO] - Clicked on Next button
+[20-02-2019 17:26:56] [INFO] - Cleared Tag textbox
+[20-02-2019 17:26:56] [INFO] - Entered Success in Tag textbox
+[20-02-2019 17:27:00] [INFO] - Clicked on Next button
+[20-02-2019 17:27:00] [INFO] - Cleared Db CPU textbox
+[20-02-2019 17:27:00] [INFO] - Entered 1 in Db CPU textbox
+[20-02-2019 17:27:01] [INFO] - Cleared Db Memory (MB) textbox
+[20-02-2019 17:27:01] [INFO] - Entered 1024 in Db Memory (MB) textbox
+[20-02-2019 17:27:01] [INFO] - Cleared Db Storage (GB) textbox
+[20-02-2019 17:27:01] [INFO] - Entered 5 in Db Storage (GB) textbox
+[20-02-2019 17:27:02] [INFO] - Cleared VirtualMachine.CDROM.Attach textbox
+[20-02-2019 17:27:02] [INFO] - Entered True in VirtualMachine.CDROM.Attach textbox
+[20-02-2019 17:27:06] [INFO] - Clicked on Next button
+[20-02-2019 17:27:35] [INFO] - Order Submitted !
+[20-02-2019 17:27:35] [INFO] - Order number : ZDSDMFD7
+[20-02-2019 17:27:35] [INFO] - Total Price : USD 120.00/ SIZE / MONTH + USD 10.00
+[20-02-2019 17:27:48] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/orders/approver-orders
+[20-02-2019 17:27:57] [INFO] - Order ID :: ZDSDMFD7
+[20-02-2019 17:28:05] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[20-02-2019 17:28:05] [INFO] - Clicked on View Details link to get Order Details page
+[20-02-2019 17:28:09] [INFO] - Order Service Name in Order details page : TestAutomationoqCaM
+[20-02-2019 17:28:10] [INFO] - Order Provider Name in Order details page : PrivateCloud
+[20-02-2019 17:28:10] [INFO] - Order status of the first order from Order table is: Approval In Progress
+[20-02-2019 17:28:10] [INFO] - Order submitted by : cbadmn@outlook.com
+[20-02-2019 17:28:10] [INFO] - Approve button display status: true
+[20-02-2019 17:28:10] [INFO] - Deny button display status: true
+[20-02-2019 17:28:11] [INFO] - Clicked on Service Configurations tab
+[20-02-2019 17:28:11] [INFO] - The value for CPU is : 1
+[20-02-2019 17:28:11] [INFO] - Clicked on Bill of Materials tab
+[20-02-2019 17:28:11] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[20-02-2019 17:28:11] [INFO] - Test failed: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:28:11] [INFO] - Failure reason: Expected '1' to equal [ '1', '1', '1' ].
+[20-02-2019 17:28:11] [INFO] - Failure reason: Expected 'N/A' to equal '120'.
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:28:11] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:28:11] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:28:11] [INFO] - Test disabled: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:28:11] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:28:11] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:28:11] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:28:11] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:28:11] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:28:11] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:28:11] [INFO] - ===========================================================================================
+[20-02-2019 17:31:46] [INFO] - ******Printing Environment Variables*******
+[20-02-2019 17:31:46] [INFO] - Test browser: chrome
+[20-02-2019 17:31:46] [INFO] - Test environment: cb-qa-6
+[20-02-2019 17:31:46] [INFO] - Username: cbadmn@outlook.com
+[20-02-2019 17:31:46] [INFO] - Suites: e2eVRA
+[20-02-2019 17:31:46] [INFO] - Provisioning: true
+[20-02-2019 17:31:46] [INFO] - Post to Slack: false
+[20-02-2019 17:31:46] [INFO] - *******************************************
+[20-02-2019 17:31:46] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[20-02-2019 17:31:50] [INFO] - Test user: cbadmn@outlook.com
+[20-02-2019 17:31:50] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:31:50] [INFO] - Test Domain: cb-qa-6
+[20-02-2019 17:31:50] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[20-02-2019 17:31:54] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[20-02-2019 17:32:00] [INFO] - Waited till Username text box is visible on the page
+[20-02-2019 17:32:00] [INFO] - Cleared Username input box
+[20-02-2019 17:32:00] [INFO] - Entered cbadmn@outlook.com in Username input box
+[20-02-2019 17:32:00] [INFO] - Waited till Password input box is visible on login page
+[20-02-2019 17:32:00] [INFO] - Entered Gravitant123$ in password input box
+[20-02-2019 17:32:00] [INFO] - Clicked on Sign In button
+[20-02-2019 17:32:07] [INFO] - Navigated to Dashboard page...
+[20-02-2019 17:32:08] [INFO] - Privacy policies pop up displayed...
+[20-02-2019 17:32:08] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[20-02-2019 17:32:08] [INFO] - Switched to child window
+[20-02-2019 17:32:14] [INFO] - Switched back to parent window
+[20-02-2019 17:32:14] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[20-02-2019 17:32:14] [INFO] - Clicked on submit button in the Privacy statement popup...
+[20-02-2019 17:32:14] [INFO] - Waited till browser url contains /dashboard
+[20-02-2019 17:32:14] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[20-02-2019 17:32:15] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:32:16] [INFO] - Waiting for the Provider to be identified and Click it
+[20-02-2019 17:32:27] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[20-02-2019 17:32:28] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[20-02-2019 17:32:28] [INFO] - First username extracted :: cbadmn
+[20-02-2019 17:32:28] [INFO] - CPU key has value as: undefined
+[20-02-2019 17:32:28] [INFO] - Test failed: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:32:28] [INFO] - Failure reason: Failed: Cannot read property 'trim' of undefined
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:32:28] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:32:28] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:32:28] [INFO] - Test disabled: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:32:28] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:32:28] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:32:28] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:32:28] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[20-02-2019 17:32:28] [INFO] - -------------------------------------------------------------------------------------------
+[20-02-2019 17:32:28] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[20-02-2019 17:32:28] [INFO] - ===========================================================================================

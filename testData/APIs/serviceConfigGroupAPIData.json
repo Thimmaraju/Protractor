@@ -1,0 +1,9 @@
+{
+
+  "getServiceConfigResponseAPI":{
+      "endpoint":"/catalog/v3/providers/softlayer/services/VIRTUALMACHINE_SERVICE/configurations"
+    }
+  }
+
+
+

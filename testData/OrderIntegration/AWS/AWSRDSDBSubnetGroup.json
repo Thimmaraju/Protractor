@@ -1,0 +1,133 @@
+{
+  "bluePrintName": "RDS DB Subnet Group",
+  "descriptiveText": "Creates a new DB Subnet Group that can be attached to a realational database system (RDS) database.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "Category": "Databases",
+  "BasePrice": "USD 0.00/ Size / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_RDS_SUBNETGROUP_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Subnet group details": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-subnetGroupName",
+        "value": {
+          "QA 1": "testsubnetgrpname",
+          "QA 2": "testsubnetgrpname",
+          "QA 4": "testsubnetgrpname",
+          "Customer 1": "testsubnetgrpname"
+        }
+      },
+      "Description": {
+        "type": "Textbox",
+        "id": "text-input-subnetGroupDescription",
+        "value": {
+          "QA 1": "descriptionOptionGroup",
+          "QA 2": "descriptionOptionGroup",
+          "QA 4": "descriptionOptionGroup",
+          "Customer 1": "descriptionOptionGroup"
+        }
+      },
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      }
+    },
+    "Add subnets": {
+      "Subnets": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-subnets",
+        "value": {
+          "QA 1": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 2": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 4": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "Customer 1": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+	"bluePrintName": "CentOS65-July2",
+	"descriptiveText": "CentOS QA Testing",
+	"provider": "VRA",
+	"serviceName": "SingleVM-CentOS",
+	"Category": "Compute",
+	"EstimatedPrice": "$30.00/ SIZE / HR + $10.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "centOS65",
+					"QA 2": "centOS65",
+					"QA 4": "centOS65",
+					"Customer 1": "centOS65",
+					"D2OPS": "CentOS65-July2"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1",
+					"D2OPS": "TEAM1"
+				}
+			},
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "",
+					"QA 2": "vTenant",
+					"QA 3": "vTenant",
+                    "QA 4": "",
+                    "Customer 1": "",
+                    "D2OPS": "vTenant123"
+                }
+            }
+		},
+		"Additional Parameters": {
+			"CPU": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_1",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 4": "1",
+					"Customer 1": "1",
+					"D2OPS": "1"
+				}
+			},
+			"MEMORY": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_2",
+				"value": {
+					"QA 1": "512",
+					"QA 2": "512",
+					"QA 4": "512",
+					"Customer 1": "512",
+					"D2OPS": "512"
+				}
+			},
+			"STORAGE": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_3",
+				"value": {
+					"QA 1": "5",
+					"QA 2": "5",
+					"QA 4": "5",
+					"Customer 1": "5",
+					"D2OPS": "5"
+				}
+			},
+			"VIRTUAL MACHINE CDROM": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_4",
+				"value": {
+					"QA 1": "True",
+					"QA 2": "True",
+					"QA 4": "True",
+					"Customer 1": "True",
+					"D2OPS": "True"
+				}
+			},
+			"VIRTUAL MACHINE ADMIN ACCESS": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_5",
+				"value": {
+					"QA 1": "True",
+					"QA 2": "True",
+					"QA 4": "True",
+					"Customer 1": "True",
+					"D2OPS": "True"
+				}
+			},
+			"VIRTUAL MACHINE MACHINE SSH": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_6",
+				"value": {
+					"QA 1": "True",
+					"QA 2": "True",
+					"QA 4": "True",
+					"Customer 1": "True",
+					"D2OPS": "True"
+				}
+			}
+		}
+	}
+}

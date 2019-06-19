@@ -1,0 +1,24 @@
+{
+    "protractor_test_report":"path to junitresult.xml",
+    "cerdentials":{
+        "apikey":"TEST RAIL API KEY",
+        "username":"",
+        "password":""
+    },
+    "parameters":{
+        "run_name":"UI Automation run ",
+        "suite_name":"UI Automation ",
+        "suite_description":"This is a suite created by automation",
+        "custom_jira_component":""
+    },
+    "endpoints":{
+        "host":"https://gravitant.testrail.com/index.php?/api/v2",
+        "add_suite":"/add_suite/${project_id}",
+        "add_section":"/add_section/${project_id}",
+        "add_case":"/add_case/${section_id}",
+        "add_run":"/add_run/${project_id}",
+        "add_result_for_case":"/add_result_for_case/${run_id}/${test_id}",
+        "close_run":"/close_run/${run_id}",
+        "delete_case":""
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "bluePrintName": "Dedicated Virtual Server",
+    "descriptiveText": "Dedicated Virtual Server",
+    "providerName": "IBM Cloud",
+    "serviceName": "DEDICATED_SPECIFYHOST_VIRTUALMACHINE_SERVICE",
+    "Category": "Compute",
+    "EstimatedPrice": "USD 0.014/ HR + USD 0.00",
+    "totalCost": "USD 124.5456",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "GSLSLTestAutomation",
+                    "QA 2": "GSLSLTestAutomation",
+                    "QA 4": "GSLSLTestAutomation",
+                    "Customer 1": "GSLSLTestAutomation"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                    "QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                    "QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                    "Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+                }
+            }
+        },
+        "Instance Specifications": {
+            "Hostname": {
+                "type": "Textbox",
+                "id": "text-input-hostname",
+                "value": {
+                    "QA 1": "gslslstestautomation",
+                    "QA 2": "gslslstestautomation",
+                    "QA 4": "gslsltestautomation",
+                    "Customer 1": "gslsltestautomation"
+                }
+            },
+            "Domain": {
+                "type": "Textbox",
+                "id": "text-input-domain",
+                "value": {
+                    "QA 1": "gslslstestautomation.com",
+                    "QA 2": "gslslstestautomation.com",
+                    "QA 4": "gslsltestautomation.com",
+                    "Customer 1": "gslsltestautomation.com"
+                }
+            },
+            "Billing Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_hourly_billing",
+                "value": {
+                    "QA 1": "Hourly Billing",
+                    "QA 2": "Hourly Billing",
+                    "QA 4": "Hourly Billing",
+                    "Customer 1": "Hourly Billing"
+                }
+            },
+            "Dedicated Host Id": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_dedicated_host_id",
+                "value": {
+                    "QA 1": "GSLSLHostNameTestAutomationu4UF4 - 55/56 cores - 241/242 memory - 1172/1200 storage",
+                    "QA 2": "GSLSLHostNameTestAutomationu4UF4 - 55/56 cores - 241/242 memory - 1172/1200 storage",
+                    "QA 4": "GSLSLHostNameTestAutomationu4UF4 - 55/56 cores - 241/242 memory - 1172/1200 storage",
+                    "Customer 1": "GSLSLHostNameTestAutomationu4UF4 - 55/56 cores - 241/242 memory - 1172/1200 storage"
+                }
+            },
+            "Datacenter": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_datacenter",
+                "value": {
+                    "QA 1": "Amsterdam 1",
+                    "QA 2": "Amsterdam 1",
+                    "QA 4": "Amsterdam 1",
+                    "Customer 1": "Amsterdam 1"
+                }
+            }
+        },
+        "System Specification":{
+            "Operating System": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_os_reference_code",
+                "value": {
+                    "QA 1": "CentOS - Latest",
+                    "QA 2": "CentOS - Latest",
+                    "QA 4": "CentOS - Latest",
+                    "Customer 1": "CentOS - Latest"
+                }
+            },
+            "Cores": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_cores",
+                "value": {
+                    "QA 1": "1 x 2.0 GHz or higher Core (Dedicated Host)",
+                    "QA 2": "1 x 2.0 GHz or higher Core (Dedicated Host)",
+                    "QA 4": "1 x 2.0 GHz or higher Core (Dedicated Host)",
+                    "Customer 1": "1 x 2.0 GHz or higher Core (Dedicated Host)"
+                }
+            },
+            "Memory": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_memory",
+                "value": {
+                    "QA 1": "1 GB (Dedicated Host)",
+                    "QA 2": "1 GB (Dedicated Host)",
+                    "QA 4": "1 GB (Dedicated Host)",
+                    "Customer 1": "1 GB (Dedicated Host)"
+                }
+            }
+        },
+        "Disk Specifications":{
+            "Disk Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_local_disk",
+                "value": {
+                    "QA 1": "Local Disk",
+                    "QA 2": "Local Disk",
+                    "QA 4": "Local Disk",
+                    "Customer 1": "Local Disk"
+                }
+            },
+            "First Disk": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~0",
+                "value": {
+                    "QA 1": "25 GB (Local - Dedicated Host)",
+                    "QA 2": "25 GB (Local - Dedicated Host)",
+                    "QA 4": "25 GB (Local - Dedicated Host)",
+                    "Customer 1": "25 GB (Local - Dedicated Host)"
+                }
+            }
+        },
+        "Network Specifications":{
+            "Private Network Only":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_private_network_only",
+                "value": {
+                    "QA 1": "Private And Public Network",
+                    "QA 2": "Private And Public Network",
+                    "QA 4": "Private And Public Network",
+                    "Customer 1": "Private And Public Network"
+                }
+            },
+            "Network Speed": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_network_speed",
+                "value": {
+                    "QA 1": "100 Mbps Public & Private Network Uplinks (Dedicated Host)",
+                    "QA 2": "100 Mbps Public & Private Network Uplinks (Dedicated Host)",
+                    "QA 4": "100 Mbps Public & Private Network Uplinks (Dedicated Host)",
+                    "Customer 1": "100 Mbps Public & Private Network Uplinks (Dedicated Host)"
+                }
+            }
+        },
+        "Add-ons":{
+        },
+        "Other Specifications":{
+        }
+    }
+}

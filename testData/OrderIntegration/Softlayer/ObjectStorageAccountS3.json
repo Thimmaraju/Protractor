@@ -1,0 +1,81 @@
+{
+	"bluePrintName": "Object Storage Account",
+	"descriptiveText": "Object Storage Account",
+	"providerName": "IBM Cloud",
+	"serviceName": "OBJECT_STORAGE_ACCOUNT",
+	"Category": "Storage",
+	"estimatedCost": "USD 0.00/ MONTH + USD 0.00",
+	"totalCost": "USD 0.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 3": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Account Specification": {
+			"Account Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_account_type",
+				"value": {
+					"QA 1": "S3",
+					"QA 2": "S3",
+					"QA 3": "S3",
+					"QA 4": "S3",
+					"Customer 1": "S3"
+				}
+			}
+		}
+	}
+}
+	
+		
+	

@@ -1,0 +1,109 @@
+{
+  "bluePrintName": "Redshift Parameter Group",
+  "descriptiveText": "The parameter group is a group of parameters that apply to all of the databases that you create in the cluster.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testRedshiftParameterGroup",
+  "Category": "Databases",
+  "BasePrice": "USD 0.00/ Queries / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_REDSHIFT_CPG_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation",
+          "QA 2": "TestAutomation",
+          "QA 4": "TestAutomation",
+          "Customer 1": "TestAutomation"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Create Cluster Parameter Group": {
+      "Parameter Group Family": {
+        "type": "RadioButton",
+        "id": "radio-button-parameterGroupFamily_redshift-1.0",
+        "value": {
+          "QA 1": "redshift-1.0",
+          "QA 2": "redshift-1.0",
+          "QA 4": "redshift-1.0",
+          "Customer 1": "redshift-1.0"
+        }
+      },
+      "Parameter Group Name": {
+        "type": "Textbox",
+        "id": "text-input-ParameterGroupName",
+        "value": {
+          "QA 1": "paramname",
+          "QA 2": "paramname",
+          "QA 4": "paramname",
+          "Customer 1": "paramname"
+        }
+      },
+      "Description": {
+        "type": "Textbox",
+        "id": "text-input-description",
+        "value": {
+          "QA 1": "description",
+          "QA 2": "description",
+          "QA 4": "description",
+          "Customer 1": "description"
+        }
+      }
+    }
+  }
+}

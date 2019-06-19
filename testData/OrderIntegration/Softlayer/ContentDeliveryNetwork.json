@@ -1,0 +1,168 @@
+{
+	"bluePrintName": "Content Delivery Network",
+	"descriptiveText": "Content Delivery Network",
+	"providerName": "IBM Cloud",
+	"serviceName": "CDN_SERVICE",
+	"Category": "Network",
+	"EstimatedPrice": "USD 0.0616/ GB / MONTH + USD 0.00",
+	"totalCost": "USD 0.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"CDN Name Specifications": {
+			"Vendor Name": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_vendor_name",
+				"value": {
+					"QA 1": "akamai",
+					"QA 2": "akamai",
+					"QA 4": "akamai",
+					"Customer 1": "akamai"
+				}
+			},
+			"Hostname": {
+				"type": "Textbox",
+				"id": "text-input-hostname",
+				"value": {
+					"QA 1": "root.com",
+					"QA 2": "root.com",
+					"QA 4": "root.com",
+					"Customer 1": "root.com"
+				}
+			},
+			"Custom CNAME": {
+				"type": "Textbox",
+				"id": "text-input-cname",
+				"value": {
+					"QA 1": "testAutomation",
+					"QA 2": "testAutomation",
+					"QA 4": "testAutomation",
+					"Customer 1": "testAutomation"
+				}
+			}
+		},
+		"CDN Origin Specifications": {
+			"Host Header": {
+				"type": "Textbox",
+				"id": "text-input-header",
+				"value": {
+					"QA 1": "root.com",
+					"QA 2": "root.com",
+					"QA 4": "root.com",
+					"Customer 1": "root.com"
+				}
+			},
+			"Path": {
+				"type": "Textbox",
+				"id": "text-input-path",
+				"value": {
+					"QA 1": "/cdn",
+					"QA 2": "/cdn",
+					"QA 4": "/cdn",
+					"Customer 1": "/cdn"
+				}
+			},
+			"Origin Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_origin_type",
+				"value": {
+					"QA 1": "Object Storage",
+					"QA 2": "Object Storage",
+					"QA 4": "Object Storage",
+					"Customer 1": "Object Storage"
+				}
+			},
+			"Server Address/Endpoint": {
+				"type": "Textbox",
+				"id": "text-input-origin_address",
+				"value": {
+					"QA 1": "10.0.0.2",
+					"QA 2": "10.0.0.2",
+					"QA 4": "10.0.0.2",
+					"Customer 1": "10.0.0.2"
+				}
+			},
+			"Bucketname": {
+				"type": "Textbox",
+				"id": "text-input-bucketname",
+				"value": {
+					"QA 1": "automation",
+					"QA 2": "automation",
+					"QA 4": "automation",
+					"Customer 1": "automation"
+				}
+			},
+			"Protocol": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_protocol",
+				"value": {
+					"QA 1": "HTTP",
+					"QA 2": "HTTP",
+					"QA 4": "HTTP",
+					"Customer 1": "HTTP"
+				}
+			},
+			"Http Port": {
+				"type": "Textbox",
+				"id": "slider-input-box-httpport",
+				"value": {
+					"QA 1": "488",
+					"QA 2": "488",
+					"QA 4": "488",
+					"Customer 1": "488"
+				}
+			}
+		},
+		"Other Specifications": {}
+	}
+}

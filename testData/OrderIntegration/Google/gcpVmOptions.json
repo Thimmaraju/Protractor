@@ -1,0 +1,321 @@
+{
+	"bluePrintName": "Compute Engine",
+	"descriptiveText": "The Google Compute Engine is the same engine Google uses to run services like its search engine, maps, and mail. This Infrastructure as an Service (IaaS) allows users to build virtual machines based on images of their own systems.",
+	"provider": "Google",
+	"serviceName": "testInstanceForGcp",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 5,577.60 / MONTH",
+	"serviceId":"Compute Engine",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service921022",
+					"QA 2": "service921022",
+					"QA 3": "service921022",
+					"QA 4": "service921022",
+					"Customer 1": "service921022"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "app",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+		      "Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+				  "QA 1": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+				}
+      			}
+		},
+		"Configure Region": {
+				"Region":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_region",
+					"value": {
+						"QA 1": "asia-east1",
+						"QA 2": "asia-east1",
+						"QA 3": "asia-east1",
+						"QA 4": "asia-east1",
+						"Customer 1": "asia-east1"
+					}
+				},
+				"Zone":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_zone",
+					"value": {
+						"QA 1": "asia-east1-a",
+						"QA 2": "asia-east1-a",
+						"QA 3": "asia-east1-a",
+						"QA 4": "asia-east1-a",
+						"Customer 1": "asia-east1-a"
+					}
+				}
+		},
+		"Configure Compute Engine":{
+			"Instance Name":{
+				"type": "Textbox",
+				"id": "text-input-instanceName",
+				"value": {
+					"QA 1": "gcp",
+					"QA 2": "gcp",
+					"QA 3": "gcp",
+					"QA 4": "gcp",
+					"Customer 1": "gcp"
+				}
+			}
+		},
+		"Configure Machine Type":{
+			"Machine Type Edit Option":{
+				"type": "RadioButton",
+				"id": "radio-button-selectedMachine_Basic_view",
+				"value": {
+					"QA 1": "Basic view",
+					"QA 2": "Basic view",
+					"QA 3": "Basic view",
+					"QA 4": "Basic view",
+					"Customer 1": "Basic view"
+				}
+			},
+			"Machine type":{
+				"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_machineType",
+					"value": {
+						"QA 2": "g1-small",
+						"QA 1": "g1-small",
+						"QA 3": "g1-small",
+						"QA 4": "g1-small",
+						"Customer 1": "g1-small"
+					}			}
+		
+		},
+		"Configure Container":{
+			"Deploy Container":{
+				"type": "RadioButton",
+				"id": "radio-button-container_deployContainer_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			}
+		},
+		"Configure Boot Disk":{
+			"Source Image Type" : {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bootDisk_sourceImageType",
+				"value": {
+					"QA 1": "OS Images",
+					"QA 2": "OS Images",
+					"QA 3": "OS Images",
+					"QA 4": "OS Images",
+					"Customer 1": "OS Images"
+				}
+			},
+			"OS Images" : {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bootDisk_OSImage",
+				"value": {
+					"QA 1": "projects/rhel-cloud/global/images/rhel-6-v20180510",
+					"QA 2": "projects/rhel-cloud/global/images/rhel-6-v20180510",
+					"QA 3": "projects/rhel-cloud/global/images/rhel-6-v20180510",
+					"QA 4": "projects/rhel-cloud/global/images/rhel-6-v20180510",
+					"Customer 1": "projects/rhel-cloud/global/images/rhel-6-v20180510"
+				}
+			},
+			"Boot Disk Type":{
+				"type": "RadioButton",
+				"id": "radio-button-bootDisk_diskType_pd-standard",
+				"value": {
+					"QA 1": "pd-standard",
+					"QA 2": "pd-standard",
+					"QA 3": "pd-standard",
+					"QA 4": "pd-standard",
+					"Customer 1": "pd-standard"
+				}
+
+			},			
+			"Boot Disk Size in GB":{
+				"type": "Textbox",
+				"id": "slider-input-box-bootDisk_sizeGb",
+				"value": {
+					"QA 1": "10",
+					"QA 2": "10",
+					"QA 3": "10",
+					"QA 4": "10",
+					"Customer 1": "10"
+				}
+			},
+			"Deletion Rule ?":{
+				"type": "RadioButton",
+				"id": "radio-button-bootDisk_autoDelete_Yes",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			},
+			"Encryption" : {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bootDisk_encryption",
+				"value": {
+					"QA 1": "Automatic(recommended)",
+					"QA 2": "Automatic(recommended)",
+					"QA 3": "Automatic(recommended)",
+					"QA 4": "Automatic(recommended)",
+					"Customer 1": "Automatic(recommended)"
+				}
+			}
+
+		},
+		"Configure Disk":{
+			"Add Additional Disk":{
+				"type": "RadioButton",
+				"id": "radio-button-disks_confirm_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			}		
+		},
+		"Configure IAM":{
+			"AccessManagement":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_accessManagement",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}		
+		},
+		"Configure Firewall":{
+			"Enable HTTP":{
+				"type": "RadioButton",
+				"id": "radio-button-firewall_enableHTTP_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			},
+			"Enable HTTPS":{
+				"type": "RadioButton",
+				"id": "radio-button-firewall_enableHTTPS_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			}
+		},
+		"Configure Network":{
+			"Network Tags":{
+				"type": "Textbox",
+				"id": "text-input-networkInterface_tags",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Network Interface?":{
+				"type": "RadioButton",
+				"id": "radio-button-networkInterface_networkSelect_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			}		
+		},
+		"Configure SSH":{
+			"Block project wide SSH keys":{
+				"type": "RadioButton",
+				"id": "radio-button-ssh_blockProjectWideSSH_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			},
+			"Add Public SSH Key":{
+				"type": "RadioButton",
+				"id": "radio-button-ssh_addSSH_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 3": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			}
+		},
+		"Configure Management":{
+			"Description":{
+				"type": "Textbox",
+				"id": "text-input-management_description",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "e",
+					"Customer 1": ""
+				}
+			}
+		}				
+	}
+}

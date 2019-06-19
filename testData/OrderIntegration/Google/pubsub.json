@@ -1,0 +1,100 @@
+{
+	"bluePrintName": "Pub/Sub",
+	"descriptiveText": "Google Cloud Pub/Sub brings the scalability, flexibility, and reliability of enterprise message-oriented middle-ware to the cloud. It is backend messaging service that makes it easier for users to pass messages between machines and to gather data from smart devices.",
+	"provider": "Google",
+	"serviceName": "testInstanceForPubSub",
+	"Category": "Applications",
+	"BasePrice": "USD 0.00/ GB / MONTH + USD 0.00", 
+	"TotalCost": "USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+	"serviceId": "Pub/Sub",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service921022",
+					"QA 2": "service921022",
+					"QA 3": "service921022",
+					"QA 4": "service921022",
+					"Customer 1": "service921022"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Environment1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Application1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account":{
+				"type": "Dropdown",
+				 "id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+				}
+
+			}
+		},		
+		"Create Topic": {
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-topicName",
+				"value": {
+					"QA 1": "qa1-topic",
+					"QA 2": "qa2-topic",
+					"QA 3": "qa3-topic",
+					"QA 4": "qa4-topic",
+					"Customer 1": "customer1-topic"
+				}
+			}
+		},
+		"Subscription Configuration":{
+			"Add Subscription": {
+				"type": "Button",
+				"id": "text-input-topicName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+					
+		}
+	},
+	"Order Details Locators":{		
+		"Name_xpath-0":"//p[@id='name_value']"
+	}		
+}
+

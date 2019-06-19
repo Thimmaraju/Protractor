@@ -1,0 +1,226 @@
+{
+  "bluePrintName": "AWS CloudTrail",
+  "descriptiveText": "Amazon CloudTrail identifies, monitors, and logs API calls made to an AWS account. The service logs activity that includes data such as API caller identity, the time an API was called, and the caller's IP address source.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testCloudTrail",
+  "Category": "Other Services",
+  "BasePrice": "USD 0.10/ 100000 EVENTS / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.000021 / MONTH",
+  "TotalCost": "USD 0.000021",
+  "serviceId": "CB_AWS_CF_CLOUDTRAIL_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Create Trail": {
+      "Trail Name": {
+        "type": "Textbox",
+        "id": "text-input-trailName",
+        "value": {
+          "QA 1": "tname",
+          "QA 2": "tname",
+          "QA 4": "tname",
+          "Customer 1": "tname"
+        }
+      },
+      "Apply Trail To All Regions": {
+        "type": "RadioButton",
+        "id": "radio-button-applyTrailToAllRegions_True",
+        "value": {
+          "QA 1": "True",
+          "QA 2": "True",
+          "QA 4": "True",
+          "Customer 1": "True"
+        }
+      }
+    },
+    "Management events": {
+      "Read Write Events": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_readWriteEvents",
+        "value": {
+          "QA 1": "ReadOnly",
+          "QA 2": "ReadOnly",
+          "QA 4": "ReadOnly",
+          "Customer 1": "ReadOnly"
+        }
+      }
+    },
+    "Data events": {
+      "Data Resource Type ": {
+        "type": "RadioButton",
+        "id": "radio-button-dataResourceType_AWS::S3::Object",
+        "value": {
+          "QA 1": "AWS::S3::Object",
+          "QA 2": "AWS::S3::Object",
+          "QA 4": "AWS::S3::Object",
+          "Customer 1": "AWS::S3::Object"
+        }
+      },
+      "Data Resource Values": {
+        "type": "Textbox",
+        "id": "text-input-dataResourceValues",
+        "value": {
+          "QA 1": "arn:aws:s3:::mybucket/",
+          "QA 2": "arn:aws:s3:::mybucket/",
+          "QA 4": "arn:aws:s3:::mybucket/",
+          "Customer 1": "arn:aws:s3:::mybucket/"
+        }
+      }
+    },
+    "Storage location": {
+      "Create New S3 Bucket": {
+        "type": "RadioButton",
+        "id": "radio-button-createNewS3Bucket_Yes",
+        "value": {
+          "QA 1": "Yes",
+          "QA 2": "Yes",
+          "QA 4": "Yes",
+          "Customer 1": "Yes"
+        }
+      },
+      "S3 Bucket": {
+        "type": "Textbox",
+        "id": "text-input-newS3Bucket",
+        "value": {
+          "QA 1": "new1bucket1",
+          "QA 2": "new1bucket1",
+          "QA 4": "new1bucket1",
+          "Customer 1": "new1bucket1"
+        }
+      },
+      "Log File Prefix": {
+        "type": "Textbox",
+        "id": "text-input-logFilePrefix",
+        "value": {
+          "QA 1": "testings-logs",
+          "QA 2": "testings-logs",
+          "QA 4": "testings-logs",
+          "Customer 1": "testings-logs"
+        }
+      },
+      "Encrypt Log Files": {
+        "type": "RadioButton",
+        "id": "radio-button-encryptLogFiles_Yes",
+        "value": {
+          "QA 1": "Yes",
+          "QA 2": "Yes",
+          "QA 4": "Yes",
+          "Customer 1": "Yes"
+        }
+      },
+      "Encryption Configuration": {
+        "type": "RadioButton",
+        "id": "radio-button-encryptionConfiguration_Use_Existing KMS key",
+        "value": {
+          "QA 1": "Use Existing KMS key",
+          "QA 2": "Use Existing KMS key",
+          "QA 4": "Use Existing KMS key",
+          "Customer 1": "Use Existing KMS key"
+        }
+      },
+      "KMS Key ARN": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_KMSKeyARN",
+        "value": {
+          "QA 1": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c",
+          "QA 2": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c",
+          "QA 4": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c",
+          "Customer 1": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c"
+        }
+      },
+      "Enable Log File Validation": {
+        "type": "RadioButton",
+        "id": "radio-button-enableLogFileValidation_True",
+        "value": {
+          "QA 1": "True",
+          "QA 2": "True",
+          "QA 4": "True",
+          "Customer 1": "True"
+        }
+      },
+      "Is Logging": {
+        "type": "RadioButton",
+        "id": "radio-button-isLogging_True",
+        "value": {
+          "QA 1": "True",
+          "QA 2": "True",
+          "QA 4": "True",
+          "Customer 1": "True"
+        }
+      },
+      "SNS Topic ARN": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_SNSTopicARN",
+        "value": {
+          "QA 1": "donotdelete",
+          "QA 2": "donotdelete",
+          "QA 4": "donotdelete",
+          "Customer 1": "donotdelete"
+        }
+      }
+    }
+  }
+}

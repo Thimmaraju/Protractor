@@ -1,0 +1,151 @@
+{
+  "bluePrintName": "RDS Event Subscription",
+  "descriptiveText": "Creates a new resource to get notifications for Amazon Relational Database Service events through the Amazon Simple Notification Service.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "Category": "Databases",
+  "BasePrice": "USD 0.00/ Size / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_RDS_EVENTSUBSCRIPTION_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Details": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-subscriptionName",
+        "value": {
+          "QA 1": "eventsubname",
+          "QA 2": "eventsubname",
+          "QA 4": "eventsubname",
+          "Customer 1": "eventsubname"
+        }
+      }
+    },
+    "Target": {
+      "Send notifications to": {
+        "type": "RadioButton",
+        "id": "radio-button-sendNotificationsTo_Topic_ARN",
+        "value": {
+          "QA 1": "Topic ARN",
+          "QA 2": "Topic ARN",
+          "QA 4": "Topic ARN",
+          "Customer 1": "Topic ARN"
+        }
+      },
+      "ARN": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_topicARN",
+        "value": {
+          "QA 1": "donotdelete",
+          "QA 2": "donotdelete",
+          "QA 4": "donotdelete",
+          "Customer 1": "donotdelete"
+        }
+      }
+    },
+    "Source": {
+      "Source Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_sourceTypes",
+        "value": {
+          "QA 1": "Instances",
+          "QA 2": "Instances",
+          "QA 4": "Instances",
+          "Customer 1": "Instances"
+        }
+      },
+      "Source Type To Include": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_sourceTypeToInclude",
+        "value": {
+          "QA 1": "All instances",
+          "QA 2": "All instances",
+          "QA 4": "All instances",
+          "Customer 1": "All instances"
+        }
+      },
+      "Specific Event": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-specificEvent",
+        "value": {
+          "QA 1": [
+            "creation "
+          ],
+          "QA 2": [
+            "creation "
+          ],
+          "QA 4": [
+            "creation "
+          ],
+          "Customer 1": [
+            "creation "
+          ]
+        }
+      }
+    }
+  }
+}

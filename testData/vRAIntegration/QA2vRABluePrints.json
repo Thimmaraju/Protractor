@@ -1,0 +1,130 @@
+{ 
+	"tier3TraditionalWorkload" :
+	{
+	"bluePrintName": "3 Tier Traditional Workload_v...",
+	"descriptiveText": "3 Tier Traditional Workload_vRealize_7.2",
+	"provider": "VRA",
+	"serviceName": "vrar3tiertest",
+	"Category": "Compute",
+	"EstimatedPrice": "N/A + N/A ",
+	"textinputdetails":
+		 [ ],
+	"dropdownLabels": [{
+	 		"dropdownLabelId": "bx--dropdown-single-parent_app-cpu",
+	 		"label": "App CPU",
+	 		"value": "1"
+	 	},
+	 	{
+			"dropdownLabelId": "bx--dropdown-single-parent_app-server-memory-(mb)",
+			"label": "App server  Memory",
+	 		"value": "4096"
+	 	},
+	 	{
+	 		"dropdownLabelId": "bx--dropdown-single-parent_app-server-storage-(gb)",
+	 		"label": "App server Storage",
+	 		"value": "5"
+	 	},
+		{
+	 		"dropdownLabelId": "bx--dropdown-single-parent_db-server-cpu",
+	 		"label": "DB Server CPU",
+	 		"value": "1"
+	 	},
+	 	{
+			"dropdownLabelId": "bx--dropdown-single-parent_db-server-memory-(mb)",
+			"label": "DB Server Memory",
+	 		"value": "4096"
+	 	},
+	 	{
+	 		"dropdownLabelId": "bx--dropdown-single-parent_db-server-storage-(gb)",
+	 		"label": "DB server Storage",
+	 		"value": "5"
+	 	},
+	 	{
+	 		"dropdownLabelId": "bx--dropdown-single-parent_web-server-cpu",
+	 		"label": "Web Server CPU",
+	 		"value": "1"
+	 	},
+	 	{
+	 		"dropdownLabelId": "bx--dropdown-single-parent_web-server-memory-(mb)",
+	 		"label": "Web Server Memory",
+	 		"value": "4096"
+	 	},
+	 	{
+	 		"dropdownLabelId": "bx--dropdown-single-parent_web-server-storage-(gb)",
+	 		"label": "Web Server Storage",
+	 		"value": "5"
+	 	}
+	 ] 	 
+	},
+	"SingleVMCentOS" :
+	{
+		"bluePrintName": "SingleVM-CentOS",
+		"descriptiveText": "SingleVM-CentOS",
+		"provider": "VRA",
+		"serviceName": "testCentOS",
+		"Category": "Compute",
+		"EstimatedPrice": "US$ 30.00/ SIZE / HR + US$ 10.00",
+		"textinputdetails":
+			 [],
+		"dropdownLabels": 
+			[{
+				"dropdownLabelId": "bx--dropdown-single-parent_cpu",
+				"label": "CPU",
+				"value": "1"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_memory-(mb)",
+				"label": "Memory (MB)",
+				"value": "4096"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_storage-(gb)",
+				"label": "Storage (GB)",
+				"value": "8"
+			}
+		] 	 
+	},
+	"LampStack" :
+	{
+		"bluePrintName": "LAMP Stack",
+		"descriptiveText": "Install LAMP Stack",
+		"provider": "VRA",
+		"serviceName": "testInstall LAMP Stack",
+		"Category": "IT Infrastructure/Blueprints",
+		"EstimatedPrice": "xxx",
+		"textinputdetails":
+			 [],
+		"dropdownLabels": 
+			[{
+				"dropdownLabelId": "selectwordpress_server CPU",
+				"label": "App server CPU",
+				"value": "1"
+			},
+			{
+				"dropdownLabelId": "selectwordpress_server memory",
+				"label": "App server  Memory",
+				"value": "4096"
+			},
+			{
+				"dropdownLabelId": "selectwordpress_server Storage",
+				"label": "App server Storage",
+				"value": "5"
+			},
+			{
+				"dropdownLabelId": "selectmysql_server CPU",
+				"label": "DB Server CPU",
+				"value": "1"
+			},
+			{
+				"dropdownLabelId": "selectmysql_server Memory",
+				"label": "DB Server Memory",
+				"value": "4096"
+			},
+			{
+				"dropdownLabelId": "selectmysql_server Storage",
+				"label": "DB Server Storage",
+				"value": "5"
+			}
+		] 	 
+	}
+}

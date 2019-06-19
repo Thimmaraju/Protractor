@@ -1,0 +1,155 @@
+{
+	"bluePrintName": "BAREMETALHOURLY_SERVICE",
+	"descriptiveText": "BAREMETALHOURLY_SERVICE",
+	"provider": "Softlayer",
+	"serviceName": "BAREMETALHOURLY_SERVICE",
+	"Category": "Compute",
+	"EstimatedPrice": "N/A",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			}
+		},
+		"Instance Details": {
+			"Hostname": {
+				"type": "Textbox",
+				"id": "text-input-hostname",
+				"value": {
+					"QA 2": "Automation",
+					"QA 4": "Automation",
+					"Customer 1": "Automation"
+				}
+			},
+			"Domain": {
+				"type": "Textbox",
+				"id": "text-input-domain",
+				"value": {
+					"QA 2": "Automation.com",
+					"QA 4": "Automation.com",
+					"Customer 1": "Automation.com"
+				}
+			},
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 2": "Dallas 1",
+					"QA 4": "Dallas 1",
+					"Customer 1": "Dallas 1"
+				}
+			}
+		},
+		"System Specification": {
+			"Hardware Configuration (Processor + RAM + Hard disk)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_hardware-configuration-(processor-+-ram-+-hard-disk)-",
+				"value": {
+					"QA 2": "Single Xeon 1270, 32GB Ram, 1x1TB SATA disks, Non-RAID",
+					"QA 4": "Single Xeon 1270, 32GB Ram, 1x1TB SATA disks, Non-RAID",
+					"Customer 1": "Single Xeon 1270, 32GB Ram, 1x1TB SATA disks, Non-RAID"
+				}
+			},
+			"Operating System": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_operating-system",
+				"value": {
+					"QA 2": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)",
+					"QA 4": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)",
+					"Customer 1": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)"
+				}
+			}
+		},
+		"Network Details": {
+			"Private Network Only": {
+				"type": "RadioButton",
+				"id": "radio-button-private_network_only_Private_Network Only",
+				"value": {
+					"QA 2": "Private Network Only",
+					"QA 4": "Private Network Only",
+					"Customer 1": "Private Network Only"
+				}
+			},
+			"Redundant Network": {
+				"type": "RadioButton",
+				"id": "radio-button-redundant_network_Non_Redundant Network",
+				"value": {
+					"QA 2": "Non Redundant Network",
+					"QA 4": "Non Redundant Network",
+					"Customer 1": "Non Redundant Network"
+				}
+			},
+			"Unbonded Network": {
+				"type": "RadioButton",
+				"id": "radio-button-unbonded_network_Bonded_Network",
+				"value": {
+					"QA 2": "Bonded Network",
+					"QA 4": "Bonded Network",
+					"Customer 1": "Bonded Network"
+				}
+			},
+			"Network Speed (Mbps)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_network-speed-(mbps)",
+				"value": {
+					"QA 2": "100 Mbps Private Network Uplink",
+					"QA 4": "100 Mbps Private Network Uplink",
+					"Customer 1": "100 Mbps Private Network Uplink"
+				}
+			}
+		},
+		"Other Details": {
+			"SSH key ids": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ssh-key-ids",
+				"value": {
+					"QA 2": "1008757",
+					"QA 4": "1008757",
+					"Customer 1": "1008757"
+				}
+			},
+			"User Metadata": {
+				"type": "Textbox",
+				"id": "text-input-user_metadata",
+				"value": {
+					"QA 2": "Order Through Automation",
+					"QA 4": "Order Through Automation",
+					"Customer 1": "Order Through Automation"
+				}
+			},
+			"Post Install Script URI": {
+				"type": "Textbox",
+				"id": "text-input-post_install_script_uri",
+				"value": {
+					"QA 2": "http://www.ibm.com/",
+					"QA 4": "http://www.ibm.com/",
+					"Customer 1": "http://www.ibm.com/"
+				}
+			},
+			"Tags": {
+				"type": "Textbox",
+				"id": "text-input-tags",
+				"value": {
+					"QA 2": "Automation Order Tag",
+					"QA 4": "Automation Order Tag",
+					"Customer 1": "Automation Order Tag"
+				}
+			}
+		}
+	}
+}

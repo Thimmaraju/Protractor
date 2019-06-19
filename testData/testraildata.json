@@ -1,0 +1,11 @@
+{
+    "createNewSuite":false,
+    "postToTestRail":false,
+    "apiKey":"Basic cGFydGhhLmtyaXNobmFtb29ydGh5QGlibS5jb206bGVyUFJ6OC4uY2p5QWx4M2dLMVUtdkx2TkZlZG9JV0RtSUdzSWZtZGk=",
+    "url":"https://gravitant.testrail.com/index.php?/api/v2",
+    "getTestEndPoint":"/get_cases/19&suite_id=2376&section_id=30645",
+    "addTestEndPoint":"/add_case/30645",
+    "addRunEndPoint":"/add_run/19",
+    "closeRunEndPoint":"/close_run/",
+    "postResultEndPoint":"/add_result_for_case/"
+}

@@ -1,0 +1,117 @@
+{
+	"bluePrintName": "Cloud DNS",
+	"descriptiveText": "Cloud DNS publishes Google Cloud Platform domain names to a global DNS. Migrate your existing DNS records to Cloud DNS. Customize DNS names by global or zonal location and project metadata.",
+	"provider": "Google",
+	"serviceName": "testInstanceForGcp",
+	"Category": "Network",
+	"BasePrice": "USD 0.60/ managedZone/millionQueries / MONTH + USD 0.00", 
+	"TotalCost": "USD 0.20",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.20 / MONTH",	
+	"serviceId":"Cloud DNS",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service921022",
+					"QA 2": "service921022",
+					"QA 3": "service921022",
+					"QA 4": "service921022",
+					"Customer 1": "service921022"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Environment1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Application1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+		      "Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+				  "QA 1": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+				}
+      			}
+		},
+		"Zone Details": {
+				"Zone name":{
+					"type": "Textbox",
+					"id": "text-input-zoneName",
+					"value": {
+						"QA 1": "gcp-test-cbs02",
+						"QA 2": "gcp-test-cbs02",
+						"QA 3": "gcp-test-cbs02",
+						"QA 4": "gcp-test-cbs02",
+						"Customer 1": "gcp-test-cbs02"
+					}
+				},
+				"Description":{
+					"type": "Textbox",
+					"id": "text-input-description",
+					"value": {
+						"QA 1": "DNS Zone Description",
+						"QA 2": "DNS Zone Description",
+						"QA 3": "DNS Zone Description",
+						"QA 4": "DNS Zone Description",
+						"Customer 1": "DNS Zone Description"
+					}
+				}
+		},
+		"DNS Details":{
+			"DNS name":{
+				"type": "Textbox",
+				"id": "text-input-dnsName",
+				"value": {
+					"QA 1": "gcp.test.cbs02",
+					"QA 2": "gcp.test.cbs02",
+					"QA 3": "gcp.test.cbs02",
+					"QA 4": "gcp.test.cbs02",
+					"Customer 1": "gcp.test.cbs02"
+				}
+			},
+
+			"DNSSEC State":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_dnssecConfigState",
+				"value": {
+					"QA 1": "Transfer",
+					"QA 2": "Transfer",
+					"QA 3": "Transfer",
+					"QA 4": "Transfer",
+					"Customer 1": "Transfer"
+				}
+			}
+		}
+	}	
+}

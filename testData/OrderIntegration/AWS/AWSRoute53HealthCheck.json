@@ -1,0 +1,389 @@
+{
+  "bluePrintName": "Route 53 Health Check",
+  "descriptiveText": "AWS CloudFormation template to create Route53 Health Check record, can be either of Endpoint, CloudWatch Alarm or Calculated (based on other health check records)",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testRoute53HealthCheck",
+  "Category": "Network",
+  "BasePrice": "USD 0.50/ Health-Check / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_ROUTE53_HEALTH_CHECK_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Configure Health Check": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-name",
+        "value": {
+          "QA 1": "Namess1",
+          "QA 2": "Namess1",
+          "QA 4": "Namess1",
+          "Customer 1": "Namess1"
+        }
+      },
+      "What to monitor": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_whatToMonitor",
+        "value": {
+          "QA 1": "Endpoint",
+          "QA 2": "Endpoint",
+          "QA 4": "Endpoint",
+          "Customer 1": "Endpoint"
+        }
+      },
+      "Specify endpoint by": {
+        "type": "RadioButton",
+        "id": "radio-button-specifyEndpointBy_Domain_Name",
+        "value": {
+          "QA 1": "Domain Name",
+          "QA 2": "Domain Name",
+          "QA 4": "Domain Name",
+          "Customer 1": "Domain Name"
+        }
+      },
+      "Protocol": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_protocol",
+        "value": {
+          "QA 1": "TCP",
+          "QA 2": "TCP",
+          "QA 4": "TCP",
+          "Customer 1": "TCP"
+        }
+      },
+      "Domain Name": {
+        "type": "Textbox",
+        "id": "text-input-domainName",
+        "value": {
+          "QA 1": "www.google.com",
+          "QA 2": "www.google.com",
+          "QA 4": "www.google.com",
+          "Customer 1": "www.google.com"
+        }
+      },
+      "Port": {
+        "type": "Textbox",
+        "id": "slider-input-box-port",
+        "value": {
+          "QA 1": "10",
+          "QA 2": "10",
+          "QA 4": "10",
+          "Customer 1": "10"
+        }
+      },
+      "Select type of endpoint": {
+        "type": "RadioButton",
+        "id": "radio-button-endpointType_AWS",
+        "value": {
+          "QA 1": "AWS",
+          "QA 2": "AWS",
+          "QA 4": "AWS",
+          "Customer 1": "AWS"
+        }
+      }
+    },
+    "Advanced configuration": {
+      "Request Interval": {
+        "type": "RadioButton",
+        "id": "radio-button-requestInterval_Standard-30Seconds",
+        "value": {
+          "QA 1": "Standard-30Seconds",
+          "QA 2": "Standard-30Seconds",
+          "QA 4": "Standard-30Seconds",
+          "Customer 1": "Standard-30Seconds"
+        }
+      },
+      "Failure threshold": {
+        "type": "Textbox",
+        "id": "slider-input-box-failureThreshold",
+        "value": {
+          "QA 1": "4",
+          "QA 2": "4",
+          "QA 4": "4",
+          "Customer 1": "4"
+        }
+      },
+      "Latency graphs": {
+        "type": "RadioButton",
+        "id": "radio-button-latencyGraphs_false",
+        "value": {
+          "QA 1": "false",
+          "QA 2": "false",
+          "QA 4": "false",
+          "Customer 1": "false"
+        }
+      },
+      "Invert health check status": {
+        "type": "RadioButton",
+        "id": "radio-button-invertHealthCheckStatus_false",
+        "value": {
+          "QA 1": "false",
+          "QA 2": "false",
+          "QA 4": "false",
+          "Customer 1": "false"
+        }
+      },
+      "Health checker regions": {
+        "type": "RadioButton",
+        "id": "radio-button-healthCheckerRegions_Use_recommended",
+        "value": {
+          "QA 1": "Use recommended",
+          "QA 2": "Use recommended",
+          "QA 4": "Use recommended",
+          "Customer 1": "Use recommended"
+        }
+      },
+      "Create Alarm": {
+        "type": "RadioButton",
+        "id": "radio-button-createAlarm_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      }
+    },
+    "Add Tags": {
+      "Tags": {
+        "type": "Button",
+        "id": "button-TagsAdd0",
+        "value": {
+          "QA 1": " ",
+          "QA 2": " ",
+          "QA 4": " ",
+          "Customer 1": " "
+        }
+      },
+      "Key": {
+        "type": "Textbox",
+        "id": "text-input-Key1",
+        "value": {
+          "QA 1": "testkeyd",
+          "QA 2": "testkeyd",
+          "QA 4": "testkeyd",
+          "Customer 1": "testkeyd"
+        }
+      },
+      "Value": {
+        "type": "Textbox",
+        "id": "text-input-Value1",
+        "value": {
+          "QA 1": "testvalue",
+          "QA 2": "testvalue",
+          "QA 4": "testvalue",
+          "Customer 1": "testvalue"
+        }
+      }
+    }
+  },
+  "Edit Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      }
+    },
+    "Configure Health Check": {
+      "Domain Name": {
+        "type": "Textbox",
+        "id": "text-input-domainName",
+        "value": {
+          "QA 1": "abcdefg",
+          "QA 2": "abcdefg",
+          "QA 4": "abcdefg",
+          "Customer 1": "abcdefg"
+        }
+      }
+    },
+    "Advanced configuration": {
+      "Invert health check status": {
+        "type": "RadioButton",
+        "id": "radio-button-invertHealthCheckStatus_true",
+        "value": {
+          "QA 1": "true",
+          "QA 2": "true",
+          "QA 4": "true",
+          "Customer 1": "true"
+        }
+      },
+      "Create Alarm": {
+        "type": "RadioButton",
+        "id": "radio-button-createAlarm_Yes",
+        "value": {
+          "QA 1": "Yes",
+          "QA 2": "Yes",
+          "QA 4": "Yes",
+          "Customer 1": "Yes"
+        }
+      },
+      "Alarm Name": {
+        "type": "Textbox",
+        "id": "text-input-alarmName",
+        "value": {
+          "QA 1": "alarmNameo",
+          "QA 2": "alarmNameo",
+          "QA 4": "alarmNameo",
+          "Customer 1": "alarmNameo"
+        }
+      },
+      "Send notification to": {
+        "type": "RadioButton",
+        "id": "radio-button-sendNotificationto_Existing_SNS topic",
+        "value": {
+          "QA 1": "Existing SNS topic",
+          "QA 2": "Existing SNS topic",
+          "QA 4": "Existing SNS topic",
+          "Customer 1": "Existing SNS topic"
+        }
+      },
+      "Topic ARN": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_topicArn",
+        "value": {
+          "QA 1": "donotdelete",
+          "QA 2": "donotdelete",
+          "QA 4": "donotdelete",
+          "Customer 1": "donotdelete"
+        }
+      },
+      "Threshold": {
+        "type": "Textbox",
+        "id": "text-input-threshold",
+        "value": {
+          "QA 1": "0",
+          "QA 2": "0",
+          "QA 4": "0",
+          "Customer 1": "0"
+        }
+      }
+    },
+    "Add Tags": {
+      "Key": {
+        "type": "Textbox",
+        "id": "text-input-Key1",
+        "value": {
+          "QA 1": "testkey2",
+          "QA 2": "testkey2",
+          "QA 4": "testkey2",
+          "Customer 1": "testkey2"
+        }
+      },
+      "Value": {
+        "type": "Textbox",
+        "id": "text-input-Value1",
+        "value": {
+          "QA 1": "testvalues",
+          "QA 2": "testvalues",
+          "QA 4": "testvalues",
+          "Customer 1": "testvalues"
+        }
+      }
+    }
+  }
+}

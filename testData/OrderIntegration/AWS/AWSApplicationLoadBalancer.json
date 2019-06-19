@@ -1,0 +1,393 @@
+{
+  "bluePrintName": "Application Load Balancer",
+  "descriptiveText": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "Category": "Network",
+  "BasePrice": "USD 0.0225/ SIZE / HR + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 16.74 / MONTH",
+  "TotalCost": "USD 16.74",
+  "serviceId": "CB_AWS_CF_AELB_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "servicesns01",
+          "QA 2": "servicesns01",
+          "QA 4": "servicesns01",
+          "Customer 1": "servicesns01"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Basic Configuration": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-name",
+        "value": {
+          "QA 1": "Name1",
+          "QA 2": "Name1",
+          "QA 4": "Name1",
+          "Customer 1": "Name1"
+        }
+      },
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      },
+      "Availability Zones": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-availabilityZones",
+        "value": {
+          "QA 1": [
+            "us-east-1a",
+            "us-east-1b"
+          ],
+          "QA 2": [
+            "us-east-1a",
+            "us-east-1b"
+          ],
+          "QA 4": [
+            "us-east-1a",
+            "us-east-1b"
+          ],
+          "Customer 1": [
+            "us-east-1a",
+            "us-east-1b"
+          ]
+        }
+      },
+      "Subnet": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-subnet",
+        "value": {
+          "QA 1": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 2": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 4": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "Customer 1": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ]
+        }
+      },
+      "Scheme": {
+        "type": "RadioButton",
+        "id": "radio-button-scheme_internet-facing",
+        "value": {
+          "QA 1": "internet-facing",
+          "QA 2": "internet-facing",
+          "QA 4": "internet-facing",
+          "Customer 1": "internet-facing"
+        }
+      },
+      "IP Address Type": {
+        "type": "RadioButton",
+        "id": "radio-button-ipAddressType_ipv4",
+        "value": {
+          "QA 1": "ipv4",
+          "QA 2": "ipv4",
+          "QA 4": "ipv4",
+          "Customer 1": "ipv4"
+        }
+      }
+    },
+    "Listener": {
+      "First Load Balancer Port": {
+        "type": "Textbox",
+        "id": "text-input-loadBalancerPort1",
+        "value": {
+          "QA 1": "80",
+          "QA 2": "80",
+          "QA 4": "80",
+          "Customer 1": "80"
+        }
+      },
+      "First Load Balancer Protocol": {
+        "type": "RadioButton",
+        "id": "radio-button-loadBalancerProtocol1_HTTP",
+        "value": {
+          "QA 1": "HTTP",
+          "QA 2": "HTTP",
+          "QA 4": "HTTP",
+          "Customer 1": "HTTP"
+        }
+      },
+      "Second Load Balancer Port": {
+        "type": "Textbox",
+        "id": "text-input-loadBalancerPort2",
+        "value": {
+          "QA 1": "443",
+          "QA 2": "443",
+          "QA 4": "443",
+          "Customer 1": "443"
+        }
+      },
+      "Second Load Balancer Protocol": {
+        "type": "RadioButton",
+        "id": "radio-button-loadBalancerProtocol2_HTTP",
+        "value": {
+          "QA 1": "HTTP",
+          "QA 2": "HTTP",
+          "QA 4": "HTTP",
+          "Customer 1": "HTTP"
+        }
+      }
+    },
+    "Add Tags": {
+      "Tag Key": {
+        "type": "Textbox",
+        "id": "text-input-tagKey",
+        "value": {
+          "QA 1": "Name1",
+          "QA 2": "Name1",
+          "QA 4": "Name1",
+          "Customer 1": "Name1"
+        }
+      },
+      "Tag Value": {
+        "type": "Textbox",
+        "id": "text-input-tagValue",
+        "value": {
+          "QA 1": "Value1",
+          "QA 2": "Value1",
+          "QA 4": "Value1",
+          "Customer 1": "Value1"
+        }
+      }
+    },
+    "Configure Security Groups": {
+      "Security Group": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-securityGroup",
+        "value": {
+          "QA 1": [
+            "sg-4e88232a"
+          ],
+          "QA 2": [
+            "sg-4e88232a"
+          ],
+          "QA 4": [
+            "sg-4e88232a"
+          ],
+          "Customer 1": [
+            "sg-4e88232a"
+          ]
+        }
+      }
+    },
+    "Target Group": {
+      "Target Group Name": {
+        "type": "Textbox",
+        "id": "text-input-targetGroupName",
+        "value": {
+          "QA 1": "Name1",
+          "QA 2": "Name1",
+          "QA 4": "Name1",
+          "Customer 1": "Name1"
+        }
+      },
+      "Target Group Protocol": {
+        "type": "RadioButton",
+        "id": "radio-button-targetGroupProtocol_HTTP",
+        "value": {
+          "QA 1": "HTTP",
+          "QA 2": "HTTP",
+          "QA 4": "HTTP",
+          "Customer 1": "HTTP"
+        }
+      },
+      "Target Group Port": {
+        "type": "Textbox",
+        "id": "text-input-targetGroupPort",
+        "value": {
+          "QA 1": "80",
+          "QA 2": "80",
+          "QA 4": "80",
+          "Customer 1": "80"
+        }
+      },
+      "Target Type": {
+        "type": "RadioButton",
+        "id": "radio-button-targetType_ip",
+        "value": {
+          "QA 1": "ip",
+          "QA 2": "ip",
+          "QA 4": "ip",
+          "Customer 1": "ip"
+        }
+      },
+      "IP": {
+        "type": "Textbox",
+        "id": "text-input-IP",
+        "value": {
+          "QA 1": "172.31.17.1,172.31.17.2",
+          "QA 2": "172.31.17.1,172.31.17.2",
+          "QA 4": "172.31.17.1,172.31.17.2",
+          "Customer 1": "172.31.17.1,172.31.17.2"
+        }
+      },
+      "Target Port": {
+        "type": "Textbox",
+        "id": "text-input-targetPort",
+        "value": {
+          "QA 1": "80,88",
+          "QA 2": "80,88",
+          "QA 4": "80,88",
+          "Customer 1": "80,88"
+        }
+      }
+    },
+    "Health Checks": {
+      "Healthcheck Protocol": {
+        "type": "RadioButton",
+        "id": "radio-button-healthcheckProtocol_HTTP",
+        "value": {
+          "QA 1": "HTTP",
+          "QA 2": "HTTP",
+          "QA 4": "HTTP",
+          "Customer 1": "HTTP"
+        }
+      },
+      "Healthcheck Path": {
+        "type": "Textbox",
+        "id": "text-input-healthcheckPath",
+        "value": {
+          "QA 1": "/",
+          "QA 2": "/",
+          "QA 4": "/",
+          "Customer 1": "/"
+        }
+      }
+    },
+    "Advanced health check settings": {
+      "Healthcheck Port": {
+        "type": "RadioButton",
+        "id": "radio-button-healthcheckPort_traffic-port",
+        "value": {
+          "QA 1": "traffic-port",
+          "QA 2": "traffic-port",
+          "QA 4": "traffic-port",
+          "Customer 1": "traffic-port"
+        }
+      },
+      "Healthy Threshold": {
+        "type": "Textbox",
+        "id": "slider-input-box-healthyThreshold",
+        "value": {
+          "QA 1": "5",
+          "QA 2": "5",
+          "QA 4": "5",
+          "Customer 1": "5"
+        }
+      },
+      "Unhealthy Threshold": {
+        "type": "Textbox",
+        "id": "slider-input-box-unhealthyThreshold",
+        "value": {
+          "QA 1": "2",
+          "QA 2": "2",
+          "QA 4": "2",
+          "Customer 1": "2"
+        }
+      },
+      "Timeout In Seconds": {
+        "type": "Textbox",
+        "id": "slider-input-box-timeoutInSeconds",
+        "value": {
+          "QA 1": "5",
+          "QA 2": "5",
+          "QA 4": "5",
+          "Customer 1": "5"
+        }
+      },
+      "Interval In Seconds": {
+        "type": "Textbox",
+        "id": "slider-input-box-intervalInSeconds",
+        "value": {
+          "QA 1": "30",
+          "QA 2": "30",
+          "QA 4": "30",
+          "Customer 1": "30"
+        }
+      },
+      "Success Codes": {
+        "type": "Textbox",
+        "id": "text-input-successCodes",
+        "value": {
+          "QA 1": "200",
+          "QA 2": "200",
+          "QA 4": "200",
+          "Customer 1": "200"
+        }
+      }
+    }
+  }
+}

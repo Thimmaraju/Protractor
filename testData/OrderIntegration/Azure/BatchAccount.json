@@ -1,0 +1,257 @@
+{
+    "bluePrintName": "Batch Account",
+    "descriptiveText": "Batch Account",
+    "provider": "Azure",
+    "Category": "Compute",
+    "BasePrice": "USD 0.00/ MONTH + USD 0.00",
+    "EstimatedCost": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+    "TotalCost": "USD 0.00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation",
+                    "QA 2": "TestAutomation",
+                    "QA 3": "TestAutomation",
+                    "QA 4": "TestAutomation",
+                    "Customer 1": "TestAutomation"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 3": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "azure-TEAM1 / azure-TEAM1",
+                    "QA 2": "azure-TEAM1 / azure-TEAM1",
+                    "QA 3": "azure-qa / azure-qa",
+                    "QA 4": "azure-qa / azure-qa",
+                    "Customer 1": "azure-qa / azure-qa"
+                }
+            }
+        },
+        "Resource Group Parameters": {
+            "New Resource Group Required": {
+                "type": "RadioButton",
+                "id": "radio-button-newResourceGroupRequired_Yes",
+                "value": {
+                    "QA 1": "Yes",
+                    "QA 2": "Yes",
+                    "QA 3": "Yes",
+                    "QA 4": "Yes",
+                    "Customer 1": "Yes"
+                }
+            },
+            "New Resource Group": {
+                "type": "Textbox",
+                "id": "text-input-newResourceGroup",
+                "value": {
+                    "QA 1": "AutoWA-RG101",
+                    "QA 2": "AutoWA-RG101",
+                    "QA 3": "AutoWA-RG101",
+                    "QA 4": "AutoWA-RG101",
+                    "Customer 1": "AutoWA-RG101"
+                }
+            },
+            "Location": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_location",
+                "value": {
+                    "QA 1": "Australia East",
+                    "QA 2": "Australia East",
+                    "QA 3": "Australia East",
+                    "QA 4": "Australia East",
+                    "Customer 1": "Australia East"
+                }
+            }
+        },
+        "Batch Account Parameters": {
+            "Batch Account Name": {
+                "type": "Textbox",
+                "id": "text-input-batchAccountName",
+                "value": {
+                    "QA 1": "autobaname",
+                    "QA 2": "autobaname",
+                    "QA 3": "autobaname",
+                    "QA 4": "autobaname",
+                    "Customer 1": "autobaname"
+                }
+            },
+            "Batch Account Location": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_batchAccountLocation",
+                "value": {
+                    "QA 1": "Brazil South",
+                    "QA 2": "Brazil South",
+                    "QA 3": "Brazil South",
+                    "QA 4": "Brazil South",
+                    "Customer 1": "Brazil South"
+                }
+            },
+            "Storage Account": {
+                "type": "RadioButton",
+                "id": "radio-button-storageAccount_Create_New",
+                "value": {
+                    "QA 1": "Create New",
+                    "QA 2": "Create New",
+                    "QA 3": "Create New",
+                    "QA 4": "Create New",
+                    "Customer 1": "Create New"
+                }
+            },
+            "Storage Account Name": {
+                "type": "Textbox",
+                "id": "text-input-storageAccountName",
+                "value": {
+                    "QA 1": "saname101",
+                    "QA 2": "saname101",
+                    "QA 3": "saname101",
+                    "QA 4": "saname101",
+                    "Customer 1": "saname101"
+                }
+            },
+            "Account Kind": {
+                "type": "RadioButton",
+                "id": "radio-button-accountKind_Storage",
+                "value": {
+                    "QA 1": "Storage",
+                    "QA 2": "Storage",
+                    "QA 3": "Storage",
+                    "QA 4": "Storage",
+                    "Customer 1": "Storage"
+                }
+            },
+            "Performance": {
+                "type": "RadioButton",
+                "id": "radio-button-performance_Standard",
+                "value": {
+                    "QA 1": "Standard",
+                    "QA 2": "Standard",
+                    "QA 3": "Standard",
+                    "QA 4": "Standard",
+                    "Customer 1": "Standard"
+                }
+            },
+            "Replication Type": {
+                "type": "RadioButton",
+                "id": "radio-button-replicationType_Standard_GRS",
+                "value": {
+                    "QA 1": "Standard_GRS",
+                    "QA 2": "Standard_GRS",
+                    "QA 3": "Standard_GRS",
+                    "QA 4": "Standard_GRS",
+                    "Customer 1": "Standard_GRS"
+                }
+            }
+        },
+        "Pool Allocation Parameters": {
+            "Pool Allocation Mode": {
+                "type": "RadioButton",
+                "id": "radio-button-poolAllocationMode_Batch_Service",
+                "value": {
+                    "QA 1": "Batch Service",
+                    "QA 2": "Batch Service",
+                    "QA 3": "Batch Service",
+                    "QA 4": "Batch Service",
+                    "Customer 1": "Batch Service"
+                }
+            }
+        }
+    },
+    "Edit Parameters": {
+        "Resource Group Parameters": {
+            "New Resource Group": {
+                "type": "Textbox",
+                "id": "text-input-newResourceGroup",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Batch Account Parameters": {
+            "Storage Account Name": {
+                "type": "Textbox",
+                "id": "text-input-storageAccountName",
+                "value": {
+                    "QA 1": "saname101",
+                    "QA 2": "saname101",
+                    "QA 3": "saname101",
+                    "QA 4": "saname101",
+                    "Customer 1": "saname101"
+                }
+            },
+            "Account Kind": {
+                "type": "RadioButton",
+                "id": "radio-button-accountKind_StorageV2",
+                "value": {
+                    "QA 1": "StorageV2",
+                    "QA 2": "StorageV2",
+                    "QA 3": "StorageV2",
+                    "QA 4": "StorageV2",
+                    "Customer 1": "StorageV2"
+                }
+            },
+            "Replication Type": {
+                "type": "RadioButton",
+                "id": "radio-button-replicationType_Standard_RAGRS",
+                "value": {
+                    "QA 1": "Standard_RAGRS",
+                    "QA 2": "Standard_RAGRS",
+                    "QA 3": "Standard_RAGRS",
+                    "QA 4": "Standard_RAGRS",
+                    "Customer 1": "Standard_RAGRS"
+                }
+            }
+            },
+            "Pool Allocation Parameters": {
+                "Pool Allocation Mode": {
+                    "type": "RadioButton",
+                    "id": "radio-button-poolAllocationMode_Batch_Service",
+                    "value": {
+                        "QA 1": "",
+                        "QA 2": "",
+                        "QA 3": "",
+                        "QA 4": "",
+                        "Customer 1": ""
+                    }
+                }
+            }
+        }
+    }
+

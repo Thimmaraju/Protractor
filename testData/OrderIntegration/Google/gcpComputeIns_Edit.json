@@ -1,0 +1,356 @@
+{
+	"bluePrintName": "Compute Engine",
+	"descriptiveText": "The Google Compute Engine is the same engine Google uses to run services like its search engine, maps, and mail. This Infrastructure as an Service (IaaS) allows users to build virtual machines based on images of their own systems.",
+	"provider": "Google",
+	"serviceName": "testInstanceForGcp",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 5,577.60 / MONTH",
+	"serviceId":"Compute Engine",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service9222",
+					"QA 2": "service9222",
+					"QA 3": "service9222",
+					"QA 4": "service9222",
+					"Customer 1": "service9222"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "app",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+		      "Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+				  "QA 1": "",
+				  "QA 2": "",
+				  "QA 3": "",
+				  "QA 4": "",
+				  "Customer 1": ""
+				}
+      			}
+		},
+		"Configure Region": {
+				"Region":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_region",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 3": "",
+						"QA 4": "",
+						"Customer 1": ""
+					}
+				},
+				"Zone":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_zone",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 3": "",
+						"QA 4": "",
+						"Customer 1": ""
+					}
+				}
+		},
+		"Configure Compute Engine":{
+			"Instance Name":{
+				"type": "Textbox",
+				"id": "text-input-instanceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Machine Type":{
+			"Machine Type Edit Option":{
+				"type": "RadioButton",
+				"id": "radio-button-selectedMachine_Customize",
+				"value": {
+					"QA 1": "Customize",
+					"QA 2": "Customize",
+					"QA 3": "Customize",
+					"QA 4": "Customize",
+					"Customer 1": "Customize"
+				}
+			},
+			"CPU Type":{
+				"type": "RadioButton",
+					"id": "radio-button-customizedMachine_cpuType_vCPU",
+					"value": {
+						"QA 2": "vCPU",
+						"QA 1": "vCPU",
+						"QA 3": "vCPU",
+						"QA 4": "vCPU",
+						"Customer 1": "vCPU"
+					}
+			},
+			"CPU Cores":{
+				"type": "Textbox",
+				"id": "text-input-customizedMachine_cpuCount",
+				"value": {
+					"QA 1": "4",
+					"QA 2": "4",
+					"QA 3": "4",
+					"QA 4": "4",
+					"Customer 1": "4"
+				}
+			},
+			"CPU Memory":{
+				"type": "Textbox",
+				"id": "slider-input-box-customizedMachine_cpuMemory",
+				"value": {
+					"QA 1": "15",
+					"QA 2": "15",
+					"QA 3": "15",
+					"QA 4": "15",
+					"Customer 1": "15"
+				}
+			},
+			"CPU platform":{
+				"type": "RadioButton",
+					"id": "radio-button-customizedMachine_minCpuPlatform_Intel_Skylake",
+					"value": {
+						"QA 2": "Intel Skylake",
+						"QA 1": "Intel Skylake",
+						"QA 3": "Intel Skylake",
+						"QA 4": "Intel Skylake",
+						"Customer 1": "Intel Skylake"
+					}
+			}
+		
+		},
+		"Configure Container":{
+			"Deploy Container":{
+				"type": "RadioButton",
+				"id": "radio-button-container_deployContainer_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Boot Disk":{
+			"Source Image Type" : {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bootDisk_sourceImageType",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"" : {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bootDisk_OSImage",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+					
+				}
+			},
+			"Boot Disk Type":{
+				"type": "RadioButton",
+				"id": "radio-button-bootDisk_diskType_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+
+			},			
+			"Boot Disk Size in GB":{
+				"type": "Textbox",
+				"id": "slider-input-box-bootDisk_sizeGb",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Deletion Rule ?":{
+				"type": "RadioButton",
+				"id": "radio-button-bootDisk_autoDelete_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Encryption" : {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bootDisk_encryption",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+
+		},
+		"Configure Disk":{
+			"Add Additional Disk":{
+				"type": "RadioButton",
+				"id": "radio-button-disks_confirm_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}		
+		},
+		"Configure IAM":{
+			"AccessManagement":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_accessManagement",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}		
+		},
+		"Configure Firewall":{
+			"Enable HTTP":{
+				"type": "RadioButton",
+				"id": "radio-button-firewall_enableHTTP_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Enable HTTPS":{
+				"type": "RadioButton",
+				"id": "radio-button-firewall_enableHTTPS_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Network":{
+			"Network Tags":{
+				"type": "Textbox",
+				"id": "text-input-networkInterface_tags",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Network Interface?":{
+				"type": "RadioButton",
+				"id": "radio-button-networkInterface_networkSelect_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}		
+		},
+		"Configure SSH":{
+			"Block project wide SSH keys":{
+				"type": "RadioButton",
+				"id": "radio-button-ssh_blockProjectWideSSH_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Add Public SSH Key":{
+				"type": "RadioButton",
+				"id": "radio-button-ssh_addSSH_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Management":{
+			"Description":{
+				"type": "Textbox",
+				"id": "text-input-management_description",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		}				
+	}
+}

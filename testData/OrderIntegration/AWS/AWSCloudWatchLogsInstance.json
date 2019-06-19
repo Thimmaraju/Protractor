@@ -1,0 +1,112 @@
+{
+  "bluePrintName": "CloudWatch Logs",
+  "descriptiveText": "The Amazon CloudWatch Logs service monitors, accesses, and archives log files generated from cloud resources.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceName": "testInstanceForCloudWatchLogs",
+  "Category": "Storage",
+  "BasePrice": "USD 0.50/ GB / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.53 / MONTH",
+  "TotalCost": "USD 0.53",
+  "serviceId": "CB_AWS_CF_CLOUDWATCHLOGS_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation",
+          "QA 2": "TestAutomation",
+          "QA 4": "TestAutomation",
+          "Customer 1": "TestAutomation"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-west-2",
+          "QA 2": "us-west-2",
+          "QA 4": "us-west-2",
+          "Customer 1": "us-west-2"
+        }
+      }
+    },
+    "Create Log Group": {
+      "Log Group Name": {
+        "type": "Textbox",
+        "id": "text-input-logGroupName",
+        "value": {
+          "QA 1": "testLogGroudName",
+          "QA 2": "testLogGroudName",
+          "QA 4": "testLogGroudName",
+          "Customer 1": "testLogGroudName"
+        }
+      },
+      "Expire Events After": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_expireEventsAfter",
+        "value": {
+          "QA 1": "1",
+          "QA 2": "1",
+          "QA 4": "1",
+          "Customer 1": "1"
+        }
+      }
+    },
+    "Create Log Stream": {
+      "Log Stream Name": {
+        "type": "Textbox",
+        "id": "text-input-logStreamName",
+        "value": {
+          "QA 1": "testLogStream",
+          "QA 2": "testLogStream",
+          "QA 4": "testLogStream",
+          "Customer 1": "testLogStream"
+        }
+      }
+    }
+  }
+}

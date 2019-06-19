@@ -1,0 +1,121 @@
+{
+	"bluePrintName": "Multi VLAN Firewall",
+	"descriptiveText": "Multi VLAN Firewall",
+	"providerName": "IBM Cloud",
+	"serviceName": "Multi VLAN Firewall",
+	"Category": "Security & Identity",
+	"estimatedCost": "USD 3,624.00/ MONTH + USD 0.00",
+	"totalCost": "USD 3,986.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Firewall Details": {
+			"Firewall Name": {
+				"type": "Textbox",
+				"id": "text-input-name",
+				"value": {
+					"QA 1": "TestMultiVLAN",
+					"QA 2": "TestMultiVLAN",
+					"QA 4": "TestMultiVLAN",
+					"Customer 1": "TestMultiVLAN"
+				}
+			},
+			"Choose Firewall Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_firewall_type",
+				"value": {
+					"QA 1": "Single FortiGate Security Appliance",
+					"QA 2": "Single FortiGate Security Appliance",
+					"QA 4": "Single FortiGate Security Appliance",
+					"Customer 1": "Single FortiGate Security Appliance"
+				}
+			}
+		},
+		"Location Details": {
+			"Select Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Frankfurt 2",
+					"QA 2": "Frankfurt 2",
+					"QA 4": "Dallas 13",
+					"Customer 1": "Dallas 13"
+				}
+			},
+			"Select Pod": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_pod",
+				"value": {
+					"QA 1": "fra02.pod02",
+					"QA 2": "fra02.pod02",
+					"QA 4": "dal13.pod02",
+					"Customer 1": "dal13.pod02"
+				}
+			}
+		},
+		"Add on Details":{
+			"Add On Configuration" : {
+				"type":"Dropdown",
+				"id":"bx--dropdown-multi-parent_add-on-configuration",
+				"value" : {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+
+		}
+
+	}
+}

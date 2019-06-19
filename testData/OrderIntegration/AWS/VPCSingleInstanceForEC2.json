@@ -1,0 +1,199 @@
+{
+	"bluePrintName": "Virtual Private Cloud (VPC)",
+	"descriptiveText": "Example VPC that has two public subnets and two private subnets in different AZs NATs to enable instances in private subnets to access the internet and bastion hosts to moderate SSH access",
+	"provider": "Amazon",
+	"Category": "Compute",
+	"EstimatedPrice": "N/A + N/A",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			}
+		},
+		"VPC Configuration": {
+			"VPC Configuration": {
+				"type": "RadioButton",
+				"id": "radio-button-VpcCreationOption_Create_VPC with a single public subnet",
+				"value": {
+					"QA 1": "Create VPC with Single Public subnet",
+					"QA 2": "Create VPC with Single Public subnet",
+					"QA 4": "Create VPC with a single public subnet",
+					"Customer 1": "Create VPC with Single Public subnet"
+				}
+			}
+		},
+		"VPC Settings": {
+			"IPv4 CIDR Block": {
+				"type": "Textbox",
+				"id": "text-input-IPv4CIDRBlock",
+				"value": {
+					"QA 1": "10.0.0.0/18",
+					"QA 2": "10.0.0.0/18",
+					"QA 4": "10.0.0.0/18",
+					"Customer 1": "10.0.0.0/18"
+				}
+			},
+			"IPv6 CIDR Block": {
+				"type": "RadioButton",
+				"id": "radio-button-IPv6CIDRBlock_No_IPv6 CIDR Block",
+				"value": {
+					"QA 1": "No IPv6 CIDR Block",
+					"QA 2": "No IPv6 CIDR Block",
+					"QA 4": "No IPv6 CIDR Block",
+					"Customer 1": "No IPv6 CIDR Block"
+				}
+			},
+			"Vpc Name": {
+				"type": "Textbox",
+				"id": "text-input-VpcName",
+				"value": {
+					"QA 1": "NewVPC",
+					"QA 2": "NewVPC",
+					"QA 4": "NewVPC",
+					"Customer 1": "NewVPC"
+				}
+			},
+			"Public Subnet's IPv4 CIDR": {
+				"type": "Textbox",
+				"id": "text-input-publicSubnetIPv4CIDR",
+				"value": {
+					"QA 1": "10.0.0.0/24",
+					"QA 2": "10.0.0.0/24",
+					"QA 4": "10.0.0.0/24",
+					"Customer 1": "10.0.0.0/24"
+				}
+			},
+			"Availability Zone": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_availabilityZonePublic",
+				"value": {
+					"QA 1": "us-east-1a",
+					"QA 2": "us-east-1a",
+					"QA 4": "us-east-1a",
+					"Customer 1": "us-east-1a"
+				}
+			},
+			"Public Subnet Name": {
+				"type": "Textbox",
+				"id": "text-input-publicSubnetName",
+				"value": {
+					"QA 1": "10.0.0.0/24",
+					"QA 2": "10.0.0.0/24",
+					"QA 4": "testPublicSubnetName",
+					"Customer 1": "10.0.0.0/24"
+				}
+			},
+			"Enable Dns Hostnames": {
+				"type": "RadioButton",
+				"id": "radio-button-EnableDnsHostnames_Yes",
+				"value": {
+					"QA 1": "Yes",
+					"QA 2": "Yes",
+					"QA 4": "Yes",
+					"Customer 1": "Yes"
+				}
+			},
+			"Hardware Tenancy": {
+				"type": "RadioButton",
+				"id": "radio-button-HardwareTenancy_Default",
+				"value": {
+					"QA 1": "Default",
+					"QA 2": "Default",
+					"QA 4": "Default",
+					"Customer 1": "Default"
+				}
+			}
+		},
+		"Add Tags": {
+			"Tags": {
+				"type": "Button",
+				"id": "button-TagsAdd0",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": " ",
+					"Customer 1": " "
+				}
+			},
+			"Key": {
+				"type": "Textbox",
+				"id": "text-input-Key",
+				"value": {
+					"QA 1": "Test",
+					"QA 2": "Test",
+					"QA 4": "Test",
+					"Customer 1": "Test"
+				}
+			},
+			"Value": {
+				"type": "Textbox",
+				"id": "text-input-Value",
+				"value": {
+					"QA 1": "Test",
+					"QA 2": "Test",
+					"QA 4": "Test",
+					"Customer 1": "Test"
+				}
+			}
+		}
+	}
+}

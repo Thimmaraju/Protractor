@@ -1,0 +1,300 @@
+{
+  "bluePrintName": "Network Load Balancer",
+  "descriptiveText": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testNetworkLoadBalancer",
+  "Category": "Network",
+  "BasePrice": "USD 0.0225/ SIZE / HR + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 16.74 / MONTH",
+  "TotalCost": "USD 16.74",
+  "serviceId": "CB_AWS_CF_NELB_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Basic Configuration": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-name",
+        "value": {
+          "QA 1": "testNelb",
+          "QA 2": "testNelb",
+          "QA 4": "testNelb",
+          "Customer 1": "testNelb"
+        }
+      },
+      "Scheme": {
+        "type": "RadioButton",
+        "id": "radio-button-scheme_internal",
+        "value": {
+          "QA 1": "internal",
+          "QA 2": "internal",
+          "QA 4": "internal",
+          "Customer 1": "internal"
+        }
+      },
+      "Load Balancer Protocol": {
+        "type": "RadioButton",
+        "id": "radio-button-loadBalancerProtocol_TCP",
+        "value": {
+          "QA 1": "TCP",
+          "QA 2": "TCP",
+          "QA 4": "TCP",
+          "Customer 1": "TCP"
+        }
+      },
+      "Load Balancer Port": {
+        "type": "Textbox",
+        "id": "text-input-loadBalancerPort",
+        "value": {
+          "QA 1": "80",
+          "QA 2": "80",
+          "QA 4": "80",
+          "Customer 1": "80"
+        }
+      },
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      },
+      "Availability Zone": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-availabilityZone",
+        "value": {
+          "QA 1": [
+            "us-east-1a",
+            "us-east-1b"
+          ],
+          "QA 2": [
+            "us-east-1a",
+            "us-east-1b"
+          ],
+          "QA 4": [
+            "us-east-1a",
+            "us-east-1b"
+          ],
+          "Customer 1": [
+            "us-east-1a",
+            "us-east-1b"
+          ]
+        }
+      },
+      "Subnet": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-subnet",
+        "value": {
+          "QA 1": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 2": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 4": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "Customer 1": [
+            "subnet-a68b538d (us-east-1a)",
+            "subnet-c5f664b2 (us-east-1b)"
+          ]
+        }
+      }
+    },
+    "Add Tags": {
+      "Tag Key": {
+        "type": "Textbox",
+        "id": "text-input-tagKey",
+        "value": {
+          "QA 1": "testName",
+          "QA 2": "testName",
+          "QA 4": "testName",
+          "Customer 1": "testName"
+        }
+      },
+      "Tag Value": {
+        "type": "Textbox",
+        "id": "text-input-tagValue",
+        "value": {
+          "QA 1": "testValue",
+          "QA 2": "testValue",
+          "QA 4": "testValue",
+          "Customer 1": "testValue"
+        }
+      }
+    },
+    "Target Group": {
+      "Target Group Name": {
+        "type": "Textbox",
+        "id": "text-input-targetGroupName",
+        "value": {
+          "QA 1": "testTargetnelb",
+          "QA 2": "testTargetnelb",
+          "QA 4": "testTargetnelb",
+          "Customer 1": "testTargetnelb"
+        }
+      },
+      "Target Group Protocol": {
+        "type": "RadioButton",
+        "id": "radio-button-targetGroupProtocol_TCP",
+        "value": {
+          "QA 1": "TCP",
+          "QA 2": "TCP",
+          "QA 4": "TCP",
+          "Customer 1": "TCP"
+        }
+      },
+      "Target Group Port": {
+        "type": "Textbox",
+        "id": "text-input-targetGroupPort",
+        "value": {
+          "QA 1": "80",
+          "QA 2": "80",
+          "QA 4": "80",
+          "Customer 1": "80"
+        }
+      },
+      "Target Type": {
+        "type": "RadioButton",
+        "id": "radio-button-targetType_ip",
+        "value": {
+          "QA 1": "ip",
+          "QA 2": "ip",
+          "QA 4": "ip",
+          "Customer 1": "ip"
+        }
+      },
+      "IP": {
+        "type": "Textbox",
+        "id": "text-input-ip",
+        "value": {
+          "QA 1": "172.31.17.1,172.31.17.2",
+          "QA 2": "172.31.17.1,172.31.17.2",
+          "QA 4": "172.31.17.1,172.31.17.2",
+          "Customer 1": "172.31.17.1,172.31.17.2"
+        }
+      },
+      "Target Port": {
+        "type": "Textbox",
+        "id": "text-input-targetPort",
+        "value": {
+          "QA 1": "500,501",
+          "QA 2": "500,501",
+          "QA 4": "500,501",
+          "Customer 1": "500,501"
+        }
+      }
+    },
+    "Health Checks": {
+      "Healthcheck Protocol": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_healthcheckProtocol",
+        "value": {
+          "QA 1": "TCP",
+          "QA 2": "TCP",
+          "QA 4": "TCP",
+          "Customer 1": "TCP"
+        }
+      },
+      "Healthcheck Port": {
+        "type": "Textbox",
+        "id": "text-input-healthcheckPort",
+        "value": {
+          "QA 1": "traffic-port",
+          "QA 2": "traffic-port",
+          "QA 4": "traffic-port",
+          "Customer 1": "traffic-port"
+        }
+      },
+      "Healthy Threshold": {
+        "type": "Textbox",
+        "id": "slider-input-box-healthyThreshold",
+        "value": {
+          "QA 1": "4",
+          "QA 2": "4",
+          "QA 4": "4",
+          "Customer 1": "4"
+        }
+      },
+      "Interval": {
+        "type": "RadioButton",
+        "id": "radio-button-Interval_30",
+        "value": {
+          "QA 1": "30",
+          "QA 2": "30",
+          "QA 4": "30",
+          "Customer 1": "30"
+        }
+      }
+    }
+  }
+}

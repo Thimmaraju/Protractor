@@ -1,0 +1,123 @@
+{
+	"bluePrintName": "Linux Virtual Server",
+	"descriptiveText": "Creates new Linux machine on a virtual server with configuration specified in order",
+	"provider": "icd",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 0.01/ 4 CPU / HR + USD 0.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "",
+					"QA 2": "icd-TEAM1",
+					"QA 4": "icd-TEAM1 / icd-TEAM1",
+					"Customer 1": "icd-TEAM1 / icd-TEAM1"
+				}
+			}
+		},
+		"Additional Parameters": {		
+			"Memory (GB)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ITDMEMORY",
+				"value": {
+					"QA 1": "16 GB",
+					"QA 2": "16 GB",
+					"QA 4": "16 GB",
+					"Customer 1": "16 GB"
+				}
+			},
+			"Number of Virtual Compute Units (vCUs)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ITDCPUSIZE",
+				"value": {
+					"QA 1": "12 vCUs = 3 vCPUs",
+					"QA 2": "12 vCUs = 3 vCPUs",
+					"QA 4": "12 vCUs = 3 vCPUs",
+					"Customer 1": "12 vCUs = 3 vCPUs"
+				}
+			},
+			"Operating System Version": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ITDOSVERSION",
+				"value": {
+					"QA 1": "RHEL65",
+					"QA 2": "RHEL65",
+					"QA 4": "RHEL65",
+					"Customer 1": "RHEL65"
+				}
+			},
+			"Purpose of Service Request": {
+				"type": "Textbox",
+				"id": "text-input-ITDPURPOSE",
+				"value": {
+					"QA 1": "Test",
+					"QA 2": "Test",
+					"QA 4": "Test",
+					"Customer 1": "Test"
+				}
+			},
+			"Security Zone": {
+				"type": "Textbox",
+				"id": "text-input-ITDSECZONE",
+				"value": {
+					"QA 1": "Dev",
+					"QA 2": "Dev",
+					"QA 4": "Dev",
+					"Customer 1": "Dev"
+				}
+			},
+			"Service Level": {
+				"type": "Textbox",
+				"id": "text-input-ITDSLA",
+				"value": {
+					"QA 1": "Test",
+					"QA 2": "Test",
+					"QA 4": "Test",
+					"Customer 1": "Test"
+				}
+			}
+		}	
+	}
+}

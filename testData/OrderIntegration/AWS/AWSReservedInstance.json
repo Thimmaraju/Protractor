@@ -1,0 +1,175 @@
+{
+	"bluePrintName": "EC2 Reserved Instance",
+	"descriptiveText": "AWS CloudFormation Template : Create an Amazon EC2 reserved instance that provide you a significant discount compared to On-Demand Instance pricing. Reserved Instances are not physical instances. They are a billing discount applied to the use of On-Demand Instances in your account. These On-Demand Instances must match certain attributes in order to benefit from the billing discount. **WARNING** This template creates an Amazon EC2 instance.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"Category": "Compute",
+	"BasePrice": "USD 30.00/ Size / HR + USD 20.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 17.5584 / MONTH",
+	"TotalCost": "USD 17.5584",
+	"budgetName": "awsBudgetAut",
+	"budgetDuration": "3",
+	"budgetaryName": "awsBudgetAut",
+	"BudgetAmount": "USD 1,000.00",
+	"serviceId": "CB_AWS_CF_RI_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "servInstSQS",
+					"QA 2": "servInstSQS",
+					"QA 4": "servInstSQS",
+					"Customer 1": "servInstSQS"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			},
+			"Availability Zone": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AvailabilityZone",
+				"value": {
+					"QA 1": "us-east-1a",
+					"QA 2": "us-east-1a",
+					"QA 4": "us-east-1a",
+					"Customer 1": "us-east-1a"
+				}
+			}
+		},
+		"Configure Instance": {
+			"Platform": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_Platform",
+				"value": {
+					"QA 1": "Windows",
+					"QA 2": "Windows",
+					"QA 4": "Windows",
+					"Customer 1": "Windows"
+				}
+			},
+			"Instance Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_InstanceType",
+				"value": {
+					"QA 1": "t2.small",
+					"QA 2": "t2.small",
+					"QA 4": "t2.small",
+					"Customer 1": "t2.small"
+				}
+			},
+			"Instance Tenancy": {
+				"type": "RadioButton",
+				"id": "radio-button-InstanceTenancy_default",
+				"value": {
+					"QA 1": "default",
+					"QA 2": "default",
+					"QA 4": "default",
+					"Customer 1": "default"
+				}
+			},
+			"Offering Class": {
+				"type": "RadioButton",
+				"id": "radio-button-OfferingClass_standard",
+				"value": {
+					"QA 1": "standard",
+					"QA 2": "standard",
+					"QA 4": "standard",
+					"Customer 1": "standard"
+				}
+			},
+			"Offering Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_OfferingType",
+				"value": {
+					"QA 1": "No Upfront",
+					"QA 2": "No Upfront",
+					"QA 4": "No Upfront",
+					"Customer 1": "No Upfront"
+				}
+			},
+			"Terms": {
+				"type": "RadioButton",
+				"id": "radio-button-Terms_1_months - 12 months",
+				"value": {
+					"QA 1": "1 months - 12 months",
+					"QA 2": "1 months - 12 months",
+					"QA 4": "1 months - 12 months",
+					"Customer 1": "1 months - 12 months"
+				}
+			}
+		},
+		"Configure InstanceId": {
+			"Offering Id": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_OfferingId",
+				"value": {
+					"QA 1": "447b9d61-8c5a-44c7-9cc5-f29d2addff90",
+					"QA 2": "447b9d61-8c5a-44c7-9cc5-f29d2addff90",
+					"QA 4": "447b9d61-8c5a-44c7-9cc5-f29d2addff90",
+					"Customer 1": "447b9d61-8c5a-44c7-9cc5-f29d2addff90"
+				}
+			},
+			"Quantity": {
+				"type": "Textbox",
+				"id": "slider-input-box-Quantity",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			}
+		}
+	}
+}

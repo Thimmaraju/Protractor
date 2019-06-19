@@ -1,0 +1,256 @@
+{
+	"bluePrintName": "VPC Network",
+	"descriptiveText": "VPC is a virtual network system supporting connections between your Google Cloud Platform account and outside networks. Use VPC to access your Google Cloud Platform virtual machines, storage, and other resources.",
+	"provider": "Google",
+	"serviceName": "testInstanceForVpc",
+	"Category": "Network",
+	"BasePrice": "USD 0.12/ GB / MONTH + USD 0.00", 
+	"TotalCost": "USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+	"serviceId": "VPC Network",
+	"Order Parameters": {
+	  "Main Parameters": {
+		"Service Instance Name": {
+		  "type": "Textbox",
+		  "id": "text-input-main_params-serviceName",
+		  "value": {
+			"QA 1": "service921022",
+			"QA 2": "service921022",
+			"QA 3": "service921022",
+			"QA 4": "service921022",
+			"Customer 1": "service921022"
+		  }
+		},
+		"Team": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_team",
+		  "value": {
+			"QA 1": "TEAM1",
+			"QA 2": "TEAM1",
+			"QA 3": "TEAM1",
+			"QA 4": "TEAM1",
+			"Customer 1": "TEAM1"
+		  }
+		},
+      	"Environment": {
+			"type": "DropdownSearch",
+			 "id": "env",
+			 "value": {
+				"QA 1": "",
+				"QA 2": "Environment1",
+				"QA 4": "NONE",
+				"Customer 1": ""
+			}
+		},
+      	"Application": {
+			"type": "DropdownSearch",
+			"id": "App",
+			"value": {
+				"QA 1": "",
+				"QA 2": "Application1",
+				"QA 4": "NONE",
+				"Customer 1": ""
+			}
+		},
+		"Provider Account": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_provider-account",
+		  "value": {
+			"QA 1": "gcpQA-TEAM1 / gcpQA-TEAM1",
+			"QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+			"QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+			"QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+			"Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+		  }
+		}
+	  },
+	  "Configure VPC": {
+		"Name": {
+		  "type": "Textbox",
+		  "id": "text-input-vpc_name",
+		  "value": {
+			"QA 1": "abvpc",
+			"QA 2": "abvpc",
+			"QA 3": "disklinux",
+			"QA 4": "diskrhel",
+			"Customer 1": "diskubun"
+		  }
+		},
+		"Description": {
+		  "type": "Textbox",
+		  "id": "text-input-vpc_description",
+		  "value": {
+			"QA 1": "Google vpc network",
+			"QA 2": "Google vpc network",
+			"QA 3": "Google vpc network",
+			"QA 4": "Google vpc network",
+			"Customer 1": "Google vpc network"
+		  }
+		},
+		"Routing Mode": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_vpc_routingConfig",
+		  "value": {
+			"QA 1": "Global",
+			"QA 2": "Global",
+			"QA 3": "Global",
+			"QA 4": "Global",
+			"Customer 1": "Global"
+		  }
+		}
+	  },
+	  "Configure Subnet": {
+		"Subnet creation mode": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_vpc_autoCreateSubnetworks",
+		  "value": {
+			"QA 1": "Automatic",
+			"QA 2": "Automatic",
+			"QA 3": "Automatic",
+			"QA 4": "Automatic",
+			"Customer 1": "Automatic"
+		  }
+		},
+		"Enable Firewall Rules": {
+		  "type": "RadioButton",
+		  "id": "radio-button-subnet_enableFirewallRules_Yes",
+		  "value": {
+			"QA 1": "Yes",
+			"QA 2": "Yes",
+			"QA 3": "Yes",
+			"QA 4": "Yes",
+			"Customer 1": "Yes"
+		  }
+		}
+	  }
+	},
+	"Edit Parameters": {
+	  "Main Parameters": {
+		"Service Instance Name": {
+		  "type": "Textbox",
+		  "id": "text-input-main_params-serviceName",
+		  "value": {
+			"QA 1": "",
+			"QA 2": "",
+			"QA 3": "",
+			"QA 4": "",
+			"Customer 1": ""
+		  }
+		},
+		"Team": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_team:",
+		  "value": {
+			"QA 1": "",
+			"QA 2": "",
+			"QA 3": "",
+			"QA 4": "",
+			"Customer 1": ""
+		  }
+		},
+		"Provider Account": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_provider-account",
+		  "value": {
+			"QA 1": "",
+			"QA 2": "",
+			"QA 3": "",
+			"QA 4": "",
+			"Customer 1": ""
+		  }
+		}
+	  },
+	  "Configure VPC": {
+		"Name": {
+		  "type": "Textbox",
+		  "id": "text-input-vpc_name",
+		  "value": {
+			"QA 1": "",
+			"QA 2": "",
+			"QA 3": "",
+			"QA 4": "",
+			"Customer 1": ""
+		  }
+		},
+		"Description": {
+		  "type": "Textbox",
+		  "id": "text-input-vpc_description",
+		  "value": {
+			"QA 1": "",
+			"QA 2": "",
+			"QA 3": "",
+			"QA 4": "",
+			"Customer 1": ""
+		  }
+		},
+		"Routing Mode": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_vpc_routingConfig",
+		  "value": {
+			"QA 1": "Regional",
+			"QA 2": "Regional",
+			"QA 3": "Regional",
+			"QA 4": "Regional",
+			"Customer 1": "Regional"
+		  }
+		}
+	  },
+	  "Configure Subnet": {
+		"Subnet creation mode": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_vpc_autoCreateSubnetworks",
+		  "value": {
+			"QA 1": "Custom",
+			"QA 2": "Custom",
+			"QA 3": "Custom",
+			"QA 4": "Custom",
+			"Customer 1": "Custom"
+		  }
+		},
+		"Custom subnet": {
+		  "type": "Button",
+		  "id": "button-Custom subnetAdd0",
+		  "value": {
+			"QA 1": "click",
+			"QA 2": "click",
+			"QA 3": "click",
+			"QA 4": "click",
+			"Customer 1": "click"
+		  }
+		},
+		"Subnet name": {
+		  "type": "Textbox",
+		  "id": "text-input-customSubnet_subname1",
+		  "value": {
+			"QA 1": "subnet-1-edit",
+			"QA 2": "subnet-1-edit",
+			"QA 3": "subnet-1-edit",
+			"QA 4": "subnet-1-edit",
+			"Customer 1": "subnet-1-edit"
+		  }
+		},
+		"Region": {
+		  "type": "Dropdown",
+		  "id": "bx--dropdown-single-parent_customSubnet_subRegion1",
+		  "value": {
+			"QA 1": "asia-east1",
+			"QA 2": "asia-east1",
+			"QA 3": "asia-east1",
+			"QA 4": "asia-east1",
+			"Customer 1": "asia-east1"
+		  }
+		},
+		"IP address range": {
+		  "type": "Textbox",
+		  "id": "text-input-customSubnet_IPAddressRange1",
+		  "value": {
+			"QA 1": "10.0.0.0/11",
+			"QA 2": "10.0.0.0/11",
+			"QA 3": "10.0.0.0/11",
+			"QA 4": "10.0.0.0/11",
+			"Customer 1": "10.0.0.0/11"
+		  }
+		}
+	  }
+	}
+  }

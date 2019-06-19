@@ -1,0 +1,459 @@
+{
+    "bluePrintName": "Classic Load Balancer",
+    "descriptiveText": "A load balancer distributes incoming application traffic across multiple EC2 instances in multiple Availability Zones. This increases the fault tolerance of your applications. Elastic Load Balancing detects unhealthy instances and routes traffic only to healthy instances.",
+    "provider": "Amazon",
+    "serviceName": "testInstanceForClassicELB",
+    "Category": "Network",
+    "BasePrice": "USD 0.025/ SIZE / HR + USD 0.00",
+    "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 18.60 / MONTH",
+    "TotalCost": "USD 18.60",
+    "serviceId": "CB_AWS_CF_CELB_S00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "testserviceDB",
+                    "QA 2": "testserviceDB",
+                    "QA 4": "testserviceDB",
+                    "Customer 1": "testserviceDB"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                  "QA 1": "NONE",
+                  "QA 2": "NONE",
+                  "QA 4": "NONE",
+                  "Customer 1": "NONE"
+                }
+              },
+              "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                  "QA 1": "NONE",
+                  "QA 2": "NONE",
+                  "QA 4": "NONE",
+                  "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-east-1",
+                    "QA 2": "us-east-1",
+                    "QA 4": "us-east-1",
+                    "Customer 1": "us-east-1"
+                }
+            }
+        },
+        "Define Load Balancer": {
+            "Load Balancer Name": {
+                "Type": "Textbox",
+                "id": "text-input-loadBalancerName",
+                "value": {
+                    "QA 1": "ClassicELB",
+                    "QA 2": "ClassicELB",
+                    "QA 4": "ClassicELB",
+                    "Customer 1": "ClassicELB"
+                }
+            },
+            "Scheme": {
+                "Type": "RadioButton",
+                "id": "radio-button-scheme_internet-facing",
+                "value": {
+                    "QA 1": "internet-facing",
+                    "QA 2": "internet-facing",
+                    "QA 4": "internet-facing",
+                    "Customer 1": "internet-facing"
+                }
+            },
+            "Load Balancer Protocol 1": {
+                "Type": "Dropdown",
+                "id": "bx--dropdown-single-parent_loadbalancerProtocol1",
+                "value": {
+                    "QA 1": "HTTP",
+                    "QA 2": "HTTP",
+                    "QA 4": "HTTP",
+                    "Customer 1": "HTTP"
+                }
+            },
+            "Load Balancer Port 1": {
+                "Type": "Textbox",
+                "id": "text-input-loadbalancerPort1",
+                "value": {
+                    "QA 1": "80",
+                    "QA 2": "80",
+                    "QA 4": "80",
+                    "Customer 1": "80"
+                }
+            },
+            "Instance Protocol 1": {
+                "Type": "Dropdown",
+                "id": "bx--dropdown-single-parent_instanceProtocol1",
+                "value": {
+                    "QA 1": "HTTP",
+                    "QA 2": "HTTP",
+                    "QA 4": "HTTP",
+                    "Customer 1": "HTTP"
+                }
+            },
+            "Instance Port 1": {
+                "Type": "Textbox",
+                "id": "text-input-instancePort1",
+                "value": {
+                    "QA 1": "80",
+                    "QA 2": "80",
+                    "QA 4": "80",
+                    "Customer 1": "80"
+                }
+            },
+            "Policy Name 1": {
+                "Type": "Textbox",
+                "id": "text-input-policyName1",
+                "value": {
+                    "QA 1": "MyLBPolicy",
+                    "QA 2": "MyLBPolicy",
+                    "QA 4": "MyLBPolicy",
+                    "Customer 1": "MyLBPolicy"
+                }
+            },
+            "Load Balancer Protocol 2": {
+                "Type": "Dropdown",
+                "id": "bx--dropdown-single-parent_loadbalancerProtocol2",
+                "value": {
+                    "QA 1": "HTTPS",
+                    "QA 2": "HTTPS",
+                    "QA 4": "HTTPS",
+                    "Customer 1": "HTTPS"
+                }
+            },
+            "Load Balancer Port 2": {
+                "Type": "Textbox",
+                "id": "text-input-loadbalancerPort2",
+                "value": {
+                    "QA 1": "443",
+                    "QA 2": "443",
+                    "QA 4": "443",
+                    "Customer 1": "443"
+                }
+            },
+            "Instance Protocol 2": {
+                "Type": "Dropdown",
+                "id": "bx--dropdown-single-parent_instanceProtocol2",
+                "value": {
+                    "QA 1": "HTTPS",
+                    "QA 2": "HTTPS",
+                    "QA 4": "HTTPS",
+                    "Customer 1": "HTTPS"
+                }
+            },
+            "Instance Port 2": {
+                "Type": "Textbox",
+                "id": "text-input-instancePort2",
+                "value": {
+                    "QA 1": "443",
+                    "QA 2": "443",
+                    "QA 4": "443",
+                    "Customer 1": "443"
+                }
+            },
+            "Policy Name 2": {
+                "Type": "Textbox",
+                "id": "text-input-policyName2",
+                "value": {
+                    "QA 1": "MyLBPolicy",
+                    "QA 2": "MyLBPolicy",
+                    "QA 4": "MyLBPolicy",
+                    "Customer 1": "MyLBPolicy"
+                }
+            },
+            "SSL Certificate Id 2": {
+                "Type": "Textbox",
+                "id": "text-input-SSLCertificateId2",
+                "value": {
+                    "QA 1": "arn:aws:acm:us-east-1:882410330966:certificate/71df9e7d-9770-4b31-8a4e-6a7560e232f1",
+                    "QA 2": "arn:aws:acm:us-east-1:882410330966:certificate/71df9e7d-9770-4b31-8a4e-6a7560e232f1",
+                    "QA 4": "arn:aws:acm:us-east-1:882410330966:certificate/71df9e7d-9770-4b31-8a4e-6a7560e232f1",
+                    "Customer 1": "arn:aws:acm:us-east-1:882410330966:certificate/71df9e7d-9770-4b31-8a4e-6a7560e232f1"
+                }
+            }
+        },
+        "Basic Configuration": {
+            "VPC": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_VPC",
+                "value": {
+                    "QA 1": "vpc-8eadd1eb",
+                    "QA 2": "vpc-8eadd1eb",
+                    "QA 4": "vpc-8eadd1eb",
+                    "Customer 1": "vpc-8eadd1eb"
+                }
+            },
+            "Availability Zone": {
+                "type": "MultiselectDropdown",
+                "id": "text-input-availabilityZone",
+                "value": {
+                    "QA 1": [
+                        "us-east-1a",
+                        "us-east-1b"
+                    ],
+                    "QA 2": [
+                        "us-east-1a",
+                        "us-east-1b"
+                    ],
+                    "QA 4": [
+                        "us-east-1a",
+                        "us-east-1b"
+                    ],
+                    "Customer 1": [
+                        "us-east-1a",
+                        "us-east-1b"
+                    ]
+                }
+            },
+            "Subnet": {
+                "type": "MultiselectDropdown",
+                "id": "text-input-subnet",
+                "value": {
+                    "QA 1": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-c5f664b2 (us-east-1b)"
+                    ],
+                    "QA 2": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-c5f664b2 (us-east-1b)"
+                    ],
+                    "QA 4": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-c5f664b2 (us-east-1b)"
+                    ],
+                    "Customer 1": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-c5f664b2 (us-east-1b)"
+                    ]
+                }
+            }
+        },
+        "Assign Security Group": {
+            "Securities Groups": {
+                "type": "MultiselectDropdown",
+                "id": "text-input-securityGroups",
+                "value": {
+                    "QA 1": [
+                        "sg-4e88232a"
+                    ],
+                    "QA 2": [
+                        "sg-4e88232a"
+                    ],
+                    "QA 4": [
+                        "sg-4e88232a"
+                    ],
+                    "Customer 1": [
+                        "sg-4e88232a"
+                    ]
+                }
+            }
+        },
+        "Configure Security Settings": {
+            "Select Policy Type": {
+                "type": "RadioButton",
+                "id": "radio-button-selectPolicyType_LBCookieStickinessPolicy",
+                "value": {
+                    "QA 1": "LBCookieStickinessPolicy",
+                    "QA 2": "LBCookieStickinessPolicy",
+                    "QA 4": "LBCookieStickinessPolicy",
+                    "Customer 1": "LBCookieStickinessPolicy"
+                }
+            },
+            "LB Cookie Stickiness Policy Name": {
+                "type": "Textbox",
+                "id": "text-input-LBCookieStickinessPolicyName",
+                "value": {
+                    "QA 1": "MyLBPolicy",
+                    "QA 2": "MyLBPolicy",
+                    "QA 4": "MyLBPolicy",
+                    "Customer 1": "MyLBPolicy"
+                }
+            },
+            "Cookie Expiration Period": {
+                "type": "Textbox",
+                "id": "text-input-CookieExpirationPeriod",
+                "value": {
+                    "QA 1": "180",
+                    "QA 2": "180",
+                    "QA 4": "180",
+                    "Customer 1": "180"
+                }
+            },
+            "Enable Logging": {
+                "type": "RadioButton",
+                "id": "radio-button-enableLogging_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            }
+        },
+        "Configure Health Check": {
+            "Ping Protocol": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_pingProtocol",
+                "value": {
+                    "QA 1": "HTTP",
+                    "QA 2": "HTTP",
+                    "QA 4": "HTTP",
+                    "Customer 1": "HTTP"
+                }
+            },
+            "Ping Port": {
+                "type": "Textbox",
+                "id": "text-input-pingPort",
+                "value": {
+                    "QA 1": "80",
+                    "QA 2": "80",
+                    "QA 4": "80",
+                    "Customer 1": "80"
+                }
+            },
+            "Ping Path": {
+                "type": "Textbox",
+                "id": "text-input-pingPath",
+                "value": {
+                    "QA 1": "index.html",
+                    "QA 2": "index.html",
+                    "QA 4": "index.html",
+                    "Customer 1": "index.html"
+                }
+            },
+            "Response Timeout": {
+                "type": "Textbox",
+                "id": "text-input-responseTimeout",
+                "value": {
+                    "QA 1": "50",
+                    "QA 2": "50",
+                    "QA 4": "50",
+                    "Customer 1": "50"
+                }
+            },
+            "Interval": {
+                "type": "Textbox",
+                "id": "text-input-interval",
+                "value": {
+                    "QA 1": "80",
+                    "QA 2": "80",
+                    "QA 4": "80",
+                    "Customer 1": "80"
+                }
+            },
+            "Healthy Threshold": {
+                "type": "Textbox",
+                "id": "text-input-HealthyThreshold",
+                "value": {
+                    "QA 1": "4",
+                    "QA 2": "4",
+                    "QA 4": "4",
+                    "Customer 1": "4"
+                }
+            },
+            "Unhealthy Threshold": {
+                "type": "Textbox",
+                "id": "text-input-UnhealthyThreshold",
+                "value": {
+                    "QA 1": "3",
+                    "QA 2": "3",
+                    "QA 4": "3",
+                    "Customer 1": "3"
+                }
+            }
+        },
+        "Add EC2 Instance": {
+            "Instance Id": {
+                "type": "MultiselectDropdown",
+                "id": "text-input-instanceID",
+                "value": {
+                    "QA 1": [
+                        "i-0e21fcf6a6ebbbcda"
+                    ],
+                    "QA 2": [
+                        "i-0e21fcf6a6ebbbcda"
+                    ],
+                    "QA 4": [
+                        "i-0e21fcf6a6ebbbcda"
+                    ],
+                    "Customer 1": [
+                        "i-0e21fcf6a6ebbbcda"
+                    ]
+                }
+            },
+            "Cross Zone": {
+                "type": "RadioButton",
+                "id": "radio-button-crossZone_true",
+                "value": {
+                    "QA 1": "true",
+                    "QA 2": "true",
+                    "QA 4": "true",
+                    "Customer 1": "true"
+                }
+            },
+            "Connection Draining Policy Enabled": {
+                "type": "RadioButton",
+                "id": "radio-button-connectionDrainingPolicyEnabled_true",
+                "value": {
+                    "QA 1": "true",
+                    "QA 2": "true",
+                    "QA 4": "true",
+                    "Customer 1": "true"
+                }
+            },
+            "Connection Draining Policy Timeout": {
+                "type": "Textbox",
+                "id": "slider-input-box-connectionDrainingPolicyTimeout",
+                "value": {
+                    "QA 1": "5",
+                    "QA 2": "5",
+                    "QA 4": "5",
+                    "Customer 1": "5"
+                }
+            },
+            "Idle Timeout": {
+                "type": "Textbox",
+                "id": "slider-input-box-idleTimeout",
+                "value": {
+                    "QA 1": "20",
+                    "QA 2": "20",
+                    "QA 4": "20",
+                    "Customer 1": "20"
+                }
+            }
+        }
+    }
+}

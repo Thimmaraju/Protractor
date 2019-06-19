@@ -1,0 +1,542 @@
+[11-02-2019 12:37:02] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 12:37:02] [INFO] - Test browser: chrome
+[11-02-2019 12:37:02] [INFO] - Test environment: cb-qa-6
+[11-02-2019 12:37:02] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 12:37:02] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 12:37:02] [INFO] - Provisioning: false
+[11-02-2019 12:37:02] [INFO] - Post to Slack: false
+[11-02-2019 12:37:02] [INFO] - *******************************************
+[11-02-2019 12:37:02] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 12:37:05] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 12:37:05] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 12:37:05] [INFO] - Test Domain: cb-qa-6
+[11-02-2019 12:37:05] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[11-02-2019 12:37:09] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[11-02-2019 12:37:14] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 12:37:14] [INFO] - Cleared Username input box
+[11-02-2019 12:37:14] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 12:37:15] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 12:37:15] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 12:37:15] [INFO] - Clicked on Sign In button
+[11-02-2019 12:37:21] [INFO] - Navigated to Dashboard page...
+[11-02-2019 12:37:22] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 12:37:22] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 12:37:22] [INFO] - Switched to child window
+[11-02-2019 12:37:28] [INFO] - Switched back to parent window
+[11-02-2019 12:37:28] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 12:37:28] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 12:37:28] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 12:37:28] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 12:37:29] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 12:37:29] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 12:37:53] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[11-02-2019 12:37:53] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 12:37:55] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 12:37:55] [INFO] - Comparing 3 Tier All Types Of Input with CentOS65
+[11-02-2019 12:37:55] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 12:37:55] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 12:37:55] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 12:37:55] [INFO] - Comparing Add_Amazon_Properties with CentOS65
+[11-02-2019 12:37:55] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 12:37:55] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 12:37:55] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 12:37:57] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 12:37:57] [INFO] - Entered TestAutomationwa06W in Service Instance Name textbox
+[11-02-2019 12:39:00] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 12:39:00] [INFO] - Failure reason: Failed: Wait timed out after 60012ms
+[11-02-2019 12:39:00] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 12:39:00] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 12:39:00] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 12:39:00] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 12:39:00] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 12:39:00] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 12:39:00] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 12:39:00] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 12:39:00] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 12:39:00] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 12:39:00] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 12:39:00] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 12:39:00] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 12:39:00] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 12:39:00] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 12:39:00] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 12:39:00] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 12:39:00] [INFO] - ===========================================================================================
+[11-02-2019 15:58:25] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 15:58:25] [INFO] - Test browser: chrome
+[11-02-2019 15:58:25] [INFO] - Test environment: cb-qa-6
+[11-02-2019 15:58:25] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 15:58:25] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 15:58:25] [INFO] - Provisioning: false
+[11-02-2019 15:58:25] [INFO] - Post to Slack: false
+[11-02-2019 15:58:25] [INFO] - *******************************************
+[11-02-2019 15:58:25] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 15:58:29] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 15:58:29] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 15:58:29] [INFO] - Test Domain: cb-qa-6
+[11-02-2019 15:58:29] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[11-02-2019 15:58:33] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[11-02-2019 15:58:39] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 15:58:39] [INFO] - Cleared Username input box
+[11-02-2019 15:58:40] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 15:58:40] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 15:58:40] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 15:58:40] [INFO] - Clicked on Sign In button
+[11-02-2019 15:58:46] [INFO] - Navigated to Dashboard page...
+[11-02-2019 15:58:47] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 15:58:48] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 15:58:48] [INFO] - Switched to child window
+[11-02-2019 15:58:56] [INFO] - Switched back to parent window
+[11-02-2019 15:58:56] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 15:58:56] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 15:58:56] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 15:58:56] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 15:58:58] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 15:58:58] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 15:59:21] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[11-02-2019 15:59:22] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 15:59:24] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 15:59:24] [INFO] - Comparing 3 Tier All Types Of Input with CentOS65
+[11-02-2019 15:59:24] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 15:59:24] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 15:59:24] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 15:59:24] [INFO] - Comparing Add_Amazon_Properties with CentOS65
+[11-02-2019 15:59:24] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 15:59:24] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 15:59:24] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 15:59:26] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 15:59:26] [INFO] - Entered TestAutomationY7aq5 in Service Instance Name textbox
+[11-02-2019 16:00:29] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:00:29] [INFO] - Failure reason: Failed: Wait timed out after 60040ms
+[11-02-2019 16:00:29] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:00:29] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:00:29] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:00:29] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:00:29] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:00:29] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:00:29] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:00:29] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:00:29] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:00:29] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:00:29] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:00:29] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:00:29] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:00:29] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:00:29] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:00:29] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:00:29] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:00:29] [INFO] - ===========================================================================================
+[11-02-2019 16:02:51] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 16:02:51] [INFO] - Test browser: chrome
+[11-02-2019 16:02:51] [INFO] - Test environment: cb-qa-6
+[11-02-2019 16:02:51] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 16:02:51] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 16:02:51] [INFO] - Provisioning: false
+[11-02-2019 16:02:51] [INFO] - Post to Slack: false
+[11-02-2019 16:02:51] [INFO] - *******************************************
+[11-02-2019 16:02:51] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 16:02:55] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 16:02:55] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:02:55] [INFO] - Test Domain: cb-qa-6
+[11-02-2019 16:02:55] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[11-02-2019 16:02:59] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[11-02-2019 16:03:05] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 16:03:05] [INFO] - Cleared Username input box
+[11-02-2019 16:03:05] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 16:03:05] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 16:03:06] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 16:03:06] [INFO] - Clicked on Sign In button
+[11-02-2019 16:03:12] [INFO] - Navigated to Dashboard page...
+[11-02-2019 16:03:14] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 16:03:14] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 16:03:14] [INFO] - Switched to child window
+[11-02-2019 16:03:17] [INFO] - Switched back to parent window
+[11-02-2019 16:03:18] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 16:03:18] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 16:03:18] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 16:03:18] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 16:03:19] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:03:19] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 16:03:41] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[11-02-2019 16:03:42] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 16:03:45] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 16:03:45] [INFO] - Comparing 3 Tier All Types Of Input with CentOS65
+[11-02-2019 16:03:45] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 16:03:45] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 16:03:45] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 16:03:45] [INFO] - Comparing Add_Amazon_Properties with CentOS65
+[11-02-2019 16:03:45] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 16:03:45] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 16:03:45] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 16:03:47] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 16:03:47] [INFO] - Entered TestAutomationBH6fq in Service Instance Name textbox
+[11-02-2019 16:04:51] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:04:51] [INFO] - Failure reason: Failed: Wait timed out after 60008ms
+[11-02-2019 16:04:51] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:04:51] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:04:51] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:04:51] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:04:51] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:04:51] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:04:51] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:04:51] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:04:51] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:04:51] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:04:51] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:04:51] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:04:51] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:04:51] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:04:51] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:04:51] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:04:51] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:04:51] [INFO] - ===========================================================================================
+[11-02-2019 16:13:13] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 16:13:13] [INFO] - Test browser: chrome
+[11-02-2019 16:13:13] [INFO] - Test environment: cb-qa-6
+[11-02-2019 16:13:13] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 16:13:13] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 16:13:13] [INFO] - Provisioning: false
+[11-02-2019 16:13:13] [INFO] - Post to Slack: false
+[11-02-2019 16:13:13] [INFO] - *******************************************
+[11-02-2019 16:13:13] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 16:13:17] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:13:17] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 16:13:17] [INFO] - Test Domain: cb-qa-6
+[11-02-2019 16:13:17] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[11-02-2019 16:13:20] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[11-02-2019 16:13:26] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 16:13:26] [INFO] - Cleared Username input box
+[11-02-2019 16:13:26] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 16:13:27] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 16:13:27] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 16:13:27] [INFO] - Clicked on Sign In button
+[11-02-2019 16:13:33] [INFO] - Navigated to Dashboard page...
+[11-02-2019 16:13:34] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 16:13:35] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 16:13:35] [INFO] - Switched to child window
+[11-02-2019 16:13:37] [INFO] - Switched back to parent window
+[11-02-2019 16:13:37] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 16:13:37] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 16:13:37] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 16:13:38] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 16:13:39] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:13:39] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 16:14:05] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[11-02-2019 16:14:06] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 16:14:08] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 16:14:08] [INFO] - Comparing 3 Tier All Types Of Input with CentOS65
+[11-02-2019 16:14:08] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 16:14:08] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 16:14:08] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 16:14:08] [INFO] - Comparing Add_Amazon_Properties with CentOS65
+[11-02-2019 16:14:08] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 16:14:08] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 16:14:08] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 16:14:10] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 16:14:10] [INFO] - Entered TestAutomationgldhk in Service Instance Name textbox
+[11-02-2019 16:14:17] [INFO] - Selected TEAM1 from Team dropdown
+[11-02-2019 16:15:19] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:15:19] [INFO] - Failure reason: Failed: Wait timed out after 60013ms
+[11-02-2019 16:15:19] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:15:19] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:15:19] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:15:19] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:15:19] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:15:19] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:15:19] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:15:19] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:15:19] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:15:19] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:15:19] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:15:19] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:15:19] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:15:19] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:15:19] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:15:19] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:15:19] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:15:19] [INFO] - ===========================================================================================
+[11-02-2019 16:19:04] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 16:19:04] [INFO] - Test browser: chrome
+[11-02-2019 16:19:04] [INFO] - Test environment: cb-qa-6
+[11-02-2019 16:19:04] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 16:19:04] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 16:19:04] [INFO] - Provisioning: false
+[11-02-2019 16:19:04] [INFO] - Post to Slack: false
+[11-02-2019 16:19:04] [INFO] - *******************************************
+[11-02-2019 16:19:04] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 16:19:08] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 16:19:08] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:19:08] [INFO] - Test Domain: cb-qa-6
+[11-02-2019 16:19:08] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[11-02-2019 16:19:12] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[11-02-2019 16:19:18] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 16:19:18] [INFO] - Cleared Username input box
+[11-02-2019 16:19:18] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 16:19:18] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 16:19:18] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 16:19:19] [INFO] - Clicked on Sign In button
+[11-02-2019 16:19:25] [INFO] - Navigated to Dashboard page...
+[11-02-2019 16:19:26] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 16:19:27] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 16:19:27] [INFO] - Switched to child window
+[11-02-2019 16:19:28] [INFO] - Switched back to parent window
+[11-02-2019 16:19:28] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 16:19:28] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 16:19:28] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 16:19:28] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 16:19:30] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:19:30] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 16:19:52] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[11-02-2019 16:19:54] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 16:19:57] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 16:19:57] [INFO] - Comparing 3 Tier All Types Of Input with CentOS65
+[11-02-2019 16:19:57] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 16:19:57] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 16:19:57] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 16:19:57] [INFO] - Comparing Add_Amazon_Properties with CentOS65
+[11-02-2019 16:19:57] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 16:19:57] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 16:19:57] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 16:19:58] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 16:19:59] [INFO] - Entered TestAutomationCzvtc in Service Instance Name textbox
+[11-02-2019 16:20:05] [INFO] - Selected TEAM1 from Team dropdown
+[11-02-2019 16:21:08] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:21:08] [INFO] - Failure reason: Failed: Wait timed out after 60003ms
+[11-02-2019 16:21:08] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:21:08] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:21:08] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:21:08] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:21:08] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:21:08] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:21:08] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:21:08] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:21:08] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:21:08] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:21:08] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:21:08] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:21:08] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:21:08] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:21:08] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:21:08] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:21:08] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:21:08] [INFO] - ===========================================================================================
+[11-02-2019 16:24:32] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 16:24:32] [INFO] - Test browser: chrome
+[11-02-2019 16:24:32] [INFO] - Test environment: cb-qa-6
+[11-02-2019 16:24:32] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 16:24:32] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 16:24:32] [INFO] - Provisioning: false
+[11-02-2019 16:24:32] [INFO] - Post to Slack: false
+[11-02-2019 16:24:32] [INFO] - *******************************************
+[11-02-2019 16:24:32] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 16:24:35] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 16:24:35] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:24:35] [INFO] - Test Domain: cb-qa-6
+[11-02-2019 16:24:35] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[11-02-2019 16:24:39] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[11-02-2019 16:24:46] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 16:24:46] [INFO] - Cleared Username input box
+[11-02-2019 16:24:46] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 16:24:46] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 16:24:46] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 16:24:47] [INFO] - Clicked on Sign In button
+[11-02-2019 16:24:53] [INFO] - Navigated to Dashboard page...
+[11-02-2019 16:24:54] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 16:24:55] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 16:24:55] [INFO] - Switched to child window
+[11-02-2019 16:25:01] [INFO] - Switched back to parent window
+[11-02-2019 16:25:01] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 16:25:01] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 16:25:01] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 16:25:01] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 16:25:02] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:25:02] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 16:25:24] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[11-02-2019 16:25:26] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 16:25:29] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 16:25:29] [INFO] - Comparing 3 Tier All Types Of Input with CentOS65
+[11-02-2019 16:25:29] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 16:25:29] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 16:25:29] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 16:25:29] [INFO] - Comparing Add_Amazon_Properties with CentOS65
+[11-02-2019 16:25:29] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 16:25:29] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 16:25:29] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 16:25:30] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 16:25:31] [INFO] - Entered TestAutomationN09Oh in Service Instance Name textbox
+[11-02-2019 16:26:34] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 16:26:34] [INFO] - Failure reason: Failed: Wait timed out after 60019ms
+[11-02-2019 16:26:34] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:26:34] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:26:34] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 16:26:34] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:26:34] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:26:34] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 16:26:34] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:26:34] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:26:34] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 16:26:34] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:26:34] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:26:34] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 16:26:34] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:26:34] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:26:34] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 16:26:34] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 16:26:34] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 16:26:34] [INFO] - ===========================================================================================
+[11-02-2019 17:03:28] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 17:03:28] [INFO] - Test browser: chrome
+[11-02-2019 17:03:28] [INFO] - Test environment: cb-qa-6
+[11-02-2019 17:03:28] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 17:03:28] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 17:03:28] [INFO] - Provisioning: false
+[11-02-2019 17:03:28] [INFO] - Post to Slack: false
+[11-02-2019 17:03:28] [INFO] - *******************************************
+[11-02-2019 17:03:28] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 17:03:31] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 17:03:31] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 17:03:31] [INFO] - Test Domain: cb-qa-6
+[11-02-2019 17:03:31] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[11-02-2019 17:03:35] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[11-02-2019 17:03:47] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 17:03:48] [INFO] - Cleared Username input box
+[11-02-2019 17:03:48] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 17:03:48] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 17:03:48] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 17:03:48] [INFO] - Clicked on Sign In button
+[11-02-2019 17:03:56] [INFO] - Navigated to Dashboard page...
+[11-02-2019 17:03:58] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 17:03:58] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 17:03:58] [INFO] - Switched to child window
+[11-02-2019 17:04:00] [INFO] - Switched back to parent window
+[11-02-2019 17:04:00] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 17:04:00] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 17:04:00] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 17:04:01] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 17:04:02] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 17:04:02] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 17:04:23] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[11-02-2019 17:04:25] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 17:04:28] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 17:04:28] [INFO] - Comparing 3 Tier All Types Of Input with CentOS65
+[11-02-2019 17:04:28] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 17:04:28] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 17:04:28] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 17:04:28] [INFO] - Comparing Add_Amazon_Properties with CentOS65
+[11-02-2019 17:04:28] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 17:04:28] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 17:04:28] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 17:04:29] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 17:04:30] [INFO] - Entered TestAutomationfKUob in Service Instance Name textbox
+[11-02-2019 17:05:33] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 17:05:33] [INFO] - Failure reason: Failed: Wait timed out after 60030ms
+[11-02-2019 17:05:33] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:05:33] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 17:05:33] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 17:05:33] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:05:33] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 17:05:33] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 17:05:33] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:05:33] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 17:05:33] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 17:05:33] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:05:33] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 17:05:33] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 17:05:33] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:05:33] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 17:05:33] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 17:05:33] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:05:33] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 17:05:33] [INFO] - ===========================================================================================
+[11-02-2019 17:06:10] [INFO] - ******Printing Environment Variables*******
+[11-02-2019 17:06:10] [INFO] - Test browser: chrome
+[11-02-2019 17:06:10] [INFO] - Test environment: cb-qa-4-release
+[11-02-2019 17:06:10] [INFO] - Username: cbadmn@outlook.com
+[11-02-2019 17:06:10] [INFO] - Suites: privateCloudShoppingBagOrders
+[11-02-2019 17:06:10] [INFO] - Provisioning: false
+[11-02-2019 17:06:10] [INFO] - Post to Slack: false
+[11-02-2019 17:06:10] [INFO] - *******************************************
+[11-02-2019 17:06:10] [INFO] - [ 'e2e/specs/orderIntegration/vra/privateCloudShoppingBagOrders.spec.js' ]
+[11-02-2019 17:06:14] [INFO] - Test user: cbadmn@outlook.com
+[11-02-2019 17:06:14] [INFO] - Suite started: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 17:06:14] [INFO] - Test Domain: cb-qa-4-release
+[11-02-2019 17:06:14] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[11-02-2019 17:06:20] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[11-02-2019 17:06:28] [INFO] - Waited till Username text box is visible on the page
+[11-02-2019 17:06:29] [INFO] - Cleared Username input box
+[11-02-2019 17:06:29] [INFO] - Entered cbadmn@outlook.com in Username input box
+[11-02-2019 17:06:29] [INFO] - Waited till Password input box is visible on login page
+[11-02-2019 17:06:29] [INFO] - Entered Gravitant123$ in password input box
+[11-02-2019 17:06:29] [INFO] - Clicked on Sign In button
+[11-02-2019 17:06:35] [INFO] - Navigated to Dashboard page...
+[11-02-2019 17:06:37] [INFO] - Privacy policies pop up displayed...
+[11-02-2019 17:06:38] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[11-02-2019 17:06:38] [INFO] - Switched to child window
+[11-02-2019 17:06:44] [INFO] - Switched back to parent window
+[11-02-2019 17:06:44] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[11-02-2019 17:06:44] [INFO] - Clicked on submit button in the Privacy statement popup...
+[11-02-2019 17:06:44] [INFO] - Waited till browser url contains /dashboard
+[11-02-2019 17:06:44] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[11-02-2019 17:06:45] [INFO] - Test started: PrivateCloud : Transfer a shopping cart
+[11-02-2019 17:06:45] [INFO] - Waiting for the Provider to be identified and Click it
+[11-02-2019 17:06:58] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/storeFront/main
+[11-02-2019 17:06:59] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[11-02-2019 17:07:01] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[11-02-2019 17:07:01] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[11-02-2019 17:07:01] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[11-02-2019 17:07:01] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 17:07:01] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[11-02-2019 17:07:01] [INFO] - Comparing Add Amazon Account with CentOS65
+[11-02-2019 17:07:01] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[11-02-2019 17:07:01] [INFO] - Comparing CentOS65 with CentOS65
+[11-02-2019 17:07:01] [INFO] - Clicked configure button for CentOS65
+[11-02-2019 17:07:02] [INFO] - Cleared Service Instance Name textbox
+[11-02-2019 17:07:03] [INFO] - Entered TestAutomationSMAoj in Service Instance Name textbox
+[11-02-2019 17:07:06] [INFO] - Selected Add service to new cart radio button for Cart Service
+[11-02-2019 17:07:10] [INFO] - Selected TEAM1 from Team dropdown
+[11-02-2019 17:07:11] [INFO] - Cleared Cart Name textbox
+[11-02-2019 17:07:12] [INFO] - Entered vrashopBagCartIwiAY in Cart Name textbox
+[11-02-2019 17:07:19] [INFO] - Selected NONE from Environment dropdown
+[11-02-2019 17:07:26] [INFO] - Selected NONE from Application dropdown
+[11-02-2019 17:07:30] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[11-02-2019 17:07:33] [INFO] - Clicked on Next button
+[11-02-2019 17:07:41] [INFO] - Selected 1 from CPU dropdown
+[11-02-2019 17:07:45] [INFO] - Selected 512 from MEMORY dropdown
+[11-02-2019 17:07:49] [INFO] - Selected 5 from STORAGE dropdown
+[11-02-2019 17:07:53] [INFO] - Selected True from VIRTUAL MACHINE CDROM dropdown
+[11-02-2019 17:07:57] [INFO] - Selected True from VIRTUAL MACHINE ADMIN ACCESS dropdown
+[11-02-2019 17:08:00] [INFO] - Selected True from VIRTUAL MACHINE MACHINE SSH dropdown
+[11-02-2019 17:08:04] [INFO] - Clicked on Next button
+[11-02-2019 17:08:09] [INFO] - Navigating to Shopping cart page...
+[11-02-2019 17:08:29] [INFO] - Success message is present
+[11-02-2019 17:08:29] [INFO] - Succesfully clicked on Cart icon
+[11-02-2019 17:08:29] [INFO] - Element is clickable
+[11-02-2019 17:08:30] [INFO] - Succesfully clicked on Menu icon
+[11-02-2019 17:08:30] [INFO] - clicked on tranfer Cart
+[11-02-2019 17:08:32] [INFO] - Searching for ID to tranfer cart
+[11-02-2019 17:08:32] [INFO] - clicked on Tranfer
+[11-02-2019 17:08:32] [INFO] - clicked on Transfer again
+[11-02-2019 17:08:33] [INFO] - Your cart has successfully been transferred to transfercart456@gmail.com.
+[11-02-2019 17:08:43] [INFO] - clicked on User Icon
+[11-02-2019 17:08:44] [INFO] - Logged out with current user
+[11-02-2019 17:08:52] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[11-02-2019 17:10:03] [INFO] - Test failed: PrivateCloud : Transfer a shopping cart
+[11-02-2019 17:10:03] [INFO] - Failure reason: Failed: Wait timed out after 60045ms
+[11-02-2019 17:10:03] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:10:03] [INFO] - Test started: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 17:10:03] [INFO] - Test disabled: Verify that Create new order with two VRA Services in shopping cart gets completed and delete them from inventory after successfull provisioning.
+[11-02-2019 17:10:03] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:10:03] [INFO] - Test started: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 17:10:03] [INFO] - Test disabled: Add one service into cart, edit the cart details and delete the cart
+[11-02-2019 17:10:03] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:10:03] [INFO] - Test started: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 17:10:03] [INFO] - Test disabled: PrivateCloud : Delete items from a shopping cart,Empty cart and Pricing Validations
+[11-02-2019 17:10:03] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:10:03] [INFO] - Test started: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 17:10:03] [INFO] - Test disabled: Private Cloud : Pricing Validation for Multiqunatity service in a Shopping Cart
+[11-02-2019 17:10:03] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:10:03] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 17:10:03] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service which is added as part of shopping cart
+[11-02-2019 17:10:03] [INFO] - -------------------------------------------------------------------------------------------
+[11-02-2019 17:10:03] [INFO] - Suite completed: Shopping cart Tests  --- Specific to private Cloud  and Enterprise systems
+[11-02-2019 17:10:03] [INFO] - ===========================================================================================

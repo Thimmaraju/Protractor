@@ -1,0 +1,160 @@
+{
+  "bluePrintName": "CloudFront RTMP Distribution",
+  "descriptiveText": "Amazon CloudFront is the Amazon Web Services (AWS) content delivery network (CDN). The CDN contains a network of geographically dispersed servers. These servers use cached content, which improves consumers ability to quickly access content.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testCloudFrontRTMPDistribution",
+  "Category": "Network",
+  "BasePrice": "USD 0.02/ GB / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.06 / MONTH",
+  "TotalCost": "USD 0.06",
+  "serviceId": "CB_AWS_CF_RTMP_DISTRIBUTION_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Distribution Settings": {
+      "Origin Domain Name": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_originDomainName",
+        "value": {
+          "QA 1": "donotdeleteuiauto",
+          "QA 2": "donotdeleteuiauto",
+          "QA 4": "donotdeleteuiauto",
+          "Customer 1": "donotdeleteuiauto"
+        }
+      },
+      "Origin Access Identity": {
+        "type": "RadioButton",
+        "id": "radio-button-originAccessIdentity_Create_a New Identity",
+        "value": {
+          "QA 1": "Create a New Identity",
+          "QA 2": "Create a New Identity",
+          "QA 4": "Create a New Identity",
+          "Customer 1": "Create a New Identity"
+        }
+      },
+      "Restrict Viewer Access": {
+        "type": "RadioButton",
+        "id": "radio-button-restrictViewerAccess_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Price Class": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_priceClass",
+        "value": {
+          "QA 1": "UseOnlyUSCanadaEuropeandAsia",
+          "QA 2": "UseOnlyUSCanadaEuropeandAsia",
+          "QA 4": "UseOnlyUSCanadaEuropeandAsia",
+          "Customer 1": "UseOnlyUSCanadaEuropeandAsia"
+        }
+      },
+      "Alternate Domain Names": {
+        "type": "Textbox",
+        "id": "text-input-alternateDomainNames",
+        "value": {
+          "QA 1": "alternatedomainname123.s3.amazonaws.com",
+          "QA 2": "alternatedomainname123.s3.amazonaws.com",
+          "QA 4": "alternatedomainname123.s3.amazonaws.com",
+          "Customer 1": "alternatedomainname123.s3.amazonaws.com"
+        }
+      },
+      "Logging": {
+        "type": "RadioButton",
+        "id": "radio-button-logging_Off",
+        "value": {
+          "QA 1": "Off",
+          "QA 2": "Off",
+          "QA 4": "Off",
+          "Customer 1": "Off"
+        }
+      },
+      "Comment": {
+        "type": "Textbox",
+        "id": "text-input-comment",
+        "value": {
+          "QA 1": "Comment",
+          "QA 2": "Comment",
+          "QA 4": "Comment",
+          "Customer 1": "Comment"
+        }
+      },
+      "Distribution State": {
+        "type": "RadioButton",
+        "id": "radio-button-distributionState_Disabled",
+        "value": {
+          "QA 1": "Disabled",
+          "QA 2": "Disabled",
+          "QA 4": "Disabled",
+          "Customer 1": "Disabled"
+        }
+      }
+    }
+  }
+}

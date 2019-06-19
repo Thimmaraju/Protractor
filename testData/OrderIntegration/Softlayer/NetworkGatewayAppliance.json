@@ -1,0 +1,251 @@
+{
+	"bluePrintName": "Network Gateway Appliance",
+	"descriptiveText": "Network Gateway Appliance",
+	"providerName": "IBM Cloud",
+	"serviceName": "NETWORK_GATEWAY_SERVICE",
+	"Category": "Network",
+	"estimatedCost": "USD 310.31/ MONTH + USD 0.00",
+	"totalCost": "USD 401.66",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Network Gateway Details": {
+			"High Availability Pair": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ha",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			},
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-name",
+				"value": {
+					"QA 1": "testGSL",
+					"QA 2": "testGSL",
+					"QA 4": "testGSL",
+					"Customer 1": "testGSL"
+				}
+			},
+			"Hostname": {
+				"type": "Textbox",
+				"id": "text-input-hostname",
+				"value": {
+					"QA 1": "testGSL",
+					"QA 2": "testGSL",
+					"QA 4": "testGSL",
+					"Customer 1": "testGSL"
+				}
+			},
+			"Domain": {
+				"type": "Textbox",
+				"id": "text-input-domain",
+				"value": {
+					"QA 1": "testGSL.com",
+					"QA 2": "testGSL.com",
+					"QA 4": "testGSL.com",
+					"Customer 1": "testGSL.com"
+				}
+			},
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Amsterdam 1",
+					"QA 2": "Amsterdam 1",
+					"QA 4": "Amsterdam 1",
+					"Customer 1": "Amsterdam 1"
+				}
+			},
+			"Server Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_package_key_name",
+				"value": {
+					"QA 1": "Single Processor Multi-Core Servers",
+					"QA 2": "Single Processor Multi-Core Servers",
+					"QA 4": "Single Processor Multi-Core Servers",
+					"Customer 1": "Single Processor Multi-Core Servers"
+				}
+			}
+		},
+		"Server Details": {
+			"Server": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_process_key_name",
+				"value": {
+					"QA 1": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)",
+					"QA 2": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)",
+					"QA 4": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)",
+					"Customer 1": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)"
+				}
+			},
+			"RAM": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_memory",
+				"value": {
+					"QA 1": "8 GB DDR3 1333",
+					"QA 2": "8 GB DDR3 1333",
+					"QA 4": "8 GB DDR3 1333",
+					"Customer 1": "8 GB DDR3 1333"
+				}
+			},
+			"Operating System": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_os_key_name",
+				"value": {
+					"QA 1": "Virtual Router Appliance 18.x (up to 2 Gbps) Subscription Edition (64 Bit)",
+					"QA 2": "Virtual Router Appliance 18.x (up to 2 Gbps) Subscription Edition (64 Bit)",
+					"QA 4": "Virtual Router Appliance 18.x (up to 2 Gbps) Subscription Edition (64 Bit)",
+					"Customer 1": "Virtual Router Appliance 18.x (up to 2 Gbps) Subscription Edition (64 Bit)"
+				}
+			},
+			"First Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_key_names~1",
+				"value": {
+					"QA 1": "2.00 TB SATA",
+					"QA 2": "2.00 TB SATA",
+					"QA 4": "2.00 TB SATA",
+					"Customer 1": "2.00 TB SATA"
+				}
+			}
+		},
+		"Network Details": {
+			"Network Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private_network_only",
+				"value": {
+					"QA 1": "Private Network Only",
+					"QA 2": "Private Network Only",
+					"QA 4": "Private Network Only",
+					"Customer 1": "Private Network Only"
+				}
+			},
+			"Public Bandwidth": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public_bandwidth",
+				"value": {
+					"QA 1": "0 GB Bandwidth Allotment",
+					"QA 2": "0 GB Bandwidth Allotment",
+					"QA 4": "0 GB Bandwidth Allotment",
+					"Customer 1": "0 GB Bandwidth Allotment"
+				}
+			},
+			"Unbonded Network": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_unbonded_network",
+				"value": {
+					"QA 1": "Not Required",
+					"QA 2": "Not Required",
+					"QA 4": "Not Required",
+					"Customer 1": "Not Required"
+				}
+			},
+			"Redundant Network": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_redundant_network",
+				"value": {
+					"QA 1": "Not Required",
+					"QA 2": "Not Required",
+					"QA 4": "Not Required",
+					"Customer 1": "Not Required"
+				}
+			},
+			"Uplink Port Speeds": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_network_speed",
+				"value": {
+					"QA 1": "100 Mbps Public & Private Network Uplinks",
+					"QA 2": "100 Mbps Public & Private Network Uplinks",
+					"QA 4": "100 Mbps Public & Private Network Uplinks",
+					"Customer 1": "100 Mbps Public & Private Network Uplinks"
+				}
+			},
+			"TCP Monitoring": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_tcp_monitoring",
+				"value": {
+					"QA 1": "TCP Monitoring Disabled",
+					"QA 2": "TCP Monitoring Disabled",
+					"QA 4": "TCP Monitoring Disabled",
+					"Customer 1": "TCP Monitoring Disabled"
+				}
+			},
+			"Primary IPv6 Addresses": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ipv6_enabled",
+				"value": {
+					"QA 1": "1 IPv6 Address",
+					"QA 2": "1 IPv6 Address",
+					"QA 4": "1 IPv6 Address",
+					"Customer 1": "1 IPv6 Address"
+				}
+			}
+		},
+		"Extra Details": {
+			"Tags": {
+				"type": "Textbox",
+				"id": "text-input-tags",
+				"value": {
+					"QA 1": "Tag1",
+					"QA 2": "Tag1",
+					"QA 4": "Tag1",
+					"Customer 1": "Tag1"
+				}
+			}
+		}
+	}
+}

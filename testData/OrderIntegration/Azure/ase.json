@@ -1,0 +1,148 @@
+{
+    "bluePrintName": "App Service Environment",
+    "descriptiveText": "App Service Environment",
+    "provider": "Azure",
+    "Category": "Other Services",
+    "BasePrice": "USD 1.4298/ HOUR + USD 0.00",
+    "EstimatedCost": "USD 0.00 ONE TIME CHARGE + USD 1,329.786912 / MONTH",
+    "serviceName": "CB_AZ_ARM_ASE_S00",
+    "TotalCost": "USD 1,329.7869",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation",
+                    "QA 2": "TestAutomation",
+                    "QA 3": "TestAutomation",
+                    "QA 4": "TestAutomation",
+                    "Customer 1": "TestAutomation"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 3": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "azure-TEAM1 / azure-TEAM1",
+                   "QA 2": "azure-TEAM1 / azure-TEAM1",
+                   "QA 3": "azure-qa / azure-qa",
+                   "QA 4": "azure-qa / azure-qa",
+                   "Customer 1": "azure-qa / azure-qa"
+                }
+            }
+        },
+        "Resource Group Parameters": {
+            "New Resource Group Required": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_newResourceGroupRequired",
+                "value": {
+                    "QA 1": "Yes",
+                    "QA 2": "Yes",
+                    "QA 3": "Yes",
+                    "QA 4": "Yes",
+                    "Customer 1": "Yes"
+                }
+            },
+            "New Resource Group": {
+                "type": "Textbox",
+                "id": "text-input-newResourceGroup",
+                "value": {
+                    "QA 1": "AutoAV-RG101",
+                    "QA 2": "AutoAV-RG101",
+                    "QA 3": "AutoAV-RG101",
+                    "QA 4": "AutoAV-RG101",
+                    "Customer 1": "AutoAV-RG101"
+                }
+            },
+            "Location": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_location",
+                "value": {
+                    "QA 1": "Australia East",
+                    "QA 2": "Australia East",
+                    "QA 3": "Australia East",
+                    "QA 4": "Australia East",
+                    "Customer 1": "Australia East"
+                }
+            }
+        },
+        "ASE Parameters": {
+            "App Service Environment Name": {
+                "type": "Textbox",
+                "id": "text-input-appServiceEnvironmentName",
+                "value": {
+                    "QA 1": "Autoase-Name",
+                    "QA 2": "Autoase-Name",
+                    "QA 3": "Autoase-Name",
+                    "QA 4": "Autoase-Name",
+                    "Customer 1": "Autoase-Name"
+                }
+            },
+            "New Virtual Network Required": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_newVirtualNetworkRequired",
+                "value": {
+                    "QA 1": "yes",
+                    "QA 2": "yes",
+                    "QA 3": "yes",
+                    "QA 4": "yes",
+                    "Customer 1": "yes"
+                }
+            },
+            "Virtual Network Name": {
+                "type": "Textbox",
+                "id": "text-input-virtualNetworkName",
+                "value": {
+                    "QA 1": "vnet",
+                    "QA 2": "vnet",
+                    "QA 3": "vnet",
+                    "QA 4": "vnet",
+                    "Customer 1": "vnet"
+                }
+            },
+            "Virtual Network Location": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_virtualNetworkLocation",
+                "value": {
+                    "QA 1": "Australia East",
+                    "QA 2": "Australia East",
+                    "QA 3": "Australia East",
+                    "QA 4": "Australia East",
+                    "Customer 1": "Australia East"
+                }
+            }
+        }
+    }
+}

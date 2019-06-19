@@ -1,0 +1,95 @@
+
+{
+    "bluePrintName": "Hardware Firewall Shared",
+    "descriptiveText": "Hardware Firewall Shared",
+    "providerName": "IBM Cloud",
+    "serviceName": "Hardware Firewall Shared",
+    "Category": "Security & Identity",
+    "EstimatedPrice": "USD 29.00/ MONTH + USD 0.00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation",
+                    "QA 2": "TestAutomation",
+                    "QA 4": "TestAutomation",
+                    "Customer 1": "TestAutomation"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                    "QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                    "QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                    "Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+                }
+            }
+        },
+        "Hardware Firewall shared Specifications": {
+            "Device Type": {
+                "type": "Dropdown",
+				"id": "bx--dropdown-single-parent_guest_type",
+				"value": {
+					"QA 1": "Virtual Machine",
+					"QA 2": "Virtual Machine",
+					"QA 4": "Virtual Machine",
+					"Customer 1": "Virtual Machine"
+				}
+            },
+            "Device Name": {
+                "type": "Dropdown",
+				"id": "bx--dropdown-single-parent_guest_id",
+				"value": {
+					"QA 1": "d2ops1034.d2ops.com | 169.61.215.76",
+					"QA 2": "d2ops1034.d2ops.com | 169.61.215.76",
+					"QA 4": "d2ops1034.d2ops.com | 169.61.215.76",
+					"Customer 1": "d2ops1034.d2ops.com | 169.61.215.76"
+				}
+            },
+            "Firewall Type": {
+                "type": "Dropdown",
+				"id": "bx--dropdown-single-parent_firewall_type",
+				"value": {
+					"QA 1": "100Mbps Hardware Firewall",
+					"QA 2": "100Mbps Hardware Firewall",
+					"QA 4": "100Mbps Hardware Firewall",
+					"Customer 1": "100Mbps Hardware Firewall"
+				}
+            }
+        }
+    }
+}

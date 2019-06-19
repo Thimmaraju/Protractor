@@ -1,0 +1,110 @@
+{
+	"bluePrintName": "Reverse DNS Records",
+	"descriptiveText": "Reverse DNS Records",
+	"providerName": "IBM Cloud",
+	"serviceName": "Reverse DNS Records",
+	"Category": "Network",
+	"estimatedCost": "USD 0.00/ HR + USD 0.00",
+	"totalCost": "USD 0.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"DNS Record Specifications": {
+			"Public Ip Address": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_dns_ipaddress",
+				"value": {
+					"QA 1": "119.81.140.129",
+					"QA 2": "119.81.140.129",
+					"QA 4": "119.81.140.129",
+					"Customer 1": "119.81.140.129"
+				}
+			},
+			"Reverse DNS": {
+				"type": "Textbox",
+				"id": "text-input-dns_hostname",
+				"value": {
+					"QA 1": "www.test.com",
+					"QA 2": "www.test.com",
+					"QA 4": "www.test.com",
+					"Customer 1": "www.test.com"
+				}
+			},
+			"Reverse Time To Leave": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_dns_ttl",
+				"value": {
+					"QA 1": "900 (15 mins)",
+					"QA 2": "900 (15 mins)",
+					"QA 4": "900 (15 mins)",
+					"Customer 1": "900 (15 mins)"
+				}
+			}
+		}
+	},
+	"Edit Parameters": {
+		"Main Parameters": {},
+		"DNS Record Specifications": {
+			"Reverse Time To Leave": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_dns_ttl",
+				"value": {
+					"QA 1": "3600 (1 hour)",
+					"QA 2": "3600 (1 hour)",
+					"QA 4": "3600 (1 hour)",
+					"Customer 1": "3600 (1 hour)"
+				}
+			}
+		}
+	}
+}

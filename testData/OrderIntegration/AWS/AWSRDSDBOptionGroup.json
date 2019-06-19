@@ -1,0 +1,119 @@
+{
+  "bluePrintName": "RDS DB Option Group",
+  "descriptiveText": "Creates an option group that can make managing data and databases easier.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "Category": "Databases",
+  "BasePrice": "USD 0.00/ Size / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_RDS_OPTIONGROUP_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Option group details": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-optionName",
+        "value": {
+          "QA 1": "testoptionname",
+          "QA 2": "testoptionname",
+          "QA 4": "testoptionname",
+          "Customer 1": "testoptionname"
+        }
+      },
+      "Description": {
+        "type": "Textbox",
+        "id": "text-input-optionGroupDescription",
+        "value": {
+          "QA 1": "descriptionOptionGroup",
+          "QA 2": "descriptionOptionGroup",
+          "QA 4": "descriptionOptionGroup",
+          "Customer 1": "descriptionOptionGroup"
+        }
+      },
+      "Engine": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_engine",
+        "value": {
+          "QA 1": "mysql",
+          "QA 2": "mysql",
+          "QA 4": "mysql",
+          "Customer 1": "mysql"
+        }
+      },
+      "Major Engine Version": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_majorEngineVersion",
+        "value": {
+          "QA 1": "5.5",
+          "QA 2": "5.5",
+          "QA 4": "5.5",
+          "Customer 1": "5.5"
+        }
+      }
+    }
+  }
+}

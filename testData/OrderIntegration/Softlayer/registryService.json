@@ -1,0 +1,252 @@
+{
+    "bluePrintName": "Registry Service",
+    "descriptiveText": "Registry Service",
+    "providerName": "IBM Cloud",
+    "serviceName": "REGISTRY_VM",
+    "Category": "Compute",
+    "EstimatedPrice": "USD 0.042/ HR + USD 0.00",
+    "totalCost": "USD 28.67",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+              "type": "Textbox",
+              "id": "text-input-main_params-serviceName",
+              "value": {
+                "QA 1": "TestAutomation",
+                "QA 2": "TestAutomation",
+                "QA 4": "gslsl-RegiService",
+                "Customer 1": "TestAutomation"
+              }
+            },
+            "Team": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_team",
+              "value": {
+                "QA 1": "slTeam",
+                "QA 2": "contexttest",
+                "QA 4": "TEAM1",
+                "Customer 1": "TEAM1"
+              }
+            },
+            "Environment": {
+              "type": "DropdownSearch",
+              "id": "env",
+              "value": {
+                "QA 1": "gcpEnv",
+                "QA 2": "awsEnv",
+                "QA 4": "NONE",
+                "Customer 1": "NONE"
+              }
+            },
+            "Application": {
+              "type": "DropdownSearch",
+              "id": "app",
+              "value": {
+                "QA 1": "gcpApp",
+                "QA 2": "awsApp",
+                "QA 4": "NONE",
+                "Customer 1": "NONE"
+              }
+            },
+            "Provider Account": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_provider-account",
+              "value": {
+                "QA 1": "sl-test / sl-test",
+                "QA 2": "softlayer-v2test / softlayer-v2test",
+                "QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                "Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+              }
+            }
+          },
+          "Instance Specifications": {
+            "Hostname of Registry": {
+              "type": "Textbox",
+              "id": "text-input-hostname",
+              "value": {
+                "QA 1": "gslsl-host",
+                "QA 2": "gslsl-host",
+                "QA 4": "gslsl-RShost",
+                "Customer 1": "gslsl-host"
+              }
+            },
+            "Domain": {
+              "type": "Textbox",
+              "id": "text-input-domain",
+              "value": {
+                "QA 1": "domain.com",
+                "QA 2": "domain.com",
+                "QA 4": "gslslRegiService.com",
+                "Customer 1": "domain.com"
+              }
+            },
+            "Dedicated Account Flag": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_dedicated_acct_host_only",
+              "value": {
+                "QA 1": "Dedicated VM (Auto Assign)",
+                "QA 2": "Dedicated VM (Auto Assign)",
+                "QA 4": "Public VM",
+                "Customer 1": "Public VM"
+              }
+            },
+            "Billing Type": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_hourly_billing",
+              "value": {
+                "QA 1": "Hourly Billing",
+                "QA 2": "Hourly Billing",
+                "QA 4": "Monthly Billing",
+                "Customer 1": "Monthly Billing"
+              }
+            },
+            "Datacenter":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_datacenter",
+                "value": {
+                  "QA 1": "Dallas 10",
+                  "QA 2": "Dallas 10",
+                  "QA 4": "Dallas 10",
+                  "Customer 1": "Dallas 10"
+              }
+            }
+          },
+        
+          "System Specification": {
+            "Operating System": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_os_reference_code",
+              "value": {
+                "QA 1": "UBUNTU 16 (64)",
+                "QA 2": "UBUNTU 16 (64)",
+                "QA 4": "UBUNTU 16 (64)",
+                "Customer 1": "UBUNTU 16 (64)"
+              }
+            },
+            "Memory": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_memory",
+              "value": {
+                "QA 1": "1 GB",
+                "QA 2": "1 GB",
+                "QA 4": "1 GB",
+                "Customer 1": "1 GB"
+              }
+            },
+            "Cores": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_cores",
+                "value": {
+                  "QA 1": "1 x 2.0 GHz or higher Core",
+                  "QA 2": "1 x 2.0 GHz or higher Core",
+                  "QA 4": "1 x 2.0 GHz or higher Core",
+                  "Customer 1": "1 x 2.0 GHz or higher Core"
+                }
+              },
+            "Disk Type": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_local_disk",
+              "value": {
+                "QA 1": "Local Disk",
+                "QA 2": "Local Disk",
+                "QA 4": "Local Disk",
+                "Customer 1": "Local Disk"
+              }
+            },
+            "First Disk": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_disks~0",
+              "value": {
+                "QA 1": "25 GB (Local - Dedicated Host)",
+                "QA 2": "25 GB (Local - Dedicated Host)",
+                "QA 4": "25 GB (Local - Dedicated Host)",
+                "Customer 1": "25 GB (Local - Dedicated Host)"
+              }
+            },
+            "Second Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~2",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            },
+            "Third Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~3",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            },
+            "Fourth Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~4",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            },
+            "Fifth Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~5",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            }
+          
+          },
+         "Registry Specification": {
+            "Registry User": {
+              "type": "Textbox",
+              "id": "text-input-registryuser",
+              "value": {
+                "QA 1": "GslslRegUser",
+                "QA 2": "GslslRegUser",
+                "QA 4": "GslslRegUser",
+                "Customer 1": "GslslRegUser"
+              }
+            },
+            "Registry Password": {
+                "type": "Textbox",
+                "id": "text-input-registrypass",
+                "value": {
+                  "QA 1": "Gslab@123",
+                  "QA 2": "Gslab@123",
+                  "QA 4": "Gslab@123",
+                  "Customer 1": "Gslab@123"
+                }
+            },
+            "Registry Port": {
+                "type": "Textbox",
+                "id": "text-input-port",
+                "value": {
+                  "QA 1": "1024",
+                  "QA 2": "1024",
+                  "QA 4": "1024",
+                  "Customer 1": "1024"
+                }
+            },
+            "Tags": {
+                "type": "Textbox",
+                "id": "text-input-tags",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            }
+          }
+        
+      }
+    }

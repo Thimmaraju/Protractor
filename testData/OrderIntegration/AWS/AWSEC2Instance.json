@@ -1,0 +1,439 @@
+{
+    "bluePrintName": "Elastic Compute Cloud (EC2)",
+    "descriptiveText": "The Amazon Elastic Compute Cloud (EC2) service creates virtual computers in the cloud. Users create, access, and terminate these computers as needed, paying for only the compute capacity used.",
+    "provider": "Amazon",
+    "Category": "Compute",
+    "BasePrice": "USD 0.0058/ SIZE / HR + USD 0.00",
+    "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 17.112 / MONTH",
+    "EstimatedPricePostEdit": "USD 0.00 ONE TIME CHARGE + USD 9.6804 / MONTH",
+    "TotalEstimatedCost_Cart_Multiquantity": "USD 51.336 /Month + USD 0.00 one time charges apply",
+    "TotalCost": "USD 17.112",
+    "TotalCostPostEdit": "USD 9.6804",
+    "budgetName": "awsBudgetAut",
+	"budgetDuration": "3",
+	"budgetaryName": "awsBudgetAut",
+	"BudgetAmount": "USD 1,000.00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation",
+                    "QA 2": "TestAutomation",
+                    "QA 4": "TestAutomation",
+                    "Customer 1": "TestAutomation"
+                }
+            },
+            "Quantity": {
+                "type": "Textbox",
+                "id": "slider-input-box-main-params_multi-quantity",
+                "value": {
+                    "QA 1": "1",
+                    "QA 2": "1",
+                    "QA 4": "1",
+                    "Customer 1": "1"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-east-1",
+                    "QA 2": "us-east-1",
+                    "QA 4": "us-east-1",
+                    "Customer 1": "us-east-1"
+                }
+            },
+            "Resource Name": {
+                "type": "Textbox",
+                "id": "text-input-resourceName",
+                "value": {
+                    "QA 1": "EC2Instance",
+                    "QA 2": "EC2Instance",
+                    "QA 4": "EC2Instance",
+                    "Customer 1": "EC2Instance"
+                }
+            }
+        },
+        "Configure Instance Type": {
+            "Instance Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_instanceType",
+                "value": {
+                    "QA 1": "t2.small",
+                    "QA 2": "t2.small",
+                    "QA 4": "t2.small",
+                    "Customer 1": "t2.small"
+                }
+            },
+            "Include Public Images in Search Results": {
+                "type": "RadioButton",
+                "id": "radio-button-searchForPublicImage_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            },
+            "Architecture": {
+                "type": "RadioButton",
+                "id": "radio-button-architecture_x86_64",
+                "value": {
+                    "QA 1": "x86_64",
+                    "QA 2": "x86_64",
+                    "QA 4": "x86_64",
+                    "Customer 1": "x86_64"
+                }
+            },
+            "Virtualization Type": {
+                "type": "RadioButton",
+                "id": "radio-button-virtualizationType_hvm",
+                "value": {
+                    "QA 1": "hvm",
+                    "QA 2": "hvm",
+                    "QA 4": "hvm",
+                    "Customer 1": "hvm"
+                }
+            },
+            "Image Name": {
+                "type": "SearchList",
+                "id": "text-input_imageName",
+                "value": {
+                    "QA 1": "testami",
+                    "QA 2": "testami",
+                    "QA 4": "testami",
+                    "Customer 1": "testami"
+                }
+            }
+        },
+        "Configure Instance": {
+            "Availability Zone": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_availabilityZone",
+                "value": {
+                    "QA 1": "us-east-1a",
+                    "QA 2": "us-east-1a",
+                    "QA 4": "us-east-1a",
+                    "Customer 1": "us-east-1a"
+                }
+            },
+            "VPC Creation Mode": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_VpcCreationMode",
+                "value": {
+                    "QA 1": "Create with Default VPC and Subnet",
+                    "QA 2": "Create with Default VPC and Subnet",
+                    "QA 4": "Create with Default VPC and Subnet",
+                    "Customer 1": "Create with Default VPC and Subnet"
+                }
+            },
+            "IAM Role": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_IAMrole",
+                "value": {
+                    "QA 1": "testEC2123",
+                    "QA 2": "testEC2123",
+                    "QA 4": "testEC2123",
+                    "Customer 1": "testEC2123"
+                }
+            },
+            "Shutdown Behavior": {
+                "type": "RadioButton",
+                "id": "radio-button-shutdownBehavior_stop",
+                "value": {
+                    "QA 1": "stop",
+                    "QA 2": "stop",
+                    "QA 4": "stop",
+                    "Customer 1": "stop"
+                }
+            },
+            "Enable Termination Protection": {
+                "type": "RadioButton",
+                "id": "radio-button-enableTerminationProtection_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            },
+            "Monitoring": {
+                "type": "RadioButton",
+                "id": "radio-button-monitoring_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            },
+            "T2/T3 Unlimited": {
+                "type": "RadioButton",
+                "id": "radio-button-t2Ort3Unlimited_Disable",
+                "value": {
+                    "QA 1": "Disable",
+                    "QA 2": "Disable",
+                    "QA 4": "Disable",
+                    "Customer 1": "Disable"
+                }
+            }
+        },
+        "Advanced Details": {
+            "User Data": {
+                "type": "Textbox",
+                "id": "text-areauserData",
+                "value": {
+                    "QA 1": "Test User",
+                    "QA 2": "Test User",
+                    "QA 4": "Test User",
+                    "Customer 1": "Test User"
+                }
+            }
+        },
+        "Configure Storage": {},
+        "Configure SSH": {
+            "SSH Key Name": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_SSHKeyName",
+                "value": {
+                    "QA 1": "1qaz",
+                    "QA 2": "1qaz",
+                    "QA 4": "1qaz",
+                    "Customer 1": "1qaz"
+                }
+            },
+            "SSH Location": {
+                "type": "Textbox",
+                "id": "text-input-SSHLocation",
+                "value": {
+                    "QA 1": "0.0.0.0/0",
+                    "QA 2": "0.0.0.0/0",
+                    "QA 4": "0.0.0.0/0",
+                    "Customer 1": "0.0.0.0/0"
+                }
+            }
+        }
+    },
+    "Edit Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Resource Name": {
+                "type": "Textbox",
+                "id": "text-input-resourceName",
+                "value": {
+                    "QA 1": "EC2InstanceEdit",
+                    "QA 2": "EC2InstanceEdit",
+                    "QA 4": "EC2InstanceEdit",
+                    "Customer 1": "EC2InstanceEdit"
+                }
+            }
+        },
+        "Configure Instance Type": {
+            "Instance Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_instanceType",
+                "value": {
+                    "QA 1": "t2.micro",
+                    "QA 2": "t2.micro",
+                    "QA 4": "t2.micro",
+                    "Customer 1": "t2.micro"
+                }
+            }
+        },
+        "Configure Instance": {
+            "IAM Role": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_IAMrole",
+                "value": {
+                    "QA 1": "ecs_test_role",
+                    "QA 2": "ecs_test_role",
+                    "QA 4": "ecs_test_role",
+                    "Customer 1": "ecs_test_role"
+                }
+            },
+            "Shutdown Behavior": {
+                "type": "RadioButton",
+                "id": "radio-button-shutdownBehavior_terminate",
+                "value": {
+                    "QA 1": "terminate",
+                    "QA 2": "terminate",
+                    "QA 4": "terminate",
+                    "Customer 1": "terminate"
+                }
+            },
+            "Monitoring": {
+                "type": "RadioButton",
+                "id": "radio-button-monitoring_true",
+                "value": {
+                    "QA 1": "true",
+                    "QA 2": "true",
+                    "QA 4": "true",
+                    "Customer 1": "true"
+                }
+            },
+            "T2/T3 Unlimited": {
+                "type": "RadioButton",
+                "id": "radio-button-t2Ort3Unlimited_Enable",
+                "value": {
+                    "QA 1": "Enable",
+                    "QA 2": "Enable",
+                    "QA 4": "Enable",
+                    "Customer 1": "Enable"
+                }
+            },
+            "Unlimited Instance Type": {
+                "type": "RadioButton",
+                "id": "radio-button-unlimitedInstanceType_T2",
+                "value": {
+                    "QA 1": "T2",
+                    "QA 2": "T2",
+                    "QA 4": "T2",
+                    "Customer 1": "T2"
+                }
+            }
+        },
+        "Advanced Details": {
+            "User Data": {
+                "type": "Textbox",
+                "id": "text-areauserData",
+                "value": {
+                    "QA 1": "test",
+                    "QA 2": "test",
+                    "QA 4": "test",
+                    "Customer 1": "test"
+                }
+            }
+        },
+        "Configure Storage": {
+            "EBS Volume": {
+                "type": "Button",
+                "id": "button-EBS VolumeAdd0",
+                "value": {
+                    "QA 1": " ",
+                    "QA 2": " ",
+                    "QA 4": " ",
+                    "Customer 1": " "
+                }
+            },
+            "Device Name": {
+                "type": "Textbox",
+                "id": "text-input-deviceName1",
+                "value": {
+                    "QA 1": "/dev/xvda",
+                    "QA 2": "/dev/xvda",
+                    "QA 4": "/dev/xvda",
+                    "Customer 1": "/dev/xvda"
+                }
+            },
+            "Volume Size": {
+                "type": "Textbox",
+                "id": "slider-input-box-volumeSize1",
+                "value": {
+                    "QA 1": "8",
+                    "QA 2": "8",
+                    "QA 4": "8",
+                    "Customer 1": "8"
+                }
+            },
+            "Volume Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_volumeType1",
+                "value": {
+                    "QA 1": "io1",
+                    "QA 2": "io1",
+                    "QA 4": "io1",
+                    "Customer 1": "io1"
+                }
+            }
+        },
+        "Configure SSH": {}
+    }
+}

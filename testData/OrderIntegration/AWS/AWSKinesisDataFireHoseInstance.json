@@ -1,0 +1,205 @@
+{
+  "bluePrintName": "Kinesis Data Firehose",
+  "descriptiveText": "AWS Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testKinesisDataFireHose",
+  "Category": "Other Services",
+  "BasePrice": "USD 0.029/ GB / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.029 / MONTH",
+  "TotalCost": "USD 0.029",
+  "serviceId": "CB_AWS_CF_KINESIS_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Stream Configurations": {
+      "Delivery Stream Name": {
+        "type": "Textbox",
+        "id": "text-input-deliveryStreamName",
+        "value": {
+          "QA 1": "namekinesis",
+          "QA 2": "namekinesis",
+          "QA 4": "namekinesis",
+          "Customer 1": "namekinesis"
+        }
+      },
+      "Source": {
+        "type": "RadioButton",
+        "id": "radio-button-source_DirectPut",
+        "value": {
+          "QA 1": "DirectPut",
+          "QA 2": "DirectPut",
+          "QA 4": "DirectPut",
+          "Customer 1": "DirectPut"
+        }
+      }
+    },
+    "Process Records": {
+      "Record Transformation": {
+        "type": "RadioButton",
+        "id": "radio-button-recordTransformation_Disabled",
+        "value": {
+          "QA 1": "Disabled",
+          "QA 2": "Disabled",
+          "QA 4": "Disabled",
+          "Customer 1": "Disabled"
+        }
+      }
+    },
+    "Destination Configurations": {
+      "Destination": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_destination",
+        "value": {
+          "QA 1": "Amazon S3",
+          "QA 2": "Amazon S3",
+          "QA 4": "Amazon S3",
+          "Customer 1": "Amazon S3"
+        }
+      },
+      "S3 Bucket": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_S3Bucket",
+        "value": {
+          "QA 1": "a--c",
+          "QA 2": "a--c",
+          "QA 4": "a--c",
+          "Customer 1": "a--c"
+        }
+      },
+      "Prefix": {
+        "type": "Textbox",
+        "id": "text-input-prefix2",
+        "value": {
+          "QA 1": "kinesisdata",
+          "QA 2": "kinesisdata",
+          "QA 4": "kinesisdata",
+          "Customer 1": "kinesisdata"
+        }
+      }
+    },
+    "Configure Settings": {
+      "Buffer Size": {
+        "type": "Textbox",
+        "id": "slider-input-box-bufferSize",
+        "value": {
+          "QA 1": "5",
+          "QA 2": "5",
+          "QA 4": "5",
+          "Customer 1": "5"
+        }
+      },
+      "Buffer Interval": {
+        "type": "Textbox",
+        "id": "slider-input-box-bufferInterval",
+        "value": {
+          "QA 1": "200",
+          "QA 2": "200",
+          "QA 4": "200",
+          "Customer 1": "200"
+        }
+      },
+      "S3 Compression": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_s3Compression2",
+        "value": {
+          "QA 1": "Disabled",
+          "QA 2": "Disabled",
+          "QA 4": "Disabled",
+          "Customer 1": "Disabled"
+        }
+      },
+      "S3 Encryption": {
+        "type": "RadioButton",
+        "id": "radio-button-S3Encryption_Disabled",
+        "value": {
+          "QA 1": "Disabled",
+          "QA 2": "Disabled",
+          "QA 4": "Disabled",
+          "Customer 1": "Disabled"
+        }
+      },
+      "Error Logging": {
+        "type": "RadioButton",
+        "id": "radio-button-errorLogging_Disabled",
+        "value": {
+          "QA 1": "Disabled",
+          "QA 2": "Disabled",
+          "QA 4": "Disabled",
+          "Customer 1": "Disabled"
+        }
+      },
+      "IAM Role": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_iamRole",
+        "value": {
+          "QA 1": "kinesis_test_role",
+          "QA 2": "kinesis_test_role",
+          "QA 4": "kinesis_test_role",
+          "Customer 1": "kinesis_test_role"
+        }
+      }
+    }
+  }
+}

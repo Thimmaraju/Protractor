@@ -1,0 +1,87 @@
+{
+	"bluePrintName": "Citrix NetScaler VPX",
+	"descriptiveText": "Citrix NetScaler VPX",
+	"providerName": "Softlayer",
+	"serviceName": "CITRIX_LOAD_BALANCER_SERVICE",
+	"Category": "Network",
+    "EstimatedPrice": "$216.78/ MONTH + $0.00",
+    "totalCost": "$256.47",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			}
+		},
+		"Additional Parameters": {
+			"Location": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "AMS01 - Amsterdam",
+					"QA 2": "AMS01 - Amsterdam",
+					"QA 4": "AMS01 - Amsterdam",
+					"Customer 1": "AMS01 - Amsterdam"
+				}
+			},
+			"IPCount": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ip_count",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			},
+			"Plan": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_plan",
+				"value": {
+					"QA 1": "Standard",
+					"QA 2": "Standard",
+					"QA 4": "Standard",
+					"Customer 1": "Standard"
+				}
+			},
+			"Speed": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_speed",
+				"value": {
+					"QA 1": "10",
+					"QA 2": "10",
+					"QA 4": "10",
+					"Customer 1": "10"
+				}
+			},
+			"Version": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_version",
+				"value": {
+					"QA 1": "10.1",
+					"QA 2": "10.1",
+					"QA 4": "10.1",
+					"Customer 1": "10.1"
+				}
+			}
+
+		}
+		
+	}
+}

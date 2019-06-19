@@ -1,0 +1,430 @@
+[19-02-2019 14:41:19] [INFO] - ******Printing Environment Variables*******
+[19-02-2019 14:41:19] [INFO] - Test browser: chrome
+[19-02-2019 14:41:19] [INFO] - Test environment: cb-qa-6
+[19-02-2019 14:41:19] [INFO] - Username: cbadmn@outlook.com
+[19-02-2019 14:41:19] [INFO] - Suites: e2eVRA
+[19-02-2019 14:41:19] [INFO] - Provisioning: false
+[19-02-2019 14:41:19] [INFO] - Post to Slack: false
+[19-02-2019 14:41:19] [INFO] - *******************************************
+[19-02-2019 14:41:19] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[19-02-2019 14:41:23] [INFO] - Test user: cbadmn@outlook.com
+[19-02-2019 14:41:23] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 14:41:23] [INFO] - Test Domain: cb-qa-6
+[19-02-2019 14:41:23] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[19-02-2019 14:41:27] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[19-02-2019 14:41:34] [INFO] - Waited till Username text box is visible on the page
+[19-02-2019 14:41:34] [INFO] - Cleared Username input box
+[19-02-2019 14:41:34] [INFO] - Entered cbadmn@outlook.com in Username input box
+[19-02-2019 14:41:35] [INFO] - Waited till Password input box is visible on login page
+[19-02-2019 14:41:35] [INFO] - Entered Gravitant123$ in password input box
+[19-02-2019 14:41:35] [INFO] - Clicked on Sign In button
+[19-02-2019 14:41:42] [INFO] - Navigated to Dashboard page...
+[19-02-2019 14:41:43] [INFO] - Privacy policies pop up displayed...
+[19-02-2019 14:41:44] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[19-02-2019 14:41:44] [INFO] - Switched to child window
+[19-02-2019 14:41:50] [INFO] - Switched back to parent window
+[19-02-2019 14:41:50] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[19-02-2019 14:41:50] [INFO] - Clicked on submit button in the Privacy statement popup...
+[19-02-2019 14:41:50] [INFO] - Waited till browser url contains /dashboard
+[19-02-2019 14:41:51] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[19-02-2019 14:41:52] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 14:41:52] [INFO] - Waiting for the Provider to be identified and Click it
+[19-02-2019 14:42:00] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[19-02-2019 14:42:01] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[19-02-2019 14:42:03] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[19-02-2019 14:42:03] [INFO] - Comparing 3 Tier Custom Testing with 3 Tier Traditional Workload
+[19-02-2019 14:42:03] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[19-02-2019 14:42:03] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[19-02-2019 14:42:03] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[19-02-2019 14:42:05] [INFO] - Cleared Service Instance Name textbox
+[19-02-2019 14:42:05] [INFO] - Entered TestAutomationwaSYM in Service Instance Name textbox
+[19-02-2019 14:42:12] [INFO] - Selected TEAM1 from Team dropdown
+[19-02-2019 14:42:22] [INFO] - Selected NONE from Environment dropdown
+[19-02-2019 14:42:38] [INFO] - Test failed: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 14:42:38] [INFO] - Failure reason: Failed: Wait timed out after 10040ms
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 14:42:38] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 14:42:38] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 14:42:38] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:42:38] [INFO] - Test disabled: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:42:38] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 14:42:38] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 14:42:38] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 14:42:38] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:42:38] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 14:42:38] [INFO] - ===========================================================================================
+[19-02-2019 14:44:20] [INFO] - ******Printing Environment Variables*******
+[19-02-2019 14:44:20] [INFO] - Test browser: chrome
+[19-02-2019 14:44:20] [INFO] - Test environment: cb-qa-6
+[19-02-2019 14:44:20] [INFO] - Username: cbadmn@outlook.com
+[19-02-2019 14:44:20] [INFO] - Suites: e2eVRA
+[19-02-2019 14:44:20] [INFO] - Provisioning: false
+[19-02-2019 14:44:20] [INFO] - Post to Slack: false
+[19-02-2019 14:44:20] [INFO] - *******************************************
+[19-02-2019 14:44:20] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[19-02-2019 14:44:24] [INFO] - Test user: cbadmn@outlook.com
+[19-02-2019 14:44:24] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 14:44:24] [INFO] - Test Domain: cb-qa-6
+[19-02-2019 14:44:24] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[19-02-2019 14:44:29] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[19-02-2019 14:44:36] [INFO] - Waited till Username text box is visible on the page
+[19-02-2019 14:44:36] [INFO] - Cleared Username input box
+[19-02-2019 14:44:36] [INFO] - Entered cbadmn@outlook.com in Username input box
+[19-02-2019 14:44:36] [INFO] - Waited till Password input box is visible on login page
+[19-02-2019 14:44:36] [INFO] - Entered Gravitant123$ in password input box
+[19-02-2019 14:44:36] [INFO] - Clicked on Sign In button
+[19-02-2019 14:44:43] [INFO] - Navigated to Dashboard page...
+[19-02-2019 14:44:44] [INFO] - Privacy policies pop up displayed...
+[19-02-2019 14:44:45] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[19-02-2019 14:44:45] [INFO] - Switched to child window
+[19-02-2019 14:44:52] [INFO] - Switched back to parent window
+[19-02-2019 14:44:53] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[19-02-2019 14:44:53] [INFO] - Clicked on submit button in the Privacy statement popup...
+[19-02-2019 14:44:53] [INFO] - Waited till browser url contains /dashboard
+[19-02-2019 14:44:53] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[19-02-2019 14:44:54] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 14:44:54] [INFO] - Waiting for the Provider to be identified and Click it
+[19-02-2019 14:45:04] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[19-02-2019 14:45:05] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[19-02-2019 14:45:08] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[19-02-2019 14:45:08] [INFO] - Comparing 3 Tier Custom Testing with 3 Tier Traditional Workload
+[19-02-2019 14:45:08] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[19-02-2019 14:45:08] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[19-02-2019 14:45:08] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[19-02-2019 14:45:09] [INFO] - Cleared Service Instance Name textbox
+[19-02-2019 14:45:10] [INFO] - Entered TestAutomationdFptI in Service Instance Name textbox
+[19-02-2019 14:45:17] [INFO] - Selected TEAM1 from Team dropdown
+[19-02-2019 14:45:26] [INFO] - Selected NONE from Environment dropdown
+[19-02-2019 14:45:34] [INFO] - Selected NONE from Application dropdown
+[19-02-2019 14:45:38] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[19-02-2019 14:45:41] [INFO] - Clicked on Next button
+[19-02-2019 14:45:47] [INFO] - Selected 1 from CPU dropdown
+[19-02-2019 14:45:52] [INFO] - Selected 512 from Memory (MB) dropdown
+[19-02-2019 14:45:56] [INFO] - Selected 5 from Storage (GB) dropdown
+[19-02-2019 14:45:59] [INFO] - Clicked on Next button
+[19-02-2019 14:51:07] [INFO] - Test failed: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 14:51:07] [INFO] - Failure reason: Failed: Wait timed out after 300007ms
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 14:51:07] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 14:51:07] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 14:51:07] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:51:07] [INFO] - Test disabled: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:51:07] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 14:51:07] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 14:51:07] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 14:51:07] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 14:51:07] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 14:51:07] [INFO] - ===========================================================================================
+[19-02-2019 15:00:12] [INFO] - ******Printing Environment Variables*******
+[19-02-2019 15:00:12] [INFO] - Test browser: chrome
+[19-02-2019 15:00:12] [INFO] - Test environment: cb-qa-6
+[19-02-2019 15:00:12] [INFO] - Username: cbadmn@outlook.com
+[19-02-2019 15:00:12] [INFO] - Suites: e2eVRA
+[19-02-2019 15:00:12] [INFO] - Provisioning: false
+[19-02-2019 15:00:12] [INFO] - Post to Slack: false
+[19-02-2019 15:00:12] [INFO] - *******************************************
+[19-02-2019 15:00:12] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[19-02-2019 15:00:16] [INFO] - Test user: cbadmn@outlook.com
+[19-02-2019 15:00:16] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 15:00:16] [INFO] - Test Domain: cb-qa-6
+[19-02-2019 15:00:16] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[19-02-2019 15:00:20] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[19-02-2019 15:00:26] [INFO] - Waited till Username text box is visible on the page
+[19-02-2019 15:00:26] [INFO] - Cleared Username input box
+[19-02-2019 15:00:26] [INFO] - Entered cbadmn@outlook.com in Username input box
+[19-02-2019 15:00:27] [INFO] - Waited till Password input box is visible on login page
+[19-02-2019 15:00:27] [INFO] - Entered Gravitant123$ in password input box
+[19-02-2019 15:00:27] [INFO] - Clicked on Sign In button
+[19-02-2019 15:00:33] [INFO] - Navigated to Dashboard page...
+[19-02-2019 15:00:34] [INFO] - Privacy policies pop up displayed...
+[19-02-2019 15:00:34] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[19-02-2019 15:00:34] [INFO] - Switched to child window
+[19-02-2019 15:00:36] [INFO] - Switched back to parent window
+[19-02-2019 15:00:36] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[19-02-2019 15:00:36] [INFO] - Clicked on submit button in the Privacy statement popup...
+[19-02-2019 15:00:36] [INFO] - Waited till browser url contains /dashboard
+[19-02-2019 15:00:37] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[19-02-2019 15:00:38] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 15:00:38] [INFO] - Waiting for the Provider to be identified and Click it
+[19-02-2019 15:00:45] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[19-02-2019 15:00:46] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[19-02-2019 15:00:47] [INFO] - Test failed: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 15:00:47] [INFO] - Failure reason: Failed: Cannot convert undefined or null to object
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 15:00:47] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 15:00:47] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 15:00:47] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:00:47] [INFO] - Test disabled: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:00:47] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 15:00:47] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 15:00:47] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 15:00:47] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:00:47] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 15:00:47] [INFO] - ===========================================================================================
+[19-02-2019 15:10:26] [INFO] - ******Printing Environment Variables*******
+[19-02-2019 15:10:26] [INFO] - Test browser: chrome
+[19-02-2019 15:10:26] [INFO] - Test environment: cb-qa-6
+[19-02-2019 15:10:26] [INFO] - Username: cbadmn@outlook.com
+[19-02-2019 15:10:26] [INFO] - Suites: e2eVRA
+[19-02-2019 15:10:26] [INFO] - Provisioning: false
+[19-02-2019 15:10:26] [INFO] - Post to Slack: false
+[19-02-2019 15:10:26] [INFO] - *******************************************
+[19-02-2019 15:10:26] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[19-02-2019 15:10:30] [INFO] - Test user: cbadmn@outlook.com
+[19-02-2019 15:10:30] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 15:10:30] [INFO] - Test Domain: cb-qa-6
+[19-02-2019 15:10:30] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[19-02-2019 15:10:34] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[19-02-2019 15:10:40] [INFO] - Waited till Username text box is visible on the page
+[19-02-2019 15:10:40] [INFO] - Cleared Username input box
+[19-02-2019 15:10:40] [INFO] - Entered cbadmn@outlook.com in Username input box
+[19-02-2019 15:10:40] [INFO] - Waited till Password input box is visible on login page
+[19-02-2019 15:10:41] [INFO] - Entered Gravitant123$ in password input box
+[19-02-2019 15:10:41] [INFO] - Clicked on Sign In button
+[19-02-2019 15:10:48] [INFO] - Navigated to Dashboard page...
+[19-02-2019 15:10:49] [INFO] - Privacy policies pop up displayed...
+[19-02-2019 15:10:49] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[19-02-2019 15:10:49] [INFO] - Switched to child window
+[19-02-2019 15:10:55] [INFO] - Switched back to parent window
+[19-02-2019 15:10:55] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[19-02-2019 15:10:55] [INFO] - Clicked on submit button in the Privacy statement popup...
+[19-02-2019 15:10:55] [INFO] - Waited till browser url contains /dashboard
+[19-02-2019 15:10:56] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[19-02-2019 15:10:57] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 15:10:57] [INFO] - Waiting for the Provider to be identified and Click it
+[19-02-2019 15:11:06] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[19-02-2019 15:11:07] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[19-02-2019 15:11:09] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[19-02-2019 15:11:09] [INFO] - Comparing 3 Tier Custom Testing with 3 Tier Traditional Workload
+[19-02-2019 15:11:09] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[19-02-2019 15:11:09] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[19-02-2019 15:11:09] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[19-02-2019 15:11:10] [INFO] - Cleared Service Instance Name textbox
+[19-02-2019 15:11:11] [INFO] - Entered TestAutomationCgJXa in Service Instance Name textbox
+[19-02-2019 15:11:18] [INFO] - Selected TEAM1 from Team dropdown
+[19-02-2019 15:11:28] [INFO] - Selected NONE from Environment dropdown
+[19-02-2019 15:11:36] [INFO] - Selected NONE from Application dropdown
+[19-02-2019 15:11:39] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[19-02-2019 15:11:43] [INFO] - Clicked on Next button
+[19-02-2019 15:11:49] [INFO] - Selected 1 from CPU dropdown
+[19-02-2019 15:11:53] [INFO] - Selected 512 from Memory (MB) dropdown
+[19-02-2019 15:11:57] [INFO] - Selected 5 from Storage (GB) dropdown
+[19-02-2019 15:12:01] [INFO] - Clicked on Next button
+[19-02-2019 15:12:20] [INFO] - Order number : W4H2GJVW
+[19-02-2019 15:12:20] [INFO] - Total Price : USD 60.00 ONE TIME CHARGE + USD 720.00 / MONTH
+[19-02-2019 15:12:25] [INFO] - Order Submitted !
+[19-02-2019 15:12:26] [INFO] - Test passed: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 15:12:26] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 15:12:26] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 15:12:26] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:12:26] [INFO] - Test disabled: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:12:26] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 15:12:26] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 15:12:26] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 15:12:26] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:12:26] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 15:12:26] [INFO] - ===========================================================================================
+[19-02-2019 15:12:51] [INFO] - ******Printing Environment Variables*******
+[19-02-2019 15:12:51] [INFO] - Test browser: chrome
+[19-02-2019 15:12:51] [INFO] - Test environment: cb-qa-6
+[19-02-2019 15:12:51] [INFO] - Username: cbadmn@outlook.com
+[19-02-2019 15:12:51] [INFO] - Suites: e2eVRA
+[19-02-2019 15:12:51] [INFO] - Provisioning: true
+[19-02-2019 15:12:51] [INFO] - Post to Slack: false
+[19-02-2019 15:12:51] [INFO] - *******************************************
+[19-02-2019 15:12:51] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVRA.spec.js' ]
+[19-02-2019 15:12:54] [INFO] - Test user: cbadmn@outlook.com
+[19-02-2019 15:12:55] [INFO] - Suite started: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 15:12:55] [INFO] - Test Domain: cb-qa-6
+[19-02-2019 15:12:55] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[19-02-2019 15:12:58] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[19-02-2019 15:13:05] [INFO] - Waited till Username text box is visible on the page
+[19-02-2019 15:13:05] [INFO] - Cleared Username input box
+[19-02-2019 15:13:06] [INFO] - Entered cbadmn@outlook.com in Username input box
+[19-02-2019 15:13:06] [INFO] - Waited till Password input box is visible on login page
+[19-02-2019 15:13:06] [INFO] - Entered Gravitant123$ in password input box
+[19-02-2019 15:13:06] [INFO] - Clicked on Sign In button
+[19-02-2019 15:13:14] [INFO] - Navigated to Dashboard page...
+[19-02-2019 15:13:15] [INFO] - Privacy policies pop up displayed...
+[19-02-2019 15:13:16] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[19-02-2019 15:13:16] [INFO] - Switched to child window
+[19-02-2019 15:13:23] [INFO] - Switched back to parent window
+[19-02-2019 15:13:23] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[19-02-2019 15:13:23] [INFO] - Clicked on submit button in the Privacy statement popup...
+[19-02-2019 15:13:23] [INFO] - Waited till browser url contains /dashboard
+[19-02-2019 15:13:23] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[19-02-2019 15:13:24] [INFO] - Test started: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 15:13:24] [INFO] - Waiting for the Provider to be identified and Click it
+[19-02-2019 15:13:34] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[19-02-2019 15:13:35] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[19-02-2019 15:13:38] [INFO] - Got all the elemets. Going to find the index of 3 Tier Traditional Workload
+[19-02-2019 15:13:38] [INFO] - Comparing 3 Tier Custom Testing with 3 Tier Traditional Workload
+[19-02-2019 15:13:38] [INFO] - Comparing 3 Tier VRA74 with 3 Tier Traditional Workload
+[19-02-2019 15:13:38] [INFO] - Comparing 3 Tier Traditional Workload with 3 Tier Traditional Workload
+[19-02-2019 15:13:38] [INFO] - Clicked configure button for 3 Tier Traditional Workload
+[19-02-2019 15:13:39] [INFO] - Cleared Service Instance Name textbox
+[19-02-2019 15:13:39] [INFO] - Entered TestAutomationgPlVB in Service Instance Name textbox
+[19-02-2019 15:13:46] [INFO] - Selected TEAM1 from Team dropdown
+[19-02-2019 15:13:56] [INFO] - Selected NONE from Environment dropdown
+[19-02-2019 15:14:04] [INFO] - Selected NONE from Application dropdown
+[19-02-2019 15:14:08] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[19-02-2019 15:14:11] [INFO] - Clicked on Next button
+[19-02-2019 15:14:17] [INFO] - Selected 1 from CPU dropdown
+[19-02-2019 15:14:21] [INFO] - Selected 512 from Memory (MB) dropdown
+[19-02-2019 15:14:26] [INFO] - Selected 5 from Storage (GB) dropdown
+[19-02-2019 15:14:29] [INFO] - Clicked on Next button
+[19-02-2019 15:14:48] [INFO] - Order number : MRSMGI9S
+[19-02-2019 15:14:48] [INFO] - Total Price : USD 60.00 ONE TIME CHARGE + USD 720.00 / MONTH
+[19-02-2019 15:14:53] [INFO] - Order Submitted !
+[19-02-2019 15:15:11] [INFO] - Approve button display status: true
+[19-02-2019 15:15:11] [INFO] - Approve/Deny button is shown...
+[19-02-2019 15:15:11] [INFO] - Clicked on approve Button
+[19-02-2019 15:15:12] [INFO] - Checked Financial Approval checkbox
+[19-02-2019 15:15:13] [INFO] - Checked Technical Approval checkbox
+[19-02-2019 15:15:13] [INFO] - Clicked Approve button on Order Approval modal dialog
+[19-02-2019 15:15:21] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[19-02-2019 15:15:40] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:16:24] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:16:25] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:16:29] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:17:04] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:17:47] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:17:48] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:17:52] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:18:21] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:19:06] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:19:07] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:19:14] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:19:45] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:20:29] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:20:29] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:20:32] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:21:03] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:21:49] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:21:49] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:21:53] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:22:23] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:23:08] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:23:08] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:23:12] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:23:46] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:24:31] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:24:31] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:24:35] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:25:05] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:25:49] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:25:49] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:25:53] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:26:22] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:27:04] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:27:04] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:27:08] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:27:36] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:28:21] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[19-02-2019 15:28:21] [INFO] - Clicked on View Details link to get Order Details page
+[19-02-2019 15:28:25] [INFO] - Order status is changed to: Completed, breaking the loop
+[19-02-2019 15:28:36] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:28:49] [INFO] - Order status of the first order from Order table is: Completed
+[19-02-2019 15:29:01] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:29:15] [INFO] - Order status of the first order from Order table is: Completed
+[19-02-2019 15:29:30] [INFO] - Clicked on the Actions icon from the first row on Inventory page
+[19-02-2019 15:29:32] [INFO] - Clicked on Delete Service button
+[19-02-2019 15:29:34] [INFO] - Checked Confirm checkbox on Delete Service modal dialog
+[19-02-2019 15:29:34] [INFO] - Clicked on OK button on Delete Service modal dialog
+[19-02-2019 15:29:37] [INFO] - Waited till Delete Service Info tool tip appears
+[19-02-2019 15:29:37] [INFO] - Delete Order Number:8AMX2DWY
+[19-02-2019 15:29:55] [INFO] - Order Type in orders Table is :: Delete
+[19-02-2019 15:30:14] [INFO] - Approve/Deny button is shown...
+[19-02-2019 15:30:14] [INFO] - Clicked on approve Button
+[19-02-2019 15:30:15] [INFO] - Checked Financial Approval checkbox
+[19-02-2019 15:30:15] [INFO] - Checked Technical Approval checkbox
+[19-02-2019 15:30:15] [INFO] - Clicked Approve button on Order Approval modal dialog
+[19-02-2019 15:30:23] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[19-02-2019 15:30:44] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:31:10] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:31:39] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:32:05] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:32:34] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:33:01] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[19-02-2019 15:33:30] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:33:56] [INFO] - Delete order status is changed to: Completed, breaking the loop
+[19-02-2019 15:34:09] [INFO] - Clicked on All Orders Tab...
+[19-02-2019 15:34:20] [INFO] - Order status of the first order from Order table is: Completed
+[19-02-2019 15:34:20] [INFO] - Test passed: Should Verify Create 3 Tier traditional service order and successful provision is working fine with default value - TC C160156
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 15:34:20] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provisioning is working fine with default values - TC C160154
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Test started: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 15:34:20] [INFO] - Test disabled: Should Verify Create SingleVMCentOS service order and successful provision is working fine with custom values - TC C160155 
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Test started: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 15:34:20] [INFO] - Test disabled: ShouldVerify Create 3 Tier traditional service order and successful provision is working fine with custom values - TC C160157
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Test started: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:34:20] [INFO] - Test disabled: 3Tier VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Test started: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:34:20] [INFO] - Test disabled: Cent OS VRA ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 15:34:20] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA CentOS service
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Test started: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 15:34:20] [INFO] - Test disabled: Cent OS VRA ---- Verify Editing the VRA 3 tier traditional workload service
+[19-02-2019 15:34:20] [INFO] - -------------------------------------------------------------------------------------------
+[19-02-2019 15:34:20] [INFO] - Suite completed: e2e Test cases for PrivateCloud -- CentOS and 3 tier
+[19-02-2019 15:34:20] [INFO] - ===========================================================================================

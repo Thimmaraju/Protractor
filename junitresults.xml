@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="AWS - Dynamodb" timestamp="2018-06-07T11:19:40" hostname="localhost" time="343.188" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  
+  <testcase classname="AWS - Dynamodb" name="TC-C173496 : AWS Dynamodb - Verify fields on Main Parameters page is working fine" time="12.242"/>
+  
+  <testcase classname="AWS - Dynamodb" name="TC-C173498 :  AWS Dynamodb - Verify Summary details and Additional Details are listed in review Order page" time="28.647"/>
+  
+  <testcase classname="AWS - Dynamodb" name="TC-C173768 :  AWS Dynamodb - Verify Order is listed in Orders details page once it is submitted from catalog page" time="42.487"/>
+  
+  <testcase classname="AWS - Dynamodb" name="TC-C173769: AWS Dynamodb - E2E : Verify instance Order Provision &amp; Deletion is working fine from consume App" time="243.893"/>
+  
+</testsuite>
+
+<testsuite name="AWS - EFS" timestamp="2018-06-07T11:19:40" hostname="localhost" time="464.446" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  
+  <testcase classname="AWS - EFS" name="TC-C174113 : AWS EFS - Verify fields on Main Parameters page is working fine" time="12.651"/>
+  
+  <testcase classname="AWS - EFS" name="TC-C174114: AWS EFS - Verify Summary details and Additional Details are listed in review Order page" time="22.931"/>
+  
+  <testcase classname="AWS - EFS" name="TC-C174115 : AWS EFS - Verify Order is listed in Orders details page once it is submitted from catalog page" time="36.8"/>
+  
+  <testcase classname="AWS - EFS" name="TC-C174116: AWS EFS - E2E : Verify instance Order Provision &amp; Deletion is working fine from consume App" time="376.651"/>
+  
+</testsuite>
+
+<testsuite name="AWS - RDS" timestamp="2018-06-07T11:25:25" hostname="localhost" time="86.339" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  
+  <testcase classname="AWS - RDS" name="TC-C172283 : AWS RDS - Verify fields on Main Parameters page is working fine" time="10.376"/>
+  
+  <testcase classname="AWS - RDS" name="TC-C172284 : AWS RDS - Verify Summary details and Additional Details are listed in review Order page" time="23.77"/>
+  
+  <testcase classname="AWS - RDS" name="TC-C172285 : AWS RDS - Verify Order is listed in Orders details page once it is submitted from catalog page" time="36.84"/>
+  
+</testsuite>
+
+<testsuite name="AWS - S3" timestamp="2018-06-07T11:26:54" hostname="localhost" time="292.05" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  
+  <testcase classname="AWS - S3" name="TC-C172279 : AWS S3 - Verify fields on Main Parameters page is working fine" time="10.036"/>
+  
+  <testcase classname="AWS - S3" name="TC-C172280 : AWS S3 - Verify Summary details and Additional Details are listed in review Order page" time="19.543"/>
+  
+  <testcase classname="AWS - S3" name="TC-C172281 : AWS S3 - Verify Order is listed in Orders details page once it is submitted from catalog page" time="34.795"/>
+  
+  <testcase classname="AWS - S3" name="TC-C172282 : AWS S3 - E2E : Verify instance Order Provision &amp; Deletion is working fine from consume App" time="213.536"/>
+  
+</testsuite>
+
+<testsuite name="AWS - SNS" timestamp="2018-06-07T11:27:28" hostname="localhost" time="235.542" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  
+  <testcase classname="AWS - SNS" name="TC-C174122 : AWS SNS - Verify fields on Main Parameters page is working fine" time="11.429"/>
+  
+  <testcase classname="AWS - SNS" name="TC-C174123 : AWS SNS - Verify Summary details and Additional Details are listed in review Order page" time="17.43"/>
+  
+  <testcase classname="AWS - SNS" name="TC-C172281 : AWS SNS - Verify Order is listed in Orders details page once it is submitted from catalog page" time="29.662"/>
+  
+  <testcase classname="AWS - SNS" name="TC-C172282: AWS SNS - E2E : Verify instance Order Provision &amp; Deletion is working fine from consume App" time="161.469"/>
+  
+</testsuite>
+
+<testsuite name="AWS - SQS" timestamp="2018-06-07T11:31:27" hostname="localhost" time="278.867" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  
+  <testcase classname="AWS - SQS" name="TC-C174118 : AWS SQS - Verify fields on Main Parameters page is working fine" time="9.468"/>
+  
+  <testcase classname="AWS - SQS" name="TC-C174119 : AWS SQS - Verify Summary details and Additional Details are listed in review Order page" time="15.85"/>
+  
+  <testcase classname="AWS - SQS" name="TC-C174120 : AWS SQS - Verify Order is listed in Orders details page once it is submitted from catalog page" time="30.99"/>
+  
+  <testcase classname="AWS - SQS" name="TC-C174121: AWS SQS - E2E : Verify instance Order Provision &amp; Deletion is working fine from consume App" time="209.012"/>
+  
+</testsuite>
+
+</testsuites>

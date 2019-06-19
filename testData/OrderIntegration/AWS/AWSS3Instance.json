@@ -1,0 +1,292 @@
+{
+	"bluePrintName": "Simple Storage Service (S3)",
+	"descriptiveText": "Amazon S3 has a simple web services interface that can be use to store and retrieve any amount of data, at any time, from anywhere on the web.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"serviceName": "testInstanceForS3",
+	"Category": "Storage",
+	"BasePrice": "USD 0.023/ GB / MONTH + USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.023 / MONTH",
+	"TotalCost": "USD 0.023",
+	"serviceId": "CB_AWS_CF_S3_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service921022",
+					"QA 2": "service921022",
+					"QA 4": "service921022",
+					"Customer 1": "service921022"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			}
+		},
+		"Name": {
+			"Bucket Name": {
+				"type": "Textbox",
+				"id": "text-input-bucketName",
+				"value": {
+					"QA 1": "bucketcbs3921022",
+					"QA 2": "bucketcbs3921022",
+					"QA 4": "bucketcbs3921022",
+					"Customer 1": "bucketcbs3921022"
+				}
+			}
+		},
+		"Set properties": {
+			"Versioning": {
+				"type": "RadioButton",
+				"id": "radio-button-versioning_Suspended",
+				"value": {
+					"QA 1": "Suspended",
+					"QA 2": "Suspended",
+					"QA 4": "Suspended",
+					"Customer 1": "Suspended"
+				}
+			},
+			"Server Access Logging": {
+				"type": "RadioButton",
+				"id": "radio-button-serverAccessLogging_Disable_Logging",
+				"value": {
+					"QA 1": "Disable Logging",
+					"QA 2": "Disable Logging",
+					"QA 4": "Disable Logging",
+					"Customer 1": "Disable Logging"
+				}
+			},
+			"Transfer Acceleration": {
+				"type": "RadioButton",
+				"id": "radio-button-accelerateStatus_Suspended",
+				"value": {
+					"QA 1": "Suspended",
+					"QA 2": "Suspended",
+					"QA 4": "Suspended",
+					"Customer 1": "Suspended"
+				}
+			},
+			"Default Encryption": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_defaultEncryption",
+				"value": {
+					"QA 1": "AES-256",
+					"QA 2": "AES-256",
+					"QA 4": "AES-256",
+					"Customer 1": "AES-256"
+				}
+			}
+		},
+		"Set Permissions": {
+			"Access Control": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_accessControl",
+				"value": {
+					"QA 1": "PublicReadWrite",
+					"QA 2": "PublicReadWrite",
+					"QA 4": "PublicReadWrite",
+					"Customer 1": "PublicReadWrite"
+				}
+			}
+		},
+		"Add Tags": {}
+	},
+	"Edit Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Name": {
+			"Bucket Name": {
+				"type": "Textbox",
+				"id": "text-input-bucketName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Set properties": {
+			"Versioning": {
+				"type": "RadioButton",
+				"id": "radio-button-versioning_Enabled",
+				"value": {
+					"QA 1": "Enabled",
+					"QA 2": "Enabled",
+					"QA 4": "Enabled",
+					"Customer 1": "Enabled"
+				}
+			},
+			"Server Access Logging": {
+				"type": "RadioButton",
+				"id": "radio-button-serverAccessLogging_Disable_Logging",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Transfer Acceleration": {
+				"type": "RadioButton",
+				"id": "radio-button-accelerateStatus_Enabled",
+				"value": {
+					"QA 1": "Enabled",
+					"QA 2": "Enabled",
+					"QA 4": "Enabled",
+					"Customer 1": "Enabled"
+				}
+			},
+			"Default Encryption": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_defaultEncryption",
+				"value": {
+					"QA 1": "None",
+					"QA 2": "None",
+					"QA 4": "None",
+					"Customer 1": "None"
+				}
+			}
+		},
+		"Set Permissions": {
+			"Access Control": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_accessControl",
+				"value": {
+					"QA 1": "BucketOwnerRead",
+					"QA 2": "BucketOwnerRead",
+					"QA 4": "BucketOwnerRead",
+					"Customer 1": "BucketOwnerRead"
+				}
+			}
+		},
+		"Add Tags": {
+			"Tags": {
+				"type": "Button",
+				"id": "button-TagsAdd0",
+				"value": {
+					"QA 1": " ",
+					"QA 2": " ",
+					"QA 4": " ",
+					"Customer 1": " "
+				}
+			},
+			"Key": {
+				"type": "Textbox",
+				"id": "text-input-Key1",
+				"value": {
+					"QA 1": "testkey",
+					"QA 2": "testkey",
+					"QA 4": "testkey",
+					"Customer 1": "testkey"
+				}
+			},
+			"Value": {
+				"type": "Textbox",
+				"id": "text-input-Value1",
+				"value": {
+					"QA 1": "testvalue",
+					"QA 2": "testvalue",
+					"QA 4": "testvalue",
+					"Customer 1": "testvalue"
+				}
+			}
+		}
+	}
+}

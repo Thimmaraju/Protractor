@@ -1,0 +1,70 @@
+{
+	"bluePrintName": "Development Laptop (PC)",
+	"descriptiveText": "Dell XPS 13 The corporate standard laptop for developers. High performance processing and storage.Specifications:3.1 GHz Intel Core i7 processor, 250 GB or 500GB Solid State Drive, 8 GB RAM, Microsoft Windows 8 or Ubuntu, Tomcat, Eclipse, Firefox, Chrome.",
+	"provider": "Managed ServiceNow IT services",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 0.00/ Month + USD 1,100.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Additional Parameters": {
+			"What size solid state drive do you want?": {
+				"type": "Dropdown",
+                "id": "bx--dropdown-single-parent_hard_drive",
+                "value": {
+                	"QA 2": "250 GB",
+                    "QA 4": "250 GB",
+                    "Customer 1": "250 GB"
+                 }
+            },
+            "Please specify an operating system":{
+                "type":"Dropdown",
+                "id":"bx--dropdown-single-parent_requested_os",
+                "value":{
+                    "QA 2":"Windows 8",
+                    "QA 4": "Windows 8",
+                    "Customer 1": "Windows 8"
+                }
+            }
+		}
+
+	}    
+}

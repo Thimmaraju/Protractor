@@ -1,0 +1,110 @@
+{
+	"bluePrintName": "Security Group Rule",
+	"descriptiveText": "Security Group Rule",
+	"providerName": "Softlayer",
+	"serviceName": "SECURITY_GROUP_RULE_SERVICE",
+	"Category": "Security & Identity",
+    "EstimatedPrice": "$0.00/ MONTH + $0.00",
+    "totalCost": "$0.00",	
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			}
+		},
+		"Additional Parameters": {
+			"Direction": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_direction",
+				"value": {
+					"QA 1": "Inbound",
+					"QA 2": "Inbound",
+					"QA 4": "Inbound",
+					"Customer 1": "Inbound"
+				}
+            },
+            "IP Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ether_type",
+				"value": {
+					"QA 1": "IPv4",
+					"QA 2": "IPv4",
+					"QA 4": "IPv4",
+					"Customer 1": "IPv4"
+				}
+			}
+		},
+		"Port Range Specification":{
+            "Port Range Min": {
+				"type": "Textbox",
+				"id": "text-input-port_range_min",
+				"value": {
+					"QA 1": "8080",
+					"QA 2": "8080",
+					"QA 4": "8080",
+					"Customer 1": "8080"
+				}
+            },
+            "Port Range Max": {
+				"type": "Textbox",
+				"id": "text-input-port_range_max",
+				"value": {
+					"QA 1": "8085",
+					"QA 2": "8085",
+					"QA 4": "8085",
+					"Customer 1": "8085"
+				}
+			}
+		},
+		"Security Group Rules -Additional Parameters":{
+            "Protocol": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_protocol",
+				"value": {
+					"QA 1": "TCP",
+					"QA 2": "TCP",
+					"QA 4": "TCP",
+					"Customer 1": "TCP"
+				}
+            },
+            "The security group to which the rule will be added": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_security_group_id",
+				"value": {
+					"QA 1": "allow_all",
+					"QA 2": "allow_all",
+					"QA 4": "allow_all",
+					"Customer 1": "allow_all"
+				}
+            },
+            "IP Range": {
+				"type": "Textbox",
+				"id": "text-input-remote_ip",
+				"value": {
+					"QA 1": "0.0.0.0/0",
+					"QA 2": "0.0.0.0/0",
+					"QA 4": "0.0.0.0/0",
+					"Customer 1": "0.0.0.0/0"
+				}
+			}
+		}
+		
+	}
+}

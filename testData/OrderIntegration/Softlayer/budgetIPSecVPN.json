@@ -1,0 +1,83 @@
+{
+	"bluePrintName": "IPSec VPN",
+	"descriptiveText": "IPSec VPN",
+	"providerName": "IBM Cloud",
+	"serviceName": "IPSEC_VPN_SERVICE",
+	"Category": "Network",
+	"estimatedCost": "USD 50.00/ MONTH + USD 0.00",
+	"TotalCost": "USD 53.50",
+	"budgetName":"AutGSLBudget2",
+	"budgetDuration":"3",
+	"BudgetAmount":"USD 900.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 3": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team:": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "Digital-Dev"
+				}
+			},
+			"Environment:": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+					"QA 2": "Softlayer-Env-Automation",
+					"QA 3":"Softlayer-Env-ID",
+                    "QA 4": "slEnv",
+                    "Customer 1": "env1"
+                }
+            },
+			"Application:": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+					"QA 2": "Softlayer-Automation-Application",
+					"QA 3":"Softlayer-Application",
+                    "QA 4": "slApp",
+                    "Customer 1": "app1"
+                }
+            },   
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"IPSec VPN Configuration": {
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "London 2",
+					"QA 2": "London 2",
+					"QA 3": "London 2",
+					"QA 4": "London 2",
+					"Customer 1": "London 2"
+				}
+			}
+		}
+	}
+}

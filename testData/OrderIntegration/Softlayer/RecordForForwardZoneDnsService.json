@@ -1,0 +1,240 @@
+{
+	"DnsForwardZoneObject": {
+		"bluePrintName": "DNS Forward Zone",
+		"descriptiveText": "DNS Forward Zone",
+		"providerName": "IBM Cloud",
+		"serviceName": "DNS_DOMAIN_SERVICE",
+		"Category": "Network",
+		"EstimatedPrice": "USD 0.00/ HR + USD 0.00",
+		"totalCost": "USD 0.00",
+		"Order Parameters": {
+			"Main Parameters": {
+				"Service Instance Name": {
+					"type": "Textbox",
+					"id": "text-input-main_params-serviceName",
+					"value": {
+						"QA 1": "TestAutomation",
+						"QA 2": "TestAutomation",
+						"QA 4": "TestAutomation",
+						"Customer 1": "TestAutomation"
+					}
+				},
+				"Team": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_team",
+					"value": {
+						"QA 1": "TEAM1",
+						"QA 2": "TEAM1",
+						"QA 4": "TEAM1",
+						"Customer 1": "TEAM1"
+					}
+				},
+				"Environment": {
+					"type": "DropdownSearch",
+					"id": "env",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				 "Application": {
+					"type": "DropdownSearch",
+					"id": "App",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				"Provider Account": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_provider-account",
+					"value": {
+						"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+					}
+				}
+			},
+			"Additional Parameters": {
+				"Domain Name": {
+					"type": "Textbox",
+					"id": "text-input-name",
+					"value": {
+						"QA 1": "testautomation.com",
+						"QA 2": "testautomation.com",
+						"QA 4": "testautomation.com",
+						"Customer 1": "testautomation.com"
+					}
+				},
+				"Default IP": {
+					"type": "Textbox",
+					"id": "text-input-target",
+					"value": {
+						"QA 1": "123.56.87.21",
+						"QA 2": "123.56.87.21",
+						"QA 4": "123.56.87.21",
+						"Customer 1": "123.56.87.21"
+					}
+				}
+			}
+		}
+	},
+	"DnsRecordObject": {
+		"bluePrintName": "Record for Forward Zone DNS",
+		"descriptiveText": "Record for Forward Zone DNS",
+		"providerName": "IBM Cloud",
+		"serviceName": "DOMAIN_RECORD_SERVICE",
+		"Category": "Network",
+		"EstimatedPrice": "USD 0.00/ HR + USD 0.00",
+		"totalCost": "USD 0.00",
+		"Order Parameters": {
+			"Main Parameters": {
+				"Service Instance Name": {
+					"type": "Textbox",
+					"id": "text-input-main_params-serviceName",
+					"value": {
+						"QA 1": "TestAutomation",
+						"QA 2": "TestAutomation",
+						"QA 4": "TestAutomation",
+						"Customer 1": "TestAutomation"
+					}
+				},
+				"Team": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_team",
+					"value": {
+						"QA 1": "TEAM1",
+						"QA 2": "TEAM1",
+						"QA 4": "TEAM1",
+						"Customer 1": "TEAM1"
+					}
+				},
+				"Environment": {
+					"type": "DropdownSearch",
+					"id": "env",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				 "Application": {
+					"type": "DropdownSearch",
+					"id": "App",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				"Provider Account": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_provider-account",
+					"value": {
+						"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+					}
+				}
+			},
+			"DNS Record Specifications": {
+				"DNS Resource Type": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_type",
+					"value": {
+						"QA 1": "A",
+						"QA 2": "A",
+						"QA 4": "A",
+						"Customer 1": "A"
+					}
+				},
+				"Domain Name": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_domain_id",
+					"value": {
+						"QA 1": "testautomation.com",
+						"QA 2": "testautomation.com",
+						"QA 4": "testautomation.com",
+						"Customer 1": "testautomation.com"
+					}
+				}
+			},
+			"DNS Specifications":{
+				"Host": {
+					"type": "Textbox",
+					"id": "text-input-host",
+					"value": {
+						"QA 1": "testautomation.com",
+						"QA 2": "testautomation.com",
+						"QA 4": "testautomation.com",
+						"Customer 1": "testautomation.com"
+					}
+				},
+				"Points To": {
+					"type": "Textbox",
+					"id": "text-input-data",
+					"value": {
+						"QA 1": "192.168.0.2",
+						"QA 2": "192.168.0.2",
+						"QA 4": "192.168.0.2",
+						"Customer 1": "192.168.0.2"
+					}
+				},
+				"Time To Leave": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_ttl",
+					"value": {
+						"QA 1": "3600 (1 hour)",
+						"QA 2": "3600 (1 hour)",
+						"QA 4": "3600 (1 hour)",
+						"Customer 1": "3600 (1 hour)"
+					}
+				}
+			}
+		},
+		"Edit Parameters": {
+			"Main Parameters": {},
+			"DNS Record Specifications":{},
+			"DNS Specifications": {
+				"Host": {
+					"type": "Textbox",
+					"id": "text-input-host",
+					"value": {
+						"QA 1": "gslslEditestautomation.com",
+						"QA 2": "gslslEdittestautomation.com",
+						"QA 4": "gslslEditestautomation.com",
+						"Customer 1": "gslslEditestautomation.com"
+					}
+				},
+				"Points To": {
+					"type": "Textbox",
+					"id": "text-input-data",
+					"value": {
+						"QA 1": "20.128.200.1",
+						"QA 2": "20.128.200.1",
+						"QA 4": "20.128.200.1",
+						"Customer 1": "20.128.200.1"
+					}
+				},
+				"Time To Leave": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_ttl",
+					"value": {
+						"QA 1": "900 (15 mins)",
+						"QA 2": "900 (15 mins)",
+						"QA 4": "900 (15 mins)",
+						"Customer 1": "900 (15 mins)"
+					}
+				}
+			}
+		}
+	}
+}

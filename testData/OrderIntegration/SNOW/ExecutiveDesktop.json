@@ -1,0 +1,98 @@
+{
+	"bluePrintName": "Executive Desktop",
+	"descriptiveText": "Ideal for corporate customers seeking next-generation design, advanced video card options, dual monitor support and a wide selection of form factors.",
+	"provider": "Managed ServiceNow IT services",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 0.00/ Month + USD 1,875.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Additional Parameters": {
+                "CPU Speed": {
+                    "type": "Dropdown",
+                    "id": "bx--dropdown-single-parent_cpu_speed",
+                    "value": {
+                        "QA 2": "Intel Xeon Processor (2.66GHz 1.333GHz FSB)",
+                        "QA 4": "Intel Xeon Processor (2.66GHz 1.333GHz FSB)",
+                        "Customer 1": "Intel Xeon Processor (2.66GHz 1.333GHz FSB)"
+                    }
+                },
+                "Memory":{
+                	"type":"Dropdown",
+                	"id":"bx--dropdown-single-parent_memory",
+                	"value":{
+                		"QA 2":"1GB",
+                		"QA 4": "1GB",
+                		"Customer 1": "1GB"
+                	}
+                },
+                "Hard Drive":{
+                	"type":"Dropdown",
+                	"id":"bx--dropdown-single-parent_hard_drive",
+                	"value":{
+                		"QA 2":"100GB",
+                		"QA 4":"100GB",
+                		"Customer 1": "100GB"
+                	}
+                },
+                "Operating System":{
+                	"type":"Dropdown",
+                	"id":"bx--dropdown-single-parent_os",
+                	"value":{
+                		"QA 2":"RedHat Linux ES 4.0",
+                		"QA 4":"RedHat Linux ES 4.0",
+                		"Customer 1": "RedHat Linux ES 4.0"
+                	}
+                }, 
+                "Special Requirements":{
+                	"type":"Textbox",
+                	"id":"text-input-splInst",
+                	"value":{
+                		"QA 2":"auto",
+                		"QA 4":"auto",
+                		"Customer 1": "auto"
+                	}
+
+                }
+			}
+
+		}
+}

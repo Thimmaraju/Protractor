@@ -1,0 +1,76 @@
+{  
+   "catalogservice":{  
+      "getallservices":{  
+         "endpoint":"/catalog/v2/providers/-/services"
+      },
+      "postservice":{  
+         "endpoint":"/catalog/v2/admin/providers/Amazon/services",
+         "payload":{  
+            "services":[  
+               {  
+                  "id":"idblahh",
+                  "name":"checkbaseprice1",
+                  "description":"checkbaseprice",
+                  "descriptionHTML":"string",
+                  "isEditable":true,
+                  "facets":[  
+                     {  
+                        "key":"string",
+                        "values":[  
+                           "string"
+                        ]
+                     }
+                  ],
+                  "tenantId":"string",
+                  "serviceType":"string",
+                  "labels":[  
+                     "string"
+                  ],
+                  "version":0,
+                  "status":"published",
+                  "updatedAt":"2017-10-14",
+                  "serviceCategory":[  
+                     {  
+                        "name":"Databases",
+                        "id":"databases",
+                        "description":"Databases"
+                     }
+                  ],
+                  "features":[  
+                     {  
+                        "name":"Amazon Compute Instances",
+                        "description":"Customers requiring massive floating point processing power will benefit from GPU Compute instances. The current generation GPU Compute instance, P2 Instance, provides access to up to 16 NVIDIA K80 GPUs, with a combined 192 GB of GPU memory, 40 thousand parallel processing cores, 70 teraflops of single precision floating point performance, and over 23 teraflops of double precision floating point performance. These GPU supports CUDA and OpenCL framework. GPU Compute instances are ideally suited for machine learning, high performance databases, computational fluid dynamics, computational finance, seismic analysis, molecular modeling, genomics, and rendering workload."
+                     },
+                     {  
+                        "name":"High I/O Instances",
+                        "description":"Customers requiring high graphics capability will benefit from GPU Graphics instances. The current generation GPU Graphics instance, G3 Instance, provides access to NVIDIA Tesla M60 GPUs, each with up to 2,048 parallel processing cores, 8 GiB of GPU memory and a hardware encoder supporting up to 10 H.265 (HEVC) 1080p30 streams and up to 18 H.264 1080p30 streams. With the latest driver releases, these GPUs provide support for OpenGL, DirectX, CUDA, OpenCL, and the GRID SDK. GPU Graphics instances are ideally suited for 3D visualizations, graphics-intensive remote workstation, 3D rendering, application streaming, video encoding, and other server-side graphics workloads, with a combined 192 GB of GPU memory, 40 thousand parallel processing cores, 70 teraflops of single precision floating point performance, and over 23 teraflops of double precision floating point performance. These GPU supports CUDA and OpenCL framework. GPU Compute instances are ideally suited for machine learning, high performance databases, computational fluid dynamics, computational finance, seismic analysis, molecular modeling, genomics, and rendering workload."
+                     },
+                     {  
+                        "name":"Dense Storage Instances",
+                        "description":"Customers requiring very high, low latency, random I/O access to their data can benefit from High I/O instances. High I/O instances are an Amazon EC2 instance type that can provide customers with random I/O rates over 3 Million IOPS. High I/O I3 instances are backed by Non-Volatile Memory Express (NVMe) based SSDs, and are ideally suited for customers running very high performance NoSQL databases, transactional systems, and Elastic Search workloads. High I/O instances also offers sequential disk throughput up to 16 GB/s, which is ideal for analytics workloads.See Amazon EC2 Instance Types to find out more about High I/O instances."
+                     },
+                     {  
+                        "name":"Paying for What You Use",
+                        "description":"Customers requiring very high storage density per instance, and high sequential I/O for data-intensive applications like Massively Parallel Processing (MPP) data warehouse, MapReduce and Hadoop distributed computing, and log and data processing can benefit from Dense Storage instances. Dense Storage instances are an Amazon EC2 instance type that can provide customers with sequential I/O throughout of up to 3.9 GB/s and provide customers with up to 48 TB of instance storage across 24 hard disk drives. See Amazon EC2 Instance Types to find out more about Dense Storage instances."
+                     },
+                     {  
+                        "name":"High Performance Computing (HPC) Clusters",
+                        "description":"Enhanced Networking enables you to get significantly higher packet per second (PPS) performance, lower network jitter and lower latencies. This feature uses a new network virtualization stack that provides higher I/O performance and lower CPU utilization compared to traditional implementations. In order to take advantage of Enhanced Networking, you should launch an HVM AMI in VPC, and install the appropriate driver. For instructions on how to enable Enhanced Networking on EC2 instances, see the Enhanced Networking on Linux and Enhanced Networking on Windows tutorials. For availability of this feature by instance, or to learn more, visit the Enhanced Networking FAQ section."
+                     }
+                  ],
+                  "basePrice":{  
+                     "oneTimeCharge":10,
+                     "description":"string",
+                     "currencyCode":"USD",
+                     "usageCharge":{  
+                        "value":1,
+                        "uom":"MONTH"
+                     }
+                  },
+                  "terms":"string"
+               }
+            ]
+         }
+      }
+   }
+}

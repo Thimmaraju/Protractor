@@ -1,0 +1,60 @@
+{
+	"bluePrintName": "New Email Account",
+	"descriptiveText": "Service Overview:Creation of a new email account within our Microsoft Exchange environment. Creation of your email address will also create your Active Directory account.",
+	"provider": "Managed ServiceNow IT services",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 0.00/ Month + USD 0.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Additional Parameters": {
+                "Preferred Email address": {
+                    "type": "Textbox",
+                    "id": "text-input-new_email",
+                    "value": {
+                        "QA 2": "consumeadmin@gmail.com",
+                        "QA 4": "consumeadmin@gmail.com",
+                        "Customer 1": "consumeadmin@gmail.com"
+                    }
+                }
+            }
+        }
+    }

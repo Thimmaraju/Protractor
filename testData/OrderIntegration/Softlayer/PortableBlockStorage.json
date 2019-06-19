@@ -1,0 +1,107 @@
+{
+	"bluePrintName": "Block Storage",
+	"descriptiveText": "Block Storage",
+	"providerName": "Softlayer",
+	"serviceName": "BLOCK_STORAGE_SERVICE",
+	"Category": "Storage",
+	"estimatedCost": "$0.0022/ HR + $0.00",
+	"totalCost": "$4.26",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Block Storage Specifications": {
+			"Storage Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_type",
+				"value": {
+					"QA 1": "Portable",
+					"QA 2": "Portable",
+					"QA 4": "Portable",
+					"Customer 1": "Portable"
+				}
+			},
+			"Location": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "AMS01 - Amsterdam",
+					"QA 2": "AMS01 - Amsterdam",
+					"QA 4": "AMS01 - Amsterdam",
+					"Customer 1": "AMS01 - Amsterdam"
+				}
+			},
+			"Disk Discription": {
+				"type": "Textbox",
+				"id": "text-input-disk_description",
+				"value": {
+					"QA 1": "TestAutomationDescription",
+					"QA 2": "TestAutomationDescription",
+					"QA 4": "TestAutomationDescription",
+					"Customer 1": "TestAutomationDescription"
+				}
+			}
+		},
+		"Volume Specifications": {
+			"Storage Size": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_capacity",
+				"value": {
+					"QA 1": "20",
+					"QA 2": "20",
+					"QA 4": "20",
+					"Customer 1": "20"
+				}
+			}
+		}
+	}
+}

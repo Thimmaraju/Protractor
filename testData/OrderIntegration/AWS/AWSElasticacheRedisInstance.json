@@ -1,0 +1,258 @@
+{
+    "bluePrintName": "ElastiCache Redis",
+    "descriptiveText": "Amazon ElastiCache offers fully managed Redis and Memcached. Seamlessly deploy, operate, and scale popular open source compatible in-memory data stores.",
+    "provider": "Amazon",
+    "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+    "serviceName": "testInstanceForRedis",
+    "Category": "Databases",
+    "BasePrice": "USD 0.017/ SIZE / HR + USD 0.00",
+    "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 50.592 / MONTH",
+    "TotalCost": "USD 50.592",
+    "serviceId": "CB_AWS_CF_EC_REDIS_S00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "servInstRedis",
+                    "QA 2": "servInstRedis",
+                    "QA 4": "servInstRedis",
+                    "Customer 1": "servInstRedis"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-east-1",
+                    "QA 2": "us-east-1",
+                    "QA 4": "us-east-1",
+                    "Customer 1": "us-east-1"
+                }
+            }
+        },
+        "Cluster Engine": {
+            "Cluster Mode Enabled": {
+                "type": "RadioButton",
+                "id": "radio-button-clusterModeEnabled_No",
+                "value": {
+                    "QA 1": "No",
+                    "QA 2": "No",
+                    "QA 4": "No",
+                    "Customer 1": "No"
+                }
+            }
+        },
+        "Redis Settings": {
+            "Name": {
+                "type": "Textbox",
+                "id": "text-input-name",
+                "value": {
+                    "QA 1": "testRedis",
+                    "QA 2": "testRedis",
+                    "QA 4": "testRedis",
+                    "Customer 1": "testRedis"
+                }
+            },
+            "Engine Version Compatibility": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_engineVersionCompatibility1",
+                "value": {
+                    "QA 1": "3.2.6",
+                    "QA 2": "3.2.6",
+                    "QA 4": "3.2.6",
+                    "Customer 1": "3.2.6"
+                }
+            },
+            "Port": {
+                "type": "Textbox",
+                "id": "slider-input-box-port",
+                "value": {
+                    "QA 1": "6379",
+                    "QA 2": "6379",
+                    "QA 4": "6379",
+                    "Customer 1": "6379"
+                }
+            },
+            "Parameter Group": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_parameterGroup",
+                "value": {
+                    "QA 1": "default.redis3.2",
+                    "QA 2": "default.redis3.2",
+                    "QA 4": "default.redis3.2",
+                    "Customer 1": "default.redis3.2"
+                }
+            },
+            "Node Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_nodeType",
+                "value": {
+                    "QA 1": "cache.t2.medium",
+                    "QA 2": "cache.t2.medium",
+                    "QA 4": "cache.t2.medium",
+                    "Customer 1": "cache.t2.medium"
+                }
+            }
+        },
+        "Advanced Redis Settings": {
+            "Number Of Replicas": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_numberOfReplicas",
+                "value": {
+                    "QA 1": "2",
+                    "QA 2": "2",
+                    "QA 4": "2",
+                    "Customer 1": "2"
+                }
+            },
+            "Subnet Group": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_subnetGroup",
+                "value": {
+                    "QA 1": "abc",
+                    "QA 2": "abc",
+                    "QA 4": "abc",
+                    "Customer 1": "abc"
+                }
+            },
+            "Preferred Availability Zone": {
+                "type": "RadioButton",
+                "id": "radio-button-preferredAvailabilityZone_No_preference",
+                "value": {
+                    "QA 1": "No preference",
+                    "QA 2": "No preference",
+                    "QA 4": "No preference",
+                    "Customer 1": "No preference"
+                }
+            }
+        },
+        "Security": {
+            "VPC": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_VPC",
+                "value": {
+                    "QA 1": "vpc-8eadd1eb",
+                    "QA 2": "vpc-8eadd1eb",
+                    "QA 4": "vpc-8eadd1eb",
+                    "Customer 1": "vpc-8eadd1eb"
+                }
+            },
+            "Security Groups": {
+                "type": "MultiselectDropdown",
+                "id": "text-input-securityGroups",
+                "value": {
+                    "QA 1": [
+                        "sg-093fdf7f"
+                    ],
+                    "QA 2": [
+                        "sg-093fdf7f"
+                    ],
+                    "QA 4": [
+                        "sg-093fdf7f"
+                    ],
+                    "Customer 1": [
+                        "sg-093fdf7f"
+                    ]
+                }
+            },
+            "Encryption At Rest": {
+                "type": "RadioButton",
+                "id": "radio-button-encryptionAtRest_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            },
+            "Encryption In Transit": {
+                "type": "RadioButton",
+                "id": "radio-button-encryptionInTransit_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            }
+        },
+        "Import data to Cluster": {
+            "Seed RDBFile S3Location": {
+                "type": "Textbox",
+                "id": "text-input-seedRDBFileS3Location",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Backup and Maintenance": {
+            "Maintenance Window": {
+                "type": "RadioButton",
+                "id": "radio-button-maintenanceWindow_No_preference",
+                "value": {
+                    "QA 1": "No preference",
+                    "QA 2": "No preference",
+                    "QA 4": "No preference",
+                    "Customer 1": "No preference"
+                }
+            },
+            "Topic For SNS Notification": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_topicForSNSNotification",
+                "value": {
+                    "QA 1": "Disable notifications",
+                    "QA 2": "Disable notifications",
+                    "QA 4": "Disable notifications",
+                    "Customer 1": "Disable notifications"
+                }
+            }
+        }
+    }
+}

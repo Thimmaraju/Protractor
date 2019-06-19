@@ -1,0 +1,126 @@
+{
+	"bluePrintName": "Cloud Spanner",
+	"descriptiveText": "Google cloud Spanner is distributed database, which run on multiple appropriately sized nodes, This provides scalability in terms of data size and transactional throughput and adds resilience to the system. Although Spanner’s data model is fundamentally like any other relational database’s – there are pre-defined tuples of data that can be stored in relations (tables) and queried. Primary key must be defined, but there is no concept of foreign key. Google’s transactional guarantees are very strict.",
+	"provider": "Google",
+	"serviceName": "testInstanceForGcp",
+	"Category": "Databases",
+	"EstimatedPrice": "N/A",
+	"serviceId":"Cloud Spanner",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service921022",
+					"QA 2": "service921022",
+					"QA 3": "service921022",
+					"QA 4": "service921022",
+					"Customer 1": "service921022"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "app",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+		      "Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+				"QA 1": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				"QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+				}
+      			}
+		},
+		"Spanner Details": {
+				"Instance name":{
+					"type": "Textbox",
+					"id": "text-input-instanceName",
+					"value": {
+						"QA 1": "service20",
+						"QA 2": "service20",
+						"QA 3": "service20",
+						"QA 4": "service20",
+						"Customer 1": "service20"
+					}
+				},
+				"Instance ID":{
+					"type": "Textbox",
+					"id": "text-input-instanceID",
+					"value": {
+						"QA 1": "service20",
+						"QA 2": "service20",
+						"QA 3": "service20",
+						"QA 4": "service20",
+						"Customer 1": "service20"
+					}
+				}
+		},
+		"Configure Instance":{
+			"Configuration":{
+				"type": "RadioButton",
+				"id": "radio-button-instanceConfig_Regional",
+				"value": {
+					"QA 1": "Regional",
+					"QA 2": "Regional",
+					"QA 3": "Regional",
+					"QA 4": "Regional",
+					"Customer 1": "Regional"
+				}
+			},
+
+			"Location (Regional)":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_regional",
+				"value": {
+					"QA 1": "asia-east1",
+					"QA 2": "asia-east1",
+					"QA 3": "asia-east1",
+					"QA 4": "asia-east1",
+					"Customer 1": "asia-east1"
+				}
+            },
+            "Nodes":{
+                "type": "Textbox",
+                "id": "text-input-instanceNodeCount",
+                "value": {
+					"QA 1": "1",
+					"QA 2": "1",
+                    "QA 3": "1",
+                    "QA 4": "1",
+                    "Customer 1": "1"
+                }
+            }
+		}				
+	}
+}

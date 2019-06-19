@@ -1,0 +1,271 @@
+{
+    "bluePrintName": "Django App",
+    "descriptiveText": "Django App",
+    "providerName": "IBM Cloud",
+    "serviceName": "DJANGO_VM",
+    "Category": "Compute",
+    "EstimatedPrice": "USD 0.042/ HR + USD 0.00",
+    "totalCost": "USD 18.67",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+              "type": "Textbox",
+              "id": "text-input-main_params-serviceName",
+              "value": {
+                "QA 1": "TestAutomation",
+                "QA 2": "TestAutomation",
+                "QA 4": "TestAutomation",
+                "Customer 1": "TestAutomation"
+              }
+            },
+            "Team": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_team",
+              "value": {
+                "QA 1": "TEAM1",
+                "QA 2": "TEAM1",
+                "QA 4": "TEAM1",
+                "Customer 1": "TEAM1"
+              }
+            },
+            "Environment": {
+              "type": "DropdownSearch",
+              "id": "env",
+              "value": {
+                "QA 1": "",
+                "QA 2": "",
+                "QA 4": "NONE",
+                "Customer 1": ""
+              }
+            },
+            "Application": {
+              "type": "DropdownSearch",
+              "id": "app",
+              "value": {
+                "QA 1": "gcpApp",
+                "QA 2": "awsApp",
+                "QA 4": "NONE",
+                "Customer 1": "NONE"
+              }
+            },
+            "Provider Account": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_provider-account",
+              "value": {
+                "QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                "QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                "QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+                "Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+              }
+            }
+          },
+          "Instance Specifications": {
+            "Hostname": {
+              "type": "Textbox",
+              "id": "text-input-hostname",
+              "value": {
+                "QA 1": "gslsl-host",
+                "QA 2": "gslsl-host",
+                "QA 4": "gslsl-Dhost",
+                "Customer 1": "gslsl-Dhost"
+              }
+            },
+            "Domain": {
+              "type": "Textbox",
+              "id": "text-input-domain",
+              "value": {
+                "QA 1": "domain.com",
+                "QA 2": "domain.com",
+                "QA 4": "gslslDjango.com",
+                "Customer 1": "domain.com"
+              }
+            },
+            "Dedicated Account Flag": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_dedicated_acct_host_only",
+              "value": {
+                "QA 1": "Public VM",
+                "QA 2": "Pulic VM",
+                "QA 4": "Public VM",
+                "Customer 1": "Public VM"
+              }
+            },
+            "Billing Type": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_hourly_billing",
+              "value": {
+                "QA 1": "Hourly Billing",
+                "QA 2": "Hourly Billing",
+                "QA 4": "Monthly Billing",
+                "Customer 1": "Monthly Billing"
+              }
+            },
+            "Datacenter":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_datacenter",
+                "value": {
+                  "QA 1": "Dallas 10",
+                  "QA 2": "Dallas 10",
+                  "QA 4": "Dallas 10",
+                  "Customer 1": "Dallas 10"
+              }
+            }
+          },
+        
+          "System Specification": {
+            "Operating System": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_os_reference_code",
+              "value": {
+                "QA 1": "UBUNTU_16_64",
+                "QA 2": "UBUNTU_16_64",
+                "QA 4": "UBUNTU_16_64",
+                "Customer 1": "UBUNTU_16_64"
+              }
+            },
+            "Memory": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_memory",
+              "value": {
+                "QA 1": "1 GB",
+                "QA 2": "1 GB",
+                "QA 4": "1 GB",
+                "Customer 1": "1 GB"
+              }
+            },
+            "Cores": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_cores",
+                "value": {
+                  "QA 1": "1 x 2.0 GHz or higher Core",
+                  "QA 2": "1 x 2.0 GHz or higher Core",
+                  "QA 4": "1 x 2.0 GHz or higher Core",
+                  "Customer 1": "1 x 2.0 GHz or higher Core"
+                }
+              },
+            "Disk Type": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_local_disk",
+              "value": {
+                "QA 1": "Local Disk",
+                "QA 2": "Local Disk",
+                "QA 4": "Local Disk",
+                "Customer 1": "Local Disk"
+              }
+            },
+            "First Disk": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_disks~0",
+              "value": {
+                "QA 1": "25 GB (LOCAL)",
+                "QA 2": "25 GB (LOCAL)",
+                "QA 4": "25 GB (LOCAL)",
+                "Customer 1": "25 GB (LOCAL)"
+              }
+            },
+            "Second Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~2",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            },
+            "Third Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~3",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            },
+            "Fourth Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~4",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            },
+            "Fifth Disk":{
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_disks~5",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            }
+          },
+         "Django Project details": {
+            "Github Repository Type": {
+              "type": "Dropdown",
+              "id": "bx--dropdown-single-parent_repo_type",
+              "value": {
+                "QA 1": "PRIVATE",
+                "QA 2": "PRIVATE",
+                "QA 4": "PRIVATE",
+                "Customer 1": "PRIVATE"
+              }
+            },
+            "Github username": {
+              "type": "Textbox",
+              "id": "text-input-github_username",
+              "value": {
+                "QA 1": "gslslUser",
+                "QA 2": "gslslUser",
+                "QA 4": "gslslUser",
+                "Customer 1": "gslslUser"
+              }
+            },
+            "Github Password": {
+              "type": "Textbox",
+              "id": "text-input-github_password",
+              "value": {
+                "QA 1": "gslslUser123",
+                "QA 2": "gslslUser123",
+                "QA 4": "gslslUser123",
+                "Customer 1": "gslslUser123"
+              }
+            },
+            "Github Project URL": {
+                "type": "Textbox",
+                "id": "text-input-githubURL",
+                "value": {
+                  "QA 1": "gslslUser",
+                  "QA 2": "gslslUser",
+                  "QA 4": "gslslUser",
+                  "Customer 1": "gslslUser"
+                }
+            },
+            "Port": {
+                "type": "Textbox",
+                "id": "text-input-port",
+                "value": {
+                  "QA 1": "1024",
+                  "QA 2": "1024",
+                  "QA 4": "1024",
+                  "Customer 1": "1024"
+                }
+            },
+            "Tags": {
+                "type": "Textbox",
+                "id": "text-input-tags",
+                "value": {
+                  "QA 1": "",
+                  "QA 2": "",
+                  "QA 4": "",
+                  "Customer 1": ""
+                }
+            }
+          }
+        
+      }
+    }

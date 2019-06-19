@@ -1,0 +1,1657 @@
+[22-02-2019 12:15:39] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 12:15:39] [INFO] - Test browser: chrome
+[22-02-2019 12:15:39] [INFO] - Test environment: cb-qa-6
+[22-02-2019 12:15:39] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 12:15:39] [INFO] - Suites: orderTrackingICD
+[22-02-2019 12:15:39] [INFO] - Provisioning: true
+[22-02-2019 12:15:39] [INFO] - Post to Slack: false
+[22-02-2019 12:15:39] [INFO] - *******************************************
+[22-02-2019 12:15:39] [INFO] - [ 'e2e/specs/orderIntegration/ICD/orderTrackingICD.spec.js' ]
+[22-02-2019 12:15:43] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 12:15:43] [INFO] - Suite started: TestCases for Order Tracking ICD
+[22-02-2019 12:15:43] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 12:15:43] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 12:15:47] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 12:15:54] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 12:15:54] [INFO] - Cleared Username input box
+[22-02-2019 12:15:54] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 12:15:54] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 12:15:54] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 12:15:54] [INFO] - Clicked on Sign In button
+[22-02-2019 12:16:00] [INFO] - Navigated to Dashboard page...
+[22-02-2019 12:16:02] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 12:16:02] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 12:16:02] [INFO] - Switched to child window
+[22-02-2019 12:16:08] [INFO] - Switched back to parent window
+[22-02-2019 12:16:09] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 12:16:09] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 12:16:09] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 12:16:09] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 12:16:10] [INFO] - Test started: Verify enabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:16:10] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 12:16:27] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 12:16:28] [INFO] - Succesfully clicked on Provider : Azure
+[22-02-2019 12:16:28] [INFO] - PostMan URL for ICD orderTracking :: https://cb-qa-6-api.gravitant.net/api/orders/setconfig
+[22-02-2019 12:17:18] [INFO] - Test failed: Verify enabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:17:18] [INFO] - Failure reason: SyntaxError: Unexpected token U in JSON at position 0
+[22-02-2019 12:17:18] [INFO] - Failure reason: Failed: Timed out waiting for promise to resolve after 50006ms
+[22-02-2019 12:17:18] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:17:18] [INFO] - Test started: Verify whether SR status as "WAPPR(Waiting for Approval)" in ICD portal after creating the order for public provider (ex: Azure) in Consume App 
+[22-02-2019 12:17:18] [INFO] - Test disabled: Verify whether SR status as "WAPPR(Waiting for Approval)" in ICD portal after creating the order for public provider (ex: Azure) in Consume App 
+[22-02-2019 12:17:18] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:17:18] [INFO] - Test started: Verify whether SR status as "IN PROG" in ICD portal after approving order for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:17:18] [INFO] - Test disabled: Verify whether SR status as "IN PROG" in ICD portal after approving order for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:17:18] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:17:18] [INFO] - Test started: Verify whether SR status as "COMP" in ICD portal after approving order and got provisioned successfully for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:17:18] [INFO] - Test disabled: Verify whether SR status as "COMP" in ICD portal after approving order and got provisioned successfully for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:17:18] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:17:18] [INFO] - Test started: Verify disabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:17:18] [INFO] - Test disabled: Verify disabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:17:18] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:17:18] [INFO] - Suite completed: TestCases for Order Tracking ICD
+[22-02-2019 12:17:18] [INFO] - ===========================================================================================
+[22-02-2019 12:17:48] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 12:17:48] [INFO] - Test browser: chrome
+[22-02-2019 12:17:48] [INFO] - Test environment: cb-qa-6
+[22-02-2019 12:17:48] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 12:17:48] [INFO] - Suites: orderTrackingICD
+[22-02-2019 12:17:48] [INFO] - Provisioning: true
+[22-02-2019 12:17:48] [INFO] - Post to Slack: false
+[22-02-2019 12:17:48] [INFO] - *******************************************
+[22-02-2019 12:17:48] [INFO] - [ 'e2e/specs/orderIntegration/ICD/orderTrackingICD.spec.js' ]
+[22-02-2019 12:17:51] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 12:17:51] [INFO] - Suite started: TestCases for Order Tracking ICD
+[22-02-2019 12:17:51] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 12:17:51] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 12:17:55] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 12:18:02] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 12:18:02] [INFO] - Cleared Username input box
+[22-02-2019 12:18:02] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 12:18:02] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 12:18:02] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 12:18:02] [INFO] - Clicked on Sign In button
+[22-02-2019 12:18:09] [INFO] - Navigated to Dashboard page...
+[22-02-2019 12:18:10] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 12:18:11] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 12:18:11] [INFO] - Switched to child window
+[22-02-2019 12:18:17] [INFO] - Switched back to parent window
+[22-02-2019 12:18:17] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 12:18:17] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 12:18:17] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 12:18:17] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 12:18:19] [INFO] - Test started: Verify enabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:18:19] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 12:18:35] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 12:18:37] [INFO] - Succesfully clicked on Provider : Azure
+[22-02-2019 12:18:37] [INFO] - PostMan URL for ICD orderTracking :: https://cb-qa-6-api.gravitant.net/api/orders/setconfig
+[22-02-2019 12:18:38] [INFO] - <Buffer 55 6e 61 75 74 68 6f 72 69 7a 65 64>
+[22-02-2019 12:19:27] [INFO] - Test failed: Verify enabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:19:27] [INFO] - Failure reason: SyntaxError: Unexpected token U in JSON at position 0
+[22-02-2019 12:19:27] [INFO] - Failure reason: Failed: Timed out waiting for promise to resolve after 50021ms
+[22-02-2019 12:19:27] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:19:27] [INFO] - Test started: Verify whether SR status as "WAPPR(Waiting for Approval)" in ICD portal after creating the order for public provider (ex: Azure) in Consume App 
+[22-02-2019 12:19:27] [INFO] - Test disabled: Verify whether SR status as "WAPPR(Waiting for Approval)" in ICD portal after creating the order for public provider (ex: Azure) in Consume App 
+[22-02-2019 12:19:27] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:19:27] [INFO] - Test started: Verify whether SR status as "IN PROG" in ICD portal after approving order for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:19:27] [INFO] - Test disabled: Verify whether SR status as "IN PROG" in ICD portal after approving order for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:19:27] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:19:27] [INFO] - Test started: Verify whether SR status as "COMP" in ICD portal after approving order and got provisioned successfully for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:19:27] [INFO] - Test disabled: Verify whether SR status as "COMP" in ICD portal after approving order and got provisioned successfully for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:19:27] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:19:27] [INFO] - Test started: Verify disabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:19:27] [INFO] - Test disabled: Verify disabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:19:27] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:19:27] [INFO] - Suite completed: TestCases for Order Tracking ICD
+[22-02-2019 12:19:27] [INFO] - ===========================================================================================
+[22-02-2019 12:31:20] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 12:31:20] [INFO] - Test browser: chrome
+[22-02-2019 12:31:20] [INFO] - Test environment: cb-qa-6
+[22-02-2019 12:31:20] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 12:31:20] [INFO] - Suites: orderTrackingICD
+[22-02-2019 12:31:20] [INFO] - Provisioning: true
+[22-02-2019 12:31:20] [INFO] - Post to Slack: false
+[22-02-2019 12:31:20] [INFO] - *******************************************
+[22-02-2019 12:31:20] [INFO] - [ 'e2e/specs/orderIntegration/ICD/orderTrackingICD.spec.js' ]
+[22-02-2019 12:31:24] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 12:31:24] [INFO] - Suite started: TestCases for Order Tracking ICD
+[22-02-2019 12:31:24] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 12:31:24] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 12:31:28] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 12:31:33] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 12:31:34] [INFO] - Cleared Username input box
+[22-02-2019 12:31:34] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 12:31:34] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 12:31:34] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 12:31:34] [INFO] - Clicked on Sign In button
+[22-02-2019 12:31:40] [INFO] - Navigated to Dashboard page...
+[22-02-2019 12:31:42] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 12:31:43] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 12:31:43] [INFO] - Switched to child window
+[22-02-2019 12:31:49] [INFO] - Switched back to parent window
+[22-02-2019 12:31:49] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 12:31:49] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 12:31:49] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 12:31:50] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 12:31:51] [INFO] - Test started: Verify enabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:31:51] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 12:32:06] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 12:35:57] [INFO] - Succesfully clicked on Provider : Azure
+[22-02-2019 12:35:57] [INFO] - PostMan URL for ICD orderTracking :: https://cb-qa-6-api.gravitant.net/api/orders/setconfig
+[22-02-2019 12:36:00] [INFO] - <Buffer 7b 22 52 65 73 75 6c 74 22 3a 22 53 75 63 63 65 73 73 66 75 6c 6c 79 20 75 70 64 61 74 65 64 20 63 6f 6e 66 69 67 75 72 61 74 69 6f 6e 73 22 2c 22 74 ... >
+[22-02-2019 12:36:00] [INFO] - Received data:: Successfully updated configurations
+[22-02-2019 12:36:05] [INFO] - Test passed: Verify enabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:36:05] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:36:05] [INFO] - Test started: Verify whether SR status as "WAPPR(Waiting for Approval)" in ICD portal after creating the order for public provider (ex: Azure) in Consume App 
+[22-02-2019 12:36:05] [INFO] - Test disabled: Verify whether SR status as "WAPPR(Waiting for Approval)" in ICD portal after creating the order for public provider (ex: Azure) in Consume App 
+[22-02-2019 12:36:05] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:36:05] [INFO] - Test started: Verify whether SR status as "IN PROG" in ICD portal after approving order for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:36:05] [INFO] - Test disabled: Verify whether SR status as "IN PROG" in ICD portal after approving order for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:36:05] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:36:05] [INFO] - Test started: Verify whether SR status as "COMP" in ICD portal after approving order and got provisioned successfully for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:36:05] [INFO] - Test disabled: Verify whether SR status as "COMP" in ICD portal after approving order and got provisioned successfully for public provider (ex: Azure) in Consume App  
+[22-02-2019 12:36:05] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:36:05] [INFO] - Test started: Verify disabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:36:05] [INFO] - Test disabled: Verify disabling ICD order tracking is working fine - TC C159934 
+[22-02-2019 12:36:05] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 12:36:05] [INFO] - Suite completed: TestCases for Order Tracking ICD
+[22-02-2019 12:36:05] [INFO] - ===========================================================================================
+[22-02-2019 13:30:55] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 13:30:55] [INFO] - Test browser: chrome
+[22-02-2019 13:30:55] [INFO] - Test environment: cb-qa-6
+[22-02-2019 13:30:55] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 13:30:55] [INFO] - Suites: e2eCentOSCustomAttributeVRA74
+[22-02-2019 13:30:55] [INFO] - Provisioning: true
+[22-02-2019 13:30:55] [INFO] - Post to Slack: false
+[22-02-2019 13:30:55] [INFO] - *******************************************
+[22-02-2019 13:30:55] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eCentOSCustomAttributeVRA74.spec.js' ]
+[22-02-2019 13:30:58] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 13:30:58] [INFO] - Suite started: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:30:58] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 13:30:58] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 13:31:02] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 13:31:07] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 13:31:07] [INFO] - Cleared Username input box
+[22-02-2019 13:31:07] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 13:31:07] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 13:31:07] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 13:31:07] [INFO] - Clicked on Sign In button
+[22-02-2019 13:31:15] [INFO] - Navigated to Dashboard page...
+[22-02-2019 13:31:16] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 13:31:16] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 13:31:16] [INFO] - Switched to child window
+[22-02-2019 13:31:17] [INFO] - Switched back to parent window
+[22-02-2019 13:31:17] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 13:31:17] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 13:31:17] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 13:31:17] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 13:31:18] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:31:18] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 13:31:35] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 13:31:35] [INFO] - Waiting for the Category to be identified and Click it
+[22-02-2019 13:31:47] [INFO] - Succesfully clicked on Category : Compute
+[22-02-2019 13:31:49] [INFO] - Got all the elemets. Going to find the index of CentOS-CustomAttribute
+[22-02-2019 13:31:49] [INFO] - Comparing 3 Tier Traditional Workload with CentOS-CustomAttribute
+[22-02-2019 13:31:49] [INFO] - Comparing Add Amazon Account with CentOS-CustomAttribute
+[22-02-2019 13:31:49] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS-CustomAttribute
+[22-02-2019 13:31:49] [INFO] - Comparing CentOS-CustomAttribute with CentOS-CustomAttribute
+[22-02-2019 13:31:49] [INFO] - Clicked configure button for CentOS-CustomAttribute
+[22-02-2019 13:31:50] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/place-order/main-parameters/01140275-f3e8-414d-873c-959d4e449fcb
+[22-02-2019 13:31:50] [INFO] - Blue Print Name : CentOS-CustomAttribute
+[22-02-2019 13:31:53] [INFO] - Team selected from drop down
+[22-02-2019 13:31:54] [INFO] - Environment selected from drop down
+[22-02-2019 13:31:56] [INFO] - Application selected from drop down
+[22-02-2019 13:31:56] [INFO] - ServiceName QAAUTOMATIONZUU2 entered
+[22-02-2019 13:32:07] [INFO] - Provider Account VRA74 / VRA74 selected from drop down
+[22-02-2019 13:32:07] [INFO] - Is Next button enabled: true
+[22-02-2019 13:32:07] [INFO] - The estimated price in Main Params is :N/A
+[22-02-2019 13:32:07] [INFO] - Test failed: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:32:07] [INFO] - Failure reason: Expected 'N/A' to be 'USD 20.00/ SIZE / MONTH + USD 10.00'.
+[22-02-2019 13:32:07] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:32:07] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:32:07] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:32:07] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:32:07] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:32:07] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:32:07] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:32:07] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:32:07] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:32:07] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:32:07] [INFO] - Suite completed: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:32:07] [INFO] - ===========================================================================================
+[22-02-2019 13:32:29] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 13:32:29] [INFO] - Test browser: chrome
+[22-02-2019 13:32:29] [INFO] - Test environment: cb-qa-6
+[22-02-2019 13:32:29] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 13:32:29] [INFO] - Suites: e2eCentOSCustomAttributeVRA74
+[22-02-2019 13:32:29] [INFO] - Provisioning: true
+[22-02-2019 13:32:29] [INFO] - Post to Slack: false
+[22-02-2019 13:32:29] [INFO] - *******************************************
+[22-02-2019 13:32:29] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eCentOSCustomAttributeVRA74.spec.js' ]
+[22-02-2019 13:32:32] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 13:32:32] [INFO] - Suite started: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:32:32] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 13:32:32] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 13:32:35] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 13:32:41] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 13:32:41] [INFO] - Cleared Username input box
+[22-02-2019 13:32:41] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 13:32:41] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 13:32:41] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 13:32:41] [INFO] - Clicked on Sign In button
+[22-02-2019 13:32:46] [INFO] - Navigated to Dashboard page...
+[22-02-2019 13:32:48] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 13:32:48] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 13:32:48] [INFO] - Switched to child window
+[22-02-2019 13:32:53] [INFO] - Switched back to parent window
+[22-02-2019 13:32:54] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 13:32:54] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 13:32:54] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 13:32:54] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 13:32:55] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:32:55] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 13:33:10] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 13:33:12] [INFO] - Got all the elemets. Going to find the index of CentOS-CustomAttribute
+[22-02-2019 13:33:12] [INFO] - Comparing 3 Tier Traditional Workload Cus... with CentOS-CustomAttribute
+[22-02-2019 13:33:12] [INFO] - Comparing 3 Tier VRA74 with CentOS-CustomAttribute
+[22-02-2019 13:33:12] [INFO] - Comparing 3 Tier Traditional Workload with CentOS-CustomAttribute
+[22-02-2019 13:33:12] [INFO] - Comparing Add Amazon Account with CentOS-CustomAttribute
+[22-02-2019 13:33:12] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS-CustomAttribute
+[22-02-2019 13:33:12] [INFO] - Comparing CentOS-CustomAttribute with CentOS-CustomAttribute
+[22-02-2019 13:33:12] [INFO] - Clicked configure button for CentOS-CustomAttribute
+[22-02-2019 13:33:13] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 13:33:14] [INFO] - Entered TestAutomationq1vgA in Service Instance Name textbox
+[22-02-2019 13:33:17] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 13:33:25] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 13:33:33] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 13:33:36] [INFO] - Selected VRA74 / VRA74 from Provider Account dropdown
+[22-02-2019 13:33:39] [INFO] - Clicked on Next button
+[22-02-2019 13:33:42] [INFO] - Cleared CPUs textbox
+[22-02-2019 13:33:42] [INFO] - Entered 1 in CPUs textbox
+[22-02-2019 13:33:42] [INFO] - Cleared Memory (MB) textbox
+[22-02-2019 13:33:43] [INFO] - Entered 512 in Memory (MB) textbox
+[22-02-2019 13:33:43] [INFO] - Cleared Storage (GB) textbox
+[22-02-2019 13:33:43] [INFO] - Entered 5 in Storage (GB) textbox
+[22-02-2019 13:33:46] [INFO] - Clicked on Next button
+[22-02-2019 13:34:52] [INFO] - Test failed: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:34:52] [INFO] - Failure reason: Failed: Wait timed out after 60051ms
+[22-02-2019 13:34:52] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:34:52] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:34:52] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:34:52] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:34:52] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:34:52] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:34:52] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:34:52] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:34:52] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:34:52] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:34:52] [INFO] - Suite completed: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:34:52] [INFO] - ===========================================================================================
+[22-02-2019 13:51:02] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 13:51:02] [INFO] - Test browser: chrome
+[22-02-2019 13:51:02] [INFO] - Test environment: cb-qa-6
+[22-02-2019 13:51:02] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 13:51:02] [INFO] - Suites: e2eCentOSCustomAttributeVRA74
+[22-02-2019 13:51:02] [INFO] - Provisioning: true
+[22-02-2019 13:51:02] [INFO] - Post to Slack: false
+[22-02-2019 13:51:02] [INFO] - *******************************************
+[22-02-2019 13:51:02] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eCentOSCustomAttributeVRA74.spec.js' ]
+[22-02-2019 13:51:05] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 13:51:05] [INFO] - Suite started: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:51:05] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 13:51:05] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 13:51:08] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 13:51:13] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 13:51:13] [INFO] - Cleared Username input box
+[22-02-2019 13:51:14] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 13:51:14] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 13:51:14] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 13:51:14] [INFO] - Clicked on Sign In button
+[22-02-2019 13:51:19] [INFO] - Navigated to Dashboard page...
+[22-02-2019 13:51:20] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 13:51:20] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 13:51:20] [INFO] - Switched to child window
+[22-02-2019 13:51:22] [INFO] - Switched back to parent window
+[22-02-2019 13:51:22] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 13:51:22] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 13:51:22] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 13:51:23] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 13:51:24] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:51:24] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 13:51:40] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 13:51:42] [INFO] - Got all the elemets. Going to find the index of CentOS-CustomAttribute
+[22-02-2019 13:51:42] [INFO] - Comparing 3 Tier Traditional Workload Cus... with CentOS-CustomAttribute
+[22-02-2019 13:51:42] [INFO] - Comparing 3 Tier VRA74 with CentOS-CustomAttribute
+[22-02-2019 13:51:42] [INFO] - Comparing 3 Tier Traditional Workload with CentOS-CustomAttribute
+[22-02-2019 13:51:42] [INFO] - Comparing Add Amazon Account with CentOS-CustomAttribute
+[22-02-2019 13:51:42] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS-CustomAttribute
+[22-02-2019 13:51:42] [INFO] - Comparing CentOS-CustomAttribute with CentOS-CustomAttribute
+[22-02-2019 13:51:42] [INFO] - Clicked configure button for CentOS-CustomAttribute
+[22-02-2019 13:51:43] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 13:51:43] [INFO] - Entered TestAutomationIBskb in Service Instance Name textbox
+[22-02-2019 13:51:47] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 13:51:55] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 13:52:02] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 13:52:06] [INFO] - Selected VRA74 / VRA74 from Provider Account dropdown
+[22-02-2019 13:52:09] [INFO] - Clicked on Next button
+[22-02-2019 13:52:11] [INFO] - Cleared CPUs textbox
+[22-02-2019 13:52:12] [INFO] - Entered 1 in CPUs textbox
+[22-02-2019 13:52:12] [INFO] - Cleared Machine SSH textbox
+[22-02-2019 13:52:12] [INFO] - Entered 1 in Machine SSH textbox
+[22-02-2019 13:52:12] [INFO] - Cleared Memory (MB) textbox
+[22-02-2019 13:52:12] [INFO] - Entered 512 in Memory (MB) textbox
+[22-02-2019 13:52:12] [INFO] - Cleared Storage (GB) textbox
+[22-02-2019 13:52:12] [INFO] - Entered 5 in Storage (GB) textbox
+[22-02-2019 13:52:13] [INFO] - Cleared VirtualMachine Admin Owner textbox
+[22-02-2019 13:52:13] [INFO] - Entered brokerfast@in.ibm.com in VirtualMachine Admin Owner textbox
+[22-02-2019 13:52:13] [INFO] - Cleared VirtualMachine Admin ThinProvision textbox
+[22-02-2019 13:52:13] [INFO] - Entered True in VirtualMachine Admin ThinProvision textbox
+[22-02-2019 13:52:13] [INFO] - Cleared VirtualMachine CDROM Attach textbox
+[22-02-2019 13:52:14] [INFO] - Entered True in VirtualMachine CDROM Attach textbox
+[22-02-2019 13:52:14] [INFO] - Cleared VMware Hardware Version textbox
+[22-02-2019 13:52:14] [INFO] - Entered vmx-10 in VMware Hardware Version textbox
+[22-02-2019 13:52:17] [INFO] - Clicked on Next button
+[22-02-2019 13:52:24] [INFO] - Service Name on Review Order page : TestAutomationIBskb
+[22-02-2019 13:52:24] [INFO] - Service Name on Review Order page : TestAutomationIBskb
+[22-02-2019 13:52:24] [INFO] - Estimated price on Review Order page : N/A
+[22-02-2019 13:52:24] [INFO] - Test failed: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:52:24] [INFO] - Failure reason: Expected 'N/A' to be 'USD 20.00 ONE TIME CHARGE + USD 20.0009765 / MONTH'.
+[22-02-2019 13:52:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:52:24] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:52:24] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:52:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:52:24] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:52:24] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:52:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:52:24] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:52:24] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:52:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:52:24] [INFO] - Suite completed: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:52:24] [INFO] - ===========================================================================================
+[22-02-2019 13:53:03] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 13:53:03] [INFO] - Test browser: chrome
+[22-02-2019 13:53:03] [INFO] - Test environment: cb-qa-6
+[22-02-2019 13:53:03] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 13:53:03] [INFO] - Suites: e2eCentOSCustomAttributeVRA74
+[22-02-2019 13:53:03] [INFO] - Provisioning: true
+[22-02-2019 13:53:03] [INFO] - Post to Slack: false
+[22-02-2019 13:53:03] [INFO] - *******************************************
+[22-02-2019 13:53:03] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eCentOSCustomAttributeVRA74.spec.js' ]
+[22-02-2019 13:53:06] [INFO] - Suite started: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:53:06] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 13:53:06] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 13:53:06] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 13:53:10] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 13:53:15] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 13:53:16] [INFO] - Cleared Username input box
+[22-02-2019 13:53:16] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 13:53:16] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 13:53:16] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 13:53:16] [INFO] - Clicked on Sign In button
+[22-02-2019 13:53:22] [INFO] - Navigated to Dashboard page...
+[22-02-2019 13:53:23] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 13:53:23] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 13:53:23] [INFO] - Switched to child window
+[22-02-2019 13:53:29] [INFO] - Switched back to parent window
+[22-02-2019 13:53:29] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 13:53:29] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 13:53:29] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 13:53:29] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 13:53:30] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:53:30] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 13:53:46] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 13:53:48] [INFO] - Got all the elemets. Going to find the index of CentOS-CustomAttribute
+[22-02-2019 13:53:48] [INFO] - Comparing 3 Tier Traditional Workload Cus... with CentOS-CustomAttribute
+[22-02-2019 13:53:48] [INFO] - Comparing 3 Tier VRA74 with CentOS-CustomAttribute
+[22-02-2019 13:53:48] [INFO] - Comparing 3 Tier Traditional Workload with CentOS-CustomAttribute
+[22-02-2019 13:53:48] [INFO] - Comparing Add Amazon Account with CentOS-CustomAttribute
+[22-02-2019 13:53:48] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS-CustomAttribute
+[22-02-2019 13:53:48] [INFO] - Comparing CentOS-CustomAttribute with CentOS-CustomAttribute
+[22-02-2019 13:53:48] [INFO] - Clicked configure button for CentOS-CustomAttribute
+[22-02-2019 13:53:49] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 13:53:50] [INFO] - Entered TestAutomationw07bF in Service Instance Name textbox
+[22-02-2019 13:53:53] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 13:54:01] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 13:54:09] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 13:54:12] [INFO] - Selected VRA74 / VRA74 from Provider Account dropdown
+[22-02-2019 13:54:15] [INFO] - Clicked on Next button
+[22-02-2019 13:54:18] [INFO] - Cleared CPUs textbox
+[22-02-2019 13:54:18] [INFO] - Entered 1 in CPUs textbox
+[22-02-2019 13:54:18] [INFO] - Cleared Machine SSH textbox
+[22-02-2019 13:54:19] [INFO] - Entered 1 in Machine SSH textbox
+[22-02-2019 13:54:19] [INFO] - Cleared Memory (MB) textbox
+[22-02-2019 13:54:19] [INFO] - Entered 512 in Memory (MB) textbox
+[22-02-2019 13:54:19] [INFO] - Cleared Storage (GB) textbox
+[22-02-2019 13:54:19] [INFO] - Entered 5 in Storage (GB) textbox
+[22-02-2019 13:54:20] [INFO] - Cleared VirtualMachine Admin Owner textbox
+[22-02-2019 13:54:20] [INFO] - Entered brokerfast@in.ibm.com in VirtualMachine Admin Owner textbox
+[22-02-2019 13:54:20] [INFO] - Cleared VirtualMachine Admin ThinProvision textbox
+[22-02-2019 13:54:20] [INFO] - Entered True in VirtualMachine Admin ThinProvision textbox
+[22-02-2019 13:54:21] [INFO] - Cleared VirtualMachine CDROM Attach textbox
+[22-02-2019 13:54:21] [INFO] - Entered True in VirtualMachine CDROM Attach textbox
+[22-02-2019 13:54:21] [INFO] - Cleared VMware Hardware Version textbox
+[22-02-2019 13:54:21] [INFO] - Entered vmx-10 in VMware Hardware Version textbox
+[22-02-2019 13:54:24] [INFO] - Clicked on Next button
+[22-02-2019 13:54:30] [INFO] - First username extracted :: cbadmn
+[22-02-2019 13:54:49] [INFO] - Order Submitted !
+[22-02-2019 13:54:49] [INFO] - Order number : PSM9KUI3
+[22-02-2019 13:54:49] [INFO] - Total Price : N/A
+[22-02-2019 13:54:49] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 13:55:03] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/orders/approver-orders
+[22-02-2019 13:55:11] [INFO] - Order ID :: PSM9KUI3
+[22-02-2019 13:55:19] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 13:55:19] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 13:55:23] [INFO] - Order Service Name in Order details page : TestAutomationw07bF
+[22-02-2019 13:55:23] [INFO] - Order Provider Name in Order details page : PrivateCloud
+[22-02-2019 13:55:23] [INFO] - Order status of the first order from Order table is: Approval In Progress
+[22-02-2019 13:55:23] [INFO] - Order submitted by : cbadmn@outlook.com
+[22-02-2019 13:55:23] [INFO] - Approve button display status: true
+[22-02-2019 13:55:23] [INFO] - Deny button display status: true
+[22-02-2019 13:55:23] [INFO] - Clicked on Service Configurations tab
+[22-02-2019 13:55:23] [INFO] - The value for CPU is : 1
+[22-02-2019 13:55:24] [INFO] - Test failed: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:55:24] [INFO] - Failure reason: Expected '1' to equal undefined.
+[22-02-2019 13:55:24] [INFO] - Failure reason: Failed: No element found using locator: By(xpath, //label[contains(text(), 'MEMORY')]/following-sibling::p)
+[22-02-2019 13:55:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:55:24] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:55:24] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:55:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:55:24] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:55:24] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:55:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:55:24] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:55:24] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:55:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:55:24] [INFO] - Suite completed: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:55:24] [INFO] - ===========================================================================================
+[22-02-2019 13:56:23] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 13:56:23] [INFO] - Test browser: chrome
+[22-02-2019 13:56:23] [INFO] - Test environment: cb-qa-6
+[22-02-2019 13:56:23] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 13:56:23] [INFO] - Suites: e2eCentOSCustomAttributeVRA74
+[22-02-2019 13:56:23] [INFO] - Provisioning: true
+[22-02-2019 13:56:23] [INFO] - Post to Slack: false
+[22-02-2019 13:56:23] [INFO] - *******************************************
+[22-02-2019 13:56:23] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eCentOSCustomAttributeVRA74.spec.js' ]
+[22-02-2019 13:56:26] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 13:56:26] [INFO] - Suite started: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:56:26] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 13:56:26] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 13:56:30] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 13:56:35] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 13:56:35] [INFO] - Cleared Username input box
+[22-02-2019 13:56:35] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 13:56:35] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 13:56:35] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 13:56:36] [INFO] - Clicked on Sign In button
+[22-02-2019 13:56:43] [INFO] - Navigated to Dashboard page...
+[22-02-2019 13:56:44] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 13:56:45] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 13:56:45] [INFO] - Switched to child window
+[22-02-2019 13:56:50] [INFO] - Switched back to parent window
+[22-02-2019 13:56:50] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 13:56:50] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 13:56:50] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 13:56:50] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 13:56:52] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:56:52] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 13:57:07] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 13:57:09] [INFO] - Got all the elemets. Going to find the index of CentOS-CustomAttribute
+[22-02-2019 13:57:09] [INFO] - Comparing 3 Tier Traditional Workload Cus... with CentOS-CustomAttribute
+[22-02-2019 13:57:09] [INFO] - Comparing 3 Tier VRA74 with CentOS-CustomAttribute
+[22-02-2019 13:57:09] [INFO] - Comparing 3 Tier Traditional Workload with CentOS-CustomAttribute
+[22-02-2019 13:57:09] [INFO] - Comparing Add Amazon Account with CentOS-CustomAttribute
+[22-02-2019 13:57:09] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS-CustomAttribute
+[22-02-2019 13:57:09] [INFO] - Comparing CentOS-CustomAttribute with CentOS-CustomAttribute
+[22-02-2019 13:57:09] [INFO] - Clicked configure button for CentOS-CustomAttribute
+[22-02-2019 13:57:10] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 13:57:10] [INFO] - Entered TestAutomationah4cm in Service Instance Name textbox
+[22-02-2019 13:57:14] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 13:57:22] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 13:57:29] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 13:57:33] [INFO] - Selected VRA74 / VRA74 from Provider Account dropdown
+[22-02-2019 13:57:36] [INFO] - Clicked on Next button
+[22-02-2019 13:57:39] [INFO] - Cleared CPUs textbox
+[22-02-2019 13:57:39] [INFO] - Entered 1 in CPUs textbox
+[22-02-2019 13:57:39] [INFO] - Cleared Machine SSH textbox
+[22-02-2019 13:57:39] [INFO] - Entered 1 in Machine SSH textbox
+[22-02-2019 13:57:40] [INFO] - Cleared Memory (MB) textbox
+[22-02-2019 13:57:40] [INFO] - Entered 512 in Memory (MB) textbox
+[22-02-2019 13:57:40] [INFO] - Cleared Storage (GB) textbox
+[22-02-2019 13:57:40] [INFO] - Entered 5 in Storage (GB) textbox
+[22-02-2019 13:57:40] [INFO] - Cleared VirtualMachine Admin Owner textbox
+[22-02-2019 13:57:41] [INFO] - Entered brokerfast@in.ibm.com in VirtualMachine Admin Owner textbox
+[22-02-2019 13:57:41] [INFO] - Cleared VirtualMachine Admin ThinProvision textbox
+[22-02-2019 13:57:41] [INFO] - Entered True in VirtualMachine Admin ThinProvision textbox
+[22-02-2019 13:57:41] [INFO] - Cleared VirtualMachine CDROM Attach textbox
+[22-02-2019 13:57:41] [INFO] - Entered True in VirtualMachine CDROM Attach textbox
+[22-02-2019 13:57:41] [INFO] - Cleared VMware Hardware Version textbox
+[22-02-2019 13:57:42] [INFO] - Entered vmx-10 in VMware Hardware Version textbox
+[22-02-2019 13:57:45] [INFO] - Clicked on Next button
+[22-02-2019 13:57:51] [INFO] - First username extracted :: cbadmn
+[22-02-2019 13:58:10] [INFO] - Order Submitted !
+[22-02-2019 13:58:10] [INFO] - Order number : 0E7VHREQ
+[22-02-2019 13:58:10] [INFO] - Total Price : N/A
+[22-02-2019 13:58:10] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 13:58:24] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/orders/approver-orders
+[22-02-2019 13:58:33] [INFO] - Order ID :: 0E7VHREQ
+[22-02-2019 13:58:40] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 13:58:40] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 13:58:44] [INFO] - Order Service Name in Order details page : TestAutomationah4cm
+[22-02-2019 13:58:45] [INFO] - Order Provider Name in Order details page : PrivateCloud
+[22-02-2019 13:58:45] [INFO] - Order status of the first order from Order table is: Approval In Progress
+[22-02-2019 13:58:45] [INFO] - Order submitted by : cbadmn@outlook.com
+[22-02-2019 13:58:45] [INFO] - Approve button display status: true
+[22-02-2019 13:58:45] [INFO] - Deny button display status: true
+[22-02-2019 13:58:45] [INFO] - Clicked on Service Configurations tab
+[22-02-2019 13:58:45] [INFO] - The value for CPUs is : 1
+[22-02-2019 13:58:45] [INFO] - The value for Memory (MB) is : 512
+[22-02-2019 13:58:45] [INFO] - The value for Storage (GB) is : 5
+[22-02-2019 13:58:45] [INFO] - Clicked on Bill of Materials tab
+[22-02-2019 13:58:46] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 13:58:46] [INFO] - Test passed: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 13:58:46] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:58:46] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:58:46] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 13:58:46] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:58:46] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:58:46] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 13:58:46] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:58:46] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:58:46] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 13:58:46] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 13:58:46] [INFO] - Suite completed: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 13:58:46] [INFO] - ===========================================================================================
+[22-02-2019 14:00:03] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 14:00:03] [INFO] - Test browser: chrome
+[22-02-2019 14:00:03] [INFO] - Test environment: cb-qa-6
+[22-02-2019 14:00:03] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 14:00:03] [INFO] - Suites: e2eCentOSCustomAttributeVRA74
+[22-02-2019 14:00:03] [INFO] - Provisioning: true
+[22-02-2019 14:00:03] [INFO] - Post to Slack: false
+[22-02-2019 14:00:03] [INFO] - *******************************************
+[22-02-2019 14:00:03] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eCentOSCustomAttributeVRA74.spec.js' ]
+[22-02-2019 14:00:06] [INFO] - Suite started: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 14:00:06] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 14:00:06] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 14:00:06] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 14:00:10] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 14:00:15] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 14:00:15] [INFO] - Cleared Username input box
+[22-02-2019 14:00:15] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 14:00:15] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 14:00:15] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 14:00:15] [INFO] - Clicked on Sign In button
+[22-02-2019 14:00:20] [INFO] - Navigated to Dashboard page...
+[22-02-2019 14:00:22] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 14:00:22] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 14:00:22] [INFO] - Switched to child window
+[22-02-2019 14:00:28] [INFO] - Switched back to parent window
+[22-02-2019 14:00:28] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 14:00:28] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 14:00:28] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 14:00:28] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 14:00:29] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 14:00:29] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 14:00:46] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 14:00:48] [INFO] - Got all the elemets. Going to find the index of CentOS-CustomAttribute
+[22-02-2019 14:00:48] [INFO] - Comparing 3 Tier Traditional Workload Cus... with CentOS-CustomAttribute
+[22-02-2019 14:00:48] [INFO] - Comparing 3 Tier VRA74 with CentOS-CustomAttribute
+[22-02-2019 14:00:48] [INFO] - Comparing 3 Tier Traditional Workload with CentOS-CustomAttribute
+[22-02-2019 14:00:48] [INFO] - Comparing Add Amazon Account with CentOS-CustomAttribute
+[22-02-2019 14:00:48] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS-CustomAttribute
+[22-02-2019 14:00:48] [INFO] - Comparing CentOS-CustomAttribute with CentOS-CustomAttribute
+[22-02-2019 14:00:48] [INFO] - Clicked configure button for CentOS-CustomAttribute
+[22-02-2019 14:00:49] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 14:00:49] [INFO] - Entered TestAutomationiPiE4 in Service Instance Name textbox
+[22-02-2019 14:00:53] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 14:01:01] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 14:01:08] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 14:01:12] [INFO] - Selected VRA74 / VRA74 from Provider Account dropdown
+[22-02-2019 14:01:15] [INFO] - Clicked on Next button
+[22-02-2019 14:01:18] [INFO] - Cleared CPUs textbox
+[22-02-2019 14:01:18] [INFO] - Entered 1 in CPUs textbox
+[22-02-2019 14:01:18] [INFO] - Cleared Machine SSH textbox
+[22-02-2019 14:01:19] [INFO] - Entered 1 in Machine SSH textbox
+[22-02-2019 14:01:19] [INFO] - Cleared Memory (MB) textbox
+[22-02-2019 14:01:19] [INFO] - Entered 512 in Memory (MB) textbox
+[22-02-2019 14:01:19] [INFO] - Cleared Storage (GB) textbox
+[22-02-2019 14:01:19] [INFO] - Entered 5 in Storage (GB) textbox
+[22-02-2019 14:01:19] [INFO] - Cleared VirtualMachine Admin Owner textbox
+[22-02-2019 14:01:20] [INFO] - Entered brokerfast@in.ibm.com in VirtualMachine Admin Owner textbox
+[22-02-2019 14:01:20] [INFO] - Cleared VirtualMachine Admin ThinProvision textbox
+[22-02-2019 14:01:20] [INFO] - Entered True in VirtualMachine Admin ThinProvision textbox
+[22-02-2019 14:01:20] [INFO] - Cleared VirtualMachine CDROM Attach textbox
+[22-02-2019 14:01:20] [INFO] - Entered True in VirtualMachine CDROM Attach textbox
+[22-02-2019 14:01:21] [INFO] - Cleared VMware Hardware Version textbox
+[22-02-2019 14:01:21] [INFO] - Entered vmx-10 in VMware Hardware Version textbox
+[22-02-2019 14:01:24] [INFO] - Clicked on Next button
+[22-02-2019 14:01:44] [INFO] - Order number : D3HRQOUK
+[22-02-2019 14:01:44] [INFO] - Total Price : N/A
+[22-02-2019 14:01:44] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 14:01:49] [INFO] - Order Submitted !
+[22-02-2019 14:02:12] [INFO] - Approve button display status: true
+[22-02-2019 14:02:12] [INFO] - Approve/Deny button is shown...
+[22-02-2019 14:02:12] [INFO] - Clicked on approve Button
+[22-02-2019 14:02:12] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 14:02:13] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 14:02:13] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 14:02:20] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 14:02:39] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:03:22] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:03:22] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:03:26] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:03:56] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:04:39] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:04:40] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:04:44] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:05:13] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:05:56] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:11:56] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:12:03] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:12:32] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:13:15] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:13:16] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:13:20] [INFO] - Order status is changed to: Completed, breaking the loop
+[22-02-2019 14:13:39] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:13:53] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 14:14:12] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:14:26] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 14:14:56] [INFO] - Clicked on the Actions icon from the first row on Inventory page
+[22-02-2019 14:14:59] [INFO] - Clicked on Delete Service button
+[22-02-2019 14:15:02] [INFO] - Checked Confirm checkbox on Delete Service modal dialog
+[22-02-2019 14:15:02] [INFO] - Clicked on OK button on Delete Service modal dialog
+[22-02-2019 14:15:10] [INFO] - Waited till Delete Service Info tool tip appears
+[22-02-2019 14:15:10] [INFO] - Delete Order Number:D4Y10ZX7
+[22-02-2019 14:15:33] [INFO] - Order Type in orders Table is :: Delete
+[22-02-2019 14:15:55] [INFO] - Approve/Deny button is shown...
+[22-02-2019 14:15:55] [INFO] - Clicked on approve Button
+[22-02-2019 14:15:56] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 14:15:56] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 14:15:56] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 14:16:04] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 14:16:23] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:16:49] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:17:18] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:17:43] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:18:14] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:18:40] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:19:12] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:19:38] [INFO] - Delete order status is changed to: Completed, breaking the loop
+[22-02-2019 14:19:57] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:20:09] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 14:20:09] [INFO] - Test passed: VRA : CentOs Custom Attribute VRA 74 --- Verify provisioning of CentOs Custom Attribute VRA 74 service is working fine from consume App
+[22-02-2019 14:20:09] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 14:20:09] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 14:20:09] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify fields on Main Parameters page of CentOs Custom Attribute VRA 74 is working fine
+[22-02-2019 14:20:09] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 14:20:09] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 14:20:09] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 14:20:09] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 14:20:09] [INFO] - Test started: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 14:20:09] [INFO] - Test disabled: VRA : CentOs Custom Attribute VRA 74 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 14:20:09] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 14:20:09] [INFO] - Suite completed: VRA : Cent Os Custom Attribute VRA 7.4 template -- 7.4 VRA service
+[22-02-2019 14:20:09] [INFO] - ===========================================================================================
+[22-02-2019 14:29:02] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 14:29:02] [INFO] - Test browser: chrome
+[22-02-2019 14:29:02] [INFO] - Test environment: cb-qa-6
+[22-02-2019 14:29:02] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 14:29:02] [INFO] - Suites: e2eTier3VRA74
+[22-02-2019 14:29:02] [INFO] - Provisioning: true
+[22-02-2019 14:29:02] [INFO] - Post to Slack: false
+[22-02-2019 14:29:02] [INFO] - *******************************************
+[22-02-2019 14:29:02] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eTier3VRA74.spec.js' ]
+[22-02-2019 14:29:06] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 14:29:07] [INFO] - Suite started: e2e Test cases for 3 Tier VRA 7.4 Service
+[22-02-2019 14:29:07] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 14:29:07] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 14:29:10] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 14:29:16] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 14:29:16] [INFO] - Cleared Username input box
+[22-02-2019 14:29:16] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 14:29:16] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 14:29:16] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 14:29:16] [INFO] - Clicked on Sign In button
+[22-02-2019 14:29:21] [INFO] - Navigated to Dashboard page...
+[22-02-2019 14:29:22] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 14:29:23] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 14:29:23] [INFO] - Switched to child window
+[22-02-2019 14:29:25] [INFO] - Switched back to parent window
+[22-02-2019 14:29:25] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 14:29:25] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 14:29:25] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 14:29:25] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 14:29:26] [INFO] - Test started: VRA : 3 Tier 7.4 --- Verify provisioning of VRA-3 Tier 7.4 is working fine from consume App
+[22-02-2019 14:29:26] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 14:29:42] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 14:29:43] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 14:29:43] [INFO] - Waiting for the Category to be identified and Click it
+[22-02-2019 14:29:55] [INFO] - Succesfully clicked on Category : Backup & Disaster Recovery
+[22-02-2019 14:29:56] [INFO] - Got all the elemets. Going to find the index of 3 Tier VRA74
+[22-02-2019 14:29:56] [INFO] - Comparing 3 Tier Traditional Workload Cus... with 3 Tier VRA74
+[22-02-2019 14:29:56] [INFO] - Comparing 3 Tier VRA74 with 3 Tier VRA74
+[22-02-2019 14:29:56] [INFO] - Clicked configure button for 3 Tier VRA74
+[22-02-2019 14:29:57] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 14:29:57] [INFO] - Entered TestAutomationr7Ouj in Service Instance Name textbox
+[22-02-2019 14:30:07] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 14:30:16] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 14:30:24] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 14:30:27] [INFO] - Selected VRA74 / VRA74 from Provider Account dropdown
+[22-02-2019 14:30:30] [INFO] - Clicked on Next button
+[22-02-2019 14:30:33] [INFO] - Cleared DB CPU textbox
+[22-02-2019 14:30:33] [INFO] - Entered 1 in DB CPU textbox
+[22-02-2019 14:30:33] [INFO] - Cleared DB Description textbox
+[22-02-2019 14:30:34] [INFO] - Entered DB-Svr-01 in DB Description textbox
+[22-02-2019 14:30:34] [INFO] - Cleared DB Memory (MB) textbox
+[22-02-2019 14:30:34] [INFO] - Entered 512 in DB Memory (MB) textbox
+[22-02-2019 14:30:34] [INFO] - Cleared DB Storage (GB) textbox
+[22-02-2019 14:30:34] [INFO] - Entered 5 in DB Storage (GB) textbox
+[22-02-2019 14:30:38] [INFO] - Clicked on Next button
+[22-02-2019 14:30:38] [INFO] - Cleared App CPU textbox
+[22-02-2019 14:30:38] [INFO] - Entered 1 in App CPU textbox
+[22-02-2019 14:30:38] [INFO] - Cleared App Description textbox
+[22-02-2019 14:30:38] [INFO] - Entered App-Svr-01 in App Description textbox
+[22-02-2019 14:30:38] [INFO] - Cleared App Memory (MB) textbox
+[22-02-2019 14:30:39] [INFO] - Entered 512 in App Memory (MB) textbox
+[22-02-2019 14:30:39] [INFO] - Cleared App Storage (GB) textbox
+[22-02-2019 14:30:39] [INFO] - Entered 5 in App Storage (GB) textbox
+[22-02-2019 14:30:42] [INFO] - Clicked on Next button
+[22-02-2019 14:30:42] [INFO] - Cleared Web CPU textbox
+[22-02-2019 14:30:42] [INFO] - Entered 1 in Web CPU textbox
+[22-02-2019 14:30:43] [INFO] - Cleared Web Description textbox
+[22-02-2019 14:30:43] [INFO] - Entered Web-Svr-01 in Web Description textbox
+[22-02-2019 14:30:43] [INFO] - Cleared Web Memory (MB) textbox
+[22-02-2019 14:30:43] [INFO] - Entered 512 in Web Memory (MB) textbox
+[22-02-2019 14:30:43] [INFO] - Cleared Web Storage (GB) textbox
+[22-02-2019 14:30:43] [INFO] - Entered 5 in Web Storage (GB) textbox
+[22-02-2019 14:30:47] [INFO] - Clicked on Next button
+[22-02-2019 14:31:09] [INFO] - Order number : RBZ2BFXY
+[22-02-2019 14:31:10] [INFO] - Total Price : USD 90.00 ONE TIME CHARGE + USD 118.6292 / MONTH
+[22-02-2019 14:31:15] [INFO] - Order Submitted !
+[22-02-2019 14:31:37] [INFO] - Approve button display status: true
+[22-02-2019 14:31:37] [INFO] - Approve/Deny button is shown...
+[22-02-2019 14:31:37] [INFO] - Clicked on approve Button
+[22-02-2019 14:31:38] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 14:31:38] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 14:31:38] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 14:31:46] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 14:32:04] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:32:47] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:32:47] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:32:51] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:33:20] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:34:03] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:34:03] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:34:07] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:34:36] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:35:19] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:35:19] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:35:23] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:35:52] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:36:36] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:36:36] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:36:40] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:37:10] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:37:54] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:37:54] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:37:58] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:38:27] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:39:10] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:39:10] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:39:14] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:39:43] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:40:27] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:40:27] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:40:31] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:41:00] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:41:43] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:41:43] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:41:47] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:42:17] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:43:01] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:43:01] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:43:05] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:43:35] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:44:19] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:44:19] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:44:23] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:44:52] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:45:35] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:45:36] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:45:39] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:46:09] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:46:52] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:46:52] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:46:56] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:47:25] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:48:08] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:48:08] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:48:12] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:48:42] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:49:25] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:49:26] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:49:29] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:49:59] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:50:41] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:50:42] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:50:46] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:51:17] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:52:00] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:52:00] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:52:04] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:52:33] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:53:17] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:53:17] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:53:22] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:53:50] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:54:34] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:54:34] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:54:38] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:55:07] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:55:50] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:55:50] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:55:54] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 14:56:23] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:57:06] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 14:57:07] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 14:57:11] [INFO] - Order status is changed to: Completed, breaking the loop
+[22-02-2019 14:57:30] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:57:43] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 14:58:03] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 14:58:16] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 14:58:44] [INFO] - Clicked on the Actions icon from the first row on Inventory page
+[22-02-2019 14:58:47] [INFO] - Clicked on Delete Service button
+[22-02-2019 14:58:50] [INFO] - Checked Confirm checkbox on Delete Service modal dialog
+[22-02-2019 14:58:51] [INFO] - Clicked on OK button on Delete Service modal dialog
+[22-02-2019 14:58:57] [INFO] - Waited till Delete Service Info tool tip appears
+[22-02-2019 14:58:57] [INFO] - Delete Order Number:F7R7L51I
+[22-02-2019 14:59:20] [INFO] - Order Type in orders Table is :: Delete
+[22-02-2019 14:59:43] [INFO] - Approve/Deny button is shown...
+[22-02-2019 14:59:43] [INFO] - Clicked on approve Button
+[22-02-2019 14:59:44] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 14:59:44] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 14:59:44] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 14:59:51] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 15:00:10] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:00:36] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:01:05] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:01:31] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:01:59] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:02:25] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:02:55] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:03:22] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:03:52] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:04:18] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:04:49] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:05:15] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:05:46] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:06:11] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:06:47] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:07:13] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:07:46] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:08:13] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:08:46] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:09:12] [INFO] - Delete order status is changed to: Completed, breaking the loop
+[22-02-2019 15:09:36] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:09:47] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 15:09:47] [INFO] - Test passed: VRA : 3 Tier 7.4 --- Verify provisioning of VRA-3 Tier 7.4 is working fine from consume App
+[22-02-2019 15:09:47] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:09:47] [INFO] - Test started: VRA : 3 Tier 7.4 ---- Verify fields on Main Parameters page is working fine
+[22-02-2019 15:09:47] [INFO] - Test disabled: VRA : 3 Tier 7.4 ---- Verify fields on Main Parameters page is working fine
+[22-02-2019 15:09:47] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:09:47] [INFO] - Test started: VRA : 3 Tier 7.4 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:09:47] [INFO] - Test disabled: VRA : 3 Tier 7.4 ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:09:47] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:09:47] [INFO] - Test started: VRA : 3 Tier 7.4 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:09:47] [INFO] - Test disabled: VRA : 3 Tier 7.4 ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:09:47] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:09:47] [INFO] - Suite completed: e2e Test cases for 3 Tier VRA 7.4 Service
+[22-02-2019 15:09:47] [INFO] - ===========================================================================================
+[22-02-2019 15:11:07] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 15:11:07] [INFO] - Test browser: chrome
+[22-02-2019 15:11:07] [INFO] - Test environment: cb-qa-6
+[22-02-2019 15:11:07] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 15:11:07] [INFO] - Suites: e2eAddAmazonAcct
+[22-02-2019 15:11:07] [INFO] - Provisioning: true
+[22-02-2019 15:11:07] [INFO] - Post to Slack: false
+[22-02-2019 15:11:07] [INFO] - *******************************************
+[22-02-2019 15:11:07] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eAddAmazonAcct.spec.js' ]
+[22-02-2019 15:11:10] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 15:11:10] [INFO] - Suite started: VRA : Add Amazon Account template
+[22-02-2019 15:11:10] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 15:11:10] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 15:11:13] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 15:11:19] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 15:11:19] [INFO] - Cleared Username input box
+[22-02-2019 15:11:19] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 15:11:19] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 15:11:19] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 15:11:19] [INFO] - Clicked on Sign In button
+[22-02-2019 15:11:25] [INFO] - Navigated to Dashboard page...
+[22-02-2019 15:11:26] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 15:11:26] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 15:11:26] [INFO] - Switched to child window
+[22-02-2019 15:11:28] [INFO] - Switched back to parent window
+[22-02-2019 15:11:28] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 15:11:28] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 15:11:28] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 15:11:29] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 15:11:30] [INFO] - Test started: VRA : Add Amazon Account --- Verify provisioning of Add Amazon Account service is working fine from consume App
+[22-02-2019 15:11:30] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 15:11:50] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 15:11:53] [INFO] - Got all the elemets. Going to find the index of Add Amazon Account
+[22-02-2019 15:11:53] [INFO] - Comparing 3 Tier Traditional Workload Cus... with Add Amazon Account
+[22-02-2019 15:11:53] [INFO] - Comparing 3 Tier VRA74 with Add Amazon Account
+[22-02-2019 15:11:53] [INFO] - Comparing 3 Tier Traditional Workload with Add Amazon Account
+[22-02-2019 15:11:53] [INFO] - Comparing Add Amazon Account with Add Amazon Account
+[22-02-2019 15:11:53] [INFO] - Clicked configure button for Add Amazon Account
+[22-02-2019 15:11:54] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 15:11:54] [INFO] - Entered TestAutomationhTMD8 in Service Instance Name textbox
+[22-02-2019 15:11:58] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 15:12:06] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 15:12:13] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 15:12:17] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[22-02-2019 15:12:20] [INFO] - Clicked on Next button
+[22-02-2019 15:12:24] [INFO] - Cleared Access Key textbox
+[22-02-2019 15:12:24] [INFO] - Entered AKIAJT4TUENJXJ2OULTA in Access Key textbox
+[22-02-2019 15:12:24] [INFO] - Cleared Account name textbox
+[22-02-2019 15:12:25] [INFO] - Entered testAddAmazon in Account name textbox
+[22-02-2019 15:12:25] [INFO] - Cleared Secret Key textbox
+[22-02-2019 15:12:25] [INFO] - Entered nwIKmPXomtjtGJaTmvkXMb1ZyN33Au1xSLVX8ptO in Secret Key textbox
+[22-02-2019 15:12:25] [INFO] - Selected the checkbox Show Password
+[22-02-2019 15:12:29] [INFO] - Clicked on Next button
+[22-02-2019 15:12:50] [INFO] - Order number : XVZFD5DM
+[22-02-2019 15:12:50] [INFO] - Total Price : N/A
+[22-02-2019 15:12:50] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 15:12:55] [INFO] - Order Submitted !
+[22-02-2019 15:13:22] [INFO] - Approve button display status: true
+[22-02-2019 15:13:22] [INFO] - Approve/Deny button is shown...
+[22-02-2019 15:13:22] [INFO] - Clicked on approve Button
+[22-02-2019 15:13:23] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 15:13:23] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 15:13:23] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 15:13:31] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 15:13:54] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:14:37] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 15:14:37] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 15:14:41] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:15:13] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:15:56] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 15:15:56] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 15:16:01] [INFO] - Order status is Failed, breaking the loop
+[22-02-2019 15:16:16] [INFO] - Test failed: VRA : Add Amazon Account --- Verify provisioning of Add Amazon Account service is working fine from consume App
+[22-02-2019 15:16:16] [INFO] - Failure reason: Failed: Wait timed out after 15017ms
+[22-02-2019 15:16:16] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:16:16] [INFO] - Test started: VRA : Add Amazon Account ---- Verify fields on Main Parameters page of Add Amazon Account is working fine
+[22-02-2019 15:16:16] [INFO] - Test disabled: VRA : Add Amazon Account ---- Verify fields on Main Parameters page of Add Amazon Account is working fine
+[22-02-2019 15:16:16] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:16:16] [INFO] - Test started: VRA : Add Amazon Account ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:16:16] [INFO] - Test disabled: VRA : Add Amazon Account ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:16:16] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:16:16] [INFO] - Test started: VRA : Add Amazon Account ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:16:16] [INFO] - Test disabled: VRA : Add Amazon Account ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:16:16] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:16:16] [INFO] - Suite completed: VRA : Add Amazon Account template
+[22-02-2019 15:16:16] [INFO] - ===========================================================================================
+[22-02-2019 15:21:03] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 15:21:03] [INFO] - Test browser: chrome
+[22-02-2019 15:21:03] [INFO] - Test environment: cb-qa-6
+[22-02-2019 15:21:03] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 15:21:03] [INFO] - Suites: e2eVTSXaaS
+[22-02-2019 15:21:03] [INFO] - Provisioning: true
+[22-02-2019 15:21:03] [INFO] - Post to Slack: false
+[22-02-2019 15:21:03] [INFO] - *******************************************
+[22-02-2019 15:21:03] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVTSXaaS.spec.js' ]
+[22-02-2019 15:21:07] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 15:21:07] [INFO] - Suite started: e2e Test cases for XaaS VTS
+[22-02-2019 15:21:07] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 15:21:07] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 15:21:10] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 15:21:15] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 15:21:15] [INFO] - Cleared Username input box
+[22-02-2019 15:21:16] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 15:21:16] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 15:21:16] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 15:21:16] [INFO] - Clicked on Sign In button
+[22-02-2019 15:21:22] [INFO] - Navigated to Dashboard page...
+[22-02-2019 15:21:23] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 15:21:23] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 15:21:23] [INFO] - Switched to child window
+[22-02-2019 15:21:30] [INFO] - Switched back to parent window
+[22-02-2019 15:21:30] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 15:21:30] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 15:21:30] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 15:21:30] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 15:21:31] [INFO] - Test started: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:21:31] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 15:21:51] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 15:21:52] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 15:21:52] [INFO] - Waiting for the Category to be identified and Click it
+[22-02-2019 15:22:04] [INFO] - Succesfully clicked on Category : Compute
+[22-02-2019 15:22:06] [INFO] - Got all the elemets. Going to find the index of VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing 3 Tier Traditional Workload with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing Add Amazon Account with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing CentOS-CustomAttribute with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing CentOS65 with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing CentOS65-HideExpressionVRA73 with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing Clone_CentOS6.6 with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing Cost Center Details_BFAST with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing Cost Center_WithContext with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing VTS with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Comparing VTS XaaS UI Linux Server with VTS XaaS UI Linux Server
+[22-02-2019 15:22:06] [INFO] - Clicked configure button for VTS XaaS UI Linux Server
+[22-02-2019 15:22:08] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/place-order/main-parameters/d3ed3878-1e2f-4502-85f7-028ad1263c7c
+[22-02-2019 15:22:10] [INFO] - Team selected from drop down
+[22-02-2019 15:22:12] [INFO] - Environment selected from drop down
+[22-02-2019 15:22:13] [INFO] - Application selected from drop down
+[22-02-2019 15:22:14] [INFO] - ServiceName QAAUTOMATIONiM1B entered
+[22-02-2019 15:22:24] [INFO] - Provider Account vRA73 / vRA73 selected from drop down
+[22-02-2019 15:22:24] [INFO] - Is Next button enabled: true
+[22-02-2019 15:22:24] [INFO] - The estimated price in Main Params is :N/A
+[22-02-2019 15:22:24] [INFO] - Test failed: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:22:24] [INFO] - Failure reason: Expected 'N/A' to be 'USD 30.00/ SIZE / MONTH + USD 10.00'.
+[22-02-2019 15:22:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:22:24] [INFO] - Test started: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:22:24] [INFO] - Test disabled: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:22:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:22:24] [INFO] - Test started: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:22:24] [INFO] - Test disabled: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:22:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:22:24] [INFO] - Test started: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:22:24] [INFO] - Test disabled: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:22:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:22:24] [INFO] - Suite completed: e2e Test cases for XaaS VTS
+[22-02-2019 15:22:24] [INFO] - ===========================================================================================
+[22-02-2019 15:22:55] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 15:22:55] [INFO] - Test browser: chrome
+[22-02-2019 15:22:55] [INFO] - Test environment: cb-qa-6
+[22-02-2019 15:22:55] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 15:22:55] [INFO] - Suites: e2eVTSXaaS
+[22-02-2019 15:22:55] [INFO] - Provisioning: true
+[22-02-2019 15:22:55] [INFO] - Post to Slack: false
+[22-02-2019 15:22:55] [INFO] - *******************************************
+[22-02-2019 15:22:55] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVTSXaaS.spec.js' ]
+[22-02-2019 15:22:58] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 15:22:58] [INFO] - Suite started: e2e Test cases for XaaS VTS
+[22-02-2019 15:22:58] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 15:22:58] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 15:23:02] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 15:23:07] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 15:23:07] [INFO] - Cleared Username input box
+[22-02-2019 15:23:07] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 15:23:07] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 15:23:07] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 15:23:07] [INFO] - Clicked on Sign In button
+[22-02-2019 15:23:13] [INFO] - Navigated to Dashboard page...
+[22-02-2019 15:23:14] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 15:23:14] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 15:23:14] [INFO] - Switched to child window
+[22-02-2019 15:23:19] [INFO] - Switched back to parent window
+[22-02-2019 15:23:19] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 15:23:20] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 15:23:20] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 15:23:20] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 15:23:21] [INFO] - Test started: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:23:21] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 15:23:40] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 15:23:40] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 15:23:40] [INFO] - Waiting for the Category to be identified and Click it
+[22-02-2019 15:23:53] [INFO] - Succesfully clicked on Category : Compute
+[22-02-2019 15:23:54] [INFO] - Got all the elemets. Going to find the index of VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing 3 Tier Traditional Workload with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing Add Amazon Account with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing CentOS-CustomAttribute with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing CentOS65 with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing CentOS65-HideExpressionVRA73 with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing Clone_CentOS6.6 with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing Cost Center Details_BFAST with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing Cost Center_WithContext with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing VTS with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Comparing VTS XaaS UI Linux Server with VTS XaaS UI Linux Server
+[22-02-2019 15:23:54] [INFO] - Clicked configure button for VTS XaaS UI Linux Server
+[22-02-2019 15:23:55] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 15:23:56] [INFO] - Entered TestAutomationUn4UC in Service Instance Name textbox
+[22-02-2019 15:23:59] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 15:24:07] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 15:24:15] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 15:24:18] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[22-02-2019 15:24:21] [INFO] - Clicked on Next button
+[22-02-2019 15:24:24] [INFO] - Cleared Application Code textbox
+[22-02-2019 15:24:24] [INFO] - Entered SC0 in Application Code textbox
+[22-02-2019 15:24:25] [INFO] - Cleared Cloud Request ID textbox
+[22-02-2019 15:24:25] [INFO] - Entered Broker123 in Cloud Request ID textbox
+[22-02-2019 15:24:28] [INFO] - Selected VM from Commitment Item dropdown
+[22-02-2019 15:24:32] [INFO] - Selected 001 from Cost Center dropdown
+[22-02-2019 15:24:37] [INFO] - Clicked on Customer multi-select dropdown
+[22-02-2019 15:24:37] [INFO] - Dropdown Values: Unicredit
+[22-02-2019 15:24:38] [INFO] - Cleared Data Center textbox
+[22-02-2019 15:24:38] [INFO] - Entered VR1 in Data Center textbox
+[22-02-2019 15:24:38] [INFO] - Cleared DNS textbox
+[22-02-2019 15:24:38] [INFO] - Entered cloudmatrix in DNS textbox
+[22-02-2019 15:24:38] [INFO] - Cleared Network Zone textbox
+[22-02-2019 15:24:39] [INFO] - Entered BACKEND in Network Zone textbox
+[22-02-2019 15:24:42] [INFO] - Selected 1 from OS Primary Storage Size (GiB) dropdown
+[22-02-2019 15:24:46] [INFO] - Selected Choose an option from Patch Day dropdown
+[22-02-2019 15:24:46] [INFO] - Cleared Patch Window textbox
+[22-02-2019 15:24:46] [INFO] - Entered 11PM in Patch Window textbox
+[22-02-2019 15:24:50] [INFO] - Selected 1 from RAM (GiB) dropdown
+[22-02-2019 15:24:53] [INFO] - Selected Linux from Template dropdown
+[22-02-2019 15:24:53] [INFO] - Cleared VM Environment textbox
+[22-02-2019 15:24:54] [INFO] - Entered QA in VM Environment textbox
+[22-02-2019 15:24:54] [INFO] - Cleared VCPU textbox
+[22-02-2019 15:24:54] [INFO] - Entered 1 in VCPU textbox
+[22-02-2019 15:24:57] [INFO] - Clicked on Next button
+[22-02-2019 15:24:59] [INFO] - Service Name on Review Order page : TestAutomationUn4UC
+[22-02-2019 15:24:59] [INFO] - Estimated price on Review Order page : N/A
+[22-02-2019 15:24:59] [INFO] - Test failed: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:24:59] [INFO] - Failure reason: Expected 'N/A' to be 'USD 10.00 ONE TIME CHARGE + USD 30.00 / MONTH'.
+[22-02-2019 15:24:59] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:24:59] [INFO] - Test started: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:24:59] [INFO] - Test disabled: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:24:59] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:24:59] [INFO] - Test started: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:24:59] [INFO] - Test disabled: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:24:59] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:24:59] [INFO] - Test started: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:24:59] [INFO] - Test disabled: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:24:59] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:24:59] [INFO] - Suite completed: e2e Test cases for XaaS VTS
+[22-02-2019 15:24:59] [INFO] - ===========================================================================================
+[22-02-2019 15:25:33] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 15:25:33] [INFO] - Test browser: chrome
+[22-02-2019 15:25:33] [INFO] - Test environment: cb-qa-6
+[22-02-2019 15:25:33] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 15:25:33] [INFO] - Suites: e2eVTSXaaS
+[22-02-2019 15:25:33] [INFO] - Provisioning: true
+[22-02-2019 15:25:33] [INFO] - Post to Slack: false
+[22-02-2019 15:25:33] [INFO] - *******************************************
+[22-02-2019 15:25:33] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVTSXaaS.spec.js' ]
+[22-02-2019 15:25:37] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 15:25:37] [INFO] - Suite started: e2e Test cases for XaaS VTS
+[22-02-2019 15:25:37] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 15:25:37] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 15:25:40] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 15:25:45] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 15:25:46] [INFO] - Cleared Username input box
+[22-02-2019 15:25:46] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 15:25:46] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 15:25:46] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 15:25:46] [INFO] - Clicked on Sign In button
+[22-02-2019 15:25:51] [INFO] - Navigated to Dashboard page...
+[22-02-2019 15:25:52] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 15:25:53] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 15:25:53] [INFO] - Switched to child window
+[22-02-2019 15:25:58] [INFO] - Switched back to parent window
+[22-02-2019 15:25:58] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 15:25:58] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 15:25:58] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 15:25:58] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 15:25:59] [INFO] - Test started: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:25:59] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 15:26:16] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 15:26:17] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 15:26:17] [INFO] - Waiting for the Category to be identified and Click it
+[22-02-2019 15:26:17] [INFO] - First username extracted :: cbadmn
+[22-02-2019 15:26:17] [INFO] - Template key has value as: Linux
+[22-02-2019 15:26:17] [INFO] - Data Center key has value as: VR1
+[22-02-2019 15:26:17] [INFO] - Network Zone key has value as: BACKEND
+[22-02-2019 15:26:17] [INFO] - VM Environment key has value as: QA
+[22-02-2019 15:26:17] [INFO] - VCPU key has value as: 1
+[22-02-2019 15:26:17] [INFO] - RAM (GiB) key has value as: 1
+[22-02-2019 15:26:17] [INFO] - OS Primary Storage Size (GiB) key has value as: 1
+[22-02-2019 15:26:17] [INFO] - Patch Day key has value as: 1
+[22-02-2019 15:26:17] [INFO] - Patch Window key has value as: 11PM
+[22-02-2019 15:26:17] [INFO] - DNS key has value as: cloudmatrix
+[22-02-2019 15:26:17] [INFO] - Application Code key has value as: SC0
+[22-02-2019 15:26:17] [INFO] - Customer key has value as: Unicredit1
+[22-02-2019 15:26:17] [INFO] - Cost Center key has value as: 001
+[22-02-2019 15:26:17] [INFO] - Commitment Item key has value as: VM
+[22-02-2019 15:26:17] [INFO] - Cloud Request ID key has value as: Broker123
+[22-02-2019 15:26:29] [INFO] - Succesfully clicked on Category : Compute
+[22-02-2019 15:26:31] [INFO] - Got all the elemets. Going to find the index of VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing 3 Tier Traditional Workload with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing Add Amazon Account with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing CentOS-CustomAttribute with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing CentOS65 with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing CentOS65-HideExpressionVRA73 with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing Clone_CentOS6.6 with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing Cost Center Details_BFAST with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing Cost Center_WithContext with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing VTS with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Comparing VTS XaaS UI Linux Server with VTS XaaS UI Linux Server
+[22-02-2019 15:26:31] [INFO] - Clicked configure button for VTS XaaS UI Linux Server
+[22-02-2019 15:26:32] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 15:26:32] [INFO] - Entered TestAutomationf3qZ8 in Service Instance Name textbox
+[22-02-2019 15:26:36] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 15:26:44] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 15:26:51] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 15:26:55] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[22-02-2019 15:26:58] [INFO] - Clicked on Next button
+[22-02-2019 15:27:01] [INFO] - Cleared Application Code textbox
+[22-02-2019 15:27:01] [INFO] - Entered SC0 in Application Code textbox
+[22-02-2019 15:27:01] [INFO] - Cleared Cloud Request ID textbox
+[22-02-2019 15:27:01] [INFO] - Entered Broker123 in Cloud Request ID textbox
+[22-02-2019 15:27:05] [INFO] - Selected VM from Commitment Item dropdown
+[22-02-2019 15:27:09] [INFO] - Selected 001 from Cost Center dropdown
+[22-02-2019 15:27:14] [INFO] - Clicked on Customer multi-select dropdown
+[22-02-2019 15:27:14] [INFO] - Dropdown Values: Unicredit
+[22-02-2019 15:27:14] [INFO] - Cleared Data Center textbox
+[22-02-2019 15:27:14] [INFO] - Entered VR1 in Data Center textbox
+[22-02-2019 15:27:15] [INFO] - Cleared DNS textbox
+[22-02-2019 15:27:15] [INFO] - Entered cloudmatrix in DNS textbox
+[22-02-2019 15:27:15] [INFO] - Cleared Network Zone textbox
+[22-02-2019 15:27:15] [INFO] - Entered BACKEND in Network Zone textbox
+[22-02-2019 15:27:19] [INFO] - Selected 1 from OS Primary Storage Size (GiB) dropdown
+[22-02-2019 15:27:22] [INFO] - Selected Choose an option from Patch Day dropdown
+[22-02-2019 15:27:22] [INFO] - Cleared Patch Window textbox
+[22-02-2019 15:27:23] [INFO] - Entered 11PM in Patch Window textbox
+[22-02-2019 15:27:26] [INFO] - Selected 1 from RAM (GiB) dropdown
+[22-02-2019 15:27:30] [INFO] - Selected Linux from Template dropdown
+[22-02-2019 15:27:30] [INFO] - Cleared VM Environment textbox
+[22-02-2019 15:27:30] [INFO] - Entered QA in VM Environment textbox
+[22-02-2019 15:27:30] [INFO] - Cleared VCPU textbox
+[22-02-2019 15:27:30] [INFO] - Entered 1 in VCPU textbox
+[22-02-2019 15:27:34] [INFO] - Clicked on Next button
+[22-02-2019 15:27:55] [INFO] - Order Submitted !
+[22-02-2019 15:27:55] [INFO] - Order number : ZH60DF6P
+[22-02-2019 15:27:55] [INFO] - Total Price : N/A
+[22-02-2019 15:27:55] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 15:28:10] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/orders/approver-orders
+[22-02-2019 15:28:19] [INFO] - Order ID :: ZH60DF6P
+[22-02-2019 15:28:27] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 15:28:27] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 15:28:31] [INFO] - Order Service Name in Order details page : TestAutomationf3qZ8
+[22-02-2019 15:28:31] [INFO] - Order Provider Name in Order details page : PrivateCloud
+[22-02-2019 15:28:31] [INFO] - Order status of the first order from Order table is: Approval In Progress
+[22-02-2019 15:28:31] [INFO] - Order submitted by : cbadmn@outlook.com
+[22-02-2019 15:28:31] [INFO] - Approve button display status: true
+[22-02-2019 15:28:31] [INFO] - Deny button display status: true
+[22-02-2019 15:28:32] [INFO] - Clicked on Service Configurations tab
+[22-02-2019 15:28:32] [INFO] - The value for Template is : Linux
+[22-02-2019 15:28:32] [INFO] - The value for Data Center is : VR1
+[22-02-2019 15:28:32] [INFO] - The value for Network Zone is : BACKEND
+[22-02-2019 15:28:32] [INFO] - The value for VM Environment is : QA
+[22-02-2019 15:28:32] [INFO] - The value for VCPU is : 1
+[22-02-2019 15:28:32] [INFO] - The value for RAM (GiB) is : 1
+[22-02-2019 15:28:32] [INFO] - The value for OS Primary Storage Size (GiB) is : 1
+[22-02-2019 15:28:32] [INFO] - The value for Patch Day is : 
+[22-02-2019 15:28:32] [INFO] - The value for Patch Window is : 11PM
+[22-02-2019 15:28:32] [INFO] - The value for DNS is : cloudmatrix
+[22-02-2019 15:28:32] [INFO] - The value for Application Code is : SC0
+[22-02-2019 15:28:32] [INFO] - The value for Customer is : 
+[22-02-2019 15:28:32] [INFO] - The value for Cost Center is : 001
+[22-02-2019 15:28:32] [INFO] - The value for Commitment Item is : VM
+[22-02-2019 15:28:33] [INFO] - The value for Cloud Request ID is : Broker123
+[22-02-2019 15:28:33] [INFO] - Clicked on Bill of Materials tab
+[22-02-2019 15:28:33] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 15:28:33] [INFO] - Test failed: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:28:33] [INFO] - Failure reason: Expected '' to equal '1'.
+[22-02-2019 15:28:33] [INFO] - Failure reason: Expected '' to contain 'Unicredit1'.
+[22-02-2019 15:28:33] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:28:33] [INFO] - Test started: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:28:33] [INFO] - Test disabled: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:28:33] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:28:33] [INFO] - Test started: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:28:33] [INFO] - Test disabled: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:28:33] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:28:33] [INFO] - Test started: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:28:33] [INFO] - Test disabled: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:28:33] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:28:33] [INFO] - Suite completed: e2e Test cases for XaaS VTS
+[22-02-2019 15:28:33] [INFO] - ===========================================================================================
+[22-02-2019 15:42:02] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 15:42:02] [INFO] - Test browser: chrome
+[22-02-2019 15:42:02] [INFO] - Test environment: cb-qa-6
+[22-02-2019 15:42:02] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 15:42:02] [INFO] - Suites: e2eVTSXaaS
+[22-02-2019 15:42:02] [INFO] - Provisioning: true
+[22-02-2019 15:42:02] [INFO] - Post to Slack: false
+[22-02-2019 15:42:02] [INFO] - *******************************************
+[22-02-2019 15:42:02] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVTSXaaS.spec.js' ]
+[22-02-2019 15:42:05] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 15:42:06] [INFO] - Suite started: e2e Test cases for XaaS VTS
+[22-02-2019 15:42:06] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 15:42:06] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 15:42:09] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 15:42:15] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 15:42:15] [INFO] - Cleared Username input box
+[22-02-2019 15:42:15] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 15:42:15] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 15:42:15] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 15:42:15] [INFO] - Clicked on Sign In button
+[22-02-2019 15:42:22] [INFO] - Navigated to Dashboard page...
+[22-02-2019 15:42:23] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 15:42:23] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 15:42:23] [INFO] - Switched to child window
+[22-02-2019 15:42:28] [INFO] - Switched back to parent window
+[22-02-2019 15:42:28] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 15:42:28] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 15:42:29] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 15:42:29] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 15:42:30] [INFO] - Test started: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:42:30] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 15:42:46] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 15:42:46] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 15:42:46] [INFO] - Waiting for the Category to be identified and Click it
+[22-02-2019 15:42:58] [INFO] - Succesfully clicked on Category : Compute
+[22-02-2019 15:43:00] [INFO] - Got all the elemets. Going to find the index of VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing 3 Tier Traditional Workload with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing Add Amazon Account with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing CentOS-CustomAttribute with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing CentOS65 with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing CentOS65-HideExpressionVRA73 with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing Clone_CentOS6.6 with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing Cost Center Details_BFAST with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing Cost Center_WithContext with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing VTS with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Comparing VTS XaaS UI Linux Server with VTS XaaS UI Linux Server
+[22-02-2019 15:43:00] [INFO] - Clicked configure button for VTS XaaS UI Linux Server
+[22-02-2019 15:43:01] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 15:43:01] [INFO] - Entered TestAutomationm8RML in Service Instance Name textbox
+[22-02-2019 15:43:05] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 15:43:13] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 15:43:20] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 15:43:24] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[22-02-2019 15:43:27] [INFO] - Clicked on Next button
+[22-02-2019 15:43:30] [INFO] - Cleared Application Code textbox
+[22-02-2019 15:43:30] [INFO] - Entered SC0 in Application Code textbox
+[22-02-2019 15:43:30] [INFO] - Cleared Cloud Request ID textbox
+[22-02-2019 15:43:30] [INFO] - Entered Broker123 in Cloud Request ID textbox
+[22-02-2019 15:43:34] [INFO] - Selected VM from Commitment Item dropdown
+[22-02-2019 15:43:38] [INFO] - Selected 001 from Cost Center dropdown
+[22-02-2019 15:43:43] [INFO] - Clicked on Customer multi-select dropdown
+[22-02-2019 15:43:43] [INFO] - Dropdown Values: Unicredit
+[22-02-2019 15:43:44] [INFO] - Cleared Data Center textbox
+[22-02-2019 15:43:44] [INFO] - Entered VR1 in Data Center textbox
+[22-02-2019 15:43:44] [INFO] - Cleared DNS textbox
+[22-02-2019 15:43:44] [INFO] - Entered cloudmatrix in DNS textbox
+[22-02-2019 15:43:44] [INFO] - Cleared Network Zone textbox
+[22-02-2019 15:43:45] [INFO] - Entered BACKEND in Network Zone textbox
+[22-02-2019 15:43:48] [INFO] - Selected 1 from OS Primary Storage Size (GiB) dropdown
+[22-02-2019 15:43:52] [INFO] - Selected Choose an option from Patch Day dropdown
+[22-02-2019 15:43:52] [INFO] - Cleared Patch Window textbox
+[22-02-2019 15:43:52] [INFO] - Entered 11PM in Patch Window textbox
+[22-02-2019 15:43:56] [INFO] - Selected 1 from RAM (GiB) dropdown
+[22-02-2019 15:43:59] [INFO] - Selected Linux from Template dropdown
+[22-02-2019 15:44:00] [INFO] - Cleared VM Environment textbox
+[22-02-2019 15:44:00] [INFO] - Entered QA in VM Environment textbox
+[22-02-2019 15:44:00] [INFO] - Cleared VCPU textbox
+[22-02-2019 15:44:00] [INFO] - Entered 1 in VCPU textbox
+[22-02-2019 15:44:03] [INFO] - Clicked on Next button
+[22-02-2019 15:44:20] [INFO] - Order number : CO8UVZFE
+[22-02-2019 15:44:20] [INFO] - Total Price : N/A
+[22-02-2019 15:44:20] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 15:44:26] [INFO] - Order Submitted !
+[22-02-2019 15:44:49] [INFO] - Approve button display status: true
+[22-02-2019 15:44:50] [INFO] - Approve/Deny button is shown...
+[22-02-2019 15:44:50] [INFO] - Clicked on approve Button
+[22-02-2019 15:44:51] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 15:44:51] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 15:44:51] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 15:44:58] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 15:45:17] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:46:00] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 15:46:00] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 15:46:04] [INFO] - Order status is Failed, breaking the loop
+[22-02-2019 15:46:19] [INFO] - Test failed: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[22-02-2019 15:46:19] [INFO] - Failure reason: Failed: Wait timed out after 15032ms
+[22-02-2019 15:46:19] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:46:19] [INFO] - Test started: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:46:19] [INFO] - Test disabled: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[22-02-2019 15:46:19] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:46:19] [INFO] - Test started: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:46:19] [INFO] - Test disabled: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 15:46:19] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:46:19] [INFO] - Test started: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:46:19] [INFO] - Test disabled: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 15:46:19] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:46:19] [INFO] - Suite completed: e2e Test cases for XaaS VTS
+[22-02-2019 15:46:19] [INFO] - ===========================================================================================
+[22-02-2019 15:53:15] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 15:53:15] [INFO] - Test browser: chrome
+[22-02-2019 15:53:15] [INFO] - Test environment: cb-qa-6
+[22-02-2019 15:53:15] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 15:53:15] [INFO] - Suites: e2eDynamicDropdown
+[22-02-2019 15:53:15] [INFO] - Provisioning: true
+[22-02-2019 15:53:15] [INFO] - Post to Slack: false
+[22-02-2019 15:53:15] [INFO] - *******************************************
+[22-02-2019 15:53:15] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eDynamicDropdown.spec.js' ]
+[22-02-2019 15:53:18] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 15:53:19] [INFO] - Suite started: e2e Test cases for Dynamic dropdown for CentOS
+[22-02-2019 15:53:19] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 15:53:19] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 15:53:22] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 15:53:27] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 15:53:27] [INFO] - Cleared Username input box
+[22-02-2019 15:53:27] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 15:53:27] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 15:53:28] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 15:53:28] [INFO] - Clicked on Sign In button
+[22-02-2019 15:53:33] [INFO] - Navigated to Dashboard page...
+[22-02-2019 15:53:34] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 15:53:34] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 15:53:34] [INFO] - Switched to child window
+[22-02-2019 15:53:35] [INFO] - Switched back to parent window
+[22-02-2019 15:53:36] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 15:53:36] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 15:53:36] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 15:53:36] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 15:53:37] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[22-02-2019 15:53:37] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 15:53:53] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 15:53:53] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 15:53:55] [INFO] - Got all the elemets. Going to find the index of Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing 3 Tier Traditional Workload Cus... with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing 3 Tier VRA74 with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing 3 Tier Traditional Workload with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing Add Amazon Account with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing CentOS-CustomAttribute with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing CentOS65 with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing CentOS65-HideExpressionVRA73 with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing Clone_CentOS6.6 with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing Cost Center Details_BFAST with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing Cost Center_WithContext with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing VTS with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing VTS XaaS UI Linux Server with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing XaaS - output properties with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing XaaS_OutPut_Properties with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Comparing Dynamic Dropdown with Dynamic Dropdown
+[22-02-2019 15:53:55] [INFO] - Clicked configure button for Dynamic Dropdown
+[22-02-2019 15:53:56] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/place-order/main-parameters/c76d2d8a-3231-4a98-bf84-e4128ab754ec
+[22-02-2019 15:54:11] [INFO] - Test failed: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[22-02-2019 15:54:11] [INFO] - Failure reason: Failed: Wait timed out after 15020ms
+[22-02-2019 15:54:11] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 15:54:11] [INFO] - Test started: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[22-02-2019 15:54:12] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 15:54:27] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 15:54:27] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 15:54:29] [INFO] - Got all the elemets. Going to find the index of Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing 3 Tier Traditional Workload Cus... with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing 3 Tier VRA74 with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing 3 Tier Traditional Workload with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing Add Amazon Account with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing CentOS-CustomAttribute with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing CentOS65 with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing CentOS65-HideExpressionVRA73 with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing Clone_CentOS6.6 with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing Cost Center Details_BFAST with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing Cost Center_WithContext with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing VTS with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing VTS XaaS UI Linux Server with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing XaaS - output properties with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing XaaS_OutPut_Properties with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Comparing Dynamic Dropdown with Dynamic Dropdown
+[22-02-2019 15:54:29] [INFO] - Clicked configure button for Dynamic Dropdown
+[22-02-2019 15:54:30] [INFO] - Cleared Service Instance Name textbox
+[22-02-2019 15:54:31] [INFO] - Entered TestAutomationvVEVO in Service Instance Name textbox
+[22-02-2019 15:54:34] [INFO] - Selected TEAM1 from Team dropdown
+[22-02-2019 15:54:42] [INFO] - Selected NONE from Environment dropdown
+[22-02-2019 15:54:49] [INFO] - Selected NONE from Application dropdown
+[22-02-2019 15:54:53] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[22-02-2019 15:54:56] [INFO] - Clicked on Next button
+[22-02-2019 15:55:04] [INFO] - Cleared CPUs textbox
+[22-02-2019 15:55:04] [INFO] - Entered 1 in CPUs textbox
+[22-02-2019 15:55:04] [INFO] - Cleared Memory (MB) textbox
+[22-02-2019 15:55:05] [INFO] - Entered 1024 in Memory (MB) textbox
+[22-02-2019 15:55:05] [INFO] - Cleared Storage (GB) textbox
+[22-02-2019 15:55:05] [INFO] - Entered 5 in Storage (GB) textbox
+[22-02-2019 15:55:08] [INFO] - Clicked on Next button
+[22-02-2019 15:55:12] [INFO] - Selected Centos6.6-7.5WA5GBFinal from Select Template dropdown
+[22-02-2019 15:55:15] [INFO] - Clicked on Next button
+[22-02-2019 15:55:34] [INFO] - Order number : 7IG4PTTZ
+[22-02-2019 15:55:34] [INFO] - Total Price : N/A
+[22-02-2019 15:55:34] [INFO] - Cost under Estimated Costs Tab is :: N/A
+[22-02-2019 15:55:39] [INFO] - Order Submitted !
+[22-02-2019 15:56:01] [INFO] - Approve button display status: true
+[22-02-2019 15:56:01] [INFO] - Approve/Deny button is shown...
+[22-02-2019 15:56:01] [INFO] - Clicked on approve Button
+[22-02-2019 15:56:02] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 15:56:02] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 15:56:02] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 15:56:10] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 15:56:28] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:57:12] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 15:57:12] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 15:57:16] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:57:45] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:58:28] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 15:58:28] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 15:58:32] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 15:59:01] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 15:59:44] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 15:59:44] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 15:59:48] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 16:00:18] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:01:01] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 16:01:01] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 16:01:05] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 16:01:34] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:02:17] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 16:02:17] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 16:02:21] [INFO] - Waiting for Order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 16:02:51] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:03:34] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[22-02-2019 16:03:35] [INFO] - Clicked on View Details link to get Order Details page
+[22-02-2019 16:03:39] [INFO] - Order status is changed to: Completed, breaking the loop
+[22-02-2019 16:03:59] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:04:13] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 16:04:32] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:04:46] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 16:05:15] [INFO] - Clicked on the Actions icon from the first row on Inventory page
+[22-02-2019 16:05:25] [INFO] - Clicked on Delete Service button
+[22-02-2019 16:05:30] [INFO] - Checked Confirm checkbox on Delete Service modal dialog
+[22-02-2019 16:05:30] [INFO] - Clicked on OK button on Delete Service modal dialog
+[22-02-2019 16:05:36] [INFO] - Waited till Delete Service Info tool tip appears
+[22-02-2019 16:05:36] [INFO] - Delete Order Number:VVMOFM02
+[22-02-2019 16:05:58] [INFO] - Order Type in orders Table is :: Delete
+[22-02-2019 16:06:20] [INFO] - Approve/Deny button is shown...
+[22-02-2019 16:06:20] [INFO] - Clicked on approve Button
+[22-02-2019 16:06:21] [INFO] - Checked Financial Approval checkbox
+[22-02-2019 16:06:21] [INFO] - Checked Technical Approval checkbox
+[22-02-2019 16:06:21] [INFO] - Clicked Approve button on Order Approval modal dialog
+[22-02-2019 16:06:28] [INFO] - Clicked on Ok button on Order Approval modal dialog
+[22-02-2019 16:06:49] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:07:15] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 16:07:45] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:08:11] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 16:08:40] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:09:07] [INFO] - Waiting for delete order status to be Completed, current status: Provisioning in Progress => continuing the loop
+[22-02-2019 16:09:36] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:10:02] [INFO] - Delete order status is changed to: Completed, breaking the loop
+[22-02-2019 16:10:22] [INFO] - Clicked on All Orders Tab...
+[22-02-2019 16:10:35] [INFO] - Order status of the first order from Order table is: Completed
+[22-02-2019 16:10:35] [INFO] - Test passed: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[22-02-2019 16:10:35] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 16:10:35] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 16:10:35] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 16:10:35] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 16:10:35] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 16:10:35] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 16:10:35] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 16:10:35] [INFO] - Suite completed: e2e Test cases for Dynamic dropdown for CentOS
+[22-02-2019 16:10:35] [INFO] - ===========================================================================================
+[22-02-2019 16:13:21] [INFO] - ******Printing Environment Variables*******
+[22-02-2019 16:13:21] [INFO] - Test browser: chrome
+[22-02-2019 16:13:21] [INFO] - Test environment: cb-qa-6
+[22-02-2019 16:13:21] [INFO] - Username: cbadmn@outlook.com
+[22-02-2019 16:13:21] [INFO] - Suites: e2eDynamicDropdown
+[22-02-2019 16:13:21] [INFO] - Provisioning: true
+[22-02-2019 16:13:21] [INFO] - Post to Slack: false
+[22-02-2019 16:13:21] [INFO] - *******************************************
+[22-02-2019 16:13:21] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eDynamicDropdown.spec.js' ]
+[22-02-2019 16:13:24] [INFO] - Test user: cbadmn@outlook.com
+[22-02-2019 16:13:24] [INFO] - Suite started: e2e Test cases for Dynamic dropdown for CentOS
+[22-02-2019 16:13:24] [INFO] - Test Domain: cb-qa-6
+[22-02-2019 16:13:24] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[22-02-2019 16:13:27] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[22-02-2019 16:13:32] [INFO] - Waited till Username text box is visible on the page
+[22-02-2019 16:13:33] [INFO] - Cleared Username input box
+[22-02-2019 16:13:33] [INFO] - Entered cbadmn@outlook.com in Username input box
+[22-02-2019 16:13:33] [INFO] - Waited till Password input box is visible on login page
+[22-02-2019 16:13:33] [INFO] - Entered Gravitant123$ in password input box
+[22-02-2019 16:13:33] [INFO] - Clicked on Sign In button
+[22-02-2019 16:13:40] [INFO] - Navigated to Dashboard page...
+[22-02-2019 16:13:41] [INFO] - Privacy policies pop up displayed...
+[22-02-2019 16:13:42] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[22-02-2019 16:13:42] [INFO] - Switched to child window
+[22-02-2019 16:13:47] [INFO] - Switched back to parent window
+[22-02-2019 16:13:47] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[22-02-2019 16:13:47] [INFO] - Clicked on submit button in the Privacy statement popup...
+[22-02-2019 16:13:47] [INFO] - Waited till browser url contains /dashboard
+[22-02-2019 16:13:47] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[22-02-2019 16:13:48] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[22-02-2019 16:13:48] [INFO] - Waiting for the Provider to be identified and Click it
+[22-02-2019 16:14:04] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/main
+[22-02-2019 16:14:04] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[22-02-2019 16:14:06] [INFO] - Got all the elemets. Going to find the index of Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing 3 Tier Traditional Workload Cus... with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing 3 Tier VRA74 with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing 3 Tier Traditional Workload with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing Add Amazon Account with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing CentOS-CustomAttribute with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing CentOS65 with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing CentOS65-HideExpressionVRA73 with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing Clone_CentOS6.6 with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing Clone_CentOS66_VRA_7.4 with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing Cost Center Details_BFAST with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing Cost Center_WithContext with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing VTS with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing VTS XaaS UI Linux Server with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing XaaS - output properties with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing XaaS_OutPut_Properties with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Comparing Dynamic Dropdown with Dynamic Dropdown
+[22-02-2019 16:14:06] [INFO] - Clicked configure button for Dynamic Dropdown
+[22-02-2019 16:14:07] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/storeFront/place-order/main-parameters/c76d2d8a-3231-4a98-bf84-e4128ab754ec
+[22-02-2019 16:14:10] [INFO] - Team selected from drop down
+[22-02-2019 16:14:12] [INFO] - Environment selected from drop down
+[22-02-2019 16:14:13] [INFO] - Application selected from drop down
+[22-02-2019 16:14:13] [INFO] - ServiceName QAAUTOMATIONzPSU entered
+[22-02-2019 16:14:24] [INFO] - Provider Account vRA73 / vRA73 selected from drop down
+[22-02-2019 16:14:24] [INFO] - Is Next button enabled: true
+[22-02-2019 16:14:24] [INFO] - The estimated price in Main Params is :N/A
+[22-02-2019 16:14:24] [INFO] - Test passed: VRA : Dynamic Dropdown(CentOS) ---- Verify fields on Main Parameters page of Dynamic Dropdown(CentOS) is working fine
+[22-02-2019 16:14:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 16:14:24] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 16:14:24] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify Summary details and Additional Details are listed in review Order page
+[22-02-2019 16:14:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 16:14:24] [INFO] - Test started: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 16:14:24] [INFO] - Test disabled: VRA : Dynamic Dropdown(CentOS) ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[22-02-2019 16:14:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 16:14:24] [INFO] - Test started: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[22-02-2019 16:14:24] [INFO] - Test disabled: TC-C176204: Verify Dynamic Dropdown(CentOS) blueprint working fine from consume App
+[22-02-2019 16:14:24] [INFO] - -------------------------------------------------------------------------------------------
+[22-02-2019 16:14:24] [INFO] - Suite completed: e2e Test cases for Dynamic dropdown for CentOS
+[22-02-2019 16:14:24] [INFO] - ===========================================================================================

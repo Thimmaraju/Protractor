@@ -1,0 +1,127 @@
+{
+  "bluePrintName": "Redshift Subnet Group",
+  "descriptiveText": "A cluster subnet group allows you to specify a set of subnets in your VPC.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testRedshiftSubnetGroup",
+  "Category": "Databases",
+  "BasePrice": "USD 0.00/ Queries / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_REDSHIFT_CSG_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Create Cluster Subnet Group": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-name",
+        "value": {
+          "QA 1": "clustername",
+          "QA 2": "clustername",
+          "QA 4": "clustorname",
+          "Customer 1": "clustername"
+        }
+      },
+      "Description": {
+        "type": "Textbox",
+        "id": "text-input-description",
+        "value": {
+          "QA 1": "description",
+          "QA 2": "description",
+          "QA 4": "description",
+          "Customer 1": "description"
+        }
+      },
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      },
+      "Subnet Id": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-subnetId",
+        "value": {
+          "QA 1": [
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 2": [
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "QA 4": [
+            "subnet-c5f664b2 (us-east-1b)"
+          ],
+          "Customer 1": [
+            "subnet-c5f664b2 (us-east-1b)"
+          ]
+        }
+      }
+    }
+  }
+}

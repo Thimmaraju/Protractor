@@ -1,0 +1,1758 @@
+[08-02-2019 11:50:10] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 11:50:10] [INFO] - Test browser: chrome
+[08-02-2019 11:50:10] [INFO] - Test environment: cb-qa-6
+[08-02-2019 11:50:10] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 11:50:10] [INFO] - Suites: currencyConversion
+[08-02-2019 11:50:10] [INFO] - Provisioning: true
+[08-02-2019 11:50:10] [INFO] - Post to Slack: false
+[08-02-2019 11:50:10] [INFO] - *******************************************
+[08-02-2019 11:50:10] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 11:50:14] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 11:50:14] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 11:50:14] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 11:50:14] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 11:50:17] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 11:50:23] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 11:50:23] [INFO] - Cleared Username input box
+[08-02-2019 11:50:23] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 11:50:23] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 11:50:24] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 11:50:24] [INFO] - Clicked on Sign In button
+[08-02-2019 11:50:29] [INFO] - Navigated to Dashboard page...
+[08-02-2019 11:50:31] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 11:50:31] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 11:50:31] [INFO] - Switched to child window
+[08-02-2019 11:50:34] [INFO] - Switched back to parent window
+[08-02-2019 11:50:34] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 11:50:34] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 11:50:34] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 11:50:34] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 11:50:35] [INFO] - Test started: Lock the currency
+[08-02-2019 11:50:54] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 11:50:54] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 11:50:54] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 11:50:57] [INFO] - 204
+[08-02-2019 11:50:57] [INFO] - Currency unlocked
+[08-02-2019 11:50:57] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 11:50:57] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 11:50:58] [INFO] - 201
+[08-02-2019 11:50:58] [INFO] - Currency Changed to :: USD
+[08-02-2019 11:50:58] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 11:50:58] [INFO] - Postman URL to lock the currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 11:50:59] [INFO] - 204
+[08-02-2019 11:50:59] [INFO] - Currency locked
+[08-02-2019 11:51:04] [INFO] - Test passed: Lock the currency
+[08-02-2019 11:51:04] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:51:04] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 11:51:04] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 11:51:04] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:51:04] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 11:51:04] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 11:51:04] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:51:04] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 11:51:04] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 11:51:04] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:51:04] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 11:51:04] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 11:51:04] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:51:04] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 11:51:04] [INFO] - ===========================================================================================
+[08-02-2019 11:51:41] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 11:51:41] [INFO] - Test browser: chrome
+[08-02-2019 11:51:41] [INFO] - Test environment: cb-qa-6
+[08-02-2019 11:51:41] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 11:51:41] [INFO] - Suites: currencyConversion
+[08-02-2019 11:51:41] [INFO] - Provisioning: true
+[08-02-2019 11:51:41] [INFO] - Post to Slack: false
+[08-02-2019 11:51:41] [INFO] - *******************************************
+[08-02-2019 11:51:41] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 11:51:44] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 11:51:45] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 11:51:45] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 11:51:45] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 11:51:48] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 11:51:54] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 11:51:54] [INFO] - Cleared Username input box
+[08-02-2019 11:51:55] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 11:51:55] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 11:51:55] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 11:51:55] [INFO] - Clicked on Sign In button
+[08-02-2019 11:52:01] [INFO] - Navigated to Dashboard page...
+[08-02-2019 11:52:04] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 11:52:04] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 11:52:04] [INFO] - Switched to child window
+[08-02-2019 11:52:06] [INFO] - Switched back to parent window
+[08-02-2019 11:52:06] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 11:52:06] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 11:52:06] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 11:52:07] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 11:52:08] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 11:52:28] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 11:52:28] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 11:52:28] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 11:52:30] [INFO] - 204
+[08-02-2019 11:52:30] [INFO] - Currency unlocked
+[08-02-2019 11:52:30] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 11:52:30] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 11:52:32] [INFO] - 201
+[08-02-2019 11:52:32] [INFO] - Currency Changed to :: AUD
+[08-02-2019 11:52:32] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 11:52:32] [INFO] - Postman URL to lock the currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 11:52:33] [INFO] - 204
+[08-02-2019 11:52:33] [INFO] - Currency locked
+[08-02-2019 11:52:33] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 11:52:33] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 11:52:33] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 11:52:33] [INFO] - Add Conversion rate button is visible
+[08-02-2019 11:52:34] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 11:52:36] [INFO] - Selected US Dollar ($)
+[08-02-2019 11:52:37] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 11:52:38] [INFO] - Entered Conversion Rate
+[08-02-2019 11:52:38] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 11:52:39] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 11:52:39] [INFO] - Clicked on the Add button...
+[08-02-2019 11:52:43] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 11:52:43] [INFO] - Failure reason: TimeoutError: Wait timed out after 3911ms
+[08-02-2019 11:52:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:52:43] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 11:52:43] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 11:52:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:52:43] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 11:52:43] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 11:52:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:52:43] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 11:52:43] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 11:52:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:52:43] [INFO] - Test started: Lock the currency
+[08-02-2019 11:52:43] [INFO] - Test disabled: Lock the currency
+[08-02-2019 11:52:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 11:52:45] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 11:52:45] [INFO] - ===========================================================================================
+[08-02-2019 13:19:14] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 13:19:14] [INFO] - Test browser: chrome
+[08-02-2019 13:19:14] [INFO] - Test environment: cb-qa-6
+[08-02-2019 13:19:14] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 13:19:14] [INFO] - Suites: currencyConversion
+[08-02-2019 13:19:14] [INFO] - Provisioning: false
+[08-02-2019 13:19:14] [INFO] - Post to Slack: false
+[08-02-2019 13:19:14] [INFO] - *******************************************
+[08-02-2019 13:19:14] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 13:19:17] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 13:19:17] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 13:19:17] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 13:19:17] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 13:19:21] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 13:19:26] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 13:19:26] [INFO] - Cleared Username input box
+[08-02-2019 13:19:26] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 13:19:26] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 13:19:26] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 13:19:27] [INFO] - Clicked on Sign In button
+[08-02-2019 13:19:32] [INFO] - Navigated to Dashboard page...
+[08-02-2019 13:19:34] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 13:19:34] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 13:19:34] [INFO] - Switched to child window
+[08-02-2019 13:19:40] [INFO] - Switched back to parent window
+[08-02-2019 13:19:40] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 13:19:40] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 13:19:40] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 13:19:40] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 13:19:41] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 13:20:01] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 13:20:01] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 13:20:01] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 13:20:01] [INFO] - Failure reason: ReferenceError: orderObject is not defined
+[08-02-2019 13:20:01] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:20:01] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:20:01] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:20:01] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:20:01] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:20:01] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:20:01] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:20:01] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:20:01] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:20:01] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:20:01] [INFO] - Test started: Lock the currency
+[08-02-2019 13:20:01] [INFO] - Test disabled: Lock the currency
+[08-02-2019 13:20:01] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:20:02] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 13:20:02] [INFO] - ===========================================================================================
+[08-02-2019 13:21:44] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 13:21:44] [INFO] - Test browser: chrome
+[08-02-2019 13:21:44] [INFO] - Test environment: cb-qa-6
+[08-02-2019 13:21:44] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 13:21:44] [INFO] - Suites: currencyConversion
+[08-02-2019 13:21:44] [INFO] - Provisioning: false
+[08-02-2019 13:21:44] [INFO] - Post to Slack: false
+[08-02-2019 13:21:44] [INFO] - *******************************************
+[08-02-2019 13:21:44] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 13:21:47] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 13:21:47] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 13:21:47] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 13:21:47] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 13:21:51] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 13:21:56] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 13:21:56] [INFO] - Cleared Username input box
+[08-02-2019 13:21:56] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 13:21:56] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 13:21:56] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 13:21:56] [INFO] - Clicked on Sign In button
+[08-02-2019 13:22:02] [INFO] - Navigated to Dashboard page...
+[08-02-2019 13:22:04] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 13:22:04] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 13:22:04] [INFO] - Switched to child window
+[08-02-2019 13:22:05] [INFO] - Switched back to parent window
+[08-02-2019 13:22:05] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 13:22:05] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 13:22:05] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 13:22:06] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 13:22:07] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 13:22:25] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 13:22:25] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 13:22:25] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 13:22:25] [INFO] - Failure reason: TypeError: orders.getCurrencyFromEstimatedCostsTab is not a function
+[08-02-2019 13:22:25] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:22:25] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:22:25] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:22:25] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:22:25] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:22:25] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:22:25] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:22:25] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:22:25] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:22:25] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:22:25] [INFO] - Test started: Lock the currency
+[08-02-2019 13:22:25] [INFO] - Test disabled: Lock the currency
+[08-02-2019 13:22:25] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:22:26] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 13:22:26] [INFO] - ===========================================================================================
+[08-02-2019 13:24:22] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 13:24:22] [INFO] - Test browser: chrome
+[08-02-2019 13:24:22] [INFO] - Test environment: cb-qa-6
+[08-02-2019 13:24:22] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 13:24:22] [INFO] - Suites: currencyConversion
+[08-02-2019 13:24:22] [INFO] - Provisioning: false
+[08-02-2019 13:24:22] [INFO] - Post to Slack: false
+[08-02-2019 13:24:22] [INFO] - *******************************************
+[08-02-2019 13:24:22] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 13:24:25] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 13:24:26] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 13:24:26] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 13:24:26] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 13:24:29] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 13:24:35] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 13:24:35] [INFO] - Cleared Username input box
+[08-02-2019 13:24:35] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 13:24:35] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 13:24:35] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 13:24:35] [INFO] - Clicked on Sign In button
+[08-02-2019 13:24:41] [INFO] - Navigated to Dashboard page...
+[08-02-2019 13:24:43] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 13:24:44] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 13:24:44] [INFO] - Switched to child window
+[08-02-2019 13:24:49] [INFO] - Switched back to parent window
+[08-02-2019 13:24:49] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 13:24:49] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 13:24:49] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 13:24:50] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 13:24:51] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 13:25:10] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 13:25:10] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 13:25:10] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 13:25:10] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 13:25:10] [INFO] - Add Conversion rate button is visible
+[08-02-2019 13:25:11] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 13:25:12] [INFO] - 204
+[08-02-2019 13:25:12] [INFO] - Currency unlocked
+[08-02-2019 13:25:12] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 13:25:12] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 13:25:12] [INFO] - Selected US Dollar ($)
+[08-02-2019 13:25:13] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 13:25:14] [INFO] - Entered Conversion Rate
+[08-02-2019 13:25:14] [INFO] - 201
+[08-02-2019 13:25:14] [INFO] - Currency Changed to :: USD
+[08-02-2019 13:25:14] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 13:25:14] [INFO] - Postman URL to lock the currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 13:25:14] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 13:25:14] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 13:25:15] [INFO] - Clicked on the Add button...
+[08-02-2019 13:25:15] [INFO] - 204
+[08-02-2019 13:25:15] [INFO] - Currency locked
+[08-02-2019 13:25:20] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 13:25:20] [INFO] - Failure reason: Failed: Wait timed out after 1018ms
+[08-02-2019 13:25:20] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:25:20] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:25:20] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:25:20] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:25:20] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:25:20] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:25:20] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:25:20] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:25:20] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:25:20] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:25:20] [INFO] - Test started: Lock the currency
+[08-02-2019 13:25:20] [INFO] - Test disabled: Lock the currency
+[08-02-2019 13:25:20] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:25:21] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 13:25:21] [INFO] - ===========================================================================================
+[08-02-2019 13:26:34] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 13:26:34] [INFO] - Test browser: chrome
+[08-02-2019 13:26:34] [INFO] - Test environment: cb-qa-6
+[08-02-2019 13:26:34] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 13:26:34] [INFO] - Suites: currencyConversion
+[08-02-2019 13:26:34] [INFO] - Provisioning: false
+[08-02-2019 13:26:34] [INFO] - Post to Slack: false
+[08-02-2019 13:26:34] [INFO] - *******************************************
+[08-02-2019 13:26:34] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 13:26:38] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 13:26:38] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 13:26:38] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 13:26:38] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 13:26:41] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 13:26:47] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 13:26:47] [INFO] - Cleared Username input box
+[08-02-2019 13:26:47] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 13:26:47] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 13:26:47] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 13:26:47] [INFO] - Clicked on Sign In button
+[08-02-2019 13:26:53] [INFO] - Navigated to Dashboard page...
+[08-02-2019 13:26:55] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 13:26:55] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 13:26:55] [INFO] - Switched to child window
+[08-02-2019 13:27:01] [INFO] - Switched back to parent window
+[08-02-2019 13:27:01] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 13:27:01] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 13:27:01] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 13:27:01] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 13:27:03] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 13:27:22] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 13:27:22] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 13:27:22] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 13:27:22] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 13:27:22] [INFO] - Add Conversion rate button is visible
+[08-02-2019 13:27:23] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 13:27:24] [INFO] - Selected US Dollar ($)
+[08-02-2019 13:27:26] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 13:27:26] [INFO] - Entered Conversion Rate
+[08-02-2019 13:27:26] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 13:27:27] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 13:27:27] [INFO] - Clicked on the Add button...
+[08-02-2019 13:27:31] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 13:27:31] [INFO] - Failure reason: Failed: Wait timed out after 3837ms
+[08-02-2019 13:27:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:27:31] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:27:31] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:27:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:27:31] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:27:31] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:27:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:27:31] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:27:31] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:27:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:27:31] [INFO] - Test started: Lock the currency
+[08-02-2019 13:27:31] [INFO] - Test disabled: Lock the currency
+[08-02-2019 13:27:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:27:32] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 13:27:32] [INFO] - ===========================================================================================
+[08-02-2019 13:55:40] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 13:55:40] [INFO] - Test browser: chrome
+[08-02-2019 13:55:40] [INFO] - Test environment: cb-qa-6
+[08-02-2019 13:55:40] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 13:55:40] [INFO] - Suites: currencyConversion
+[08-02-2019 13:55:40] [INFO] - Provisioning: false
+[08-02-2019 13:55:40] [INFO] - Post to Slack: false
+[08-02-2019 13:55:40] [INFO] - *******************************************
+[08-02-2019 13:55:40] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 13:55:44] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 13:55:44] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 13:55:44] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 13:55:44] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 13:55:48] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 13:55:54] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 13:55:54] [INFO] - Cleared Username input box
+[08-02-2019 13:55:54] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 13:55:54] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 13:55:55] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 13:55:55] [INFO] - Clicked on Sign In button
+[08-02-2019 13:56:01] [INFO] - Navigated to Dashboard page...
+[08-02-2019 13:56:04] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 13:56:04] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 13:56:04] [INFO] - Switched to child window
+[08-02-2019 13:56:06] [INFO] - Switched back to parent window
+[08-02-2019 13:56:06] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 13:56:06] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 13:56:06] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 13:56:06] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 13:56:07] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 13:56:27] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 13:56:27] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 13:56:27] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 13:56:27] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 13:56:27] [INFO] - Add Conversion rate button is visible
+[08-02-2019 13:56:28] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 13:56:30] [INFO] - Selected US Dollar ($)
+[08-02-2019 13:56:31] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 13:56:32] [INFO] - Entered Conversion Rate
+[08-02-2019 13:56:32] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 13:56:33] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 13:56:33] [INFO] - Clicked on the Add button...
+[08-02-2019 13:56:37] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 13:56:37] [INFO] - Failure reason: Failed: No element found using locator: By(xpath, //span[contains(text(),"The Conversion Rate has been added successfully")])
+[08-02-2019 13:56:37] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:56:37] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:56:37] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 13:56:37] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:56:37] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:56:37] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 13:56:37] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:56:37] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:56:37] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 13:56:37] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:56:37] [INFO] - Test started: Lock the currency
+[08-02-2019 13:56:37] [INFO] - Test disabled: Lock the currency
+[08-02-2019 13:56:37] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 13:56:39] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 13:56:39] [INFO] - ===========================================================================================
+[08-02-2019 15:09:22] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 15:09:22] [INFO] - Test browser: chrome
+[08-02-2019 15:09:22] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 15:09:22] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 15:09:22] [INFO] - Suites: currencyConversion
+[08-02-2019 15:09:22] [INFO] - Provisioning: false
+[08-02-2019 15:09:22] [INFO] - Post to Slack: false
+[08-02-2019 15:09:22] [INFO] - *******************************************
+[08-02-2019 15:09:22] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 15:09:25] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 15:09:25] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 15:09:25] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 15:09:25] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 15:09:27] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 15:09:32] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 15:09:33] [INFO] - Cleared Username input box
+[08-02-2019 15:09:33] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 15:09:33] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 15:09:33] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 15:09:33] [INFO] - Clicked on Sign In button
+[08-02-2019 15:09:38] [INFO] - Navigated to Dashboard page...
+[08-02-2019 15:09:39] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 15:09:40] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 15:09:40] [INFO] - Switched to child window
+[08-02-2019 15:09:41] [INFO] - Switched back to parent window
+[08-02-2019 15:09:41] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 15:09:41] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 15:09:41] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 15:09:41] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 15:09:42] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 15:09:54] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 15:09:54] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 15:09:54] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '14d08db5-4f2c-543a-809a-6c14f04e8e42',
+  Username: 'cbadmn@outlook.com' }
+[08-02-2019 15:09:54] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 15:09:54] [INFO] - Add Conversion rate button is visible
+[08-02-2019 15:09:54] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 15:09:56] [INFO] - Selected US Dollar ($)
+[08-02-2019 15:09:57] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 15:09:57] [INFO] - Entered Conversion Rate
+[08-02-2019 15:09:57] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 15:09:58] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 15:09:58] [INFO] - Clicked on the Add button...
+[08-02-2019 15:09:59] [INFO] - Success message The Conversion Rate has been added successfully is present...
+[08-02-2019 15:10:11] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[08-02-2019 15:10:13] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[08-02-2019 15:10:13] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[08-02-2019 15:10:13] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[08-02-2019 15:10:13] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 15:10:13] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 15:10:13] [INFO] - Comparing Add Amazon Account with CentOS65
+[08-02-2019 15:10:13] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[08-02-2019 15:10:13] [INFO] - Comparing CentOS65 with CentOS65
+[08-02-2019 15:10:13] [INFO] - Clicked configure button for CentOS65
+[08-02-2019 15:10:14] [INFO] - Cleared Service Instance Name textbox
+[08-02-2019 15:10:14] [INFO] - Entered TestAutomationNEidk in Service Instance Name textbox
+[08-02-2019 15:10:20] [INFO] - Selected TEAM1 from Team dropdown
+[08-02-2019 15:10:30] [INFO] - Selected NONE from Environment dropdown
+[08-02-2019 15:10:37] [INFO] - Selected NONE from Application dropdown
+[08-02-2019 15:10:40] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[08-02-2019 15:10:44] [INFO] - Clicked on Next button
+[08-02-2019 15:10:50] [INFO] - Selected 1 from CPU dropdown
+[08-02-2019 15:10:54] [INFO] - Selected 512 from MEMORY dropdown
+[08-02-2019 15:10:58] [INFO] - Selected 5 from STORAGE dropdown
+[08-02-2019 15:11:01] [INFO] - Selected True from VIRTUAL MACHINE CDROM dropdown
+[08-02-2019 15:11:05] [INFO] - Selected True from VIRTUAL MACHINE ADMIN ACCESS dropdown
+[08-02-2019 15:11:08] [INFO] - Selected True from VIRTUAL MACHINE MACHINE SSH dropdown
+[08-02-2019 15:11:11] [INFO] - Clicked on Next button
+[08-02-2019 15:11:18] [INFO] - Estimated price on Review Order page : USD 10.00 ONE TIME CHARGE + USD 30.00 / MONTH
+[08-02-2019 15:11:33] [INFO] - Order number : TUG8Z4LR
+[08-02-2019 15:11:33] [INFO] - Total Price : USD 10.00 ONE TIME CHARGE + USD 30.00 / MONTH
+[08-02-2019 15:11:38] [INFO] - Order Submitted !
+[08-02-2019 15:11:48] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/orders/approver-orders
+[08-02-2019 15:12:06] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[08-02-2019 15:12:06] [INFO] - Clicked on View Details link to get Order Details page
+[08-02-2019 15:12:18] [INFO] - Clicked on Bill of Materials tab
+[08-02-2019 15:12:19] [INFO] - Currency shown in Orders Page :: USD 40.00
+[08-02-2019 15:12:27] [INFO] - Clicked on the Actions Icon...
+[08-02-2019 15:12:27] [INFO] - Clicked on the delete button...
+[08-02-2019 15:12:27] [INFO] - Clicked on delete button in delete conversion pop up...
+[08-02-2019 15:12:31] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 15:12:31] [INFO] - Failure reason: Expected 'USD 10.00 ONE TIME CHARGE + USD 30.00 / MONTH' to contain 'AUD'.
+[08-02-2019 15:12:31] [INFO] - Failure reason: Expected 'USD 40.00' to contain 'AUD'.
+[08-02-2019 15:12:31] [INFO] - Failure reason: Failed: Wait timed out after 3622ms
+[08-02-2019 15:12:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:12:31] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:12:31] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:12:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:12:31] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:12:31] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:12:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:12:31] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:12:31] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:12:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:12:31] [INFO] - Test started: Lock the currency
+[08-02-2019 15:12:31] [INFO] - Test disabled: Lock the currency
+[08-02-2019 15:12:31] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:12:32] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 15:12:32] [INFO] - ===========================================================================================
+[08-02-2019 15:33:15] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 15:33:15] [INFO] - Test browser: chrome
+[08-02-2019 15:33:15] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 15:33:15] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 15:33:15] [INFO] - Suites: currencyConversion
+[08-02-2019 15:33:15] [INFO] - Provisioning: false
+[08-02-2019 15:33:15] [INFO] - Post to Slack: false
+[08-02-2019 15:33:15] [INFO] - *******************************************
+[08-02-2019 15:33:15] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 15:33:19] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 15:33:19] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 15:33:19] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 15:33:19] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 15:33:21] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 15:33:26] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 15:33:27] [INFO] - Cleared Username input box
+[08-02-2019 15:33:27] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 15:33:27] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 15:33:27] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 15:33:27] [INFO] - Clicked on Sign In button
+[08-02-2019 15:33:32] [INFO] - Navigated to Dashboard page...
+[08-02-2019 15:33:34] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 15:33:34] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 15:33:34] [INFO] - Switched to child window
+[08-02-2019 15:33:40] [INFO] - Switched back to parent window
+[08-02-2019 15:33:40] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 15:33:40] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 15:33:40] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 15:33:41] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 15:33:42] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 15:33:50] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 15:33:50] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 15:33:50] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '14d08db5-4f2c-543a-809a-6c14f04e8e42',
+  Username: 'cbadmn@outlook.com' }
+[08-02-2019 15:33:50] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 15:33:50] [INFO] - Add Conversion rate button is visible
+[08-02-2019 15:33:50] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 15:33:52] [INFO] - Selected US Dollar ($)
+[08-02-2019 15:33:53] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 15:33:53] [INFO] - Entered Conversion Rate
+[08-02-2019 15:33:53] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 15:33:53] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 15:33:54] [INFO] - Clicked on the Add button...
+[08-02-2019 15:33:54] [INFO] - Success message The Conversion Rate has been added successfully is present...
+[08-02-2019 15:34:07] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[08-02-2019 15:34:09] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[08-02-2019 15:34:09] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[08-02-2019 15:34:09] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[08-02-2019 15:34:09] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 15:34:09] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 15:34:09] [INFO] - Comparing Add Amazon Account with CentOS65
+[08-02-2019 15:34:09] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[08-02-2019 15:34:09] [INFO] - Comparing CentOS65 with CentOS65
+[08-02-2019 15:34:09] [INFO] - Clicked configure button for CentOS65
+[08-02-2019 15:34:10] [INFO] - Cleared Service Instance Name textbox
+[08-02-2019 15:34:10] [INFO] - Entered TestAutomationewd5m in Service Instance Name textbox
+[08-02-2019 15:34:17] [INFO] - Selected TEAM1 from Team dropdown
+[08-02-2019 15:34:26] [INFO] - Selected NONE from Environment dropdown
+[08-02-2019 15:34:33] [INFO] - Selected NONE from Application dropdown
+[08-02-2019 15:34:37] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[08-02-2019 15:34:40] [INFO] - Clicked on Next button
+[08-02-2019 15:34:46] [INFO] - Selected 1 from CPU dropdown
+[08-02-2019 15:34:50] [INFO] - Selected 512 from MEMORY dropdown
+[08-02-2019 15:34:54] [INFO] - Selected 5 from STORAGE dropdown
+[08-02-2019 15:34:57] [INFO] - Selected True from VIRTUAL MACHINE CDROM dropdown
+[08-02-2019 15:35:01] [INFO] - Selected True from VIRTUAL MACHINE ADMIN ACCESS dropdown
+[08-02-2019 15:35:04] [INFO] - Selected True from VIRTUAL MACHINE MACHINE SSH dropdown
+[08-02-2019 15:35:08] [INFO] - Clicked on Next button
+[08-02-2019 15:35:15] [INFO] - Estimated price on Review Order page : USD 10.00 ONE TIME CHARGE + USD 30.00 / MONTH
+[08-02-2019 15:35:31] [INFO] - Order number : Q3QLF8TD
+[08-02-2019 15:35:31] [INFO] - Total Price : USD 10.00 ONE TIME CHARGE + USD 30.00 / MONTH
+[08-02-2019 15:35:36] [INFO] - Order Submitted !
+[08-02-2019 15:35:45] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/orders/approver-orders
+[08-02-2019 15:36:00] [INFO] - Clicked on the Actions icon of the first row on Orders page
+[08-02-2019 15:36:00] [INFO] - Clicked on View Details link to get Order Details page
+[08-02-2019 15:36:05] [INFO] - Clicked on Bill of Materials tab
+[08-02-2019 15:36:05] [INFO] - Currency shown in Orders Page :: USD 40.00
+[08-02-2019 15:36:13] [INFO] - Clicked on the Actions Icon...
+[08-02-2019 15:36:13] [INFO] - Clicked on the delete button...
+[08-02-2019 15:36:13] [INFO] - Clicked on delete button in delete conversion pop up...
+[08-02-2019 15:36:17] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 15:36:17] [INFO] - Failure reason: Failed: Wait timed out after 3533ms
+[08-02-2019 15:36:17] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:36:17] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:36:17] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:36:17] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:36:17] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:36:17] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:36:17] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:36:17] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:36:17] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:36:17] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:36:17] [INFO] - Test started: Lock the currency
+[08-02-2019 15:36:17] [INFO] - Test disabled: Lock the currency
+[08-02-2019 15:36:17] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:36:18] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 15:36:18] [INFO] - ===========================================================================================
+[08-02-2019 15:39:46] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 15:39:46] [INFO] - Test browser: chrome
+[08-02-2019 15:39:46] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 15:39:46] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 15:39:46] [INFO] - Suites: currencyConversion
+[08-02-2019 15:39:46] [INFO] - Provisioning: false
+[08-02-2019 15:39:46] [INFO] - Post to Slack: false
+[08-02-2019 15:39:46] [INFO] - *******************************************
+[08-02-2019 15:39:46] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 15:40:20] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 15:40:20] [INFO] - Test browser: chrome
+[08-02-2019 15:40:20] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 15:40:20] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 15:40:20] [INFO] - Suites: currencyConversion
+[08-02-2019 15:40:20] [INFO] - Provisioning: false
+[08-02-2019 15:40:20] [INFO] - Post to Slack: false
+[08-02-2019 15:40:20] [INFO] - *******************************************
+[08-02-2019 15:40:20] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 15:40:23] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 15:40:23] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 15:40:23] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 15:40:23] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 15:40:26] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 15:40:37] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 15:40:37] [INFO] - Cleared Username input box
+[08-02-2019 15:40:37] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 15:40:37] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 15:40:37] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 15:40:37] [INFO] - Clicked on Sign In button
+[08-02-2019 15:40:42] [INFO] - Navigated to Dashboard page...
+[08-02-2019 15:40:43] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 15:40:44] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 15:40:44] [INFO] - Switched to child window
+[08-02-2019 15:40:45] [INFO] - Switched back to parent window
+[08-02-2019 15:40:45] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 15:40:45] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 15:40:45] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 15:40:46] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 15:40:47] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 15:40:54] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 15:40:54] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '14d08db5-4f2c-543a-809a-6c14f04e8e42',
+  Username: 'cbadmn@outlook.com' }
+[08-02-2019 15:40:54] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 15:41:44] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 15:41:44] [INFO] - Failure reason: Failed: Timed out waiting for promise to resolve after 50000ms
+[08-02-2019 15:41:44] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:41:44] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:41:44] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:41:44] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:41:44] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:41:44] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:41:44] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:41:44] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:41:44] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:41:44] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:41:44] [INFO] - Test started: Lock the currency
+[08-02-2019 15:41:44] [INFO] - Test disabled: Lock the currency
+[08-02-2019 15:41:44] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:41:45] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 15:41:45] [INFO] - ===========================================================================================
+[08-02-2019 15:42:01] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 15:42:01] [INFO] - Test browser: chrome
+[08-02-2019 15:42:01] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 15:42:01] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 15:42:01] [INFO] - Suites: currencyConversion
+[08-02-2019 15:42:01] [INFO] - Provisioning: false
+[08-02-2019 15:42:01] [INFO] - Post to Slack: false
+[08-02-2019 15:42:01] [INFO] - *******************************************
+[08-02-2019 15:42:01] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 15:42:04] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 15:42:04] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 15:42:04] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 15:42:04] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 15:42:06] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 15:42:12] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 15:42:12] [INFO] - Cleared Username input box
+[08-02-2019 15:42:12] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 15:42:12] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 15:42:12] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 15:42:12] [INFO] - Clicked on Sign In button
+[08-02-2019 15:42:17] [INFO] - Navigated to Dashboard page...
+[08-02-2019 15:42:19] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 15:42:20] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 15:42:20] [INFO] - Switched to child window
+[08-02-2019 15:42:26] [INFO] - Switched back to parent window
+[08-02-2019 15:42:26] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 15:42:26] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 15:42:26] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 15:42:27] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 15:42:28] [INFO] - Test started: Lock the currency
+[08-02-2019 15:42:35] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 15:42:35] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '14d08db5-4f2c-543a-809a-6c14f04e8e42',
+  Username: 'cbadmn@outlook.com' }
+[08-02-2019 15:42:35] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 15:43:26] [INFO] - Test failed: Lock the currency
+[08-02-2019 15:43:26] [INFO] - Failure reason: Failed: Timed out waiting for promise to resolve after 50002ms
+[08-02-2019 15:43:26] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:43:26] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:43:26] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:43:26] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:43:26] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:43:26] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:43:26] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:43:26] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:43:26] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:43:26] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:43:26] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 15:43:26] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 15:43:26] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:43:26] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 15:43:26] [INFO] - ===========================================================================================
+[08-02-2019 15:45:05] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 15:45:05] [INFO] - Test browser: chrome
+[08-02-2019 15:45:05] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 15:45:05] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 15:45:05] [INFO] - Suites: currencyConversion
+[08-02-2019 15:45:05] [INFO] - Provisioning: false
+[08-02-2019 15:45:05] [INFO] - Post to Slack: false
+[08-02-2019 15:45:05] [INFO] - *******************************************
+[08-02-2019 15:45:05] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 15:45:09] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 15:45:09] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 15:45:09] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 15:45:09] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 15:45:11] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 15:45:16] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 15:45:16] [INFO] - Cleared Username input box
+[08-02-2019 15:45:16] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 15:45:16] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 15:45:17] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 15:45:17] [INFO] - Clicked on Sign In button
+[08-02-2019 15:45:21] [INFO] - Navigated to Dashboard page...
+[08-02-2019 15:45:22] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 15:45:23] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 15:45:23] [INFO] - Switched to child window
+[08-02-2019 15:45:25] [INFO] - Switched back to parent window
+[08-02-2019 15:45:25] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 15:45:25] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 15:45:25] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 15:45:25] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 15:45:26] [INFO] - Test started: Lock the currency
+[08-02-2019 15:45:33] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 15:45:33] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 15:45:33] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 15:46:23] [INFO] - Test failed: Lock the currency
+[08-02-2019 15:46:23] [INFO] - Failure reason: Failed: Timed out waiting for promise to resolve after 50002ms
+[08-02-2019 15:46:23] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:46:23] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:46:23] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 15:46:23] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:46:23] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:46:23] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 15:46:23] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:46:23] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:46:23] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 15:46:23] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:46:23] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 15:46:23] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 15:46:23] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 15:46:24] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 15:46:24] [INFO] - ===========================================================================================
+[08-02-2019 16:08:35] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:08:35] [INFO] - Test browser: chrome
+[08-02-2019 16:08:35] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:08:35] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:08:35] [INFO] - Suites: currencyConversion
+[08-02-2019 16:08:35] [INFO] - Provisioning: false
+[08-02-2019 16:08:35] [INFO] - Post to Slack: false
+[08-02-2019 16:08:35] [INFO] - *******************************************
+[08-02-2019 16:08:35] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:08:38] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:08:38] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:08:38] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:08:38] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:08:41] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:08:46] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:08:46] [INFO] - Cleared Username input box
+[08-02-2019 16:08:46] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:08:46] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:08:46] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:08:46] [INFO] - Clicked on Sign In button
+[08-02-2019 16:08:50] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:08:52] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:08:52] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:08:52] [INFO] - Switched to child window
+[08-02-2019 16:08:56] [INFO] - Switched back to parent window
+[08-02-2019 16:08:56] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:08:56] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:08:56] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:08:56] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:08:58] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:09:05] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:09:05] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:09:05] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:09:07] [INFO] - 204
+[08-02-2019 16:09:07] [INFO] - Currency unlocked
+[08-02-2019 16:09:07] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:09:07] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:09:08] [INFO] - 201
+[08-02-2019 16:09:08] [INFO] - Currency Changed to :: AUD
+[08-02-2019 16:09:08] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:09:08] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:09:09] [INFO] - 204
+[08-02-2019 16:09:09] [INFO] - Currency locked
+[08-02-2019 16:09:09] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 16:09:09] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:09:09] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:09:09] [INFO] - Add Conversion rate button is visible
+[08-02-2019 16:09:09] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 16:09:10] [INFO] - Selected US Dollar ($)
+[08-02-2019 16:09:11] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 16:09:12] [INFO] - Entered Conversion Rate
+[08-02-2019 16:09:12] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 16:09:12] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 16:09:12] [INFO] - Clicked on the Add button...
+[08-02-2019 16:09:13] [INFO] - Success message The Conversion Rate has been added successfully is present...
+[08-02-2019 16:09:22] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[08-02-2019 16:09:24] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[08-02-2019 16:09:24] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[08-02-2019 16:09:24] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[08-02-2019 16:09:24] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 16:09:24] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 16:09:24] [INFO] - Comparing Add Amazon Account with CentOS65
+[08-02-2019 16:09:24] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[08-02-2019 16:09:24] [INFO] - Comparing CentOS65 with CentOS65
+[08-02-2019 16:09:24] [INFO] - Clicked configure button for CentOS65
+[08-02-2019 16:09:25] [INFO] - Cleared Service Instance Name textbox
+[08-02-2019 16:09:25] [INFO] - Entered TestAutomationAabfv in Service Instance Name textbox
+[08-02-2019 16:09:32] [INFO] - Selected TEAM1 from Team dropdown
+[08-02-2019 16:09:41] [INFO] - Selected NONE from Environment dropdown
+[08-02-2019 16:09:48] [INFO] - Selected NONE from Application dropdown
+[08-02-2019 16:09:52] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[08-02-2019 16:09:55] [INFO] - Clicked on Next button
+[08-02-2019 16:10:01] [INFO] - Selected 1 from CPU dropdown
+[08-02-2019 16:10:05] [INFO] - Selected 512 from MEMORY dropdown
+[08-02-2019 16:10:08] [INFO] - Selected 5 from STORAGE dropdown
+[08-02-2019 16:10:12] [INFO] - Selected True from VIRTUAL MACHINE CDROM dropdown
+[08-02-2019 16:10:16] [INFO] - Selected True from VIRTUAL MACHINE ADMIN ACCESS dropdown
+[08-02-2019 16:10:19] [INFO] - Selected True from VIRTUAL MACHINE MACHINE SSH dropdown
+[08-02-2019 16:10:22] [INFO] - Clicked on Next button
+[08-02-2019 16:10:27] [INFO] - Estimated price on Review Order page : N/A
+[08-02-2019 16:10:52] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 16:10:52] [INFO] - Failure reason: Expected 'N/A' to contain 'AUD'.
+[08-02-2019 16:10:52] [INFO] - Failure reason: TimeoutError: Wait timed out after 25012ms
+[08-02-2019 16:10:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:10:52] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:10:52] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:10:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:10:52] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:10:52] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:10:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:10:52] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:10:52] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:10:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:10:52] [INFO] - Test started: Lock the currency
+[08-02-2019 16:10:52] [INFO] - Test disabled: Lock the currency
+[08-02-2019 16:10:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:10:53] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:10:53] [INFO] - ===========================================================================================
+[08-02-2019 16:28:53] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:28:53] [INFO] - Test browser: chrome
+[08-02-2019 16:28:53] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:28:53] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:28:53] [INFO] - Suites: currencyConversion
+[08-02-2019 16:28:53] [INFO] - Provisioning: false
+[08-02-2019 16:28:53] [INFO] - Post to Slack: false
+[08-02-2019 16:28:53] [INFO] - *******************************************
+[08-02-2019 16:28:53] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:28:56] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:28:56] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:28:56] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:28:56] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:28:59] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:29:04] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:29:04] [INFO] - Cleared Username input box
+[08-02-2019 16:29:04] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:29:04] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:29:04] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:29:04] [INFO] - Clicked on Sign In button
+[08-02-2019 16:29:09] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:29:11] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:29:11] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:29:11] [INFO] - Switched to child window
+[08-02-2019 16:29:18] [INFO] - Switched back to parent window
+[08-02-2019 16:29:18] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:29:18] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:29:18] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:29:18] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:29:19] [INFO] - Test started: Lock the currency
+[08-02-2019 16:29:26] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:29:26] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:29:26] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:29:27] [INFO] - 204
+[08-02-2019 16:29:27] [INFO] - Currency unlocked
+[08-02-2019 16:29:27] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:29:27] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:29:28] [INFO] - 201
+[08-02-2019 16:29:28] [INFO] - Currency Changed to :: USD
+[08-02-2019 16:29:28] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:29:28] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:29:29] [INFO] - 204
+[08-02-2019 16:29:29] [INFO] - Currency locked
+[08-02-2019 16:29:34] [INFO] - Test passed: Lock the currency
+[08-02-2019 16:29:34] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:29:34] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:29:34] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:29:34] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:29:34] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:29:34] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:29:34] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:29:34] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:29:34] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:29:34] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:29:34] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:29:34] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 16:29:34] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:29:34] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:29:34] [INFO] - ===========================================================================================
+[08-02-2019 16:34:18] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:34:18] [INFO] - Test browser: chrome
+[08-02-2019 16:34:18] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:34:18] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:34:18] [INFO] - Suites: currencyConversion
+[08-02-2019 16:34:18] [INFO] - Provisioning: false
+[08-02-2019 16:34:18] [INFO] - Post to Slack: false
+[08-02-2019 16:34:18] [INFO] - *******************************************
+[08-02-2019 16:34:18] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:34:35] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:34:35] [INFO] - Test browser: chrome
+[08-02-2019 16:34:35] [INFO] - Test environment: cb-qa-6
+[08-02-2019 16:34:35] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:34:35] [INFO] - Suites: currencyConversion
+[08-02-2019 16:34:35] [INFO] - Provisioning: false
+[08-02-2019 16:34:35] [INFO] - Post to Slack: false
+[08-02-2019 16:34:35] [INFO] - *******************************************
+[08-02-2019 16:34:35] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:34:38] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:34:38] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:34:38] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 16:34:38] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 16:34:41] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 16:34:47] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:34:47] [INFO] - Cleared Username input box
+[08-02-2019 16:34:47] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:34:47] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:34:47] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:34:47] [INFO] - Clicked on Sign In button
+[08-02-2019 16:34:52] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:34:54] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:34:54] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:34:54] [INFO] - Switched to child window
+[08-02-2019 16:35:00] [INFO] - Switched back to parent window
+[08-02-2019 16:35:00] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:35:00] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:35:00] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:35:00] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:35:01] [INFO] - Test started: Lock the currency
+[08-02-2019 16:35:19] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 16:35:19] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 16:35:19] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:35:22] [INFO] - 204
+[08-02-2019 16:35:22] [INFO] - Currency unlocked
+[08-02-2019 16:35:22] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 16:35:22] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:35:23] [INFO] - 201
+[08-02-2019 16:35:23] [INFO] - Currency Changed to :: AUD
+[08-02-2019 16:35:23] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 16:35:23] [INFO] - Postman URL to lock the currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:35:24] [INFO] - 204
+[08-02-2019 16:35:24] [INFO] - Currency locked
+[08-02-2019 16:35:29] [INFO] - Test passed: Lock the currency
+[08-02-2019 16:35:29] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:35:29] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:35:29] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:35:29] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:35:29] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:35:29] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:35:29] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:35:29] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:35:29] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:35:29] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:35:29] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:35:29] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 16:35:29] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:35:29] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:35:29] [INFO] - ===========================================================================================
+[08-02-2019 16:38:21] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:38:21] [INFO] - Test browser: chrome
+[08-02-2019 16:38:21] [INFO] - Test environment: cb-qa-6
+[08-02-2019 16:38:21] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:38:21] [INFO] - Suites: currencyConversion
+[08-02-2019 16:38:21] [INFO] - Provisioning: false
+[08-02-2019 16:38:21] [INFO] - Post to Slack: false
+[08-02-2019 16:38:21] [INFO] - *******************************************
+[08-02-2019 16:38:21] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:38:24] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:38:24] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:38:24] [INFO] - Test Domain: cb-qa-6
+[08-02-2019 16:38:24] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[08-02-2019 16:38:27] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[08-02-2019 16:38:32] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:38:32] [INFO] - Cleared Username input box
+[08-02-2019 16:38:33] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:38:33] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:38:33] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:38:33] [INFO] - Clicked on Sign In button
+[08-02-2019 16:38:38] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:38:40] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:38:40] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:38:40] [INFO] - Switched to child window
+[08-02-2019 16:38:46] [INFO] - Switched back to parent window
+[08-02-2019 16:38:46] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:38:46] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:38:46] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:38:46] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:38:47] [INFO] - Test started: Lock the currency
+[08-02-2019 16:39:06] [INFO] - the current URL is = https://cb-qa-6.gravitant.net/conversion
+[08-02-2019 16:39:06] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 16:39:06] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:39:08] [INFO] - 204
+[08-02-2019 16:39:08] [INFO] - Currency unlocked
+[08-02-2019 16:39:08] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 16:39:08] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:39:10] [INFO] - 201
+[08-02-2019 16:39:10] [INFO] - Currency Changed to :: USD
+[08-02-2019 16:39:10] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: '47603ad1-b88a-57c1-8ddd-3b07d89cfb89',
+  Username: 'aparandh@in.ibm.com' }
+[08-02-2019 16:39:10] [INFO] - Postman URL to lock the currency :: https://cb-qa-6-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:39:11] [INFO] - 204
+[08-02-2019 16:39:11] [INFO] - Currency locked
+[08-02-2019 16:39:16] [INFO] - Test passed: Lock the currency
+[08-02-2019 16:39:16] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:39:16] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:39:16] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:39:16] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:39:16] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:39:16] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:39:16] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:39:16] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:39:16] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:39:16] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:39:16] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:39:16] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 16:39:16] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:39:16] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:39:16] [INFO] - ===========================================================================================
+[08-02-2019 16:40:10] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:40:10] [INFO] - Test browser: chrome
+[08-02-2019 16:40:10] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:40:10] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:40:10] [INFO] - Suites: currencyConversion
+[08-02-2019 16:40:10] [INFO] - Provisioning: false
+[08-02-2019 16:40:10] [INFO] - Post to Slack: false
+[08-02-2019 16:40:10] [INFO] - *******************************************
+[08-02-2019 16:40:10] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:40:13] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:40:13] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:40:13] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:40:13] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:40:15] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:40:20] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:40:20] [INFO] - Cleared Username input box
+[08-02-2019 16:40:21] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:40:21] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:40:21] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:40:21] [INFO] - Clicked on Sign In button
+[08-02-2019 16:40:26] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:40:27] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:40:27] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:40:27] [INFO] - Switched to child window
+[08-02-2019 16:40:32] [INFO] - Switched back to parent window
+[08-02-2019 16:40:32] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:40:32] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:40:32] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:40:33] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:40:34] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:40:41] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:40:41] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:40:41] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:40:42] [INFO] - 204
+[08-02-2019 16:40:42] [INFO] - Currency unlocked
+[08-02-2019 16:40:42] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:40:42] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:40:43] [INFO] - 201
+[08-02-2019 16:40:43] [INFO] - Currency Changed to :: AUD
+[08-02-2019 16:40:43] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:40:43] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:40:44] [INFO] - 204
+[08-02-2019 16:40:44] [INFO] - Currency locked
+[08-02-2019 16:40:44] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 16:40:44] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:40:44] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:40:44] [INFO] - Add Conversion rate button is visible
+[08-02-2019 16:40:44] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 16:40:46] [INFO] - Selected US Dollar ($)
+[08-02-2019 16:40:47] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 16:40:47] [INFO] - Entered Conversion Rate
+[08-02-2019 16:40:48] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 16:40:48] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 16:40:48] [INFO] - Clicked on the Add button...
+[08-02-2019 16:40:49] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 16:40:49] [INFO] - Failure reason: NoSuchElementError: No element found using locator: By(xpath, //span[contains(text(),"The Conversion Rate has been added successfully")])
+[08-02-2019 16:40:49] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:40:49] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:40:49] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:40:49] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:40:49] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:40:49] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:40:49] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:40:49] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:40:49] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:40:49] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:40:49] [INFO] - Test started: Lock the currency
+[08-02-2019 16:40:49] [INFO] - Test disabled: Lock the currency
+[08-02-2019 16:40:49] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:40:50] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:40:50] [INFO] - ===========================================================================================
+[08-02-2019 16:41:20] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:41:20] [INFO] - Test browser: chrome
+[08-02-2019 16:41:20] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:41:20] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:41:20] [INFO] - Suites: currencyConversion
+[08-02-2019 16:41:20] [INFO] - Provisioning: false
+[08-02-2019 16:41:20] [INFO] - Post to Slack: false
+[08-02-2019 16:41:20] [INFO] - *******************************************
+[08-02-2019 16:41:20] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:41:23] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:41:23] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:41:23] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:41:23] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:41:26] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:41:32] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:41:32] [INFO] - Cleared Username input box
+[08-02-2019 16:41:32] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:41:32] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:41:32] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:41:33] [INFO] - Clicked on Sign In button
+[08-02-2019 16:41:37] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:41:39] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:41:39] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:41:39] [INFO] - Switched to child window
+[08-02-2019 16:41:46] [INFO] - Switched back to parent window
+[08-02-2019 16:41:46] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:41:46] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:41:46] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:41:46] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:41:47] [INFO] - Test started: Lock the currency
+[08-02-2019 16:41:54] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:41:54] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:41:54] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:41:55] [INFO] - 204
+[08-02-2019 16:41:55] [INFO] - Currency unlocked
+[08-02-2019 16:41:55] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:41:55] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:41:56] [INFO] - 201
+[08-02-2019 16:41:56] [INFO] - Currency Changed to :: USD
+[08-02-2019 16:41:56] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:41:56] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:41:57] [INFO] - 204
+[08-02-2019 16:41:57] [INFO] - Currency locked
+[08-02-2019 16:42:02] [INFO] - Test passed: Lock the currency
+[08-02-2019 16:42:02] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:02] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:42:02] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:42:02] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:02] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:42:02] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:42:02] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:02] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:42:02] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:42:02] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:02] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:42:02] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 16:42:02] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:02] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:42:02] [INFO] - ===========================================================================================
+[08-02-2019 16:42:13] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:42:13] [INFO] - Test browser: chrome
+[08-02-2019 16:42:13] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:42:13] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:42:13] [INFO] - Suites: currencyConversion
+[08-02-2019 16:42:13] [INFO] - Provisioning: false
+[08-02-2019 16:42:13] [INFO] - Post to Slack: false
+[08-02-2019 16:42:13] [INFO] - *******************************************
+[08-02-2019 16:42:13] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:42:17] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:42:17] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:42:17] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:42:17] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:42:19] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:42:24] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:42:24] [INFO] - Cleared Username input box
+[08-02-2019 16:42:24] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:42:25] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:42:25] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:42:25] [INFO] - Clicked on Sign In button
+[08-02-2019 16:42:29] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:42:31] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:42:31] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:42:31] [INFO] - Switched to child window
+[08-02-2019 16:42:37] [INFO] - Switched back to parent window
+[08-02-2019 16:42:37] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:42:37] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:42:37] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:42:38] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:42:39] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:42:45] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:42:45] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:42:45] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:42:46] [INFO] - 204
+[08-02-2019 16:42:46] [INFO] - Currency unlocked
+[08-02-2019 16:42:46] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:42:46] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:42:47] [INFO] - 201
+[08-02-2019 16:42:47] [INFO] - Currency Changed to :: AUD
+[08-02-2019 16:42:47] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:42:47] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:42:48] [INFO] - 204
+[08-02-2019 16:42:48] [INFO] - Currency locked
+[08-02-2019 16:42:48] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 16:42:48] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:42:48] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:42:48] [INFO] - Add Conversion rate button is visible
+[08-02-2019 16:42:48] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 16:42:50] [INFO] - Selected US Dollar ($)
+[08-02-2019 16:42:50] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 16:42:51] [INFO] - Entered Conversion Rate
+[08-02-2019 16:42:51] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 16:42:51] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 16:42:52] [INFO] - Clicked on the Add button...
+[08-02-2019 16:42:52] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 16:42:52] [INFO] - Failure reason: NoSuchElementError: No element found using locator: By(xpath, //span[contains(text(),"The Conversion Rate has been added successfully")])
+[08-02-2019 16:42:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:52] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:42:52] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:42:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:52] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:42:52] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:42:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:52] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:42:52] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:42:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:52] [INFO] - Test started: Lock the currency
+[08-02-2019 16:42:52] [INFO] - Test disabled: Lock the currency
+[08-02-2019 16:42:52] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:42:53] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:42:53] [INFO] - ===========================================================================================
+[08-02-2019 16:43:32] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:43:32] [INFO] - Test browser: chrome
+[08-02-2019 16:43:32] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:43:32] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:43:32] [INFO] - Suites: currencyConversion
+[08-02-2019 16:43:32] [INFO] - Provisioning: false
+[08-02-2019 16:43:32] [INFO] - Post to Slack: false
+[08-02-2019 16:43:32] [INFO] - *******************************************
+[08-02-2019 16:43:32] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:43:36] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:43:36] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:43:36] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:43:36] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:43:38] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:43:43] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:43:43] [INFO] - Cleared Username input box
+[08-02-2019 16:43:43] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:43:44] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:43:44] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:43:44] [INFO] - Clicked on Sign In button
+[08-02-2019 16:43:48] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:43:49] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:43:50] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:43:50] [INFO] - Switched to child window
+[08-02-2019 16:43:51] [INFO] - Switched back to parent window
+[08-02-2019 16:43:51] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:43:51] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:43:51] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:43:52] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:43:53] [INFO] - Test started: Lock the currency
+[08-02-2019 16:43:59] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:43:59] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:43:59] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:44:00] [INFO] - 204
+[08-02-2019 16:44:00] [INFO] - Currency unlocked
+[08-02-2019 16:44:00] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:44:00] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:44:01] [INFO] - 201
+[08-02-2019 16:44:01] [INFO] - Currency Changed to :: USD
+[08-02-2019 16:44:01] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:44:01] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:44:02] [INFO] - 204
+[08-02-2019 16:44:02] [INFO] - Currency locked
+[08-02-2019 16:44:07] [INFO] - Test passed: Lock the currency
+[08-02-2019 16:44:07] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:44:07] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:44:07] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:44:07] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:44:07] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:44:07] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:44:07] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:44:07] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:44:07] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:44:07] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:44:07] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:44:07] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 16:44:07] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:44:07] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:44:07] [INFO] - ===========================================================================================
+[08-02-2019 16:44:31] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:44:31] [INFO] - Test browser: chrome
+[08-02-2019 16:44:31] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:44:31] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:44:31] [INFO] - Suites: currencyConversion
+[08-02-2019 16:44:31] [INFO] - Provisioning: false
+[08-02-2019 16:44:31] [INFO] - Post to Slack: false
+[08-02-2019 16:44:31] [INFO] - *******************************************
+[08-02-2019 16:44:31] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:44:34] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:44:34] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:44:34] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:44:34] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:44:37] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:44:42] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:44:42] [INFO] - Cleared Username input box
+[08-02-2019 16:44:42] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:44:42] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:44:42] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:44:42] [INFO] - Clicked on Sign In button
+[08-02-2019 16:44:46] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:44:48] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:44:48] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:44:48] [INFO] - Switched to child window
+[08-02-2019 16:44:49] [INFO] - Switched back to parent window
+[08-02-2019 16:44:50] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:44:50] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:44:50] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:44:50] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:44:51] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:44:58] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:44:58] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:44:58] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:44:59] [INFO] - 204
+[08-02-2019 16:44:59] [INFO] - Currency unlocked
+[08-02-2019 16:44:59] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:44:59] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:45:00] [INFO] - 201
+[08-02-2019 16:45:00] [INFO] - Currency Changed to :: AUD
+[08-02-2019 16:45:00] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:45:00] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:45:01] [INFO] - 204
+[08-02-2019 16:45:01] [INFO] - Currency locked
+[08-02-2019 16:45:01] [INFO] - Waiting for the Provider to be identified and Click it
+[08-02-2019 16:45:01] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:45:01] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:45:01] [INFO] - Add Conversion rate button is visible
+[08-02-2019 16:45:01] [INFO] - Clicked on the Add Conversion Rate button...
+[08-02-2019 16:45:02] [INFO] - Selected US Dollar ($)
+[08-02-2019 16:45:03] [INFO] - Selected Australian Dollar ($)
+[08-02-2019 16:45:04] [INFO] - Entered Conversion Rate
+[08-02-2019 16:45:04] [INFO] - Selected Start date :: 2/8/2019
+[08-02-2019 16:45:04] [INFO] - Selected End date :: 2/9/2019
+[08-02-2019 16:45:04] [INFO] - Clicked on the Add button...
+[08-02-2019 16:45:05] [INFO] - Success message The Conversion Rate has been added successfully is present...
+[08-02-2019 16:45:14] [INFO] - Succesfully clicked on Provider : PrivateCloud
+[08-02-2019 16:45:16] [INFO] - Got all the elemets. Going to find the index of CentOS65
+[08-02-2019 16:45:16] [INFO] - Comparing 3 Tier Custom Testing with CentOS65
+[08-02-2019 16:45:16] [INFO] - Comparing 3 Tier VRA74 with CentOS65
+[08-02-2019 16:45:16] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 16:45:16] [INFO] - Comparing 3 Tier Traditional Workload with CentOS65
+[08-02-2019 16:45:16] [INFO] - Comparing Add Amazon Account with CentOS65
+[08-02-2019 16:45:16] [INFO] - Comparing CentOS_CustomProperties_VRA_7.4 with CentOS65
+[08-02-2019 16:45:16] [INFO] - Comparing CentOS65 with CentOS65
+[08-02-2019 16:45:16] [INFO] - Clicked configure button for CentOS65
+[08-02-2019 16:45:17] [INFO] - Cleared Service Instance Name textbox
+[08-02-2019 16:45:17] [INFO] - Entered TestAutomationn0Uuz in Service Instance Name textbox
+[08-02-2019 16:45:24] [INFO] - Selected TEAM1 from Team dropdown
+[08-02-2019 16:45:33] [INFO] - Selected NONE from Environment dropdown
+[08-02-2019 16:45:40] [INFO] - Selected NONE from Application dropdown
+[08-02-2019 16:45:44] [INFO] - Selected vRA73 / vRA73 from Provider Account dropdown
+[08-02-2019 16:45:47] [INFO] - Clicked on Next button
+[08-02-2019 16:45:53] [INFO] - Selected 1 from CPU dropdown
+[08-02-2019 16:45:57] [INFO] - Selected 512 from MEMORY dropdown
+[08-02-2019 16:46:00] [INFO] - Selected 5 from STORAGE dropdown
+[08-02-2019 16:46:04] [INFO] - Selected True from VIRTUAL MACHINE CDROM dropdown
+[08-02-2019 16:46:07] [INFO] - Selected True from VIRTUAL MACHINE ADMIN ACCESS dropdown
+[08-02-2019 16:46:11] [INFO] - Selected True from VIRTUAL MACHINE MACHINE SSH dropdown
+[08-02-2019 16:46:14] [INFO] - Clicked on Next button
+[08-02-2019 16:46:17] [INFO] - Estimated price on Review Order page : N/A
+[08-02-2019 16:46:43] [INFO] - Test failed: E2E flow for currency conversion rate
+[08-02-2019 16:46:43] [INFO] - Failure reason: Expected 'N/A' to contain 'AUD'.
+[08-02-2019 16:46:43] [INFO] - Failure reason: TimeoutError: Wait timed out after 25002ms
+[08-02-2019 16:46:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:46:43] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:46:43] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:46:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:46:43] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:46:43] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:46:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:46:43] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:46:43] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:46:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:46:43] [INFO] - Test started: Lock the currency
+[08-02-2019 16:46:43] [INFO] - Test disabled: Lock the currency
+[08-02-2019 16:46:43] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:46:43] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:46:43] [INFO] - ===========================================================================================
+[08-02-2019 16:53:18] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 16:53:18] [INFO] - Test browser: chrome
+[08-02-2019 16:53:18] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 16:53:18] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 16:53:18] [INFO] - Suites: currencyConversion
+[08-02-2019 16:53:18] [INFO] - Provisioning: false
+[08-02-2019 16:53:18] [INFO] - Post to Slack: false
+[08-02-2019 16:53:18] [INFO] - *******************************************
+[08-02-2019 16:53:18] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 16:53:21] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 16:53:21] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 16:53:21] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 16:53:21] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 16:53:24] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 16:53:29] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 16:53:29] [INFO] - Cleared Username input box
+[08-02-2019 16:53:29] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 16:53:29] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 16:53:29] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 16:53:29] [INFO] - Clicked on Sign In button
+[08-02-2019 16:53:34] [INFO] - Navigated to Dashboard page...
+[08-02-2019 16:53:36] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 16:53:36] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 16:53:36] [INFO] - Switched to child window
+[08-02-2019 16:53:42] [INFO] - Switched back to parent window
+[08-02-2019 16:53:42] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 16:53:42] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 16:53:42] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 16:53:42] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 16:53:43] [INFO] - Test started: Lock the currency
+[08-02-2019 16:53:50] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 16:53:50] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:53:50] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 16:53:52] [INFO] - 204
+[08-02-2019 16:53:52] [INFO] - Currency unlocked
+[08-02-2019 16:53:52] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:53:52] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 16:53:53] [INFO] - 201
+[08-02-2019 16:53:53] [INFO] - Currency Changed to :: USD
+[08-02-2019 16:53:53] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 16:53:53] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 16:53:54] [INFO] - 204
+[08-02-2019 16:53:54] [INFO] - Currency locked
+[08-02-2019 16:53:59] [INFO] - Test passed: Lock the currency
+[08-02-2019 16:53:59] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:53:59] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:53:59] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 16:53:59] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:53:59] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:53:59] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 16:53:59] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:53:59] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:53:59] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 16:53:59] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:53:59] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 16:53:59] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 16:53:59] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 16:53:59] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 16:53:59] [INFO] - ===========================================================================================
+[08-02-2019 17:40:33] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 17:40:33] [INFO] - Test browser: chrome
+[08-02-2019 17:40:33] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 17:40:33] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 17:40:33] [INFO] - Suites: currencyConversion
+[08-02-2019 17:40:33] [INFO] - Provisioning: false
+[08-02-2019 17:40:33] [INFO] - Post to Slack: false
+[08-02-2019 17:40:33] [INFO] - *******************************************
+[08-02-2019 17:40:33] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 17:40:36] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 17:40:36] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 17:40:36] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 17:40:36] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 17:40:39] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 17:40:44] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 17:40:44] [INFO] - Cleared Username input box
+[08-02-2019 17:40:44] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 17:40:44] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 17:40:44] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 17:40:44] [INFO] - Clicked on Sign In button
+[08-02-2019 17:40:49] [INFO] - Navigated to Dashboard page...
+[08-02-2019 17:40:51] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 17:40:52] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 17:40:52] [INFO] - Switched to child window
+[08-02-2019 17:40:57] [INFO] - Switched back to parent window
+[08-02-2019 17:40:57] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 17:40:57] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 17:40:57] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 17:40:57] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 17:40:58] [INFO] - Test started: Lock the currency
+[08-02-2019 17:41:05] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 17:41:05] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 17:41:05] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 17:41:07] [INFO] - 204
+[08-02-2019 17:41:07] [INFO] - Currency unlocked
+[08-02-2019 17:41:07] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 17:41:07] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 17:41:08] [INFO] - 201
+[08-02-2019 17:41:08] [INFO] - Currency Changed to :: AUD
+[08-02-2019 17:41:08] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 17:41:08] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 17:41:08] [INFO] - 204
+[08-02-2019 17:41:08] [INFO] - Currency locked
+[08-02-2019 17:41:13] [INFO] - Test passed: Lock the currency
+[08-02-2019 17:41:13] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:41:13] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 17:41:13] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 17:41:13] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:41:13] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 17:41:13] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 17:41:13] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:41:13] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 17:41:13] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 17:41:13] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:41:13] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 17:41:13] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 17:41:13] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:41:13] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 17:41:13] [INFO] - ===========================================================================================
+[08-02-2019 17:42:29] [INFO] - ******Printing Environment Variables*******
+[08-02-2019 17:42:29] [INFO] - Test browser: chrome
+[08-02-2019 17:42:29] [INFO] - Test environment: cb-qa-4-release
+[08-02-2019 17:42:29] [INFO] - Username: cbadmn@outlook.com
+[08-02-2019 17:42:29] [INFO] - Suites: currencyConversion
+[08-02-2019 17:42:29] [INFO] - Provisioning: false
+[08-02-2019 17:42:29] [INFO] - Post to Slack: false
+[08-02-2019 17:42:29] [INFO] - *******************************************
+[08-02-2019 17:42:29] [INFO] - [ 'e2e/specs/store/currencyConversion.spec.js' ]
+[08-02-2019 17:42:33] [INFO] - Test user: cbadmn@outlook.com
+[08-02-2019 17:42:33] [INFO] - Suite started: Currency conversion Tests
+[08-02-2019 17:42:33] [INFO] - Test Domain: cb-qa-4-release
+[08-02-2019 17:42:33] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[08-02-2019 17:42:35] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[08-02-2019 17:42:40] [INFO] - Waited till Username text box is visible on the page
+[08-02-2019 17:42:40] [INFO] - Cleared Username input box
+[08-02-2019 17:42:41] [INFO] - Entered cbadmn@outlook.com in Username input box
+[08-02-2019 17:42:41] [INFO] - Waited till Password input box is visible on login page
+[08-02-2019 17:42:41] [INFO] - Entered Gravitant123$ in password input box
+[08-02-2019 17:42:41] [INFO] - Clicked on Sign In button
+[08-02-2019 17:42:46] [INFO] - Navigated to Dashboard page...
+[08-02-2019 17:42:47] [INFO] - Privacy policies pop up displayed...
+[08-02-2019 17:42:47] [INFO] - Clicked on the IBM Privacy statement link to agree to privacy statement...
+[08-02-2019 17:42:47] [INFO] - Switched to child window
+[08-02-2019 17:42:48] [INFO] - Switched back to parent window
+[08-02-2019 17:42:49] [INFO] - Selected the check box in Privacy statement pop up to agree to privacy statement...
+[08-02-2019 17:42:49] [INFO] - Clicked on submit button in the Privacy statement popup...
+[08-02-2019 17:42:49] [INFO] - Waited till browser url contains /dashboard
+[08-02-2019 17:42:49] [INFO] - Waited till visibility of Let`s Get started link on Dashboard
+[08-02-2019 17:42:50] [INFO] - Test started: Lock the currency
+[08-02-2019 17:42:57] [INFO] - the current URL is = https://cb-qa-4-release.gravitant.net/conversion
+[08-02-2019 17:42:57] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 17:42:57] [INFO] - PostMan URL to unlock Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/AUD
+[08-02-2019 17:42:59] [INFO] - 204
+[08-02-2019 17:42:59] [INFO] - Currency unlocked
+[08-02-2019 17:42:59] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 17:42:59] [INFO] - PostMan URL for Changing Currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/setDefaultCurrency
+[08-02-2019 17:43:00] [INFO] - 201
+[08-02-2019 17:43:00] [INFO] - Currency Changed to :: USD
+[08-02-2019 17:43:00] [INFO] - { Accept: 'application/json',
+  'Content-Type': 'application/json',
+  Apikey: 'a5bb2025-8e8b-58a4-9165-245c0cc6db59',
+  Username: 'nikigm26@in.ibm.com' }
+[08-02-2019 17:43:00] [INFO] - Postman URL to lock the currency :: https://cb-qa-4-release-api.gravitant.net/core/currency/v2/defaultCurrency/USD
+[08-02-2019 17:43:01] [INFO] - 204
+[08-02-2019 17:43:01] [INFO] - Currency locked
+[08-02-2019 17:43:06] [INFO] - Test passed: Lock the currency
+[08-02-2019 17:43:06] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:43:06] [INFO] - Test started: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 17:43:06] [INFO] - Test disabled: CON-16525 - System Admin user able to view Currency Conversion Mgmt page
+[08-02-2019 17:43:06] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:43:06] [INFO] - Test started: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 17:43:06] [INFO] - Test disabled: CON-16539 - Add Conversion Rate - From & To are the same (ex USD to USD)
+[08-02-2019 17:43:06] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:43:06] [INFO] - Test started: Add and delete Conversion Rate with different currencies
+[08-02-2019 17:43:06] [INFO] - Test disabled: Add and delete Conversion Rate with different currencies
+[08-02-2019 17:43:06] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:43:06] [INFO] - Test started: E2E flow for currency conversion rate
+[08-02-2019 17:43:06] [INFO] - Test disabled: E2E flow for currency conversion rate
+[08-02-2019 17:43:06] [INFO] - -------------------------------------------------------------------------------------------
+[08-02-2019 17:43:06] [INFO] - Suite completed: Currency conversion Tests
+[08-02-2019 17:43:06] [INFO] - ===========================================================================================

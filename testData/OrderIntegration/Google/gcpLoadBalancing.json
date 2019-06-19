@@ -1,0 +1,171 @@
+{
+	"bluePrintName": "UDP Load Balancing",
+	"descriptiveText": "Google Load Balancer supports Worldwide Autoscaling, Load Balancing. User can scale applications on Compute Engine from 0 to full throttle. There is no pre-warming needed. It supports Global Load Balancing with Single Anycast IP, Software-Defined Load Balancing & Internal Load Balancing.",
+	"provider": "Google",
+	"serviceName": "testInstanceForGcp",
+	"Category": "Network",
+	"BasePrice": "USD 0.033/ GB / MONTH + USD 0.00", 
+	"TotalCost": "USD 24.552",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 24.552 / MONTH",
+	"serviceId":"UDP Load Balancing",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "autotestfieldsservicename",
+					"QA 3": "autotestfieldsservicename",
+					"QA 4": "autotestfieldsservicename",
+					"Customer 1": "autotestfieldsservicename"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				 "id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Environment1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Application1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+		      "Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+				  "QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+				  "Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+				}
+      			}
+		},
+		"Load Balancer Configuration":{
+			"Name":{
+				"type": "Textbox",
+				"id": "text-input-loadBalacerName",
+				"value": {
+					"QA 2": "testqalllbeauto",
+					"QA 3": "testqalllbeauto",
+					"QA 4": "testqalllbeauto",
+					"Customer 1": "testqalllbeauto"
+				}
+			},			
+			"Load Balancing Traffic":{
+				"type": "RadioButton",
+				"id": "radio-button-loadBalancingTraffic_From_Internet to my VMs",
+				"value": {
+					"QA 2": "From Internet to my VMs",
+					"QA 3": "From Internet to my VMs",
+					"QA 4": "From Internet to my VMs",
+					"Customer 1": "From Internet to my VMs"
+				}
+			}
+		},
+		"Backend Configuration": {
+				"Region":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_region",
+					"value": {
+						"QA 2": "asia-east1",
+						"QA 3": "asia-east1",
+						"QA 4": "asia-east1",
+						"Customer 1": "asia-east1"
+					}
+				},
+				"Backends":{
+					"type": "RadioButton",
+					"id": "radio-button-backendType_Select_existing Instances",
+					"value": {
+						"QA 2": "Select existing Instances",
+						"QA 3": "Select existing Instances",
+						"QA 4": "Select existing Instances",
+						"Customer 1": "Select existing Instances"
+					}
+				}
+		},
+		"Backend Health Check Configuration":{
+			"Health Check":{
+				"type": "RadioButton",
+					"id": "radio-button-healthCheckType_No_health check",
+					"value": {
+						"QA 2": "No health check",
+						"QA 3": "No health check",
+						"QA 4": "No health check",
+						"Customer 1": "No health check"
+				}
+			}
+		},
+		"Backend Backup Pool Configuration":{
+			"Backup Pool":{
+				"type": "RadioButton",
+					"id": "radio-button-backUpPoolType_None",
+					"value": {
+						"QA 2": "None",
+						"QA 3": "None",
+						"QA 4": "None",
+						"Customer 1": "None"
+				}
+			}
+		},
+		"Front-end Configuration":{
+			"Protocol":{
+				"type": "RadioButton",
+					"id": "radio-button-frontendConfig_frontendProtocol_UDP",
+					"value": {
+						"QA 2": "UDP",
+						"QA 3": "UDP",
+						"QA 4": "UDP",
+						"Customer 1": "UDP"
+				}
+			},
+			"IP":{
+				"type": "RadioButton",
+					"id": "radio-button-frontendConfig_externalLbIP_Ephemeral",
+					"value": {
+						"QA 2": "Ephemeral",
+						"QA 3": "Ephemeral",
+						"QA 4": "Ephemeral",
+						"Customer 1": "Ephemeral"
+				}
+			},
+			"Port":{
+				"type": "Textbox",
+				"id": "text-input-frontendConfig_frontEndPort",
+				"value": {
+					"QA 2": "8080",
+					"QA 3": "8080",
+					"QA 4": "8080",
+					"Customer 1": "8080"
+				}
+			}
+		}
+	},
+	"Order Details Locators":{		
+		"Name_xpath-0":"//p[@id='name_value']",
+		"Port_xpath-2":"//p[@id='port_value']",
+		"Protocol_xpath-4":"//p[@id='protocol_value']",
+		"IP_xpath-0":"//p[@id='ip_value']"
+	}
+}

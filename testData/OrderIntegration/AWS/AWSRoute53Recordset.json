@@ -1,0 +1,291 @@
+{
+	"bluePrintName": "Route 53 Recordset",
+	"descriptiveText": "Route 53 Recordset contains authoritative DNS information for a specified domain name or subdomain name.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"serviceName": "testInstanceRoute53recordset",
+	"Category": "Network",
+	"BasePrice": "USD 0.00/ Queries / MONTH + USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+	"TotalCost": "USD 0.00",
+	"serviceId": "CB_AWS_CF_ROUTE53_RECORDSET_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "serviceRecordsetTest",
+					"QA 2": "serviceRecordsetTest",
+					"QA 4": "serviceRecordsetTest",
+					"Customer 1": "serviceRecordsetTest"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			}
+		},
+		"Create Record Set": {
+			"Hosted Zone Domain Name": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_hostedZoneDomainName",
+				"value": {
+					"QA 1": "myexample.com",
+					"QA 2": "myexample.com",
+					"QA 4": "myexample.com",
+					"Customer 1": "myexample.com"
+				}
+			},
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-recordsetName",
+				"value": {
+					"QA 1": "arecordsett.myexample.com",
+					"QA 2": "arecordsett.myexample.com",
+					"QA 4": "arecordsett.myexample.com",
+					"Customer 1": "arecordsett.myexample.com"
+				}
+			},
+			"Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_type",
+				"value": {
+					"QA 1": "A - IPv4 address",
+					"QA 2": "A - IPv4 address",
+					"QA 4": "A - IPv4 address",
+					"Customer 1": "A - IPv4 address"
+				}
+			},
+			"Alias": {
+				"type": "RadioButton",
+				"id": "radio-button-alias_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			},
+			"TTL(Seconds)": {
+				"type": "Textbox",
+				"id": "text-input-TTL",
+				"value": {
+					"QA 1": "300",
+					"QA 2": "300",
+					"QA 4": "300",
+					"Customer 1": "300"
+				}
+			},
+			"Value": {
+				"type": "Textbox",
+				"id": "text-input-Avalue",
+				"value": {
+					"QA 1": "192.192.192.192",
+					"QA 2": "192.192.192.192",
+					"QA 4": "192.192.192.192",
+					"Customer 1": "192.192.192.192"
+				}
+			},
+			"Routing Policy": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_routingPolicy",
+				"value": {
+					"QA 1": "Simple",
+					"QA 2": "Simple",
+					"QA 4": "Simple",
+					"Customer 1": "Simple"
+				}
+			}
+		}
+	},
+	"Edit Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Create Record Set": {
+			"Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_type",
+				"value": {
+					"QA 1": "TXT - Text",
+					"QA 2": "TXT - Text",
+					"QA 4": "TXT - Text",
+					"Customer 1": "TXT - Text"
+				}
+			},
+			"TTL(Seconds)": {
+				"type": "Textbox",
+				"id": "text-input-TTL",
+				"value": {
+					"QA 1": "330",
+					"QA 2": "330",
+					"QA 4": "330",
+					"Customer 1": "330"
+				}
+			},
+			"Value": {
+				"type": "Textbox",
+				"id": "text-input-TXTvalue",
+				"value": {
+					"QA 1": "text123",
+					"QA 2": "text123",
+					"QA 4": "text123",
+					"Customer 1": "text123"
+				}
+			},
+			"Routing Policy": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_routingPolicy",
+				"value": {
+					"QA 1": "Geolocation",
+					"QA 2": "Geolocation",
+					"QA 4": "Geolocation",
+					"Customer 1": "Geolocation"
+				}
+			},
+			"Location": {
+				"type": "RadioButton",
+				"id": "radio-button-Location_Continent_Code",
+				"value": {
+					"QA 1": "Continent Code",
+					"QA 2": "Continent Code",
+					"QA 4": "Continent Code",
+					"Customer 1": "Continent Code"
+				}
+			},
+			"Continent Code": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_continentCode",
+				"value": {
+					"QA 1": "Africa",
+					"QA 2": "Africa",
+					"QA 4": "Africa",
+					"Customer 1": "Africa"
+				}
+			},
+			"Set ID": {
+				"type": "Textbox",
+				"id": "text-input-setID",
+				"value": {
+					"QA 1": "abcd",
+					"QA 2": "abcd",
+					"QA 4": "abcd",
+					"Customer 1": "abcd"
+				}
+			},
+			"Associate with Health Check": {
+				"type": "RadioButton",
+				"id": "radio-button-associateWithHealthCheck_Yes",
+				"value": {
+					"QA 1": "Yes",
+					"QA 2": "Yes",
+					"QA 4": "Yes",
+					"Customer 1": "Yes"
+				}
+			},
+			"Health Check to Associate": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_healthChecktoAssociate",
+				"value": {
+					"QA 1": "d2986655-6bdb-49d1-bdb7-75f08287dec9",
+					"QA 2": "d2986655-6bdb-49d1-bdb7-75f08287dec9",
+					"QA 4": "d2986655-6bdb-49d1-bdb7-75f08287dec9",
+					"Customer 1": "d2986655-6bdb-49d1-bdb7-75f08287dec9"
+				}
+			}
+		}
+	}
+}

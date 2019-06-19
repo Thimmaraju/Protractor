@@ -1,0 +1,132 @@
+{
+    "bluePrintName": "Key Management Service (KMS)",
+    "descriptiveText": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data.",
+    "provider": "Amazon",
+    "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+    "serviceName": "testInstanceForKMS",
+    "Category": "Security & Identity",
+    "BasePrice": "USD 1.00/ KEY / MONTH + USD 0.00",
+    "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 1.00 / MONTH",
+    "TotalCost": "USD 1.00",
+    "serviceId": "CB_AWS_CF_KMS_S00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "serviceInstanceEFS",
+                    "QA 2": "serviceInstanceEFS",
+                    "QA 4": "serviceInstanceEFS",
+                    "Customer 1": "serviceInstanceEFS"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-west-2",
+                    "QA 2": "us-west-2",
+                    "QA 4": "us-west-2",
+                    "Customer 1": "us-west-2"
+                }
+            }
+        },
+        "Basic Information": {
+            "Alias": {
+                "type": "Textbox",
+                "id": "text-input-alias",
+                "value": {
+                    "QA 1": "KMS123",
+                    "QA 2": "KMS123",
+                    "QA 4": "KMS123",
+                    "Customer 1": "KMS123"
+                }
+            },
+            "Description": {
+                "type": "Textbox",
+                "id": "text-input-description",
+                "value": {
+                    "QA 1": "KMS key",
+                    "QA 2": "KMS key",
+                    "QA 4": "KMS key",
+                    "Customer 1": "KMS key"
+                }
+            },
+            "Key Material Origin": {
+                "type": "RadioButton",
+                "id": "radio-button-KeyMaterialOrigin_KMS",
+                "value": {
+                    "QA 1": "KMS",
+                    "QA 2": "KMS",
+                    "QA 4": "KMS",
+                    "Customer 1": "KMS"
+                }
+            }
+        },
+        "Add tags": {
+            "Tag Key": {
+                "type": "Textbox",
+                "id": "text-input-tagKey",
+                "value": {
+                    "QA 1": "tagkmskey",
+                    "QA 2": "tagkmskey",
+                    "QA 4": "tagkmskey",
+                    "Customer 1": "tagkmskey"
+                }
+            },
+            "Tag Value": {
+                "type": "Textbox",
+                "id": "text-input-tagValue",
+                "value": {
+                    "QA 1": "tagkmsvalue",
+                    "QA 2": "tagkmsvalue",
+                    "QA 4": "tagkmsvalue",
+                    "Customer 1": "tagkmsvalue"
+                }
+            }
+        }
+    }
+}

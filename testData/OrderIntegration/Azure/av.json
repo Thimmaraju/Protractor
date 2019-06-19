@@ -1,0 +1,147 @@
+{
+    "bluePrintName": "Availability Set",
+    "descriptiveText": "Availability Set",
+    "provider": "Azure",
+    "Category": "Compute",
+    "BasePrice": "USD 0.00/ HOUR + USD 0.00",
+    "EstimatedCost": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+    "TotalCost": "USD 0.00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation",
+                    "QA 2": "TestAutomation",
+                    "QA 3": "TestAutomation",
+                    "QA 4": "TestAutomation",
+                    "Customer 1": "TestAutomation"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 3": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "azure-TEAM1 / azure-TEAM1",
+                    "QA 2": "azure-TEAM1 / azure-TEAM1",
+                    "QA 3": "azure-qa / azure-qa",
+                    "QA 4": "azure-qa / azure-qa",
+                    "Customer 1": "azure-qa / azure-qa"
+                }
+            }
+        },
+        "Resource Group Parameters": {
+            "New Resource Group Required": {
+                "type": "RadioButton",
+                "id": "radio-button-newResourceGroupRequired_Yes",
+                "value": {
+                    "QA 1": "Yes",
+                    "QA 2": "Yes",
+                    "QA 3": "Yes",
+                    "QA 4": "Yes",
+                    "Customer 1": "Yes"
+                }
+            },
+            "New Resource Group": {
+                "type": "Textbox",
+                "id": "text-input-newResourceGroup",
+                "value": {
+                    "QA 1": "AutoAV-RG101",
+                    "QA 2": "AutoAV-RG101",
+                    "QA 3": "AutoAV-RG101",
+                    "QA 4": "AutoAV-RG101",
+                    "Customer 1": "AutoAV-RG101"
+                }
+            },
+            "Location": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_location",
+                "value": {
+                    "QA 1": "Australia East",
+                    "QA 2": "Australia East",
+                    "QA 3": "Australia East",
+                    "QA 4": "Australia East",
+                    "Customer 1": "Australia East"
+                }
+            }
+        },
+        "Availability Set Parameters": {
+            "Availability Set Name": {
+                "type": "Textbox",
+                "id": "text-input-availabilitySetName",
+                "value": {
+                    "QA 1": "AutoAV-Name",
+                    "QA 2": "AutoAV-Name",
+                    "QA 3": "AutoAV-Name",
+                    "QA 4": "AutoAV-Name",
+                    "Customer 1": "AutoAV-Name"
+                }
+            },
+            "Availability Set Location": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_availabilitySetLocation",
+                "value": {
+                    "QA 1": "Australia East",
+                    "QA 2": "Australia East",
+                    "QA 3": "Australia East",
+                    "QA 4": "Australia East",
+                    "Customer 1": "Australia East"
+                }
+            },
+            "Fault Domains": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_faultDomains",
+                "value": {
+                    "QA 1": "2",
+                    "QA 2": "2",
+                    "QA 3": "2",
+                    "QA 4": "2",
+                    "Customer 1": "2"
+                }
+            },
+            "Update Domains": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_updateDomains",
+                "value": {
+                    "QA 1": "5",
+                    "QA 2": "5",
+                    "QA 3": "5",
+                    "QA 4": "5",
+                    "Customer 1": "5"
+                }
+            }
+        }
+    }
+}

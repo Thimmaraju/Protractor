@@ -1,0 +1,143 @@
+{
+	"VPCSingleInstanceForEC2": {
+		"bluePrintName": "VPC Single Instance For EC2",
+		"descriptiveText": "Example VPC that has two public subnets and two private subnets in different AZs NATs to enable instances in private subnets to access the internet and bastion hosts to moderate SSH access",
+		"provider": "Amazon",
+		"serviceName": "testVPCSingleInstanceForEC2",
+		"Category": "Compute",
+		"EstimatedPrice": "N/A + N/A",
+		"textinputdetails": [{
+			"textinputDetailsId": "text-input-VpcName",
+			"label": "Vpc Name",
+			"value": "NewVPC"
+			},
+			{
+				"textinputDetailsId": "text-input-VpcCIDR",
+				"label": "Vpc CIDR",
+				"value": "10.0.0.0/16"
+			},
+			{
+				"textinputDetailsId": "text-input-PublicSubnetCIDR",
+				"label": "Public Subnet CIDR",
+				"value": "10.0.0.0/28"
+			},
+			{
+				"textinputDetailsId": "text-input-PrivateSubnetCIDR",
+				"label": "Private Subnet CIDR",
+				"value": "10.0.0.0/28"
+			}
+		],
+		"dropdownLabels": [{
+				"dropdownLabelId": "bx--dropdown-single-parent_aws-region",
+				"label": "AWS Region",
+				"value": "us-east-1"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_availability-zone",
+				"label": "Availability Zone:",
+				"value": "us-east-1a"
+			}
+		]
+	},
+	"AWSEC2Instance": {
+		"bluePrintName": "AWS EC2 Instance",
+		"descriptiveText": "AWS CloudFormation Template : Create an Amazon EC2 instance based upon the condition choosen from user. It will create instance with new/existing/default vpc and securityGroups.. This example creates an EC2 security group for the instance to give you SSH access. **WARNING** This template creates an Amazon EC2 instance. You will be billed for the AWS resources used if you create a stack from this template.",
+		"provider": "Amazon",
+		"serviceName": "testAWSEC2Instance",
+		"Category": "Compute",
+		"EstimatedPrice": "N/A + N/A",
+		"textinputdetails": [
+			{
+				"textinputDetailsId": "text-input-resourceName",
+				"label": "Resource Name:",
+				"value": "EC2Instance"
+			},
+			{
+				"textinputDetailsId": "text-input-publicImageId",
+				"label": "Public Image Id:",
+				"value": "default"
+			},
+			{
+				"textinputDetailsId": "text-input-VpcName",
+				"label": "Vpc Name:",
+				"value": "NewVPC"
+			},
+			{
+				"textinputDetailsId": "text-input-VPCCIDR",
+				"label": "VPCCIDR:",
+				"value": "10.0.0.0/16"
+			},
+			{
+				"textinputDetailsId": "text-input-SubnetName",
+				"label": "Subnet Name:",
+				"value": "NewSubnet"
+			},
+			{
+				"textinputDetailsId": "text-input-PublicSubnetCIDR",
+				"label": "Vpc CIDR:",
+				"value": "10.10.10.0/24"
+			},
+			{
+				"textinputDetailsId": "text-input-deviceName",
+				"label": "Device Name:",
+				"value": "/dev/sdm"
+			},
+			{
+				"textinputDetailsId": "text-input-ebsVolume",
+				"label": "Ebs Volume:",
+				"value": "20"
+			},
+			{
+				"textinputDetailsId": "text-input-SSHLocation",
+				"label": "SSHLocation:",
+				"value": "0.0.0.0/0"
+			}
+		],
+		"dropdownLabels": [{
+				"dropdownLabelId": "bx--dropdown-single-parent_aws-region",
+				"label": "AWS Region:",
+				"value": "us-east-1"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_private-image-id",
+				"label": "Private Image Id:",
+				"value": "ami-0c287376"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_instance-type",
+				"label": "Instance Type:",
+				"value": "t2.small"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_availability-zone",
+				"label": "Availability Zone:",	
+				"value": "us-east-1a"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_vpc-creation-mode",
+				"label": "VPCCreation Mode:",
+				"value": "Create with Default VPC and Subnet"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_my-subnet-ids",
+				"label": "My Subnet IDs:",
+				"value": "subnet-56a53979"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_volume-type",
+				"label": "Volume Type:",
+				"value": "standard"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_ssh-key-name",
+				"label": "Ssh Key Name:",
+				"value": "aksh"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_security-group-ids",
+				"label": "Security Group Ids:",
+				"value": "sg-15c55661"
+			}
+		]
+	}
+}

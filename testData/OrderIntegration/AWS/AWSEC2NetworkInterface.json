@@ -1,0 +1,201 @@
+{
+  "bluePrintName": "EC2 Network Interface",
+  "descriptiveText": "An elastic network interface (referred to as a network interface in this documentation) is a virtual network interface.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testNetworkInterface",
+  "Category": "Network",
+  "BasePrice": "USD 0.00/ Size / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_EC2_NETWORK_INTERFACE_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomationNet",
+          "QA 2": "TestAutomationNet",
+          "QA 4": "TestAutomationNet",
+          "Customer 1": "TestAutomationNet"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Create Network Interface": {
+      "Description": {
+        "type": "Textbox",
+        "id": "text-input-description",
+        "value": {
+          "QA 1": "description",
+          "QA 2": "description",
+          "QA 4": "description",
+          "Customer 1": "description"
+        }
+      },
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      },
+      "Availability Zone": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_availabilityZone",
+        "value": {
+          "QA 1": "us-east-1a",
+          "QA 2": "us-east-1a",
+          "QA 4": "us-east-1a",
+          "Customer 1": "us-east-1a"
+        }
+      },
+      "Subnet": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_subnet",
+        "value": {
+          "QA 1": "subnet-a68b538d (us-east-1a)",
+          "QA 2": "subnet-a68b538d (us-east-1a)",
+          "QA 4": "subnet-a68b538d (us-east-1a)",
+          "Customer 1": "subnet-a68b538d (us-east-1a)"
+        }
+      },
+      "Auto Assign": {
+        "type": "RadioButton",
+        "id": "radio-button-autoAssign_Yes",
+        "value": {
+          "QA 1": "Yes",
+          "QA 2": "Yes",
+          "QA 4": "Yes",
+          "Customer 1": "Yes"
+        }
+      },
+      "Security Groups": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-securityGroups",
+        "value": {
+          "QA 1": [
+            "sg-45f4510c"
+          ],
+          "QA 2": [
+            "sg-45f4510c"
+          ],
+          "QA 4": [
+            "sg-45f4510c"
+          ],
+          "Customer 1": [
+            "sg-45f4510c"
+          ]
+        }
+      },
+      "Source Dest Check": {
+        "type": "RadioButton",
+        "id": "radio-button-sourceDestCheck_true",
+        "value": {
+          "QA 1": "true",
+          "QA 2": "true",
+          "QA 4": "true",
+          "Customer 1": "true"
+        }
+      }
+    },
+    "Add Tag": {
+      "Tag Key": {
+        "type": "Textbox",
+        "id": "text-input-tagKey",
+        "value": {
+          "QA 1": "tagkey",
+          "QA 2": "tagkey",
+          "QA 4": "tagkey",
+          "Customer 1": "tagkey"
+        }
+      },
+      "Tag Value": {
+        "type": "Textbox",
+        "id": "text-input-tagValue",
+        "value": {
+          "QA 1": "tagvalue",
+          "QA 2": "tagvalue",
+          "QA 4": "tagvalue",
+          "Customer 1": "tagvalue"
+        }
+      }
+    },
+    "Attach Network Interface": {
+      "Instance Id": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_instanceId",
+        "value": {
+          "QA 1": "i-02cbfa9a83b5b1ec4",
+          "QA 2": "i-02cbfa9a83b5b1ec4",
+          "QA 4": "i-02cbfa9a83b5b1ec4",
+          "Customer 1": "i-02cbfa9a83b5b1ec4"
+        }
+      },
+      "Device Index": {
+        "type": "Textbox",
+        "id": "slider-input-box-deviceIndex",
+        "value": {
+          "QA 1": "1",
+          "QA 2": "1",
+          "QA 4": "1",
+          "Customer 1": "1"
+        }
+      }
+    }
+  }
+}

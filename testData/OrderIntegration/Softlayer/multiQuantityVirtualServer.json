@@ -1,0 +1,398 @@
+{
+	"bluePrintName": "Virtual Server",
+	"descriptiveText": "Multi-tenant virtual server deployments give you rapid scalability and higher cost effectiveness with pre-defined sizes.",
+	"provider": "IBM Cloud",
+	"Category": "Compute",
+    "EstimatedPrice": "USD 0.042/ HR + USD 0.00",
+	"TotalEstimatedCost_Cart_Multi_quantity":"USD 150.8832 /Month + USD 0.00 one time charges apply",
+	"TotalEstimatedCost_increasedByOne":"USD 201.1776 /Month + USD 0.00 one time charges apply",	
+	"Order Parameters": {
+		"Main Parameters": {
+            "Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+            },
+            "Quantity":{
+				"type": "Textbox",
+				"id": "slider-input-box-main-params_multi-quantity",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 3": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+
+			},
+            "Cart Service": {
+                "type": "RadioButton",
+                "id": "radio-button-shoppingOptions_main_params-addToNewCart",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Cart Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-cartName",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Instance Specifications": {
+			"Hostname": {
+				"type": "Textbox",
+				"id": "text-input-hostname",
+				"value": {
+					"QA 1": "gslslTestAutomation",
+					"QA 2": "gslslTestAutomation",
+					"QA 4": "gslslTestAutomation",
+					"Customer 1": "gslslTestAutomation"
+				}
+			},
+			"Domain": {
+				"type": "Textbox",
+				"id": "text-input-domain",
+				"value": {
+					"QA 1": "bfastqa.com",
+					"QA 2": "bfastqa.com",
+					"QA 4": "bfastqa.com",
+					"Customer 1": "bfastqa.com"
+				}
+			},
+			"Dedicated Account Flag": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_dedicated_acct_host_only",
+				"value": {
+					"QA 1": "Public VM",
+					"QA 2": "Public VM",
+					"QA 4": "Public VM",
+					"Customer 1": "Public VM"
+				}
+			},
+			"Billing Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_hourly_billing",
+				"value": {
+					"QA 1": "Hourly Billing",
+					"QA 2": "Hourly Billing",
+					"QA 4": "Hourly Billing",
+					"Customer 1": "Hourly Billing"
+				}
+			},
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Amsterdam 1",
+					"QA 2": "Amsterdam 1",
+					"QA 4": "Amsterdam 1",
+					"Customer 1": "Amsterdam 1"
+				}
+			}
+		},
+		"System Specification": {
+			"Operating System": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_os_reference_code",
+				"value": {
+					"QA 1": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)",
+					"QA 2": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)",
+					"QA 4": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)",
+					"Customer 1": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)"
+				}
+			},
+			"Memory": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_memory",
+				"value": {
+					"QA 1": "2 GB",
+					"QA 2": "2 GB",
+					"QA 4": "2 GB",
+					"Customer 1": "2 GB"
+				}
+			},
+			"Cores": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_cores",
+				"value": {
+					"QA 1": "4 x 2.0 GHz Cores",
+					"QA 2": "4 x 2.0 GHz Cores",
+					"QA 4": "4 x 2.0 GHz Cores",
+					"Customer 1": "4 x 2.0 GHz Cores"
+				}
+			}
+		},
+		"Disk Details": {
+			"Disk Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_local_disk",
+				"value": {
+					"QA 1": "San Disk",
+					"QA 2": "San Disk",
+					"QA 4": "San Disk",
+					"Customer 1": "San Disk"
+				}
+			},
+			"First Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disks~0",
+				"value": {
+					"QA 1": "100 GB (SAN)",
+					"QA 2": "100 GB (SAN)",
+					"QA 4": "100 GB (SAN)",
+					"Customer 1": "100 GB (SAN)"
+				}
+			},
+			"Second Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disks~2",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Third Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disks~3",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Fourth Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disks~4",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Fifth Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disks~5",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Network Details": {
+			"Private Vlan Id": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private_vlan_id",
+				"value": {
+					"QA 1": "bcr01a.ams01 - 900",
+					"QA 2": "2232875",
+					"QA 4": "bcr01a.ams01 - 900",
+					"Customer 1": "bcr01a.ams01 - 900"
+				}
+			},
+			"Private Subnet": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private_subnet",
+				"value": {
+					"QA 1": "10.68.8.64/26",
+					"QA 2": "10.16.85.128/26",
+					"QA 4": "10.68.8.64/26",
+					"Customer 1": "10.68.8.64/26"
+				}
+			},
+			"Network Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private_network_only",
+				"value": {
+					"QA 1": "Private Network Only",
+					"QA 2": "Private Network Only",
+					"QA 4": "Private Network Only",
+					"Customer 1": "Private Network Only"
+				}
+			},
+			"Network Speed": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_network_speed",
+				"value": {
+					"QA 1": "100 Mbps Private Network Uplink",
+					"QA 2": "100 Mbps Private Network Uplink",
+					"QA 4": "100 Mbps Private Network Uplink",
+					"Customer 1": "100 Mbps Private Network Uplink"
+				}
+			},
+			"Bandwidth Unlimited": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bandwidth-unlimited",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Bandwidth Limited": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bandwidth-limited",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Public Vlan Id": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public-vlan-id",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Public Subnet": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public-subnet",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Add-ons": {
+			"Ssh Key Ids": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ssh_key_ids",
+				"value": {
+					"QA 1":"",
+					"QA 2": "655533",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Public Secondary IP Addresses": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public-secondary-ip-addresses",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Primary IPv6 Addresses": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_primary-ipv6-addresses",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Public Static IPv6 Addresses": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public-static-ipv6-addresses",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}	
+		},
+		"Other Details": {
+			"Metadata": {
+				"type": "Textbox",
+				"id": "text-input-user_metadata",
+				"value": {
+					"QA 1": "Order Through Automation",
+					"QA 2": "Order Through Automation",
+					"QA 4": "Order Through Automation",
+					"Customer 1": "Order Through Automation"
+				}
+			},
+			"Post Install Script": {
+				"type": "Textbox",
+				"id": "text-input-post_install_script_uri",
+				"value": {
+					"QA 1": "http://www.ibm.com/",
+					"QA 2": "http://www.ibm.com/",
+					"QA 4": "http://www.ibm.com/",
+					"Customer 1": "http://www.ibm.com/"
+				}
+			},
+			"Tags": {
+				"type": "Textbox",
+				"id": "text-input-tags",
+				"value": {
+					"QA 1": "Automation Order Tag",
+					"QA 2": "Automation Order Tag",
+					"QA 4": "Automation Order Tag",
+					"Customer 1": "Automation Order Tag"
+				}
+			}
+		}
+	}
+}

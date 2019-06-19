@@ -1,0 +1,17 @@
+sudo: required
+dist: trusty
+
+env:
+  - DOCKER_IMAGE_NAME=cb-consume-ui-automation DOCKER_REGISTRY=devops-docker.mygravitant.com BUILD_ARGS="--build-arg NPM_TOKEN=${NPM_TOKEN}"
+
+before_script:
+  - git clone --depth=50 git@github.ibm.com:CloudBroker/travis-scripts.git
+
+script:
+  - $TRAVIS_BUILD_DIR/travis-scripts/docker-build/build.sh
+
+after_success:
+  - $TRAVIS_BUILD_DIR/travis-scripts/devopsinsights_publishbuildrecord.sh pass
+
+after_failure:
+  - $TRAVIS_BUILD_DIR/travis-scripts/devopsinsights_publishbuildrecord.sh fail

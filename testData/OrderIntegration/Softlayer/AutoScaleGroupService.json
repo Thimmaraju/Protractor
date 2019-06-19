@@ -1,0 +1,460 @@
+{
+  "bluePrintName": "Auto Scale Group",
+  "descriptiveText": "Auto Scale Group",
+  "providerName": "IBM Cloud",
+  "serviceName": "AUTO_SCALE_GROUP",
+  "Category": "Compute",
+  "EstimatedPrice": "USD 0.00/ HR + USD 0.00",
+  "totalCost": "USD 0.00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation",
+          "QA 2": "TestAutomation",
+          "QA 4": "TestAutomation",
+          "Customer 1": "TestAutomation"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 4": "NONE",
+          "Customer 1": ""
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 4": "NONE",
+          "Customer 1": ""
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+          "QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+          "QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+          "Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+        }
+      }
+    },
+    "AutoScale Group Specifications": {
+      "Group Name": {
+        "type": "Textbox",
+        "id": "text-input-name",
+        "value": {
+          "QA 1": "Testgrp",
+          "QA 2": "Testgrp",
+          "QA 4": "Testgrp",
+          "Customer 1": "Testgrp"
+        }
+      },
+      "Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_regional_group",
+        "value": {
+          "QA 1": "as-hkg-central-1",
+          "QA 2": "as-hkg-central-1",
+          "QA 4": "as-hkg-central-1",
+          "Customer 1": "as-hkg-central-1"
+        }
+      },
+      "Datacenter": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_datacenter",
+        "value": {
+          "QA 1": "Hong Kong 2",
+          "QA 2": "Hong Kong 2",
+          "QA 4": "Hong Kong 2",
+          "Customer 1": "Hong Kong 2"
+        }
+      },
+      "Termination Policy": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_termination_policy",
+        "value": {
+          "QA 1": "CLOSEST TO NEXT CHARGE",
+          "QA 2": "CLOSEST TO NEXT CHARGE",
+          "QA 4": "CLOSEST TO NEXT CHARGE",
+          "Customer 1": "CLOSEST TO NEXT CHARGE"
+        }
+      }
+    },
+    "Group Settings Specifications": {
+      "Minimum Member Count": {
+        "type": "Textbox",
+        "id": "text-input-minimum_member_count",
+        "value": {
+          "QA 1": "1",
+          "QA 2": "1",
+          "QA 4": "1",
+          "Customer 1": "1"
+        }
+      },
+      "Cooldown Period": {
+        "type": "Textbox",
+        "id": "slider-input-box-cooldown",
+        "value": {
+          "QA 1": "100000",
+          "QA 2": "100000",
+          "QA 4": "100000",
+          "Customer 1": "100000"
+        }
+      },
+      "Maximum Member Count": {
+        "type": "Textbox",
+        "id": "text-input-maximum_member_count",
+        "value": {
+          "QA 1": "2",
+          "QA 2": "2",
+          "QA 4": "2",
+          "Customer 1": "2"
+        }
+      },
+      "Dedicated Account Flag": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_dedicated_acct_host_only",
+        "value": {
+          "QA 1": "Dedicated VM (Auto Assign)",
+          "QA 2": "Dedicated VM (Auto Assign)",
+          "QA 4": "Dedicated VM (Auto Assign)",
+          "Customer 1": "Dedicated VM (Auto Assign)"
+        }
+      }
+    },
+    "Member Specifications": {
+      "Hostname": {
+        "type": "Textbox",
+        "id": "text-input-hostname",
+        "value": {
+          "QA 1": "root",
+          "QA 2": "root",
+          "QA 4": "root",
+          "Customer 1": "root"
+        }
+      },
+      "Domain": {
+        "type": "Textbox",
+        "id": "text-input-domain",
+        "value": {
+          "QA 1": "automation.com",
+          "QA 2": "automation.com",
+          "QA 4": "automation.com",
+          "Customer 1": "automation.com"
+        }
+      }
+    },
+    "Instance Specifications": {
+      "Cores": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_cores",
+        "value": {
+          "QA 1": "8 x 2.0 GHz or higher Cores (Dedicated Host)",
+          "QA 2": "8 x 2.0 GHz or higher Cores (Dedicated Host)",
+          "QA 4": "8 x 2.0 GHz or higher Cores (Dedicated Host)",
+          "Customer 1": "8 x 2.0 GHz or higher Cores (Dedicated Host)"
+        }
+      },
+      "Operating System": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_os_reference_code",
+        "value": {
+          "QA 1": "CentOS - Latest",
+          "QA 2": "CentOS - Latest",
+          "QA 4": "CentOS - Latest",
+          "Customer 1": "CentOS - Latest"
+        }
+      },
+      "RAM": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_memory",
+        "value": {
+          "QA 1": "8 GB (Dedicated Host)",
+          "QA 2": "8 GB (Dedicated Host)",
+          "QA 4": "8 GB (Dedicated Host)",
+          "Customer 1": "8 GB (Dedicated Host)"
+        }
+      },
+      "Speed Type (Dedicated or Non Dedicated)": {
+        "type": "RadioButton",
+        "id": "radio-button-dedicatedspeed_false",
+        "value": {
+          "QA 1": "Non Dedicated",
+          "QA 2": "Non Dedicated",
+          "QA 4": "Non Dedicated",
+          "Customer 1": "Non Dedicated"
+        }
+      },
+      "Speed Type (Public or Private)": {
+        "type": "RadioButton",
+        "id": "radio-button-tpyespeed_true",
+        "value": {
+          "QA 1": "Private",
+          "QA 2": "Private",
+          "QA 4": "Private",
+          "Customer 1": "Private"
+        }
+      },
+      "Speed": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_network_speed",
+        "value": {
+          "QA 1": "10 Mbps Private Network Uplink",
+          "QA 2": "10 Mbps Private Network Uplink",
+          "QA 4": "10 Mbps Private Network Uplink",
+          "Customer 1": "10 Mbps Private Network Uplink"
+        }
+      }
+    },
+    "Storage Specifications": {
+      "Disk Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_local_disk",
+        "value": {
+          "QA 1": "Local Disk",
+          "QA 2": "Local Disk",
+          "QA 4": "Local Disk",
+          "Customer 1": "Local Disk"
+        }
+      },
+      "Disk Type (Dedicated or Non Dedicated)": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_dedicateddisk",
+        "value": {
+          "QA 1": "Dedicated",
+          "QA 2": "Dedicated",
+          "QA 4": "Dedicated",
+          "Customer 1": "Dedicated"
+        }
+      },
+      "First Disk": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_disks~0",
+        "value": {
+          "QA 1": "25 GB (Local - Dedicated Host)",
+          "QA 2": "25 GB (Local - Dedicated Host)",
+          "QA 4": "25 GB (Local - Dedicated Host)",
+          "Customer 1": "25 GB (Local - Dedicated Host)"
+        }
+      }
+    },
+    "Network Specifications": {
+      "Private VLAN": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_network_vlan_ids",
+        "value": {
+          "QA 1": "bcr01a.hkg02.763(SAN/LOCAL)",
+          "QA 2": "bcr01a.hkg02.763(SAN/LOCAL)",
+          "QA 4": "bcr01a.hkg02.763(SAN/LOCAL)",
+          "Customer 1": "bcr01a.hkg02.763(SAN/LOCAL)"
+        }
+      }
+    }
+  },
+  "Edit Parameters": {
+		"Main Parameters": {},
+		"AutoScale Group Specifications": {
+      "Group Name": {
+        "type": "Textbox",
+        "id": "text-input-name",
+        "value": {
+          "QA 1": "Testgrp",
+          "QA 2": "Testgrp",
+          "QA 4": "Testgrp",
+          "Customer 1": "Testgrp"
+        }
+      },
+      "Datacenter": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_datacenter",
+        "value": {
+          "QA 1": "Hong Kong 2",
+          "QA 2": "Hong Kong 2",
+          "QA 4": "Hong Kong 2",
+          "Customer 1": "Hong Kong 2"
+        }
+      },
+      "Termination Policy": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_termination_policy",
+        "value": {
+          "QA 1": "NEWEST",
+          "QA 2": "NEWEST",
+          "QA 4": "NEWEST",
+          "Customer 1": "NEWEST"
+        }
+      }
+    },
+    "Group Settings Specifications": {
+      "Minimum Member Count": {
+        "type": "Textbox",
+        "id": "text-input-minimum_member_count",
+        "value": {
+          "QA 1": "2",
+          "QA 2": "2",
+          "QA 4": "2",
+          "Customer 1": "2"
+        }
+      },
+      "Cooldown Period": {
+        "type": "Textbox",
+        "id": "slider-input-box-cooldown",
+        "value": {
+          "QA 1": "1000",
+          "QA 2": "1000",
+          "QA 4": "1000",
+          "Customer 1": "1000"
+        }
+      },
+      "Maximum Member Count": {
+        "type": "Textbox",
+        "id": "text-input-maximum_member_count",
+        "value": {
+          "QA 1": "3",
+          "QA 2": "3",
+          "QA 4": "3",
+          "Customer 1": "3"
+        }
+      }
+    },
+    "Member Specifications": {
+      "Hostname": {
+        "type": "Textbox",
+        "id": "text-input-hostname",
+        "value": {
+          "QA 1": "gslslhostautomation",
+          "QA 2": "gslslhostautomation",
+          "QA 4": "gslslhostautomation",
+          "Customer 1": "gslslhostautomation"
+        }
+      },
+      "Domain": {
+        "type": "Textbox",
+        "id": "text-input-domain",
+        "value": {
+          "QA 1": "automation.com",
+          "QA 2": "automation.com",
+          "QA 4": "automation.com",
+          "Customer 1": "automation.com"
+        }
+      }
+    },
+    "Instance Specifications": {
+      "Cores": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_cores",
+        "value": {
+          "QA 1": "2 x 2.0 GHz or higher Cores (Dedicated Host)",
+          "QA 2": "2 x 2.0 GHz or higher Cores (Dedicated Host)",
+          "QA 4": "2 x 2.0 GHz or higher Cores (Dedicated Host)",
+          "Customer 1": "2 x 2.0 GHz or higher Cores (Dedicated Host)"
+        }
+      },
+      "Operating System": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_os_reference_code",
+        "value": {
+          "QA 1": "CentOS - Latest (64 bit)",
+          "QA 2": "CentOS - Latest (64 bit)",
+          "QA 4": "CentOS - Latest (64 bit)",
+          "Customer 1": "CentOS - Latest (64 bit)"
+        }
+      },
+      "RAM": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_memory",
+        "value": {
+          "QA 1": "4 GB (Dedicated Host)",
+          "QA 2": "4 GB (Dedicated Host)",
+          "QA 4": "4 GB (Dedicated Host)",
+          "Customer 1": "4 GB (Dedicated Host)"
+        }
+      },
+      "Speed Type (Dedicated or Non Dedicated)": {
+        "type": "RadioButton",
+        "id": "radio-button-dedicatedspeed_false",
+        "value": {
+          "QA 1": "Dedicated",
+          "QA 2": "Dedicated",
+          "QA 4": "Dedicated",
+          "Customer 1": "Dedicated"
+        }
+      },
+      "Speed Type (Public or Private)": {
+        "type": "RadioButton",
+        "id": "radio-button-tpyespeed_true",
+        "value": {
+          "QA 1": "Public and Private",
+          "QA 2": "Public and Private",
+          "QA 4": "Public and Private",
+          "Customer 1": "Public and Private"
+        }
+      },
+      "Speed": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_network_speed",
+        "value": {
+          "QA 1": "100 Mbps Public & Private Network Uplinks (Dedicated Host)",
+          "QA 2": "100 Mbps Public & Private Network Uplinks (Dedicated Host)",
+          "QA 4": "100 Mbps Public & Private Network Uplinks (Dedicated Host)",
+          "Customer 1": "100 Mbps Public & Private Network Uplinks (Dedicated Host)"
+        }
+      }
+    },
+    "Storage Specifications": {
+      "Disk Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_local_disk",
+        "value": {
+          "QA 1": "San Disk",
+          "QA 2": "San Disk",
+          "QA 4": "San Disk",
+          "Customer 1": "San Disk"
+        }
+      },
+      "First Disk": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_disks~0",
+        "value": {
+          "QA 1": "25 GB (SAN)",
+          "QA 2": "25 GB (SAN)",
+          "QA 4": "25 GB (SAN)",
+          "Customer 1": "25 GB (SAN)"
+        }
+      }
+    },
+    "Network Specifications": {
+      "Private VLAN": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_network_vlan_ids",
+        "value": {
+          "QA 1": "bcr01a.hkg02.763(SAN/LOCAL)",
+          "QA 2": "bcr01a.hkg02.763(SAN/LOCAL)",
+          "QA 4": "bcr01a.hkg02.763(SAN/LOCAL)",
+          "Customer 1": "bcr01a.hkg02.763(SAN/LOCAL)"
+        }
+      }
+    }
+	}
+}

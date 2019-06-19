@@ -1,0 +1,142 @@
+{
+	"bluePrintName": "Lambda Layer Version",
+	"descriptiveText": "Creates an AWS Lambda Layer Version to associate with Lambda function.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"serviceName": "testForlambdaLayerVersion",
+	"Category": "Compute",
+	"BasePrice": "USD 0.00/ Size / MONTH + USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+	"TotalCost": "USD 0.00",
+	"serviceId": "CB_AWS_CF_LAMBDA_LAYER_VERSION_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "testlambdalayerver",
+					"QA 2": "testlambdalayerver",
+					"QA 4": "testlambdalayerver",
+					"Customer 1": "testlambdalayerver"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			}
+		},
+		"Layer configuration": {
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-name",
+				"value": {
+					"QA 1": "lambdafunctionname",
+					"QA 2": "lambdafunctionname",
+					"QA 4": "lambdafunctionname",
+					"Customer 1": "lambdafunctionname"
+				}
+			},
+			"Description": {
+				"type": "Textbox",
+				"id": "text-input-description",
+				"value": {
+					"QA 1": "test description",
+					"QA 2": "test description",
+					"QA 4": "test description",
+					"Customer 1": "test description"
+				}
+			},
+			"S3 Bucket": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_s3Bucket",
+				"value": {
+					"QA 1": "testbucketlambdaonaws",
+					"QA 2": "testbucketlambdaonaws",
+					"QA 4": "testbucketlambdaonaws",
+					"Customer 1": "testbucketlambdaonaws"
+				}
+			},
+			"S3 Key": {
+				"type": "Textbox",
+				"id": "text-input-s3Key",
+				"value": {
+					"QA 1": "test_lambda_python.py.zip",
+					"QA 2": "test_lambda_python.py.zip",
+					"QA 4": "test_lambda_python.py.zip",
+					"Customer 1": "test_lambda_python.py.zip"
+				}
+			},
+			"Compatible runtimes": {
+				"type": "MultiselectDropdown",
+				"id": "text-input-runTime",
+				"value": {
+					"QA 1": [
+						"Python-3.7",
+						"Ruby-2.5"
+					],
+					"QA 2": [
+						"Python-3.7",
+						"Ruby-2.5"
+					],
+					"QA 4": [
+						"Python-3.7",
+						"Ruby-2.5"
+					],
+					"Customer 1": [
+						"Python-3.7",
+						"Ruby-2.5"
+					]
+				}
+			}
+		}
+	}
+}

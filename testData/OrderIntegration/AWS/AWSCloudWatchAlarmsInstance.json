@@ -1,0 +1,461 @@
+{
+    "bluePrintName": "CloudWatch Alarm",
+    "descriptiveText": "The Amazon CloudWatch Alarm performs one or more actions based on the value of the metric relative to a threshold over a number of time periods.",
+    "provider": "Amazon",
+    "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+    "serviceInstanceName": "testCloudWatchAlarms",
+    "Category": "Other Services",
+    "BasePrice": "USD 0.10/ Alarms / MONTH + USD 0.00",
+    "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.10 / MONTH",
+    "TotalCost": "USD 0.10",
+    "serviceId": "CB_AWS_CF_CLOUDWATCHALARM_S00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation61234",
+                    "QA 2": "TestAutomation61234",
+                    "QA 4": "TestAutomation61234",
+                    "Customer 1": "TestAutomation61234"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-east-1",
+                    "QA 2": "us-east-1",
+                    "QA 4": "us-east-1",
+                    "Customer 1": "us-east-1"
+                }
+            }
+        },
+        "Define Alarm": {
+            "Name": {
+                "type": "Textbox",
+                "id": "text-input-name",
+                "value": {
+                    "QA 1": "tname",
+                    "QA 2": "tname",
+                    "QA 4": "tname",
+                    "Customer 1": "tname"
+                }
+            },
+            "Evaluation Periods": {
+                "type": "Textbox",
+                "id": "slider-input-box-evaluationPeriods",
+                "value": {
+                    "QA 1": "2",
+                    "QA 2": "2",
+                    "QA 4": "2",
+                    "Customer 1": "2"
+                }
+            },
+            "Operator": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_operator",
+                "value": {
+                    "QA 1": "GreaterThanOrEqualToThreshold",
+                    "QA 2": "GreaterThanOrEqualToThreshold",
+                    "QA 4": "GreaterThanOrEqualToThreshold",
+                    "Customer 1": "GreaterThanOrEqualToThreshold"
+                }
+            },
+            "Threshold": {
+                "type": "Textbox",
+                "id": "text-input-threshold",
+                "value": {
+                    "QA 1": "5",
+                    "QA 2": "5",
+                    "QA 4": "5",
+                    "Customer 1": "5"
+                }
+            }
+        },
+        "Alarm Statistic": {
+            "Namespace": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_namespace",
+                "value": {
+                    "QA 1": "Simple Storage Service (S3)",
+                    "QA 2": "Simple Storage Service (S3)",
+                    "QA 4": "Simple Storage Service (S3)",
+                    "Customer 1": "Simple Storage Service (S3)"
+                }
+            },
+            "Dimension Name": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_dimensionName",
+                "value": {
+                    "QA 1": "By Storage Type",
+                    "QA 2": "By Storage Type",
+                    "QA 4": "By Storage Type",
+                    "Customer 1": "By Storage Type"
+                }
+            },
+            "Metric Name": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_metricName",
+                "value": {
+                    "QA 1": "NumberOfObjects",
+                    "QA 2": "NumberOfObjects",
+                    "QA 4": "NumberOfObjects",
+                    "Customer 1": "NumberOfObjects"
+                }
+            },
+            "Dimension Value": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_dimensionValue",
+                "value": {
+                    "QA 1": "AllStorageTypes",
+                    "QA 2": "AllStorageTypes",
+                    "QA 4": "AllStorageTypes",
+                    "Customer 1": "AllStorageTypes"
+                }
+            },
+            "Period": {
+                "type": "Textbox",
+                "id": "slider-input-box-period",
+                "value": {
+                    "QA 1": "300",
+                    "QA 2": "300",
+                    "QA 4": "300",
+                    "Customer 1": "300"
+                }
+            },
+            "Statistic Type": {
+                "type": "RadioButton",
+                "id": "radio-button-statisticType_Standard",
+                "value": {
+                    "QA 1": "Standard",
+                    "QA 2": "Standard",
+                    "QA 4": "Standard",
+                    "Customer 1": "Standard"
+                }
+            },
+            "Standard Statistic Value": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_standardStatisticValue",
+                "value": {
+                    "QA 1": "Average",
+                    "QA 2": "Average",
+                    "QA 4": "Average",
+                    "Customer 1": "Average"
+                }
+            },
+            "Statistic Unit": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_statisticUnit",
+                "value": {
+                    "QA 1": "Bits/Second",
+                    "QA 2": "Bits/Second",
+                    "QA 4": "Bits/Second",
+                    "Customer 1": "Bits/Second"
+                }
+            }
+        },
+        "Additional Settings": {
+            "Treat Missing Data As": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_treatMissingDataAs",
+                "value": {
+                    "QA 1": "notBreaching",
+                    "QA 2": "notBreaching",
+                    "QA 4": "notBreaching",
+                    "Customer 1": "notBreaching"
+                }
+            }
+        },
+        "OK Actions": {
+            "Ok State Notification": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-multi-parent_ok-state-notification",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Alarm Actions": {
+            "Alarm State Notification": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-multi-parent_alarm-state-notification",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Insufficient Actions": {
+            "Insufficient State Notification": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-multi-parent_insufficient-state-notification",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        }
+    },
+    "Edit Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Define Alarm": {
+            "Name": {
+                "type": "Textbox",
+                "id": "text-input-name",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Evaluation Periods": {
+                "type": "Textbox",
+                "id": "slider-input-box-evaluationPeriods",
+                "value": {
+                    "QA 1": "3",
+                    "QA 2": "3",
+                    "QA 4": "3",
+                    "Customer 1": "3"
+                }
+            },
+            "Operator": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_operator",
+                "value": {
+                    "QA 1": "GreaterThanThreshold",
+                    "QA 2": "GreaterThanThreshold",
+                    "QA 4": "GreaterThanThreshold",
+                    "Customer 1": "GreaterThanThreshold"
+                }
+            },
+            "Threshold": {
+                "type": "Textbox",
+                "id": "text-input-threshold",
+                "value": {
+                    "QA 1": "6",
+                    "QA 2": "6",
+                    "QA 4": "6",
+                    "Customer 1": "6"
+                }
+            }
+        },
+        "Alarm Statistic": {
+            "Namespace": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_namespace",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Dimension Name": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_dimensionName",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Metric Name": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_metricName",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Dimension Value": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_dimensionValue",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Period": {
+                "type": "Textbox",
+                "id": "slider-input-box-period",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            },
+            "Standard Statistic Value": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_standardStatisticValue",
+                "value": {
+                    "QA 1": "Minimum",
+                    "QA 2": "Minimum",
+                    "QA 4": "Minimum",
+                    "Customer 1": "Minimum"
+                }
+            },
+            "Statistic Unit": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_statisticUnit",
+                "value": {
+                    "QA 1": "Bits",
+                    "QA 2": "Bits",
+                    "QA 4": "Bits",
+                    "Customer 1": "Bits"
+                }
+            }
+        },
+        "Additional Settings": {
+            "Treat Missing Data As": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_treatMissingDataAs",
+                "value": {
+                    "QA 1": "ignore",
+                    "QA 2": "ignore",
+                    "QA 4": "ignore",
+                    "Customer 1": "ignore"
+                }
+            }
+        },
+        "OK Actions": {
+            "Ok State Notification": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-multi-parent_ok-state-notification",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Alarm Actions": {
+            "Alarm State Notification": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-multi-parent_alarm-state-notification",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Insufficient Actions": {
+            "Insufficient State Notification": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-multi-parent_insufficient-state-notification",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        }
+    }
+}

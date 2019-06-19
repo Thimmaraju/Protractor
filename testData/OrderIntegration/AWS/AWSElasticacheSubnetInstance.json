@@ -1,0 +1,132 @@
+{
+    "bluePrintName": "ElastiCache SubnetGroup",
+    "descriptiveText": "Creates a cache subnet group",
+    "provider": "Amazon",
+    "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+    "serviceName": "testInstanceForSubnet",
+    "Category": "Databases",
+    "BasePrice": "USD 0.00/ Size / MONTH + USD 0.00",
+    "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+    "TotalCost": "USD 0.00",
+    "serviceId": "CB_AWS_CF_EC_SG_S00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation",
+                    "QA 2": "TestAutomation",
+                    "QA 4": "TestAutomation",
+                    "Customer 1": "TestAutomation"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-east-1",
+                    "QA 2": "us-east-1",
+                    "QA 4": "us-east-1",
+                    "Customer 1": "us-east-1"
+                }
+            }
+        },
+        "Subnet Group settings": {
+            "Name": {
+                "type": "Textbox",
+                "id": "text-input-name",
+                "value": {
+                    "QA 1": "testSubnetName",
+                    "QA 2": "testSubnetName",
+                    "QA 4": "testSubnetName",
+                    "Customer 1": "testTextboxName"
+                }
+            },
+            "Description": {
+                "type": "Textbox",
+                "id": "text-input-description",
+                "value": {
+                    "QA 1": "testSubnetName",
+                    "QA 2": "testSubnetName",
+                    "QA 4": "testSubnetName",
+                    "Customer 1": "testSubnetName"
+                }
+            },
+            "VPC": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_VPC",
+                "value": {
+                    "QA 1": "vpc-8eadd1eb",
+                    "QA 2": "vpc-8eadd1eb",
+                    "QA 4": "vpc-8eadd1eb",
+                    "Customer 1": "vpc-8eadd1eb"
+                }
+            },
+            "Subnet Id": {
+                "type": "MultiselectDropdown",
+                "id": "text-input-subnetID",
+                "value": {
+                    "QA 1": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-db6217be (us-east-1d)"
+                    ],
+                    "QA 2": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-db6217be (us-east-1d)"
+                    ],
+                    "QA 4": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-db6217be (us-east-1d)"
+                    ],
+                    "Customer 1": [
+                        "subnet-f3a23cff (us-east-1f)",
+                        "subnet-db6217be (us-east-1d)"
+                    ]
+                }
+            }
+        }
+    }
+}

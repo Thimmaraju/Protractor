@@ -1,0 +1,364 @@
+{
+  "bluePrintName": "Cloudfront Web Distribution",
+  "descriptiveText": "Amazon CloudFront is the Amazon Web Services (AWS) content delivery network (CDN). The CDN contains a network of geographically dispersed servers. These servers use cached content, which improves consumers ability to quickly access content.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testCloudFrontWebDistribution",
+  "Category": "Network",
+  "BasePrice": "USD 0.085/ GB / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.2500016 / MONTH",
+  "TotalCost": "USD 0.250001",
+  "serviceId": "CB_AWS_CF_WEB_DISTRIBUTION_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Origin Settings": {
+      "Origin Domain Name Type": {
+        "type": "RadioButton",
+        "id": "radio-button-originDomainNameType_Amazon_S3 Bucket",
+        "value": {
+          "QA 1": "Amazon S3 Bucket",
+          "QA 2": "Amazon S3 Bucket",
+          "QA 4": "Amazon S3 Bucket",
+          "Customer 1": "Amazon S3 Bucket"
+        }
+      },
+      "Origin Domain Name For S3": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_originDomainNameForS3",
+        "value": {
+          "QA 1": "donotdeleteuiauto",
+          "QA 2": "donotdeleteuiauto",
+          "QA 4": "donotdeleteuiauto",
+          "Customer 1": "donotdeleteuiauto"
+        }
+      },
+      "Origin Path": {
+        "type": "Textbox",
+        "id": "text-input-originPath",
+        "value": {
+          "QA 1": "/web",
+          "QA 2": "/web",
+          "QA 4": "/web",
+          "Customer 1": "/web"
+        }
+      },
+      "Origin ID": {
+        "type": "Textbox",
+        "id": "text-input-originID",
+        "value": {
+          "QA 1": "identi",
+          "QA 2": "identi",
+          "QA 4": "identi",
+          "Customer 1": "identi"
+        }
+      },
+      "Origin Access Identity": {
+        "type": "RadioButton",
+        "id": "radio-button-originAccessIdentity_Create_a New Identity",
+        "value": {
+          "QA 1": "Create a New Identity",
+          "QA 2": "Create a New Identity",
+          "QA 4": "Create a New Identity",
+          "Customer 1": "Create a New Identity"
+        }
+      },
+      "Comment": {
+        "type": "Textbox",
+        "id": "text-input-Comment",
+        "value": {
+          "QA 1": "access-identity-a",
+          "QA 2": "access-identity-a",
+          "QA 4": "access-identity-a",
+          "Customer 1": "access-identity-a"
+        }
+      },
+      "Origin Custom Headers": {
+        "type": "RadioButton",
+        "id": "radio-button-OriginCustomHeaders_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      }
+    },
+    "Default Cache Behavior Settings": {
+      "Viewer Protocol Policy": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_viewerProtocolPolicy",
+        "value": {
+          "QA 1": "HTTP-and-HTTPS",
+          "QA 2": "HTTP-and-HTTPS",
+          "QA 4": "HTTP-and-HTTPS",
+          "Customer 1": "HTTP-and-HTTPS"
+        }
+      },
+      "Allowed HTTP Methods": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_allowedHttpMethods",
+        "value": {
+          "QA 1": "GET,HEAD,OPTIONS,PUT,POST,PATCH,DELETE",
+          "QA 2": "GET,HEAD,OPTIONS,PUT,POST,PATCH,DELETE",
+          "QA 4": "GET,HEAD,OPTIONS,PUT,POST,PATCH,DELETE",
+          "Customer 1": "GET,HEAD,OPTIONS,PUT,POST,PATCH,DELETE"
+        }
+      },
+      "Cached Http Methods": {
+        "type": "RadioButton",
+        "id": "radio-button-cachedHttpMethods_GET,HEAD,OPTIONS",
+        "value": {
+          "QA 1": "GET,HEAD,OPTIONS",
+          "QA 2": "GET,HEAD,OPTIONS",
+          "QA 4": "GET,HEAD,OPTIONS",
+          "Customer 1": "GET,HEAD,OPTIONS"
+        }
+      },
+      "Cache Based On Selected Request Headers": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_CacheBasedOnSelectedRequestHeaders",
+        "value": {
+          "QA 1": "None (Improves Caching)",
+          "QA 2": "None (Improves Caching)",
+          "QA 4": "None (Improves Caching)",
+          "Customer 1": "None (Improves Caching)"
+        }
+      },
+      "Object Caching": {
+        "type": "RadioButton",
+        "id": "radio-button-ObjectCaching_Use_Origin Cache Headers",
+        "value": {
+          "QA 1": "Use Origin Cache Headers",
+          "QA 2": "Use Origin Cache Headers",
+          "QA 4": "Use Origin Cache Headers",
+          "Customer 1": "Use Origin Cache Headers"
+        }
+      },
+      "Forward Cookies": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_forwardCookies",
+        "value": {
+          "QA 1": "All",
+          "QA 2": "All",
+          "QA 4": "All",
+          "Customer 1": "All"
+        }
+      },
+      "Query String Forwarding And Caching": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_queryStringForwardingAndCaching",
+        "value": {
+          "QA 1": "Forward All, cache based on all",
+          "QA 2": "Forward All, cache based on all",
+          "QA 4": "Forward All, cache based on all",
+          "Customer 1": "Forward All, cache based on all"
+        }
+      },
+      "Query String": {
+        "type": "RadioButton",
+        "id": "radio-button-queryString_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Smooth Streaming": {
+        "type": "RadioButton",
+        "id": "radio-button-smoothStreaming_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Restrict Viewer Access": {
+        "type": "RadioButton",
+        "id": "radio-button-restrictViewerAccess_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Compress Objects Automatically": {
+        "type": "RadioButton",
+        "id": "radio-button-compressObjectsAutomatically_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Lambda Function Associations": {
+        "type": "RadioButton",
+        "id": "radio-button-LambdaFunctionAssociations_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      }
+    },
+    "Distribution Settings": {
+      "Price Class": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_priceClass",
+        "value": {
+          "QA 1": "UseAllEdgeLocationsBestPerformance",
+          "QA 2": "UseAllEdgeLocationsBestPerformance",
+          "QA 4": "UseAllEdgeLocationsBestPerformance",
+          "Customer 1": "UseAllEdgeLocationsBestPerformance"
+        }
+      },
+      "WAF Web ACL": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_WAFWebACL",
+        "value": {
+          "QA 1": "d91b2e62-337c-4e01-aff5-9e7b9fabad43",
+          "QA 2": "d91b2e62-337c-4e01-aff5-9e7b9fabad43",
+          "QA 4": "d91b2e62-337c-4e01-aff5-9e7b9fabad43",
+          "Customer 1": "d91b2e62-337c-4e01-aff5-9e7b9fabad43"
+        }
+      },
+      "Alternate Domain Names": {
+        "type": "Textbox",
+        "id": "text-input-alternateDomainNames",
+        "value": {
+          "QA 1": "alternatedomainname12345.s3.amazonaws.com",
+          "QA 2": "alternatedomainname12345.s3.amazonaws.com",
+          "QA 4": "alternatedomainname12345.s3.amazonaws.com",
+          "Customer 1": "alternatedomainname12345.s3.amazonaws.com"
+        }
+      },
+      "Supported HTTP Versions": {
+        "type": "RadioButton",
+        "id": "radio-button-supportedHTTPVersions_http1.1",
+        "value": {
+          "QA 1": "http1.1",
+          "QA 2": "http1.1",
+          "QA 4": "http1.1",
+          "Customer 1": "http1.1"
+        }
+      },
+      "Default Root Object": {
+        "type": "Textbox",
+        "id": "text-input-defaultRootObject",
+        "value": {
+          "QA 1": "testObj",
+          "QA 2": "testObj",
+          "QA 4": "testObj",
+          "Customer 1": "testObj"
+        }
+      },
+      "Logging": {
+        "type": "RadioButton",
+        "id": "radio-button-logging_Off",
+        "value": {
+          "QA 1": "Off",
+          "QA 2": "Off",
+          "QA 4": "Off",
+          "Customer 1": "Off"
+        }
+      },
+      "Enable IPv6": {
+        "type": "RadioButton",
+        "id": "radio-button-enableIPv6_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Comment": {
+        "type": "Textbox",
+        "id": "text-input-comment",
+        "value": {
+          "QA 1": "Comment",
+          "QA 2": "Comment",
+          "QA 4": "Comment",
+          "Customer 1": "Comment"
+        }
+      },
+      "Distribution State": {
+        "type": "RadioButton",
+        "id": "radio-button-distributionState_Enabled",
+        "value": {
+          "QA 1": "Enabled",
+          "QA 2": "Enabled",
+          "QA 4": "Enabled",
+          "Customer 1": "Enabled"
+        }
+      }
+    }
+  }
+}

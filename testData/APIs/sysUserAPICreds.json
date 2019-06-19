@@ -1,0 +1,55 @@
+{
+  "systems": {
+    "cb-qa-1": {
+      "johnhorn": "b91b95e1-460f-5d68-815f-2acc11fd6310",
+      "cbadmn":"25d84819-50a3-5223-81c6-36c47eefdc49",
+      "consumebuyer":"0876239a-345e-56ec-bbe6-2129ce97bc8d",
+      "cbtechnicalapprover":"02f292a0-9e1b-5bb8-b098-b865df5c9eab",
+      "cbfinancialapprover":"8bd26016-c433-548d-942d-8b6c851fc98d"
+    },
+    "cb-qa-4": {
+      "johnhorn": "b91b95e1-460f-5d68-815f-2acc11fd6310",
+      "cbadmn": "bb90a74d-72ef-5fd3-82d7-bfb09125d5fd",
+      "consumebuyer": "0876239a-345e-56ec-bbe6-2129ce97bc8d",
+      "cbtechnicalapprover": "02f292a0-9e1b-5bb8-b098-b865df5c9eab",
+      "cbfinancialapprover": "8bd26016-c433-548d-942d-8b6c851fc98d"
+    },
+    "cb-qa-3": {
+      "johnhorn": "66b6e38b-85d2-57a6-a147-88b69f9f8432",
+      "cbadmn": "7492c808-4332-5bdf-a5be-5170a021ca95",
+      "consumebuyer": "d0b5db68-6463-5b3e-9b1f-4f54253b8500",
+      "cbtechnicalapprover": "0fe92408-e539-58b4-86b5-40e6d7f68b91",
+      "cbfinancialapprover": "0015dee1-59f6-5887-91fc-a0ba74ab7cd9"
+    },
+    "cb-qa-2": {
+      "johnhorn": "e39894b0-8885-5691-85e7-2fddcde63135",
+      "cbadmn": "6fdb183e-c639-5dba-8d50-639ce72a371b",
+      "consumebuyer": "00826121-5e9d-5036-b652-66e9258cc9e2",
+      "cbtechnicalapprover": "3e3f13d6-20ab-52ae-9ced-3a3e25608307",
+      "cbfinancialapprover": "6ab372a5-134d-5c08-b428-754c564fcd8b"
+    },
+    "cb-customer1": {
+      "johnhorn": "7b0cbaa0-063f-5dd6-a339-c523cbc06003",
+      "cbadmn": "f0a2fdb6-4910-535d-9f91-1d6fa1e9bab5",
+      "consumebuyer": "f21d7a14-2734-5590-9b2a-775c565b6c0a",
+      "cbtechnicalapprover": "80db267f-eeaf-589a-8796-5a041e771e99",
+      "cbfinancialapprover": "46133398-9f8f-5974-aa76-c7ba50688715"
+    },
+    "cb-customer1-cleaninstall": {
+      "johnhorn": "7b0cbaa0-063f-5dd6-a339-c523cbc06003",
+      "cbadmn": "f0a2fdb6-4910-535d-9f91-1d6fa1e9bab5",
+      "consumebuyer": "f21d7a14-2734-5590-9b2a-775c565b6c0a",
+      "cbtechnicalapprover": "80db267f-eeaf-589a-8796-5a041e771e99",
+      "cbfinancialapprover": "46133398-9f8f-5974-aa76-c7ba50688715",
+      "cloudbrokertest": "a3fb6423-274f-5ed9-9230-dd46ea087367"
+    },
+    "cb-qa-d2ops": {
+      "johnhorn": "7b0cbaa0-063f-5dd6-a339-c523cbc06003",
+      "cbadmn": "f0a2fdb6-4910-535d-9f91-1d6fa1e9bab5",
+      "consumebuyer": "f21d7a14-2734-5590-9b2a-775c565b6c0a",
+      "cbtechnicalapprover": "80db267f-eeaf-589a-8796-5a041e771e99",
+      "cbfinancialapprover": "46133398-9f8f-5974-aa76-c7ba50688715",
+      "cloudbrokertest": "a3fb6423-274f-5ed9-9230-dd46ea087367"
+    }
+  }
+}

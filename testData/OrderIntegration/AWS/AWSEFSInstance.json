@@ -1,0 +1,164 @@
+{
+    "bluePrintName": "Elastic File System (EFS)",
+    "descriptiveText": "An Amazon EFS file system is accessed by EC2 instances running inside one of your VPCs. Instances connect to a file system by using a network interface called a mount target.",
+    "provider": "Amazon",
+    "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+    "serviceName": "testInstanceForEFS",
+    "Category": "Storage",
+    "BasePrice": "USD 0.30/ GB / MONTH + USD 0.00",
+    "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.30 / MONTH",
+    "TotalCost": "USD 0.30",
+    "serviceId": "CB_AWS_CF_EFS_S00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "servInstEFS",
+                    "QA 2": "servInstEFS",
+                    "QA 4": "servInstEFS",
+                    "Customer 1": "servInstEFS"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-east-1",
+                    "QA 2": "us-east-1",
+                    "QA 4": "us-east-1",
+                    "Customer 1": "us-east-1"
+                }
+            }
+        },
+        "Configure File System Access": {
+            "Availability Zone": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_availabilityZone",
+                "value": {
+                    "QA 1": "us-east-1a",
+                    "QA 2": "us-east-1a",
+                    "QA 4": "us-east-1a",
+                    "Customer 1": "us-east-1a"
+                }
+            },
+            "VPC": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_VPC",
+                "value": {
+                    "QA 1": "vpc-8eadd1eb",
+                    "QA 2": "vpc-8eadd1eb",
+                    "QA 4": "vpc-8eadd1eb",
+                    "Customer 1": "vpc-8eadd1eb"
+                }
+            },
+            "Subnet": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_Subnet",
+                "value": {
+                    "QA 1": "subnet-c5f664b2 (us-east-1b)",
+                    "QA 2": "subnet-c5f664b2 (us-east-1b)",
+                    "QA 4": "subnet-c5f664b2 (us-east-1b)",
+                    "Customer 1": "subnet-c5f664b2 (us-east-1b)"
+                }
+            },
+            "Security Group": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_securityGroup",
+                "value": {
+                    "QA 1": "sg-093fdf7f",
+                    "QA 2": "sg-093fdf7f",
+                    "QA 4": "sg-093fdf7f",
+                    "Customer 1": "sg-093fdf7f"
+                }
+            }
+        },
+        "Add tags": {
+            "Tag Key": {
+                "type": "Textbox",
+                "id": "text-input-tagKey",
+                "value": {
+                    "QA 1": "tagefskey",
+                    "QA 2": "tagefskey",
+                    "QA 4": "tagefskey",
+                    "Customer 1": "tagefskey"
+                }
+            },
+            "Tag Value": {
+                "type": "Textbox",
+                "id": "text-input-tagValue",
+                "value": {
+                    "QA 1": "tagefsvalue",
+                    "QA 2": "tagefsvalue",
+                    "QA 4": "tagefsvalue",
+                    "Customer 1": "tagefsvalue"
+                }
+            },
+            "Performance Mode": {
+                "type": "RadioButton",
+                "id": "radio-button-performanceMode_generalPurpose",
+                "value": {
+                    "QA 1": "generalPurpose",
+                    "QA 2": "generalPurpose",
+                    "QA 4": "generalPurpose",
+                    "Customer 1": "generalPurpose"
+                }
+            }
+        },
+        "Enable encryption": {
+            "Enable Encryption Of Data At Rest": {
+                "type": "RadioButton",
+                "id": "radio-button-enableEncryptionOfDataAtRest_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            }
+        }
+    }
+}

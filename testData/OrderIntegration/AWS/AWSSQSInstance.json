@@ -1,0 +1,339 @@
+{
+	"bluePrintName": "Simple Queue Service (SQS)",
+	"descriptiveText": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that makes it easy to decouple and scale microservices, distributed systems, and serverless applications.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"serviceName": "testInstanceForSQS",
+	"Category": "Applications",
+	"BasePrice": "USD 0.40/ 1000000 REQUEST / DAY + USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.0000004 / MONTH",
+	"TotalCost": "USD 0.00",
+	"serviceId": "CB_AWS_CF_SQS_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "servInstSQS",
+					"QA 2": "servInstSQS",
+					"QA 4": "servInstSQS",
+					"Customer 1": "servInstSQS"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			}
+		},
+		"Queue Attributes": {
+			"Type Of Queue": {
+				"type": "RadioButton",
+				"id": "radio-button-typeOfQueue_Standard",
+				"value": {
+					"QA 1": "Standard",
+					"QA 2": "Standard",
+					"QA 4": "Standard",
+					"Customer 1": "Standard"
+				}
+			},
+			"Queue Name": {
+				"type": "Textbox",
+				"id": "text-input-queueName",
+				"value": {
+					"QA 1": "Queue01",
+					"QA 2": "Queue01",
+					"QA 4": "Queue01",
+					"Customer 1": "Queue01"
+				}
+			},
+			"Default Visibility Timeout": {
+				"type": "Textbox",
+				"id": "slider-input-box-defaultVisibilityTimeout",
+				"value": {
+					"QA 1": "20",
+					"QA 2": "20",
+					"QA 4": "20",
+					"Customer 1": "20"
+				}
+			},
+			"Message Retention Period": {
+				"type": "Textbox",
+				"id": "slider-input-box-messageRetentionPeriod",
+				"value": {
+					"QA 1": "70",
+					"QA 2": "70",
+					"QA 4": "70",
+					"Customer 1": "70"
+				}
+			},
+			"Maximum Message Size": {
+				"type": "Textbox",
+				"id": "slider-input-box-maximumMessageSize",
+				"value": {
+					"QA 1": "1025",
+					"QA 2": "1025",
+					"QA 4": "1025",
+					"Customer 1": "1025"
+				}
+			},
+			"Delivery Delay": {
+				"type": "Textbox",
+				"id": "slider-input-box-deliveryDelay",
+				"value": {
+					"QA 1": "50",
+					"QA 2": "50",
+					"QA 4": "50",
+					"Customer 1": "50"
+				}
+			},
+			"Receive Message Wait Time": {
+				"type": "Textbox",
+				"id": "slider-input-box-receiveMessageWaitTime",
+				"value": {
+					"QA 1": "10",
+					"QA 2": "10",
+					"QA 4": "10",
+					"Customer 1": "10"
+				}
+			}
+		},
+		"Dead Letter Queue Attributes": {
+			"Use Redrive Policy": {
+				"type": "RadioButton",
+				"id": "radio-button-useRedrivePolicy_false",
+				"value": {
+					"QA 1": "false",
+					"QA 2": "false",
+					"QA 4": "false",
+					"Customer 1": "false"
+				}
+			}
+		},
+		"Server-Side Encryption (SSE) Settings": {
+			"Use SSE": {
+				"type": "RadioButton",
+				"id": "radio-button-useSSE_false",
+				"value": {
+					"QA 1": "false",
+					"QA 2": "false",
+					"QA 4": "false",
+					"Customer 1": "false"
+				}
+			}
+		}
+	},
+	"Edit Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Queue Attributes": {
+			"Default Visibility Timeout": {
+				"type": "Textbox",
+				"id": "slider-input-box-defaultVisibilityTimeout",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			},
+			"Message Retention Period": {
+				"type": "Textbox",
+				"id": "slider-input-box-messageRetentionPeriod",
+				"value": {
+					"QA 1": "60",
+					"QA 2": "60",
+					"QA 4": "60",
+					"Customer 1": "60"
+				}
+			},
+			"Maximum Message Size": {
+				"type": "Textbox",
+				"id": "slider-input-box-maximumMessageSize",
+				"value": {
+					"QA 1": "1024",
+					"QA 2": "1024",
+					"QA 4": "1024",
+					"Customer 1": "1024"
+				}
+			},
+			"Delivery Delay": {
+				"type": "Textbox",
+				"id": "slider-input-box-deliveryDelay",
+				"value": {
+					"QA 1": "6",
+					"QA 2": "6",
+					"QA 4": "6",
+					"Customer 1": "6"
+				}
+			},
+			"Receive Message Wait Time": {
+				"type": "Textbox",
+				"id": "slider-input-box-receiveMessageWaitTime",
+				"value": {
+					"QA 1": "6",
+					"QA 2": "6",
+					"QA 4": "6",
+					"Customer 1": "6"
+				}
+			}
+		},
+		"Dead Letter Queue Attributes": {
+			"Use Redrive Policy": {
+				"type": "RadioButton",
+				"id": "radio-button-useRedrivePolicy_true",
+				"value": {
+					"QA 1": "true",
+					"QA 2": "true",
+					"QA 4": "true",
+					"Customer 1": "true"
+				}
+			},
+			"Dead Letter Queue": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_deadLetterQueue",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			},
+			"Maximum Receives": {
+				"type": "Textbox",
+				"id": "slider-input-box-maximumReceives",
+				"value": {
+					"QA 1": "6",
+					"QA 2": "6",
+					"QA 4": "6",
+					"Customer 1": "6"
+				}
+			}
+		},
+		"Server-Side Encryption (SSE) Settings": {
+			"Use SSE": {
+				"type": "RadioButton",
+				"id": "radio-button-useSSE_true",
+				"value": {
+					"QA 1": "true",
+					"QA 2": "true",
+					"QA 4": "true",
+					"Customer 1": "true"
+				}
+			},
+			"AWS KMS Customer Master Key": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWSKMSCustomerMasterKey",
+				"value": {
+					"QA 1": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c",
+					"QA 2": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c",
+					"QA 4": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c",
+					"Customer 1": "03a6611c-12f1-46ad-b3ff-2fd3b4a4a05c"
+				}
+			},
+			"Data Key Reuse Period": {
+				"type": "Textbox",
+				"id": "slider-input-box-dataKeyReusePeriod",
+				"value": {
+					"QA 1": "60",
+					"QA 2": "60",
+					"QA 4": "60",
+					"Customer 1": "60"
+				}
+			}
+		}
+	}
+}

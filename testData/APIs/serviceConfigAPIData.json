@@ -1,0 +1,38 @@
+{
+  "cbqa1":{
+    "host":"https://cb-qa-2-api.gravitant.net",
+    "system":{
+      "username": "johnhorn@us.ibm.com",
+      "apikey": "2d825edb-dde0-5c5d-9853-3c38ae03a35e",
+      "providerAccount":"b60fcc50-68be-464c-9fc8-08918895786a",
+      "endpoint":"/catalog/content/softlayer/v1/services/BAREMETALMONTHLY_SERVICE/configurations"
+    }
+  },
+  "cbqa2":{
+    "host":"https://cb-qa-2-api.gravitant.net",
+    "system":{
+      "username": "johnhorn@us.ibm.com",
+      "apikey": "e39894b0-8885-5691-85e7-2fddcde63135",
+      "providerAccount":"b60fcc50-68be-464c-9fc8-08918895786a",
+      "endpoint":"/catalog/content/softlayer/v1/services/BAREMETALMONTHLY_SERVICE/configurations"
+    }
+  },
+  "cbqa3":{
+    "host":"https://cb-qa-3-api.gravitant.net",
+    "system":{
+      "username": "johnhorn@us.ibm.com",
+      "apikey": "66b6e38b-85d2-57a6-a147-88b69f9f8432",
+      "providerAccount":"6bc68022-39b8-4184-afc9-e5ef264bda46",
+      "endpoint":"/catalog/content/softlayer/v1/services/BAREMETALMONTHLY_SERVICE/configurations"
+    }
+  },
+  "cbqa4":{
+    "host":"https://cb-qa-4-api.gravitant.net",
+    "system":{
+      "username": "johnhorn@us.ibm.com",
+      "apikey": "b91b95e1-460f-5d68-815f-2acc11fd6310 ",
+      "providerAccount":"135894b7-2748-409c-88f2-d39237af5955",
+      "endpoint":"/catalog/content/softlayer/v1/services/BAREMETALMONTHLY_SERVICE/configurations"
+    }
+  }
+}

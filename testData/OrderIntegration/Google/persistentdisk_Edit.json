@@ -1,0 +1,184 @@
+{
+	"bluePrintName": "Persistent Disk",
+	"descriptiveText": "Persistent Disks are Google storage blocks that applications access the same way they access physical disks. Persistent Disks distribute data across physical disks and can be made larger as needed. They cannot be reduced in size.",
+	"provider": "Google",
+	"serviceName": "testInstanceForDisk",
+	"Category": "Storage",
+	"EstimatedPrice": "USD 0.04/ SIZE / MONTH + USD 0.00",
+	"serviceId":"Persistent Disk",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Quantity":{
+				"type": "Textbox",
+				"id": "slider-input-box-main-params_multi-quantity",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+
+			},
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "app",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_providerccount",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+
+			}
+		},
+		"Configure Region": {
+				"Region":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_region",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 3": "",
+						"QA 4": "",
+						"Customer 1": ""
+					}
+				},
+				"Zone":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_zone",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 3": "",
+						"QA 4": "",
+						"Customer 1": ""
+					}
+				}
+		},
+		"Configure Disk":{
+			"Name":{
+				"type": "Textbox",
+				"id": "text-input-disk_name",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Source Type":{
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_disk_sourceType",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 3": "",
+						"QA 4": "",
+						"Customer 1": ""
+					}
+			},
+			"Image":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_sourceImage",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Disk Type":{
+				"type": "RadioButton",
+				"id": "radio-button-disk_diskType_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Size (GB)":{
+				"type": "Textbox",
+				"id": "slider-input-box-disk_size",
+				"value": {
+					"QA 1": "60",
+					"QA 2": "60",
+					"QA 3": "60",
+					"QA 4": "60",
+					"Customer 1": "60"
+				}
+
+			},
+			"Disk Mode":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_mode",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Encryption":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_encryption",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+
+		}		
+	}
+}

@@ -1,0 +1,127 @@
+{
+	"bluePrintName": "Dedicated Host",
+	"descriptiveText": "Dedicated Host",
+	"providerName": "IBM Cloud",
+	"serviceName": "DEDICATED_HOST",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 2.293/ HR + USD 0.00",
+	"totalCost": "USD 1,705.992",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Additional Parameters": {
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Dallas 10",
+					"QA 2": "Dallas 10",
+					"QA 4": "Dallas 10",
+					"Customer 1": "Dallas 10"
+				}
+			},
+			"Billing Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_hourly_billing",
+				"value": {
+					"QA 1": "Hourly Billing",
+					"QA 2": "Hourly Billing",
+					"QA 4": "Hourly Billing",
+					"Customer 1": "Hourly Billing"
+				}
+			},
+			"System Configuration": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_system_configuration",
+				"value": {
+					"QA 1": "56 Cores X 242 RAM X 1.2 TB",
+					"QA 2": "56 Cores X 242 RAM X 1.2 TB",
+					"QA 4": "56 Cores X 242 RAM X 1.2 TB",
+					"Customer 1": "56 Cores X 242 RAM X 1.2 TB"
+				}
+			}
+		},
+		"Advanced System Configuration": {
+			"Hostname": {
+				"type": "Textbox",
+				"id": "text-input-hostname",
+				"value": {
+					"QA 1": "testAutomationHost",
+					"QA 2": "testAutomationHost",
+					"QA 4": "testAutomationHost",
+					"Customer 1": "testAutomationHost"
+				}
+			},
+			"Domain": {
+				"type": "Textbox",
+				"id": "text-input-domain",
+				"value": {
+					"QA 1": "testautomation.com",
+					"QA 2": "testautomation.com",
+					"QA 4": "testautomation.com",
+					"Customer 1": "testautomation.com"
+				}
+			},
+			"Backend Hardware Router": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_router_hostname",
+				"value": {
+					"QA 1": "bcr02a.dal10",
+					"QA 2": "bcr02a.dal10",
+					"QA 4": "bcr02a.dal10",
+					"Customer 1": "bcr02a.dal10"
+				}
+			}
+		}
+	}
+}

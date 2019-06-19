@@ -1,0 +1,388 @@
+{
+	"bluePrintName": "DynamoDB",
+	"descriptiveText": "DynamoDB is a schema-less database that only requires a table name and primary key. The table’s primary key is made up of one or two attributes that uniquely identify items, partition the data, and sort data within each partition.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"serviceName": "testInstanceForDynamoDB",
+	"Category": "Database",
+	"BasePrice": "USD 0.25/ GB / MONTH + USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+	"TotalCost": "USD 0.00",
+	"serviceId": "CB_AWS_CF_DYNAMODB_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "testserviceDB",
+					"QA 2": "testserviceDB",
+					"QA 4": "testserviceDB",
+					"Customer 1": "testserviceDB"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			},
+			"Resource Name": {
+				"Type": "Textbox",
+				"id": "text-input-resourceName",
+				"value": {
+					"QA 1": "DynamoDbtest001",
+					"QA 2": "DynamoDbtest001",
+					"QA 4": "DynamoDbtest001",
+					"Customer 1": "DynamoDbtest001"
+				}
+			}
+		},
+		"Table Details": {
+			"Table Name": {
+				"type": "Textbox",
+				"id": "text-input-tableName",
+				"value": {
+					"QA 1": "testtablecbs123",
+					"QA 2": "testtablecbs123",
+					"QA 4": "testtablecbs123",
+					"Customer 1": "testtablecbs123"
+				}
+			},
+			"Partition Key": {
+				"type": "Textbox",
+				"id": "text-input-tablePartitionKey",
+				"value": {
+					"QA 1": "partkey001",
+					"QA 2": "partkey001",
+					"QA 4": "partkey001",
+					"Customer 1": "partkey001"
+				}
+			},
+			"Partition Key Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_tablePartitionKeyType",
+				"value": {
+					"QA 1": "String",
+					"QA 2": "String",
+					"QA 4": "String",
+					"Customer 1": "String"
+				}
+			},
+			"Sort Key": {
+				"type": "Textbox",
+				"id": "text-input-tableSortKey",
+				"value": {
+					"QA 1": "sortkey001",
+					"QA 2": "sortkey001",
+					"QA 4": "Sortkey001",
+					"Customer 1": "Sortkey001"
+				}
+			},
+			"Sort Key Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_tableSortKeyType",
+				"value": {
+					"QA 1": "String",
+					"QA 2": "String",
+					"QA 4": "String",
+					"Customer 1": "String"
+				}
+			},
+			"Read Capacity Units": {
+				"type": "Textbox",
+				"id": "slider-input-box-tableReadCapacityUnits",
+				"value": {
+					"QA 1": "10",
+					"QA 2": "10",
+					"QA 4": "10",
+					"Customer 1": "10"
+				}
+			},
+			"Write Capacity Units": {
+				"type": "Textbox",
+				"id": "slider-input-box-tableWriteCapacityUnits",
+				"value": {
+					"QA 1": "8",
+					"QA 2": "8",
+					"QA 4": "8",
+					"Customer 1": "8"
+				}
+			},
+			"Time To Live": {
+				"type": "RadioButton",
+				"id": "radio-button-timeToLive_false",
+				"value": {
+					"QA 1": "false",
+					"QA 2": "false",
+					"QA 4": "false",
+					"Customer 1": "false"
+				}
+			},
+			"Stream View Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_streamViewType",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			}
+		},
+		"Table Settings": {
+			"Use default settings": {
+				"type": "RadioButton",
+				"id": "radio-button-TableCreationMode_Yes",
+				"value": {
+					"QA 1": "Yes",
+					"QA 2": "Yes",
+					"QA 4": "Yes",
+					"Customer 1": "Yes"
+				}
+			}
+		},
+		"Add Tags": {}
+	},
+	"Edit Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Resource Name": {
+				"type": "Textbox",
+				"id": "text-input-resourceName",
+				"value": {
+					"QA 1": "DynamoDbtestEdit",
+					"QA 2": "DynamoDbtestEdit",
+					"QA 4": "DynamoDbtestEdit",
+					"Customer 1": "DynamoDbtestEdit"
+				}
+			}
+		},
+		"Table Details": {
+			"Table Name": {
+				"type": "Textbox",
+				"id": "text-input-tableName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Partition Key": {
+				"type": "Textbox",
+				"id": "text-input-tablePartitionKey",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Partition Key Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_tablePartitionKeyType",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Sort Key": {
+				"type": "Textbox",
+				"id": "text-input-tableSortKey",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Sort Key Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_tableSortKeyType",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Read Capacity Units": {
+				"type": "Textbox",
+				"id": "slider-input-box-tableReadCapacityUnits",
+				"value": {
+					"QA 1": "12",
+					"QA 2": "12",
+					"QA 4": "12",
+					"Customer 1": "12"
+				}
+			},
+			"Write Capacity Units": {
+				"type": "Textbox",
+				"id": "slider-input-box-tableWriteCapacityUnits",
+				"value": {
+					"QA 1": "10",
+					"QA 2": "10",
+					"QA 4": "10",
+					"Customer 1": "10"
+				}
+			},
+			"Time To Live": {
+				"type": "RadioButton",
+				"id": "radio-button-timeToLive_true",
+				"value": {
+					"QA 1": "true",
+					"QA 2": "true",
+					"QA 4": "true",
+					"Customer 1": "true"
+				}
+			},
+			"Stream View Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_streamViewType",
+				"value": {
+					"QA 1": "KEYS_ONLY",
+					"QA 2": "KEYS_ONLY",
+					"QA 4": "KEYS_ONLY",
+					"Customer 1": "KEYS_ONLY"
+				}
+			}
+		},
+		"Table Settings": {
+			"Use default settings": {
+				"type": "RadioButton",
+				"id": "radio-button-TableCreationMode_Yes",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Add Tags": {
+			"Tags": {
+				"type": "Button",
+				"id": "button-TagsAdd0",
+				"value": {
+					"QA 1": " ",
+					"QA 2": " ",
+					"QA 4": " ",
+					"Customer 1": " "
+				}
+			},
+			"Key": {
+				"type": "Textbox",
+				"id": "text-input-Key1",
+				"value": {
+					"QA 1": "testkey",
+					"QA 2": "testkey",
+					"QA 4": "testkey",
+					"Customer 1": "testkey"
+				}
+			},
+			"Value": {
+				"type": "Textbox",
+				"id": "text-input-Value1",
+				"value": {
+					"QA 1": "testvalue",
+					"QA 2": "testvalue",
+					"QA 4": "testvalue",
+					"Customer 1": "testvalue"
+				}
+			}
+		}
+	}
+}

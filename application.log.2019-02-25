@@ -1,0 +1,198 @@
+[25-02-2019 12:23:17] [INFO] - ******Printing Environment Variables*******
+[25-02-2019 12:23:17] [INFO] - Test browser: chrome
+[25-02-2019 12:23:17] [INFO] - Test environment: cb-qa-6
+[25-02-2019 12:23:17] [INFO] - Username: cbadmn@outlook.com
+[25-02-2019 12:23:17] [INFO] - Suites: e2eVTSXaaS
+[25-02-2019 12:23:17] [INFO] - Provisioning: true
+[25-02-2019 12:23:17] [INFO] - Post to Slack: false
+[25-02-2019 12:23:17] [INFO] - *******************************************
+[25-02-2019 12:23:17] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVTSXaaS.spec.js' ]
+[25-02-2019 12:23:22] [INFO] - Test user: cbadmn@outlook.com
+[25-02-2019 12:23:22] [INFO] - Suite started: e2e Test cases for XaaS VTS
+[25-02-2019 12:23:22] [INFO] - Test Domain: cb-qa-6
+[25-02-2019 12:23:22] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[25-02-2019 12:23:26] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[25-02-2019 12:28:27] [INFO] - Test started: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[25-02-2019 12:28:27] [INFO] - Test failed: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[25-02-2019 12:28:27] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 12:28:27] [INFO] - Failure reason: Failed: Cannot read property 'open' of undefined
+[25-02-2019 12:28:27] [INFO] - Failure reason: Failed: Cannot read property 'clickFirstCategoryCheckBoxBasedOnName' of undefined
+[25-02-2019 12:28:27] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 12:28:27] [INFO] - Test started: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[25-02-2019 12:28:27] [INFO] - Test disabled: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[25-02-2019 12:28:27] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 12:28:27] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 12:28:27] [INFO] - Test started: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[25-02-2019 12:28:27] [INFO] - Test disabled: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[25-02-2019 12:28:27] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 12:28:27] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 12:28:27] [INFO] - Test started: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[25-02-2019 12:28:27] [INFO] - Test disabled: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[25-02-2019 12:28:27] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 12:28:27] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 12:28:27] [INFO] - Suite completed: e2e Test cases for XaaS VTS
+[25-02-2019 12:28:27] [INFO] - ===========================================================================================
+[25-02-2019 14:45:38] [INFO] - ******Printing Environment Variables*******
+[25-02-2019 14:45:38] [INFO] - Test browser: chrome
+[25-02-2019 14:45:38] [INFO] - Test environment: cb-qa-6
+[25-02-2019 14:45:38] [INFO] - Username: cbadmn@outlook.com
+[25-02-2019 14:45:38] [INFO] - Suites: e2eVTSXaaS
+[25-02-2019 14:45:38] [INFO] - Provisioning: true
+[25-02-2019 14:45:38] [INFO] - Post to Slack: false
+[25-02-2019 14:45:38] [INFO] - *******************************************
+[25-02-2019 14:45:38] [INFO] - [ 'e2e/specs/orderIntegration/vra/e2eVTSXaaS.spec.js' ]
+[25-02-2019 14:45:42] [INFO] - Suite started: e2e Test cases for XaaS VTS
+[25-02-2019 14:45:42] [INFO] - Test user: cbadmn@outlook.com
+[25-02-2019 14:45:42] [INFO] - Test Domain: cb-qa-6
+[25-02-2019 14:45:42] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-6
+[25-02-2019 14:45:46] [INFO] - Launched browser and navigated to URL: https://cb-qa-6.gravitant.net
+[25-02-2019 14:50:47] [INFO] - Test started: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[25-02-2019 14:50:47] [INFO] - Test failed: VRA : XAAS ---- Verify Order is listed in Orders details page once it is submitted from catalog page
+[25-02-2019 14:50:47] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 14:50:47] [INFO] - Failure reason: Failed: Cannot read property 'open' of undefined
+[25-02-2019 14:50:47] [INFO] - Failure reason: Failed: Cannot read property 'clickFirstCategoryCheckBoxBasedOnName' of undefined
+[25-02-2019 14:50:47] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 14:50:47] [INFO] - Test started: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[25-02-2019 14:50:47] [INFO] - Test disabled: VRA : VTS - XAAS ---- Verify fields on Main Parameters page of XAAS is working fine
+[25-02-2019 14:50:47] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 14:50:47] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 14:50:47] [INFO] - Test started: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[25-02-2019 14:50:47] [INFO] - Test disabled: VRA : XAAS ---- Verify Summary details and Additional Details are listed in review Order page
+[25-02-2019 14:50:47] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 14:50:47] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 14:50:47] [INFO] - Test started: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[25-02-2019 14:50:47] [INFO] - Test disabled: VRA : XAAS --- Verify provisioning of VRA-XAAS is working fine from consume App
+[25-02-2019 14:50:47] [INFO] - Failure reason: TimeoutError: timeout
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64)
+[25-02-2019 14:50:47] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 14:50:47] [INFO] - Suite completed: e2e Test cases for XaaS VTS
+[25-02-2019 14:50:47] [INFO] - ===========================================================================================
+[25-02-2019 16:31:47] [INFO] - ******Printing Environment Variables*******
+[25-02-2019 16:31:47] [INFO] - Test browser: chrome
+[25-02-2019 16:31:47] [INFO] - Test environment: cb-qa-4-release
+[25-02-2019 16:31:47] [INFO] - Username: cbadmn@outlook.com
+[25-02-2019 16:31:47] [INFO] - Suites: orderIntegrationVRA
+[25-02-2019 16:31:47] [INFO] - Provisioning: true
+[25-02-2019 16:31:47] [INFO] - Post to Slack: false
+[25-02-2019 16:31:47] [INFO] - *******************************************
+[25-02-2019 16:31:47] [INFO] - [ 'e2e/specs/orderIntegration/vra/orderIntegrationVRA.spec.js' ]
+[25-02-2019 16:31:50] [INFO] - Test user: cbadmn@outlook.com
+[25-02-2019 16:31:50] [INFO] - Suite started: Order Integration Tests for PrivateCloud -- CentOS and 3 tier
+[25-02-2019 16:31:50] [INFO] - Test Domain: cb-qa-4-release
+[25-02-2019 16:31:50] [WARN] - In sysUserAPICreds.json, missing apikey creds for the domain: cb-qa-4-release
+[25-02-2019 16:31:52] [INFO] - Launched browser and navigated to URL: https://cb-qa-4-release.gravitant.net
+[25-02-2019 16:32:57] [INFO] - Test started: Verify Verify selecting  App server CPU=2, Memory=1024 and Storage=5 is working fine for vRA 3 Tier - TC C160123
+[25-02-2019 16:32:57] [INFO] - Test failed: Verify Verify selecting  App server CPU=2, Memory=1024 and Storage=5 is working fine for vRA 3 Tier - TC C160123
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - Failure reason: Failed: Cannot read property 'open' of undefined
+[25-02-2019 16:32:57] [INFO] - Failure reason: Failed: Cannot read property 'clickConfigureButtonBasedOnName' of undefined
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Should verify vRA provider is listed in Catalog page - TC  C159935
+[25-02-2019 16:32:57] [INFO] - Test disabled: Should verify vRA provider is listed in Catalog page - TC  C159935
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: TC C159938 : Should verify the correct service name is getting displayed
+[25-02-2019 16:32:57] [INFO] - Test disabled: TC C159938 : Should verify the correct service name is getting displayed
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Should verify correct provider name is getting displayed - TC C159941
+[25-02-2019 16:32:57] [INFO] - Test disabled: Should verify correct provider name is getting displayed - TC C159941
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Should verify correct Category name is displayed in the Main Parameters page - TC C159942
+[25-02-2019 16:32:57] [INFO] - Test disabled: Should verify correct Category name is displayed in the Main Parameters page - TC C159942
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify correct Estimated Price  is displayed in the Main Parameters page - TC C159943
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify correct Estimated Price  is displayed in the Main Parameters page - TC C159943
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify Service name is displayed in the Review Order page - TC C159951
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify Service name is displayed in the Review Order page - TC C159951
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify Service Details are listed in Review Order page - TC C159953
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify Service Details are listed in Review Order page - TC C159953
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify that Additional Details are listed in Review Order page - TC C159954 
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify that Additional Details are listed in Review Order page - TC C159954 
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify setting CPU value other than default in Additional parameters of SingleVMCentOS - TC C159947
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify setting CPU value other than default in Additional parameters of SingleVMCentOS - TC C159947
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify setting Memory value other than default in Additional parameters of SingleVMCentOS - TC C159949
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify setting Memory value other than default in Additional parameters of SingleVMCentOS - TC C159949
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify SingleVMCentOS Services blue print name is listed in Main parameters pages - TC C160026
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify SingleVMCentOS Services blue print name is listed in Main parameters pages - TC C160026
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify configure button for 3 Tier vRa service - TC C160027
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify configure button for 3 Tier vRa service - TC C160027
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify 3 Tier Services blue print name is listed in Additional parameters pages - TC C160028
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify 3 Tier Services blue print name is listed in Additional parameters pages - TC C160028
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify clicking on any catalog item opens the details page of that service - TC C160116
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify clicking on any catalog item opens the details page of that service - TC C160116
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify Service Details page contains the Features, Details, and Know More links of that Service - TC C160117
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify Service Details page contains the Features, Details, and Know More links of that Service - TC C160117
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify selecting  DB server CPU=2, Memory=1024 and Storage=5 is working fine for vRA 3 Tier - TC C160124
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify selecting  DB server CPU=2, Memory=1024 and Storage=5 is working fine for vRA 3 Tier - TC C160124
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify selecting  Web server CPU=2, Memory=1024 and Storage=5 is working fine for vRA 3 Tier - TC C160125
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify selecting  Web server CPU=2, Memory=1024 and Storage=5 is working fine for vRA 3 Tier - TC C160125
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify default value for CPU is 1 in Additional parameters of the configure vRA CentOS service - TC C159946
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify default value for CPU is 1 in Additional parameters of the configure vRA CentOS service - TC C159946
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify default value for Memory is 512 MB in Additional parameters of the configure vRA CentOS service - TC C159946
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify default value for Memory is 512 MB in Additional parameters of the configure vRA CentOS service - TC C159946
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify default value for Storage is 8 GB in Additional parameters of the configure vRA CentOS service - TC C159946
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify default value for Storage is 8 GB in Additional parameters of the configure vRA CentOS service - TC C159946
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: Verify navigating to Services page is working fine - TC C160151
+[25-02-2019 16:32:57] [INFO] - Test disabled: Verify navigating to Services page is working fine - TC C160151
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: CON-4161 --- Additional parameter fields are not showing during placing a vRA Order (1/5 Consume Release)
+[25-02-2019 16:32:57] [INFO] - Test disabled: CON-4161 --- Additional parameter fields are not showing during placing a vRA Order (1/5 Consume Release)
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Test started: CON-3418 --- GUI does not use multselect fields
+[25-02-2019 16:32:57] [INFO] - Test disabled: CON-3418 --- GUI does not use multselect fields
+[25-02-2019 16:32:57] [INFO] - Failure reason: TimeoutError: Wait timed out after 66425ms
+[25-02-2019 16:32:57] [INFO] - -------------------------------------------------------------------------------------------
+[25-02-2019 16:32:57] [INFO] - Suite completed: Order Integration Tests for PrivateCloud -- CentOS and 3 tier
+[25-02-2019 16:32:57] [INFO] - ===========================================================================================

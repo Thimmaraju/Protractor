@@ -1,0 +1,105 @@
+{
+  "bluePrintName": "Network Security Group",
+  "descriptiveText": "Network Security group acts as a virtual firewall that controls the traffic for one or more instances.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testSecurityGroup",
+  "Category": "Compute",
+  "BasePrice": "USD 0.00/ Size / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+  "TotalCost": "USD 0.00",
+  "serviceId": "CB_AWS_CF_NSG_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 2": "TestAutomation",
+          "QA 4": "TestAutomation",
+          "Customer 1": "TestAutomation"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Create Security Group": {
+      "Security Group Name": {
+        "type": "Textbox",
+        "id": "text-input-securityGroupName",
+        "value": {
+          "QA 2": "groupname",
+          "QA 4": "groupname",
+          "Customer 1": "groupname"
+        }
+      },
+      "Group Description": {
+        "type": "Textbox",
+        "id": "text-input-groupDescription",
+        "value": {
+          "QA 2": "description",
+          "QA 4": "description",
+          "Customer 1": "description"
+        }
+      },
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      }
+    },
+    "Security Rules": {},
+    "Add Tags": {}
+  }
+}

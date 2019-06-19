@@ -1,0 +1,311 @@
+{
+	"bluePrintName": "Bare Metal Server ( Monthly )",
+	"descriptiveText": "Provides Required Information For Provisioning BareMetal Monthly",
+	"provider": "IBM Cloud",
+	"Category": "Compute",
+	"EstimatedPrice": "USD168.21/ MONTH + USD0.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Instance Details": {
+			"Hostname": {
+				"type": "Textbox",
+				"id": "text-input-hostname",
+				"value": {
+					"QA 1": "Automation",
+					"QA 2": "Automation",
+					"QA 4": "Automation",
+					"Customer 1": "Automation"
+				}
+			},
+			"Domain": {
+				"type": "Textbox",
+				"id": "text-input-domain",
+				"value": {
+					"QA 1": "bfastqa.com",
+					"QA 2": "bfastqa.com",
+					"QA 4": "bfastqa.com",
+					"Customer 1": "bfastqa.com"
+				}
+			},
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Dallas 9",
+					"QA 2": "Dallas 9",
+					"QA 4": "Dallas 9",
+					"Customer 1": "Dallas 9"
+				}
+			},
+			"Machine Configuration": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_package_key_name",
+				"value": {
+					"QA 1": "Single E3-1270 v3 (4 Drives)",
+					"QA 2": "Single E3-1270 v3 (4 Drives)",
+					"QA 4": "Single E3-1270 v3 (4 Drives)",
+					"Customer 1": "Single E3-1270 v3 (4 Drives)"
+				}
+			}
+		},
+		"System Specification": {
+			"Operating System": {
+				"type": "Dropdown", 
+				"id": "bx--dropdown-single-parent_os_key_name",
+				"value": {
+					"QA 1": "Windows Server 2012 Datacenter Edition (64bit)",
+					"QA 2": "Windows Server 2012 Datacenter Edition (64bit)",
+					"QA 4": "Windows Server 2012 Datacenter Edition (64bit)",
+					"Customer 1": "Windows Server 2012 Datacenter Edition (64bit)"
+				}
+			},
+			"Processor": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_process_key_name",
+				"value": {
+					"QA 1": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)",
+					"QA 2": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)",
+					"QA 4": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)",
+					"Customer 1": "Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)"
+				}
+			},
+			"RAM (GB)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_memory",
+				"value": {
+					"QA 1": "32 GB RAM",
+					"QA 2": "32 GB RAM",
+					"QA 4": "32 GB RAM",
+					"Customer 1": "32 GB RAM"
+				}
+			},
+			"First Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_key_names~1",
+				"value": {
+					"QA 1": "2.00 TB SATA",
+					"QA 2": "2.00 TB SATA",
+					"QA 4": "2.00 TB SATA",
+					"Customer 1": "2.00 TB SATA"
+				}
+			},
+			"Second Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_key_names~2",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Network Details": {
+			"Private Vlan Id": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private_vlan_id",
+				"value": {
+					"QA 1": "bcr06a.dal09 - 868",
+					"QA 2": "bcr06a.dal09 - 868",
+					"QA 4": "bcr06a.dal09 - 868",
+					"Customer 1": "bcr06a.dal09 - 868"
+				}
+			},
+			"Private Subnet": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private_subnet",
+				"value": {
+					"QA 1": "10.173.110.192/26",
+					"QA 2": "10.173.110.192/26",
+					"QA 4": "10.173.110.192/26",
+					"Customer 1": "10.173.110.192/26"
+				}
+			},
+			"Network Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private_network_only",
+				"value": {
+					"QA 1": "Private Network Only",
+					"QA 2": "Private Network Only",
+					"QA 4": "Private Network Only",
+					"Customer 1": "Private Network Only"
+				}
+			},
+			"Bandwidth (GB)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public_bandwidth",
+				"value": {
+					"QA 1": "0 GB Bandwidth",
+					"QA 2": "0 GB Bandwidth",
+					"QA 4": "0 GB Bandwidth",
+					"Customer 1": "0 GB Bandwidth"
+				}
+			},
+			"Unbonded Network": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_unbonded_network",
+				"value": {
+					"QA 1": "Not Required",
+					"QA 2": "Not Required",
+					"QA 4": "Not Required",
+					"Customer 1": "Not Required"
+				}
+			},
+			"Redundant Network": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_redundant_network",
+				"value": {
+					"QA 1": "Not Required",
+					"QA 2": "Not Required",
+					"QA 4": "Not Required",
+					"Customer 1": "Not Required"
+				}
+			},
+			"Restricted Network": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_restricted_network",
+				"value": {
+					"QA 1": "Not Required",
+					"QA 2": "Not Required",
+					"QA 4": "Not Required",
+					"Customer 1": "Not Required"
+				}
+			},
+			"Network Speed(Mbps)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_network_speed",
+				"value": {
+					"QA 1": "1 Gbps Private Network Uplink",
+					"QA 2": "1 Gbps Private Network Uplink",
+					"QA 4": "1 Gbps Private Network Uplink",
+					"Customer 1": "1 Gbps Private Network Uplink"
+				}
+			}
+		},
+		"Other Details": {
+			"SSH key ids": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ssh_key_ids",
+				"value": {
+					"QA 1": "655533",
+					"QA 2": "655533",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Metadata": {
+				"type": "Textbox",
+				"id": "text-input-user_metadata",
+				"value": {
+					"QA 1": "Order Through Automation",
+					"QA 2": "Order Through Automation",
+					"QA 4": "Order Through Automation",
+					"Customer 1": "Order Through Automation"
+				}
+			},
+			"Post Install Script": {
+				"type": "Textbox",
+				"id": "text-input-post_install_script_uri",
+				"value": {
+					"QA 1": "http://www.ibm.com/",
+					"QA 2": "http://www.ibm.com/",
+					"QA 4": "http://www.ibm.com/",
+					"Customer 1": "http://www.ibm.com/"
+				}
+			},
+			"Tags": {
+				"type": "Textbox",
+				"id": "text-input-tags",
+				"value": {
+					"QA 1": "Automation Order Tag",
+					"QA 2": "Automation Order Tag",
+					"QA 4": "Automation Order Tag",
+					"Customer 1": "Automation Order Tag"
+				}
+			}
+		},
+		"Extra Details": {
+			"Redundant power supply": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_redundant_power_supply",
+				"value": {
+					"QA 1": "None",
+					"QA 2": "None",
+					"QA 4": "None",
+					"Customer 1": "None"
+				}
+			},
+			"Graphics Processing Unit": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_gpu_key_name",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Secondary Graphics Processing Unit": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_gpu_secondary_key_name",
+				"value": {
+					"QA 1":"",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		}
+	}
+}

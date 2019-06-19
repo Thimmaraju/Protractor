@@ -1,0 +1,249 @@
+{
+  "bluePrintName": "Redshift",
+  "descriptiveText": "Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse solution that makes it simple and cost-effective to efficiently analyze all your data using your existing business intelligence tools.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testRedshift",
+  "Category": "Databases",
+  "BasePrice": "USD 0.25/ SIZE / HR + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 186.00 / MONTH",
+  "TotalCost": "USD 186.00",
+  "serviceId": "CB_AWS_CF_REDSHIFT_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Cluster Details": {
+      "Cluster Identifier": {
+        "type": "Textbox",
+        "id": "text-input-clusterIdentifier",
+        "value": {
+          "QA 1": "identifier",
+          "QA 2": "identifier",
+          "QA 4": "identifier",
+          "Customer 1": "identifier"
+        }
+      },
+      "Database Name": {
+        "type": "Textbox",
+        "id": "text-input-databaseName",
+        "value": {
+          "QA 1": "dbname",
+          "QA 2": "dbname",
+          "QA 4": "dbname",
+          "Customer 1": "dbname"
+        }
+      },
+      "Database Port": {
+        "type": "Textbox",
+        "id": "slider-input-box-databasePort",
+        "value": {
+          "QA 1": "65535",
+          "QA 2": "65535",
+          "QA 4": "65535",
+          "Customer 1": "65535"
+        }
+      },
+      "Master User Name": {
+        "type": "Textbox",
+        "id": "text-input-masterUserName",
+        "value": {
+          "QA 1": "consumeuser",
+          "QA 2": "consumeuser",
+          "QA 4": "consumeuser",
+          "Customer 1": "consumeuser"
+        }
+      },
+      "Master User Password": {
+        "type": "Textbox",
+        "id": "text-input-masterUserPassword",
+        "value": {
+          "QA 1": "Password123",
+          "QA 2": "Password123",
+          "QA 4": "Password123",
+          "Customer 1": "Password123"
+        }
+      }
+    },
+    "Node Configuration": {
+      "Node Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_nodeType",
+        "value": {
+          "QA 1": "dc2.large",
+          "QA 2": "dc2.large",
+          "QA 4": "dc2.large",
+          "Customer 1": "dc2.large"
+        }
+      },
+      "Cluster Type": {
+        "type": "RadioButton",
+        "id": "radio-button-clusterType1_single-node",
+        "value": {
+          "QA 1": "single-node",
+          "QA 2": "single-node",
+          "QA 4": "single-node",
+          "Customer 1": "single-node"
+        }
+      }
+    },
+    "Additional Configuration": {
+      "Cluster Parameter Group": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_clusterParameterGroup",
+        "value": {
+          "QA 1": "default.redshift-1.0",
+          "QA 2": "default.redshift-1.0",
+          "QA 4": "default.redshift-1.0",
+          "Customer 1": "default.redshift-1.0"
+        }
+      },
+      "Encrypt Database": {
+        "type": "RadioButton",
+        "id": "radio-button-encryptDatabase_None",
+        "value": {
+          "QA 1": "None",
+          "QA 2": "None",
+          "QA 4": "None",
+          "Customer 1": "None"
+        }
+      },
+      "Choose VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_chooseVPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      },
+      "Cluster Subnet Group": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_clusterSubnetGroup",
+        "value": {
+          "QA 1": "default",
+          "QA 2": "default",
+          "QA 4": "default",
+          "Customer 1": "default"
+        }
+      },
+      "Publicly Accessible": {
+        "type": "RadioButton",
+        "id": "radio-button-publiclyAccessible_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Availability Zone": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_availabilityZone",
+        "value": {
+          "QA 1": "us-east-1a",
+          "QA 2": "us-east-1a",
+          "QA 4": "us-east-1a",
+          "Customer 1": "us-east-1a"
+        }
+      },
+      "Vpc Security Groups": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-vpcSecurityGroups",
+        "value": {
+          "QA 1": [
+            "sg-01828f4a"
+          ],
+          "QA 2": [
+            "sg-01828f4a"
+          ],
+          "QA 4": [
+            "sg-01828f4a"
+          ],
+          "Customer 1": [
+            "sg-01828f4a"
+          ]
+        }
+      },
+      "Available Roles": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-availableRoles",
+        "value": {
+          "QA 1": [
+            "arn:aws:iam::882410330966:role/testredshift"
+          ],
+          "QA 2": [
+            "arn:aws:iam::882410330966:role/testredshift"
+          ],
+          "QA 4": [
+            "arn:aws:iam::882410330966:role/testredshift"
+          ],
+          "Customer 1": [
+            "arn:aws:iam::882410330966:role/testredshift"
+          ]
+        }
+      }
+    }
+  }
+}

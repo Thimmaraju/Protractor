@@ -1,0 +1,349 @@
+{
+    "bluePrintName": "SSL Certificates",
+	"descriptiveText": "SSL Certificates",
+    "providerName": "IBM Cloud",
+	"serviceName": "IPSEC_VPN_SERVICE",
+	"Category": "Security & Identity",
+	"estimatedCost": "USD 19.00/ SETUP / 12 MONTH + USD 0.00",
+	"totalCost": "USD 19.00",
+	"Order Parameters": {
+        "Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 3": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+        },
+        "SSL Cirtificate Information": {
+			"Year": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_validityMonths",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			},
+			"SSL Option": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_sslType",
+				"value": {
+					"QA 1": "RapidSSL - 1 year",
+					"QA 2": "RapidSSL - 1 year",
+					"QA 4": "RapidSSL - 1 year",
+					"Customer 1": "RapidSSL - 1 year"
+				}
+            },
+            "CSR": {
+				"type": "Textbox",
+				"id": "text-areacertificateSigningRequest",
+				"value": {
+                    "QA 1":"-----BEGIN CERTIFICATE REQUEST-----\nMIICojCCAYoCAQAwXTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUx\nITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEWMBQGA1UEAwwNb3Jk\nZXJUZXN0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJQ9ZKk\n5RAeoWxi9+2S/tMDvc33vbfHeXGZlMeGadYDs8dyXlUYGBikyYs93QsQzQe9YTrn\nHxr2tmEVSm4J0Pug6b06PikaHNg+Ty9JVK/sr2u3ixIKtGk7WsnyZCQ84cnTTtCC\n7s20NZ3oB5ecloZrJgL1TnvQcrhiygwMNomWldgA1Qb/yOEvMmMy5LcMJGLWEijX\nPEKTLOwn5rAigii2EXwYAiREOJVd75wfa/fraBqjLZX3QqHRx3/Nv5f4/AuU+d5J\n8oy1FGL4lpWz2MRtZmKuNnCsQJ3Uy+mkJaklKJtfz8Hv/nx6Shf3MLcFqz2oA53s\nXfM9LP03NrfIbpUCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4IBAQCnmVCzK0bS9IEk\nWcmAIWJQIVnYZQHHBdgsT4WzVI/fQBgsNfupJ6oG8AzZ4VJA3VRHKD8lMZLRj1HZ\nO3jUaz3Rng94f4Df9icGyN4uMvrpBsZGrZPm5CThZadfG/kLPJ1vCEIrk0Lz+obO\nMs69GW3QLwBMC5xElgO289oMY1XGvz0/AC1hARm3gPlkq508Tv+xKlr290b0PHu0\nebUd/c311va+eUlCKSo2Lp9Yep/INxnlrDBqd5cqagv9c5esTkhx45YDgr7cI7mZ\nFaLCBMDv8foMBXDLxb5xJatEBBjv3DWaR5AFzVUTxxh3kp12FtulPbhIOv2hiINm\ndiqJ2Ks5\n-----END CERTIFICATE REQUEST-----",
+                    "QA 2":"-----BEGIN CERTIFICATE REQUEST-----\nMIICojCCAYoCAQAwXTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUx\nITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEWMBQGA1UEAwwNb3Jk\nZXJUZXN0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJQ9ZKk\n5RAeoWxi9+2S/tMDvc33vbfHeXGZlMeGadYDs8dyXlUYGBikyYs93QsQzQe9YTrn\nHxr2tmEVSm4J0Pug6b06PikaHNg+Ty9JVK/sr2u3ixIKtGk7WsnyZCQ84cnTTtCC\n7s20NZ3oB5ecloZrJgL1TnvQcrhiygwMNomWldgA1Qb/yOEvMmMy5LcMJGLWEijX\nPEKTLOwn5rAigii2EXwYAiREOJVd75wfa/fraBqjLZX3QqHRx3/Nv5f4/AuU+d5J\n8oy1FGL4lpWz2MRtZmKuNnCsQJ3Uy+mkJaklKJtfz8Hv/nx6Shf3MLcFqz2oA53s\nXfM9LP03NrfIbpUCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4IBAQCnmVCzK0bS9IEk\nWcmAIWJQIVnYZQHHBdgsT4WzVI/fQBgsNfupJ6oG8AzZ4VJA3VRHKD8lMZLRj1HZ\nO3jUaz3Rng94f4Df9icGyN4uMvrpBsZGrZPm5CThZadfG/kLPJ1vCEIrk0Lz+obO\nMs69GW3QLwBMC5xElgO289oMY1XGvz0/AC1hARm3gPlkq508Tv+xKlr290b0PHu0\nebUd/c311va+eUlCKSo2Lp9Yep/INxnlrDBqd5cqagv9c5esTkhx45YDgr7cI7mZ\nFaLCBMDv8foMBXDLxb5xJatEBBjv3DWaR5AFzVUTxxh3kp12FtulPbhIOv2hiINm\ndiqJ2Ks5\n-----END CERTIFICATE REQUEST-----",
+                    "QA 4":"-----BEGIN CERTIFICATE REQUEST-----\nMIICojCCAYoCAQAwXTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUx\nITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEWMBQGA1UEAwwNb3Jk\nZXJUZXN0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJQ9ZKk\n5RAeoWxi9+2S/tMDvc33vbfHeXGZlMeGadYDs8dyXlUYGBikyYs93QsQzQe9YTrn\nHxr2tmEVSm4J0Pug6b06PikaHNg+Ty9JVK/sr2u3ixIKtGk7WsnyZCQ84cnTTtCC\n7s20NZ3oB5ecloZrJgL1TnvQcrhiygwMNomWldgA1Qb/yOEvMmMy5LcMJGLWEijX\nPEKTLOwn5rAigii2EXwYAiREOJVd75wfa/fraBqjLZX3QqHRx3/Nv5f4/AuU+d5J\n8oy1FGL4lpWz2MRtZmKuNnCsQJ3Uy+mkJaklKJtfz8Hv/nx6Shf3MLcFqz2oA53s\nXfM9LP03NrfIbpUCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4IBAQCnmVCzK0bS9IEk\nWcmAIWJQIVnYZQHHBdgsT4WzVI/fQBgsNfupJ6oG8AzZ4VJA3VRHKD8lMZLRj1HZ\nO3jUaz3Rng94f4Df9icGyN4uMvrpBsZGrZPm5CThZadfG/kLPJ1vCEIrk0Lz+obO\nMs69GW3QLwBMC5xElgO289oMY1XGvz0/AC1hARm3gPlkq508Tv+xKlr290b0PHu0\nebUd/c311va+eUlCKSo2Lp9Yep/INxnlrDBqd5cqagv9c5esTkhx45YDgr7cI7mZ\nFaLCBMDv8foMBXDLxb5xJatEBBjv3DWaR5AFzVUTxxh3kp12FtulPbhIOv2hiINm\ndiqJ2Ks5\n-----END CERTIFICATE REQUEST-----",
+                    "Customer 1":"-----BEGIN CERTIFICATE REQUEST-----\nMIICojCCAYoCAQAwXTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUx\nITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEWMBQGA1UEAwwNb3Jk\nZXJUZXN0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJQ9ZKk\n5RAeoWxi9+2S/tMDvc33vbfHeXGZlMeGadYDs8dyXlUYGBikyYs93QsQzQe9YTrn\nHxr2tmEVSm4J0Pug6b06PikaHNg+Ty9JVK/sr2u3ixIKtGk7WsnyZCQ84cnTTtCC\n7s20NZ3oB5ecloZrJgL1TnvQcrhiygwMNomWldgA1Qb/yOEvMmMy5LcMJGLWEijX\nPEKTLOwn5rAigii2EXwYAiREOJVd75wfa/fraBqjLZX3QqHRx3/Nv5f4/AuU+d5J\n8oy1FGL4lpWz2MRtZmKuNnCsQJ3Uy+mkJaklKJtfz8Hv/nx6Shf3MLcFqz2oA53s\nXfM9LP03NrfIbpUCAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4IBAQCnmVCzK0bS9IEk\nWcmAIWJQIVnYZQHHBdgsT4WzVI/fQBgsNfupJ6oG8AzZ4VJA3VRHKD8lMZLRj1HZ\nO3jUaz3Rng94f4Df9icGyN4uMvrpBsZGrZPm5CThZadfG/kLPJ1vCEIrk0Lz+obO\nMs69GW3QLwBMC5xElgO289oMY1XGvz0/AC1hARm3gPlkq508Tv+xKlr290b0PHu0\nebUd/c311va+eUlCKSo2Lp9Yep/INxnlrDBqd5cqagv9c5esTkhx45YDgr7cI7mZ\nFaLCBMDv8foMBXDLxb5xJatEBBjv3DWaR5AFzVUTxxh3kp12FtulPbhIOv2hiINm\ndiqJ2Ks5\n-----END CERTIFICATE REQUEST-----"
+				}
+            },
+            "Server Platform": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_serverType",
+				"value": {
+					"QA 1": "Apache + OpenSSL",
+					"QA 2": "Apache + OpenSSL",
+					"QA 4": "Apache + OpenSSL",
+					"Customer 1": "Apache + OpenSSL"
+				}
+            },
+            "Server Count": {
+				"type": "Textbox",
+				"id": "slider-input-box-serverCount",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			}
+		},
+        "Approver Email Configuration":{
+            "Approver Email Prefix": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_email_prefix",
+				"value": {
+					"QA 1": "admin",
+					"QA 2": "admin",
+					"QA 4": "admin",
+					"Customer 1": "admin"
+				}
+			},
+			"Approver Email Domain": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_email_domain",
+				"value": {
+					"QA 1": "ordertest.com",
+					"QA 2": "ordertest.com",
+					"QA 4": "ordertest.com",
+					"Customer 1": "ordertest.com"
+				}
+            },
+			"Approver Email": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_orderApproverEmailAddress",
+				"value": {
+					"QA 1": "admin@ordertest.com",
+					"QA 2": "admin@ordertest.com",
+					"QA 4": "admin@ordertest.com",
+					"Customer 1": "admin@ordertest.com"
+				}
+			}
+        },
+        "Organization Information":{
+            "Company Name" : {
+				"type":"Textbox",
+				"id":"text-input-org_organizationName",
+				"value" : {
+					"QA 1": "testingCompany",
+					"QA 2": "testingCompany",
+					"QA 4": "testingCompany",
+					"Customer 1": "testingCompany"
+				}
+            },
+            "Address 1" : {
+				"type":"Textbox",
+				"id":"text-input-org_addressLine1",
+				"value" : {
+					"QA 1": "organization Address test 1",
+					"QA 2": "organization Address test 1",
+					"QA 4": "organization Address test 1",
+					"Customer 1": "organization Address test 1"
+				}
+            },
+            "Address 2" : {
+				"type":"Textbox",
+				"id":"text-input-org_addressLine2",
+				"value" : {
+					"QA 1": "Organization Address test 2",
+					"QA 2": "Organization Address test 2",
+					"QA 4": "Organization Address test 2",
+					"Customer 1": "Organization Address test 2"
+				}
+            },
+            "City" : {
+				"type":"Textbox",
+				"id":"text-input-org_city",
+				"value" : {
+					"QA 1": "Pune",
+					"QA 2": "Pune",
+					"QA 4": "Pune",
+					"Customer 1": "Pune"
+				}
+            },
+            "Country" : {
+				"type":"Dropdown",
+				"id":"bx--dropdown-single-parent_org_countryCode",
+				"value" : {
+					"QA 1": "India",
+					"QA 2": "India",
+					"QA 4": "India",
+					"Customer 1": "India"
+				}
+            },
+            "State/Province" : {
+				"type":"Dropdown",
+				"id":"bx--dropdown-single-parent_org_state",
+				"value" : {
+					"QA 1": "Maharashtra",
+					"QA 2": "Maharashtra",
+					"QA 4": "Maharashtra",
+					"Customer 1": "Maharashtra"
+				}
+            },
+            "Zip/Postal" : {
+				"type":"Textbox",
+				"id":"text-input-org_postalCode",
+				"value" : {
+					"QA 1": "511545",
+					"QA 2": "511545",
+					"QA 4": "511545",
+					"Customer 1": "511545"
+				}
+            },
+            "Phone Number" : {
+				"type":"Textbox",
+				"id":"text-input-org_phoneNumber",
+				"value" : {
+					"QA 1": "9108765432",
+					"QA 2": "9108765432",
+					"QA 4": "9108765432",
+					"Customer 1": "9108765432"
+				}
+            },
+            "Fax Number" : {
+				"type":"Textbox",
+				"id":"text-input-org_faxNumber",
+				"value" : {
+					"QA 1": "32445678990",
+					"QA 2": "32445678990",
+					"QA 4": "32445678990",
+					"Customer 1": "32445678990"
+				}
+			}
+
+        },
+        "Technical Contact Information":{
+            "Company Name" : {
+				"type":"Textbox",
+				"id":"text-input-tech_organizationName",
+				"value" : {
+					"QA 1": "testingCompany",
+					"QA 2": "testingCompany",
+					"QA 4": "testingCompany",
+					"Customer 1": "testingCompany"
+				}
+            },
+            "First Name" : {
+				"type":"Textbox",
+				"id":"text-input-tech_firstName",
+				"value" : {
+					"QA 1": "gslslFirstName",
+					"QA 2": "gslslFirstName",
+					"QA 4": "gslslsFirstName",
+					"Customer 1": "gslslFirstName"
+				}
+            },
+            "Last Name" : {
+				"type":"Textbox",
+				"id":"text-input-tech_lastName",
+				"value" : {
+					"QA 1": "gslslLastName",
+					"QA 2": "gslslLastName",
+					"QA 4": "gslslLastName",
+					"Customer 1": "gslslLastName"
+				}
+            },
+            "Title" : {
+				"type":"Textbox",
+				"id":"text-input-tech_title",
+				"value" : {
+					"QA 1": "Testing",
+					"QA 2": "Testing",
+					"QA 4": "Testing",
+					"Customer 1": "Testing"
+				}
+            },
+            "Email" : {
+				"type":"Textbox",
+				"id":"text-input-tech_emailAddress",
+				"value" : {
+					"QA 1": "adminTesting@ordertest.com",
+					"QA 2": "adminTesting@ordertest.com",
+					"QA 4": "adminTesting@ordertest.com",
+					"Customer 1": "adminTesting@ordertest.com"
+				}
+            },
+            "Phone Number" : {
+				"type":"Textbox",
+				"id":"text-input-tech_phoneNumber",
+				"value" : {
+					"QA 1": "9108765432",
+					"QA 2": "9108765432",
+					"QA 4": "9108765432",
+					"Customer 1": "9108765432"
+				}
+            },
+            "Fax Number" : {
+				"type":"Textbox",
+				"id":"text-input-tech_faxNumber",
+				"value" : {
+					"QA 1": "32445678990",
+					"QA 2": "32445678990",
+					"QA 4": "32445678990",
+					"Customer 1": "32445678990"
+				}
+			},
+            "Address" : {
+				"type":"Dropdown",
+				"id":"bx--dropdown-single-parent_technicalContactSameAsOrgAddressFlag",
+				"value" : {
+					"QA 1": "Use Organization Address",
+					"QA 2": "Use Organization Address",
+					"QA 4": "Use Organization Address",
+					"Customer 1": "Use Organization Address"
+				}
+			}
+        },
+        "Billing Contact Information":{
+            "Billing Contact Information" : {
+				"type":"Dropdown",
+				"id":"bx--dropdown-single-parent_billingContactSameAsTechnicalFlag",
+				"value" : {
+					"QA 1": "Use Technical Contact",
+					"QA 2": "Use Technical Contact",
+					"QA 4": "Use Technical Contact",
+					"Customer 1": "Use Technical Contact"
+				}
+			}
+        },
+        "Administrative Contact Information":{
+            "Administrative Contact Information" : {
+				"type":"Dropdown",
+				"id":"bx--dropdown-single-parent_administrativeContactSameAsTechnicalFlag",
+				"value" : {
+					"QA 1": "Use Technical Contact",
+					"QA 2": "Use Technical Contact",
+					"QA 4": "Use Technical Contact",
+					"Customer 1": "Use Technical Contact"
+				}
+			}
+        }
+
+    }
+}

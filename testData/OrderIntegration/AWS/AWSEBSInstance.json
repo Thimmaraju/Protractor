@@ -1,0 +1,150 @@
+{
+  "bluePrintName": "Elastic Block Store (EBS)",
+  "descriptiveText": "Amazon Elastic Block Store (EBS) provides block level storage volumes for use with EC2 instances. EBS volumes are highly available and reliable storage volumes that can be attached to any running instance that is in the same Availability Zone",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testElasticBlockStore",
+  "Category": "Compute",
+  "BasePrice": "USD 0.025/ GB / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.125 / MONTH",
+  "TotalCost": "USD 0.125",
+  "serviceId": "CB_AWS_CF_EBS_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Create Volume": {
+      "Volume Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_volumeType",
+        "value": {
+          "QA 1": "Provisioned IOPS SSD (IO1)",
+          "QA 2": "Provisioned IOPS SSD (IO1)",
+          "QA 4": "Provisioned IOPS SSD (IO1)",
+          "Customer 1": "Provisioned IOPS SSD (IO1)"
+        }
+      },
+      "Size": {
+        "type": "Textbox",
+        "id": "slider-input-box-size",
+        "value": {
+          "QA 1": "5",
+          "QA 2": "5",
+          "QA 4": "5",
+          "Customer 1": "5"
+        }
+      },
+      "IOPS": {
+        "type": "Textbox",
+        "id": "slider-input-box-IOPS",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      },
+      "Availability Zone": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_availabilityZone",
+        "value": {
+          "QA 1": "us-east-1a",
+          "QA 2": "us-east-1a",
+          "QA 4": "us-east-1a",
+          "Customer 1": "us-east-1a"
+        }
+      },
+      "Enable Encryption": {
+        "type": "RadioButton",
+        "id": "radio-button-enableEncryption_false",
+        "value": {
+          "QA 1": "false",
+          "QA 2": "false",
+          "QA 4": "false",
+          "Customer 1": "false"
+        }
+      },
+      "Tag Key": {
+        "type": "Textbox",
+        "id": "text-input-tagKey",
+        "value": {
+          "QA 1": "tagebskey",
+          "QA 2": "tagebskey",
+          "QA 4": "tagebskey",
+          "Customer 1": "tagebskey"
+        }
+      },
+      "Tag Value": {
+        "type": "Textbox",
+        "id": "text-input-tagValue",
+        "value": {
+          "QA 1": "tagebsvalue",
+          "QA 2": "tagebsvalue",
+          "QA 4": "tagebsvalue",
+          "Customer 1": "tagebsvalue"
+        }
+      }
+    }
+  }
+}

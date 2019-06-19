@@ -1,0 +1,188 @@
+{
+	"bluePrintName": "Container Registry",
+	"descriptiveText": "Container Registry",
+	"provider": "Azure",
+	"Category": "Compute",
+	"BasePrice": "USD 0.167/ DAY + USD 0.00",
+	"EstimatedCost": "USD 0.00 ONE TIME CHARGE + USD 5.1646 / MONTH",
+	"TotalCost": "USD 5.1646",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 3": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "azure-TEAM1 / azure-TEAM1",
+					"QA 2": "azure-TEAM1 / azure-TEAM1",
+					"QA 3": "azure-qa / azure-qa",
+					"QA 4": "azure-qa / azure-qa",
+					"Customer 1": "azure-qa / azure-qa"
+				}
+			}
+		},
+		"Resource Group Parameters": {
+                "New Resource Group Required": {
+                "type": "RadioButton",
+                "id": "radio-button-newResourceGroupRequired_Yes",
+                "value": {
+                    "QA 1": "Yes",
+                    "QA 2": "Yes",
+                    "QA 3": "Yes",
+                    "QA 4": "Yes",
+                    "Customer 1": "Yes"
+                }
+            },
+            "New Resource Group": {
+                "type": "Textbox",
+                "id": "text-input-newResourceGroup",
+                "value": {
+                    "QA 1": "AutoCR-RG101",
+                    "QA 2": "AutoCR-RG101",
+                    "QA 3": "AutoCR-RG101",
+                    "QA 4": "AutoCR-RG101",
+                    "Customer 1": "AutoCR-RG101"
+                }
+            },
+            "Location": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_location",
+                "value": {
+                    "QA 1": "Australia East",
+                    "QA 2": "Australia East",
+                    "QA 3": "Australia East",
+                    "QA 4": "Australia East",
+                    "Customer 1": "Australia East"
+                }
+            }
+        },
+		"Container Registry Parameters": {
+			"Registry Name": {
+				"type": "Textbox",
+				"id": "text-input-registryName",
+				"value": {
+					"QA 1": "autocrname",
+					"QA 2": "autocrname",
+					"QA 3": "autocrname",
+					"QA 4": "autocrname",
+					"Customer 1": "autocrname"
+				}
+			},
+			"Registry Location": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_registryLocation",
+				"value": {
+					"QA 1": "Australia East",
+					"QA 2": "Australia East",
+					"QA 3": "Australia East",
+					"QA 4": "Australia East",
+					"Customer 1": "Australia East"
+				}
+			},
+			"Admin User": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_adminUser",
+				"value": {
+					"QA 1": "Enable",
+					"QA 2": "Enable",
+					"QA 3": "Enable",
+					"QA 4": "Enable",
+					"Customer 1": "Enable"
+				}
+			},
+			"SKU": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_SKU",
+				"value": {
+					"QA 1": "Basic",
+					"QA 2": "Basic",
+					"QA 3": "Basic",
+					"QA 4": "Basic",
+					"Customer 1": "Basic"
+				}
+			}
+		}
+	},
+	"Edit Parameters": {
+        "Resource Group Parameters": {
+            "New Resource Group": {
+                "type": "Textbox",
+                "id": "text-input-newResourceGroup",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 3": "",
+                    "QA 4": "",
+                    "Customer 1": ""
+                }
+            }
+        },
+        "Container Registry Parameters": {
+            "Admin User": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_adminUser",
+				"value": {
+					"QA 1": "Disable",
+					"QA 2": "Disable",
+					"QA 3": "Disable",
+					"QA 4": "Disable",
+					"Customer 1": "Disable"
+				}
+			},
+			"SKU": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_SKU",
+				"value": {
+					"QA 1": "Standard",
+					"QA 2": "Standard",
+					"QA 3": "Standard",
+					"QA 4": "Standard",
+					"Customer 1": "Standard"
+				}
+			}
+            }
+           
+        }
+}
+

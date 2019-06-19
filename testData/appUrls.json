@@ -1,0 +1,12 @@
+{
+	"ordersPageUrl" : "/orders",
+	"catalogPageUrl" : "/storeFront/main",
+	"servicesPageUrl" : "/fulfillment",
+	"serviceDetailsPageUrl" : "/service-details/",
+	"placeOrderUrl" : "/place-order/",
+	"budgetaryUrl" : "/budget",
+	"placeOrderMainParamtersPageUrl" : "/main-parameters/",
+	"placeOrderAdditionalParamtersPageUrl" : "/additional-parameters/",
+	"placeOrderReviewOrderPageUrl" : "/review-order/",
+	"inventoryPageUrl":"/inventory"
+}

@@ -1,0 +1,124 @@
+{
+	"bluePrintName": "Local Load Balancer",
+	"descriptiveText": "Local Load Balancer",
+	"providerName": "IBM Cloud",
+	"serviceName": "LOCAL_LOAD_BALANCER_SERVICE",
+	"Category": "Network",
+	"estimatedCost": "USD 29.00/ MONTH + USD 0.00",
+	"totalCost": "USD 29.87",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Load Balancer Specification": {
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Amsterdam 1",
+					"QA 2": "Amsterdam 1",
+					"QA 4": "Amsterdam 1",
+					"Customer 1": "Amsterdam 1"
+				}
+			},
+			"High Availability": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_ha_enabled",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			},
+			"Dedicated": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_dedicated",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			}
+		},
+		"Load Balancer Connection Specification": {
+			"Connections": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_connections",
+				"value": {
+					"QA 1": "250",
+					"QA 2": "250",
+					"QA 4": "250",
+					"Customer 1": "250"
+				}
+			}
+		}
+	},
+	"Edit Parameters":{
+		"Main Parameters":{},
+		"Load Balancer Specification":{},
+		"Load Balancer Connection Specification":{
+			"Connections": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_connections",
+				"value": {
+					"QA 1": "500",
+					"QA 2": "500",
+					"QA 4": "500",
+					"Customer 1": "500"
+				}
+			}
+		}
+
+	}
+}

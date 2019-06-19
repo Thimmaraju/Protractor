@@ -1,0 +1,281 @@
+{
+        "bluePrintName": "Container Instance",
+        "descriptiveText": "Container Instance",
+        "provider": "Azure",
+        "Category": "Compute",
+        "BasePrice": "USD 0.00/ DAY + USD 0.00",
+        "EstimatedCost": "USD 0.00 ONE TIME CHARGE + USD 37.64641 / MONTH",
+        "TotalCost": "USD 37.64641",
+        "Order Parameters": {
+                "Main Parameters": {
+                        "Service Instance Name": {
+                                "type": "Textbox",
+                                "id": "text-input-main_params-serviceName",
+                                "value": {
+                                        "QA 1": "TestAutomation",
+                                        "QA 2": "TestAutomation",
+                                        "QA 3": "TestAutomation",
+                                        "QA 4": "TestAutomation",
+                                        "Customer 1": "TestAutomation"
+                                }
+                        },
+                        "Team": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_team",
+                                "value": {
+                                        "QA 1": "TEAM1",
+                                        "QA 2": "TEAM1",
+                                        "QA 3": "TEAM1",
+                                        "QA 4": "TEAM1",
+                                        "Customer 1": "TEAM1"
+                                }
+                        },
+                        "Environment": {
+                                "type": "DropdownSearch",
+                                "id": "env",
+                                "value": {
+                                    "QA 1": "",
+                                    "QA 2": "",
+                                    "QA 4": "NONE",
+                                    "Customer 1": ""
+                                }
+                            },
+                             "Application": {
+                                "type": "DropdownSearch",
+                                "id": "App",
+                                "value": {
+                                    "QA 1": "",
+                                    "QA 2": "",
+                                    "QA 4": "NONE",
+                                    "Customer 1": ""
+                                }
+                            },
+                        "Provider Account": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_provider-account",
+                                "value": {
+                                        "QA 1": "azure-TEAM1 / azure-TEAM1",
+                                        "QA 2": "azure-TEAM1 / azure-TEAM1",
+                                        "QA 3": "azure-qa / azure-qa",
+                                        "QA 4": "azure-qa / azure-qa",
+                                        "Customer 1": "azure-qa / azure-qa"
+                                }
+                        }
+                },
+                "Resource Group Parameters": {
+                        "New Resource Group Required": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_newResourceGroupRequired",
+                                "value": {
+                                        "QA 1": "Yes",
+                                        "QA 2": "Yes",
+                                        "QA 3": "Yes",
+                                        "QA 4": "Yes",
+                                        "Customer 1": "Yes"
+                                }
+                        },
+                        "New Resource Group": {
+                                "type": "Textbox",
+                                "id": "text-input-newResourceGroup",
+                                "value": {
+                                        "QA 1": "AutoErc-RG101",
+                                        "QA 2": "AutoErc-RG101",
+                                        "QA 3": "AutoErc-RG101",
+                                        "QA 4": "AutoErc-RG101",
+                                        "Customer 1": "AutoErc-RG101"
+                                }
+                        },
+                        "Location": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_location",
+                                "value": {
+                                        "QA 1": "West Europe",
+                                        "QA 2": "West Europe",
+                                        "QA 3": "West Europe",
+                                        "QA 4": "West Europe",
+                                        "Customer 1": "West Europe"
+                                }
+                        }
+                },
+                "Container Instance Parameters": {
+                        "Container Name": {
+                                "type": "Textbox",
+                                "id": "text-input-containerName",
+                                "value": {
+                                        "QA 1": "autocrname",
+                                        "QA 2": "autocrname",
+                                        "QA 3": "autocrname",
+                                        "QA 4": "autocrname",
+                                        "Customer 1": "autocrname"
+                                }
+                        },
+                        "Container Location": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_containerLocation",
+                                "value": {
+                                        "QA 1": "West Europe",
+                                        "QA 2": "West Europe",
+                                        "QA 3": "West Europe",
+                                        "QA 4": "West Europe",
+                                        "Customer 1": "West Europe"
+                                }
+                        },
+                        "Container Image Type": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_containerImageType",
+                                "value": {
+                                        "QA 1": "Public",
+                                        "QA 2": "Public",
+                                        "QA 3": "Public",
+                                        "QA 4": "Public",
+                                        "Customer 1": "Public"
+                                }
+                        },
+                        "Container Image": {
+                                "type": "Textbox",
+                                "id": "text-input-containerImage",
+                                "value": {
+                                        "QA 1": "microsoft/aci-helloworld",
+                                        "QA 2": "microsoft/aci-helloworld",
+                                        "QA 3": "microsoft/aci-helloworld",
+                                        "QA 4": "microsoft/aci-helloworld",
+                                        "Customer 1": "microsoft/aci-helloworld"
+                                }
+                        }
+                },
+                "Container Instance Configuration Parameters": {
+                        "Operating System Type": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_oSType",
+                                "value": {
+                                        "QA 1": "Linux",
+                                        "QA 2": "Linux",
+                                        "QA 3": "Linux",
+                                        "QA 4": "Linux",
+                                        "Customer 1": "Linux"
+                                }
+                        },
+                        "Number Of Cores": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_numberOfCores",
+                                "value": {
+                                        "QA 1": "1",
+                                        "QA 2": "1",
+                                        "QA 3": "1",
+                                        "QA 4": "1",
+                                        "Customer 1": "1"
+                                }
+                        },
+                        "Memory (GB)": {
+                                "type": "Textbox",
+                                "id": "text-input-memory",
+                                "value": {
+                                        "QA 1": "2",
+                                        "QA 2": "2",
+                                        "QA 3": "2",
+                                        "QA 4": "2",
+                                        "Customer 1": "2"
+                                }
+                        },
+                        "Public IP Address": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_publicIpAddress",
+                                "value": {
+                                        "QA 1": "Yes",
+                                        "QA 2": "Yes",
+                                        "QA 3": "Yes",
+                                        "QA 4": "Yes",
+                                        "Customer 1": "Yes"
+                                }
+                        },
+                        "DNS Name Label": {
+                                "type": "Textbox",
+                                "id": "text-input-dnsNameLabel",
+                                "value": {
+                                        "QA 1": "autodnsci",
+                                        "QA 2": "autodnsci",
+                                        "QA 3": "autodnsci",
+                                        "QA 4": "autodnsci",
+                                        "Customer 1": "autodnsci"
+                                }
+                        },
+                        "Port": {
+                                "type": "Textbox",
+                                "id": "text-input-port",
+                                "value": {
+                                        "QA 1": "80",
+                                        "QA 2": "80",
+                                        "QA 3": "80",
+                                        "QA 4": "80",
+                                        "Customer 1": "80"
+                                }
+                        },
+                        "Open Additional Ports": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_openAdditionalPorts",
+                                "value": {
+                                        "QA 1": "No",
+                                        "QA 2": "No",
+                                        "QA 3": "No",
+                                        "QA 4": "No",
+                                        "Customer 1": "No"
+                                }
+                        },
+                        "Port Protocol": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_portProtocol",
+                                "value": {
+                                        "QA 1": "TCP",
+                                        "QA 2": "TCP",
+                                        "QA 3": "TCP",
+                                        "QA 4": "TCP",
+                                        "Customer 1": "TCP"
+                                }
+                        },
+                        "Restart Policy": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_restartPolicy",
+                                "value": {
+                                        "QA 1": "Always",
+                                        "QA 2": "Always",
+                                        "QA 3": "Always",
+                                        "QA 4": "Always",
+                                        "Customer 1": "Always"
+                                }
+                        },
+                        "Environment Variable": {
+                                "type": "Textbox",
+                                "id": "text-input-environmentVariable",
+                                "value": {
+                                        "QA 1": "",
+                                        "QA 2": "",
+                                        "QA 3": "",
+                                        "QA 4": "",
+                                        "Customer 1": ""
+                                }
+                        },
+                        "Add Additional Environment Variables": {
+                                "type": "Dropdown",
+                                "id": "bx--dropdown-single-parent_addAdditionalEnvironmentVariables",
+                                "value": {
+                                        "QA 1": "No",
+                                        "QA 2": "No",
+                                        "QA 3": "No",
+                                        "QA 4": "No",
+                                        "Customer 1": "No"
+                                }
+                        },
+                        "Command Override": {
+                                "type": "Textbox",
+                                "id": "text-input-commandOverride",
+                                "value": {
+                                        "QA 1": "",
+                                        "QA 2": "",
+                                        "QA 3": "",
+                                        "QA 4": "",
+                                        "Customer 1": ""
+                                }
+                        }
+                }
+        }
+}

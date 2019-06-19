@@ -1,0 +1,275 @@
+{
+	"bluePrintName": "Cloud Storage",
+	"descriptiveText": "Google Cloud Storage offers users high-availability data storage and access for large amounts of data for extended time periods.",
+	"provider": "Google",
+	"serviceName": "testInstanceForVpc",
+	"Category": "Storage",
+	"BasePrice": "USD 0.02/ node / MONTH + USD 0.00", 
+  	"TotalCost": "USD 0.026",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.026 / MONTH",	
+	"serviceId": "Cloud Storage",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service921022",
+					"QA 2": "service921022",
+					"QA 3": "service921022",
+					"QA 4": "service921022",
+					"Customer 1": "service921022"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Environment1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Application1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+				}
+
+			}
+		},		
+		"Configure Bucket": {
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-name",
+				"value": {
+					"QA 1": "qa1-bucket-",
+					"QA 2": "qa2-bucket-",
+					"QA 3": "qa3-bucket-",
+					"QA 4": "qa4-bucket-",
+					"Customer 1": "customer1-bucket-"
+				}
+			}
+		},
+		"Configure Storage":{
+			"Storage Class": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_storageClass",
+				"value": {
+					"QA 1": "Multi-Regional",
+					"QA 2": "Multi-Regional",
+					"QA 3": "Multi-Regional",
+					"QA 4": "Multi-Regional",
+					"Customer 1": "Multi-Regional"
+				}
+			},
+			"Location":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_location",
+				"value": {
+					"QA 1": "Asia",
+					"QA 2": "Asia",
+					"QA 3": "Asia",
+					"QA 4": "Asia",
+					"Customer 1": "Asia"
+				}
+			}
+		},
+		"Configure Labels":{
+			"Add Labels":{
+				"type": "Button",
+				"id": "button-Add LabelsAdd0",
+				"value": {
+					"QA 1": "Yes",
+					"QA 2": "Yes",
+					"QA 3": "Yes",
+					"QA 4": "Yes",
+					"Customer 1": "Yes"
+				}
+			},
+			"Key":{
+				"type": "Textbox",
+				"id": "text-input-labels_labelKey1",
+				"value": {
+					"QA 1": "qa1-bucket",
+					"QA 2": "qa2-bucket",
+					"QA 3": "qa3-bucket",
+					"QA 4": "qa4-bucket",
+					"Customer 1": "customer1-bucket"
+				}
+			},
+			"Value":{
+				"type": "Textbox",
+				"id": "text-input-labels_labelValue1",
+				"value": {
+					"QA 1": "bucket-1",
+					"QA 2": "bucket-2",
+					"QA 3": "bucket-3",
+					"QA 4": "bucket-4",
+					"Customer 1": "customer1"
+				}
+			},
+			"Encryption":{
+				"type": "RadioButton",
+				"id": "radio-button-encryption_Google-managed_key",
+				"value": {
+					"QA 1": "Google-managed key",
+					"QA 2": "Google-managed key",
+					"QA 3": "Google-managed key",
+					"QA 4": "Google-managed key",
+					"Customer 1": "Google-managed key"
+				}
+			}		
+		}
+	},
+	"Edit Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+
+			}
+		},		
+		"Configure Bucket": {
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-name",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Storage":{
+			"Storage Class": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_storageClass",
+				"value": {
+					"QA 1": "Nearline",
+					"QA 2": "Nearline",
+					"QA 3": "Nearline",
+					"QA 4": "Nearline",
+					"Customer 1": "Nearline"
+				}
+			},
+			"Location":{
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_location",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Labels":{
+			"Add Label":{
+				"type": "Button",
+				"id": "button-Add LabelsAdd0",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Key":{
+				"type": "Textbox",
+				"id": "text-input-labelKey",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Value":{
+				"type": "Textbox",
+				"id": "text-input-labelValue",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Encryption":{
+				"type": "RadioButton",
+				"id": "radio-button-encryption_Google-managed_key",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}		
+		}
+		
+	}
+	
+}

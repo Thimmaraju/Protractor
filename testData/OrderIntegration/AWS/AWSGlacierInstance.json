@@ -1,0 +1,252 @@
+{
+  "bluePrintName": "Glacier",
+  "descriptiveText": "Amazon Glacier is an extremely low-cost storage service that provides durable storage with security features for data archiving and backup.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testGlacier",
+  "Category": "Storage",
+  "BasePrice": "USD 4.00/ 1000 GB / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.004 / MONTH",
+  "TotalCost": "USD 0.004",
+  "serviceId": "CB_AWS_CF_GLACIER_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomationNet",
+          "QA 2": "TestAutomationNet",
+          "QA 4": "TestAutomationNet",
+          "Customer 1": "TestAutomationNet"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Vault Settings": {
+      "Vault Name": {
+        "type": "Textbox",
+        "id": "text-input-vaultName",
+        "value": {
+          "QA 1": "vaultname",
+          "QA 2": "vaultname",
+          "QA 4": "vaultname",
+          "Customer 1": "vaultname"
+        }
+      },
+      "Event Notifications": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_eventNotifications",
+        "value": {
+          "QA 1": "Enable notifications and create a new SNS topic",
+          "QA 2": "Enable notifications and create a new SNS topic",
+          "QA 4": "Enable notifications and create a new SNS topic",
+          "Customer 1": "Enable notifications and create a new SNS topic"
+        }
+      },
+      "Topic Name": {
+        "type": "Textbox",
+        "id": "text-input-topicName",
+        "value": {
+          "QA 1": "topicname",
+          "QA 2": "topicname",
+          "QA 4": "topicname",
+          "Customer 1": "topicname"
+        }
+      },
+      "Display Name": {
+        "type": "Textbox",
+        "id": "text-input-displayName",
+        "value": {
+          "QA 1": "displayname",
+          "QA 2": "displayname",
+          "QA 4": "displayname",
+          "Customer 1": "displayname"
+        }
+      },
+      "Job Types To Trigger Notifications": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-jobTypesToTriggerNotifications",
+        "value": {
+          "QA 1": [
+            "Archive Retrieval Job Complete"
+          ],
+          "QA 2": [
+            "Archive Retrieval Job Complete"
+          ],
+          "QA 4": [
+            "Archive Retrieval Job Complete"
+          ],
+          "Customer 1": [
+            "Archive Retrieval Job Complete"
+          ]
+        }
+      }
+    },
+    "Add Tags": {
+      "Tags": {
+        "type": "Button",
+        "id": "button-TagsAdd0",
+        "value": {
+          "QA 1": " ",
+          "QA 2": " ",
+          "QA 4": " ",
+          "Customer 1": " "
+        }
+      },
+      "Key": {
+        "type": "Textbox",
+        "id": "text-input-Key1",
+        "value": {
+          "QA 1": "testkey",
+          "QA 2": "testkey",
+          "QA 4": "testkey",
+          "Customer 1": "testkey"
+        }
+      },
+      "Value": {
+        "type": "Textbox",
+        "id": "text-input-Value1",
+        "value": {
+          "QA 1": "testvalue",
+          "QA 2": "testvalue",
+          "QA 4": "testvalue",
+          "Customer 1": "testvalue"
+        }
+      }
+    }
+  },
+  "Edit Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      }
+    },
+    "Vault Settings": {
+      "Event Notifications": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_eventNotifications",
+        "value": {
+          "QA 1": "Do not enable notifications",
+          "QA 2": "Do not enable notifications",
+          "QA 4": "Do not enable notifications",
+          "Customer 1": "Do not enable notifications"
+        }
+      }
+    },
+    "Add Tags": {
+      "Key": {
+        "type": "Textbox",
+        "id": "text-input-Key1",
+        "value": {
+          "QA 1": "testkeyedited",
+          "QA 2": "testkeyedited",
+          "QA 4": "testkeyedited",
+          "Customer 1": "testkeyedited"
+        }
+      },
+      "Value": {
+        "type": "Textbox",
+        "id": "text-input-Value1",
+        "value": {
+          "QA 1": "testvalueedited",
+          "QA 2": "testvalueedited",
+          "QA 4": "testvalueedited",
+          "Customer 1": "testvalueeditedtestvalue"
+        }
+      }
+    }
+  }
+}

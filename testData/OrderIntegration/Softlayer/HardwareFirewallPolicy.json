@@ -1,0 +1,196 @@
+{
+
+	"bluePrintName": "Hardware Firewall Rules(Dedicated)",
+	"descriptiveText": "Hardware Firewall Rules(Dedicated)",
+	"providerName": "IBM Cloud",
+	"serviceName": "Hardware Firewall Rules(Dedicated)",
+	"Category": "Security & Identity",
+	"estimatedCost": "USD 0.00/ HR + USD 0.00",
+	"totalCost": "USD 0.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 3": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Hardware Firewall Policy Rule Specifications": {
+				"Action": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_action",
+				"value": {
+					"QA 1": "Permit",
+					"QA 2": "Permit",
+					"QA 3": "Permit",					
+					"QA 4": "Permit",
+					"Customer 1": "Permit"
+				}
+			},
+			"Choose Firewall": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_firewall_id",
+				"value": {
+					"QA 1": "firewall-vlan1271",
+					"QA 2": "firewall-vlan1271",
+					"QA 3": "firewall-vlan1271",					
+					"QA 4": "firewall-vlan1271",
+					"Customer 1": "firewall-vlan1271"
+				}
+			},
+	"Source IP": {
+			"type": "Textbox",
+			"id": "text-input-src_ip_address",
+			"value": {
+				"QA 1": "any",
+				"QA 2": "any",
+				"QA 3": "any",					
+				"QA 4": "any",
+				"Customer 1": "any"
+			}
+		},
+			"Source CIDR": {
+			"type": "Textbox",
+			"id": "text-input-src_ip_cidr",
+			"value": {
+				"QA 1": "32",
+				"QA 2": "32",
+				"QA 3": "32",					
+				"QA 4": "32",
+				"Customer 1": "32"
+			}
+		},
+		"Destination": {
+			"type": "Dropdown",
+			"id": "bx--dropdown-single-parent_dst_ip_address",
+			"value": {
+				"QA 1": "any",
+				"QA 2": "any",
+				"QA 3": "any",					
+				"QA 4": "any",
+				"Customer 1": "any"
+			}
+		},
+		"Destination CIDR": {
+			"type": "Textbox",
+			"id": "text-input-dst_ip_cidr",
+			"value": {
+				"QA 1": "32",
+				"QA 2": "32",
+				"QA 3": "32",					
+				"QA 4": "32",
+				"Customer 1": "32"
+			}
+		},
+		"Protocol": {
+			"type": "Dropdown",
+			"id": "bx--dropdown-single-parent_protocol",
+			"value": {
+				"QA 1": "TCP",
+				"QA 2": "TCP",
+				"QA 3": "TCP",					
+				"QA 4": "TCP",
+				"Customer 1": "TCP"
+			}
+		},
+		"Destination Port Range Start": {
+			"type": "Textbox",
+			"id": "text-input-dst_port_range_start",
+			"value": {
+				"QA 1": "8090",
+				"QA 2": "8090",
+				"QA 3": "8090",					
+				"QA 4": "8090",
+				"Customer 1": "8090"
+			}
+		},
+		"Destination Port Range End": {
+			"type": "Textbox",
+			"id": "text-input-dst_port_range_end",
+			"value": {
+				"QA 1": "9010",
+				"QA 2": "9010",
+				"QA 3": "9010",
+				"QA 4": "9010",
+				"Customer 1": "9010"
+			}
+		},
+		"Notes": {
+			"type": "Textbox",
+			"id": "text-input-notes",
+			"value": {
+				"QA 1": "test-GSL",
+				"QA 2": "test-GSL",
+				"QA 3": "test-GSL",
+				"QA 4": "test-GSL",
+				"Customer 1": "test-GSL"
+			}
+		}
+		},		
+	"Optional": {
+		"Append Rule to Existing": {
+			"type": "Dropdown",
+			"id": "bx--dropdown-single-parent_append_rules_to_existing",
+			"value": {
+				 "QA 1": "False",
+				"QA 2": "False",
+				"QA 3": "False",
+				"QA 4": "False",
+				"Customer 1": "False"
+			}
+		}
+	}		
+}
+}
+
+	
+
+		
+	

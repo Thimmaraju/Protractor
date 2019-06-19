@@ -1,0 +1,7 @@
+{  
+   "catalog":{  
+      "getCategoriesFromAPI":{  
+         "endpoint":"/catalog/v3/categories"
+         
+      }
+   }}

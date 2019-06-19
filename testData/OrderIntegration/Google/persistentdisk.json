@@ -1,0 +1,330 @@
+{
+	"bluePrintName": "Persistent Disk",
+	"descriptiveText": "Persistent Disks are Google storage blocks that applications access the same way they access physical disks. Persistent Disks distribute data across physical disks and can be made larger as needed. They cannot be reduced in size.",
+	"provider": "Google",
+	"serviceName": "testInstanceForDisk",
+	"Category": "Storage",
+	"BasePrice": "USD 0.04/ SIZE / MONTH + USD 0.00",
+	"TotalCost": "USD 6.80",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 6.80 / MONTH",
+	"TotalEstimatedCost_Cart_Multi_quantity":"USD 20.40 /Month + USD 0.00 one time charges apply",
+	"serviceId":"Persistent Disk",
+	"budgetName":"gcpAutBudget",
+	"budgetDuration":"3",
+	"BudgetAmount":"USD 1,000.00",
+
+	"Order Parameters": {
+		"Main Parameters": {
+			"Quantity": {
+				"type": "Textbox",
+				"id": "slider-input-box-main-params_multi-quantity",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 3": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			},
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "service921022",
+					"QA 2": "service921022",
+					"QA 3": "service921022",
+					"QA 4": "service921022",
+					"Customer 1": "service921022"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Environment1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "Application1",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 2": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 3": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"QA 4": "gcpQA-TEAM1 / gcpQA-TEAM1",
+					"Customer 1": "gcpQA-TEAM1 / gcpQA-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_region",
+				"value": {
+					"QA 1": "asia-east1",
+					"QA 2": "asia-east1",
+					"QA 3": "asia-east1",
+					"QA 4": "asia-east1",
+					"Customer 1": "asia-east1"
+				}
+			},
+			"Zone": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_zone",
+				"value": {
+					"QA 1": "asia-east1-a",
+					"QA 2": "asia-east1-a",
+					"QA 3": "asia-east1-a",
+					"QA 4": "asia-east1-a",
+					"Customer 1": "asia-east1-a"
+				}
+			}
+		},
+		"Configure Disk": {
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-disk_name",
+				"value": {
+					"QA 1": "diskwin7",
+					"QA 2": "diskwin7",
+					"QA 3": "disklinux",
+					"QA 4": "diskrhel",
+					"Customer 1": "diskubun"
+				}
+			},
+			"Source Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_sourceType",
+				"value": {
+					"QA 1": "None (Blank Disk)",
+					"QA 2": "None (Blank Disk)",
+					"QA 3": "None (Blank Disk)",
+					"QA 4": "None (Blank Disk)",
+					"Customer 1": "None (Blank Disk)"
+				}
+			},
+			"Disk Type": {
+				"type": "RadioButton",
+				"id": "radio-button-disk_diskType_pd-ssd",
+				"value": {
+					"QA 1": "pd-ssd",
+					"QA 2": "pd-ssd",
+					"QA 3": "pd-ssd",
+					"QA 4": "pd-ssd",
+					"Customer 1": "pd-ssd"
+				}
+			},
+			"Size (GB)": {
+				"type": "Textbox",
+				"id": "slider-input-box-disk_sizeBlank",
+				"value": {
+					"QA 1": "40",
+					"QA 2": "40",
+					"QA 3": "40",
+					"QA 4": "40",
+					"Customer 1": "40"
+				}
+			},
+			"Disk Mode": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_mode",
+				"value": {
+					"QA 1": "READ_ONLY",
+					"QA 2": "READ_ONLY",
+					"QA 3": "READ_ONLY",
+					"QA 4": "READ_ONLY",
+					"Customer 1": "READ_ONLY"
+				}
+			},
+			"Encryption": {
+				"type": "RadioButton",
+				"id": "radio-button-disk_encryption_Google-managed",
+				"value": {
+					"QA 1": "Google-managed",
+					"QA 2": "Google-managed",
+					"QA 3": "Google-managed",
+					"QA 4": "Google-managed",
+					"Customer 1": "Google-managed"
+				}
+			}
+		}
+	},
+	"Order Details Locators": {
+		"Size (GB)_xpath-1": "//p[@id='sizegb_value']"
+	},
+	"Edit Parameters": {
+		"Main Parameters": {
+			"Quantity": {
+				"type": "Textbox",
+				"id": "slider-input-box-main-params_multi-quantity",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_providerccount",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Region": {
+			"Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_region",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Zone": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_zone",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Disk": {
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-disk_name",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Source Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_sourceType",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Image": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_sourceImage",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Disk Type": {
+				"type": "RadioButton",
+				"id": "radio-button-disk_diskType_",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Size (GB)": {
+				"type": "Textbox",
+				"id": "slider-input-box-disk_sizeBlank",
+				"value": {
+					"QA 1": "70",
+					"QA 2": "70",
+					"QA 3": "70",
+					"QA 4": "70",
+					"Customer 1": "70"
+				}
+			},
+			"Disk Mode": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_mode",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Encryption": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_disk_encryption",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		}
+	}
+}

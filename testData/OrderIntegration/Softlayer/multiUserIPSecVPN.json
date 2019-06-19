@@ -1,0 +1,69 @@
+
+{
+	"bluePrintName": "IPSec VPN",
+	"descriptiveText": "IPSec VPN",
+	"providerName": "IBM Cloud",
+	"serviceName": "IPSEC_VPN_SERVICE",
+	"Category": "Network",
+	"estimatedCost": "USD 50.00/ MONTH + USD 0.00",
+	"TotalCost": "USD 53.50",
+	"buyerUserID":"icbtestbuyer1@gmail.com",
+	"buyerUserName":"TestBuyer1 TestBuyer1",
+	"buyerUserPassword":"Buyer123!",
+	"superUserName":"cbadmn",
+    "technicalApprovalUserID":"icbtechnicalapprover1@gmail.com",
+    "technicalApprovalUserPass":"Approver123!",
+    "financialApprovalUserID":"icbfinancialapprover1@gmail.com",
+	"financialApprovalUserPass":"Approver123!",
+	"budgetName":"SlAutoBudget",
+	"budgetDuration":"3",
+	"BudgetAmount":"USD 900.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 3": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "slEnv",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "slApp",
+                    "Customer 1": ""
+                }
+            }
+		},
+		"IPSec VPN Configuration": {
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "London 2",
+					"QA 2": "London 2",
+					"QA 3": "London 2",
+					"QA 4": "London 2",
+					"Customer 1": "London 2"
+				}
+			}
+		}
+	}
+}

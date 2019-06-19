@@ -1,0 +1,530 @@
+{
+	"bluePrintName": "Lambda",
+	"descriptiveText": "Lambda is a serverless platform that generates code in response to specific events. This platform is an event-driven service that automatically manages the compute resources its code requires.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"serviceName": "testInstanceForlambda",
+	"Category": "Compute",
+	"BasePrice": "USD 0.20/ 100000 GB / 0.00027778 HR + USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.0000168 / MONTH",
+	"TotalCost": "USD 0.000016",
+	"serviceId": "CB_AWS_CF_LAMBDA_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "testservicelambda",
+					"QA 2": "testservicelambda",
+					"QA 4": "testservicelambda",
+					"Customer 1": "testservicelambda"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			}
+		},
+		"Basic Configuration": {
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-name",
+				"value": {
+					"QA 1": "lambdafunction",
+					"QA 2": "lambdafunction",
+					"QA 4": "lambdafunction",
+					"Customer 1": "lambdafunction"
+				}
+			},
+			"Description": {
+				"type": "Textbox",
+				"id": "text-input-description",
+				"value": {
+					"QA 1": "test description",
+					"QA 2": "test description",
+					"QA 4": "test description",
+					"Customer 1": "test description"
+				}
+			},
+			"Runtime": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_runTime",
+				"value": {
+					"QA 1": "Python-2.7",
+					"QA 2": "Python-2.7",
+					"QA 4": "Python-2.7",
+					"Customer 1": "Python-2.7"
+				}
+			},
+			"Role": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_role",
+				"value": {
+					"QA 1": "lambda_basic_execution",
+					"QA 2": "lambda_basic_execution",
+					"QA 4": "lambda_basic_execution",
+					"Customer 1": "lambda_basic_execution"
+				}
+			},
+			"S3 Bucket": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_s3Bucket",
+				"value": {
+					"QA 1": "testbucketlambdaonaws",
+					"QA 2": "testbucketlambdaonaws",
+					"QA 4": "testbucketlambdaonaws",
+					"Customer 1": "testbucketlambdaonaws"
+				}
+			},
+			"S3 Key": {
+				"type": "Textbox",
+				"id": "text-input-s3Key",
+				"value": {
+					"QA 1": "test_lambda_python.py.zip",
+					"QA 2": "test_lambda_python.py.zip",
+					"QA 4": "test_lambda_python.py.zip",
+					"Customer 1": "test_lambda_python.py.zip"
+				}
+			},
+			"Handler": {
+				"type": "Textbox",
+				"id": "text-input-handler",
+				"value": {
+					"QA 1": "index.handler",
+					"QA 2": "index.handler",
+					"QA 4": "index.handler",
+					"Customer 1": "index.handler"
+				}
+			}
+		},
+		"Advance Configuration": {
+			"Timeout": {
+				"type": "Textbox",
+				"id": "slider-input-box-timeout",
+				"value": {
+					"QA 1": "5",
+					"QA 2": "5",
+					"QA 4": "5",
+					"Customer 1": "5"
+				}
+			},
+			"Tracing Config": {
+				"type": "RadioButton",
+				"id": "radio-button-tracingConfig_PassThrough",
+				"value": {
+					"QA 1": "PassThrough",
+					"QA 2": "PassThrough",
+					"QA 4": "PassThrough",
+					"Customer 1": "PassThrough"
+				}
+			},
+			"Memory": {
+				"type": "Textbox",
+				"id": "slider-input-box-memory",
+				"value": {
+					"QA 1": "128",
+					"QA 2": "128",
+					"QA 4": "128",
+					"Customer 1": "128"
+				}
+			},
+			"DLQ Resource": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_DLQResource",
+				"value": {
+					"QA 1": "None",
+					"QA 2": "None",
+					"QA 4": "None",
+					"Customer 1": "None"
+				}
+			},
+			"Concurrency": {
+				"type": "Textbox",
+				"id": "slider-input-box-concurrency",
+				"value": {
+					"QA 1": "2",
+					"QA 2": "2",
+					"QA 4": "2",
+					"Customer 1": "2"
+				}
+			},
+			"With VPC": {
+				"type": "RadioButton",
+				"id": "radio-button-withVPC_Yes",
+				"value": {
+					"QA 1": "Yes",
+					"QA 2": "Yes",
+					"QA 4": "Yes",
+					"Customer 1": "Yes"
+				}
+			},
+			"VPC": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_VPC",
+				"value": {
+					"QA 1": "vpc-8eadd1eb",
+					"QA 2": "vpc-8eadd1eb",
+					"QA 4": "vpc-8eadd1eb",
+					"Customer 1": "vpc-8eadd1eb"
+				}
+			},
+			"Subnets": {
+				"type": "MultiselectDropdown",
+				"id": "text-input-subnets",
+				"value": {
+					"QA 1": [
+						"subnet-f3a23cff (us-east-1f)",
+						"subnet-db6217be (us-east-1d)"
+					],
+					"QA 2": [
+						"subnet-f3a23cff (us-east-1f)",
+						"subnet-db6217be (us-east-1d)"
+					],
+					"QA 4": [
+						"subnet-f3a23cff (us-east-1f)",
+						"subnet-db6217be (us-east-1d)"
+					],
+					"Customer 1": [
+						"subnet-f3a23cff (us-east-1f)",
+						"subnet-db6217be (us-east-1d)"
+					]
+				}
+			},
+			"Security Groups": {
+				"type": "MultiselectDropdown",
+				"id": "text-input-securityGroup",
+				"value": {
+					"QA 1": [
+						"sg-0293b6716a6781643",
+						"sg-0356cc1447f668f70"
+					],
+					"QA 2": [
+						"sg-0293b6716a6781643",
+						"sg-0356cc1447f668f70"
+					],
+					"QA 4": [
+						"sg-0293b6716a6781643",
+						"sg-0356cc1447f668f70"
+					],
+					"Customer 1": [
+						"sg-0293b6716a6781643",
+						"sg-0356cc1447f668f70"
+					]
+				}
+			},
+			"Encryption Configuration": {
+				"type": "RadioButton",
+				"id": "radio-button-encryptionConfiguration_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			},
+			"KMS Key To Encrypt In Rest": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_KMSkeyToEncryptInRestWithNo",
+				"value": {
+					"QA 1": "3b2086f2-99cb-4195-ad54-0eb2da851983",
+					"QA 2": "3b2086f2-99cb-4195-ad54-0eb2da851983",
+					"QA 4": "3b2086f2-99cb-4195-ad54-0eb2da851983",
+					"Customer 1": "3b2086f2-99cb-4195-ad54-0eb2da851983"
+				}
+			}
+		},
+		"Add layer to function": {
+			"Layer selection": {
+				"type": "RadioButton",
+				"id": "radio-button-layerSelection_Select_from list of runtime compatible layers",
+				"value": {
+					"QA 1": "Select from list of runtime compatible layers",
+					"QA 2": "Select from list of runtime compatible layers",
+					"QA 4": "Select from list of runtime compatible layers",
+					"Customer 1": "Select from list of runtime compatible layers"
+				}
+			},
+			"Layer": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_layer",
+				"value": {
+					"QA 1": "donotdelete1",
+					"QA 2": "donotdelete1",
+					"QA 3": "donotdelete1",
+					"QA 4": "donotdelete1",
+					"Customer 1": "donotdelete1"
+				}
+			},
+			"Version": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_version",
+				"value": {
+					"QA 1": "1",
+					"QA 2": "1",
+					"QA 3": "1",
+					"QA 4": "1",
+					"Customer 1": "1"
+				}
+			}
+		},
+		"Add Tags": {
+			"Tags": {
+				"type": "Button",
+				"id": "button-TagsAdd0",
+				"value": {
+					"QA 1": " ",
+					"QA 2": " ",
+					"QA 4": " ",
+					"Customer 1": " "
+				}
+			},
+			"Key": {
+				"type": "Textbox",
+				"id": "text-input-Key1",
+				"value": {
+					"QA 1": "testkey",
+					"QA 2": "testkey",
+					"QA 4": "testkey",
+					"Customer 1": "testkey"
+				}
+			},
+			"Value": {
+				"type": "Textbox",
+				"id": "text-input-Value1",
+				"value": {
+					"QA 1": "testvalue",
+					"QA 2": "testvalue",
+					"QA 4": "testvalue",
+					"Customer 1": "testvalue"
+				}
+			}
+		}
+	},
+	"Edit Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 3": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Basic Configuration": {
+			"Description": {
+				"type": "Textbox",
+				"id": "text-input-description",
+				"value": {
+					"QA 1": "test description edited",
+					"QA 2": "test description edited",
+					"QA 4": "test description edited",
+					"Customer 1": "test description edited"
+				}
+			},
+			"Runtime": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_runTime",
+				"value": {
+					"QA 1": ".NetCore-2.1",
+					"QA 2": ".NetCore-2.1",
+					"QA 4": ".NetCore-2.1",
+					"Customer 1": ".NetCore-2.1"
+				}
+			},
+			"S3 Key": {
+				"type": "Textbox",
+				"id": "text-input-s3Key",
+				"value": {
+					"QA 1": "test_lambda_dotnetcore21.zip",
+					"QA 2": "test_lambda_dotnetcore21.zip",
+					"QA 4": "test_lambda_dotnetcore21.zip",
+					"Customer 1": "test_lambda_dotnetcore21.zip"
+				}
+			},
+			"Handler": {
+				"type": "Textbox",
+				"id": "text-input-handler",
+				"value": {
+					"QA 1": "index1.handler",
+					"QA 2": "index1.handler",
+					"QA 4": "index1.handler",
+					"Customer 1": "index1.handler"
+				}
+			}
+		},
+		"Advance Configuration": {
+			"Timeout": {
+				"type": "Textbox",
+				"id": "slider-input-box-timeout",
+				"value": {
+					"QA 1": "6",
+					"QA 2": "6",
+					"QA 4": "6",
+					"Customer 1": "6"
+				}
+			},
+			"Memory": {
+				"type": "Textbox",
+				"id": "slider-input-box-memory",
+				"value": {
+					"QA 1": "150",
+					"QA 2": "150",
+					"QA 4": "150",
+					"Customer 1": "150"
+				}
+			},
+			"DLQ Resource": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_DLQResource",
+				"value": {
+					"QA 1": "SNS",
+					"QA 2": "SNS",
+					"QA 4": "SNS",
+					"Customer 1": "SNS"
+				}
+			},
+			"SNS ARN": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_SNSARN",
+				"value": {
+					"QA 1": "donotdelete",
+					"QA 2": "donotdelete",
+					"QA 4": "donotdelete",
+					"Customer 1": "donotdelete"
+				}
+			},
+			"With VPC": {
+				"type": "RadioButton",
+				"id": "radio-button-withVPC_No",
+				"value": {
+					"QA 1": "No",
+					"QA 2": "No",
+					"QA 4": "No",
+					"Customer 1": "No"
+				}
+			}
+		},
+		"Add layer to function": {
+			"Layer": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_layer",
+				"value": {
+					"QA 1": "donotdelete3",
+					"QA 2": "donotdelete3",
+					"QA 3": "donotdelete3",
+					"QA 4": "donotdelete3",
+					"Customer 1": "donotdelete3"
+				}
+			}
+		},
+		"Add Tags": {
+			"Key": {
+				"type": "Textbox",
+				"id": "text-input-Key1",
+				"value": {
+					"QA 1": "testkeyedit",
+					"QA 2": "testkeyedit",
+					"QA 4": "testkeyedit",
+					"Customer 1": "testkeyedit"
+				}
+			},
+			"Value": {
+				"type": "Textbox",
+				"id": "text-input-Value1",
+				"value": {
+					"QA 1": "testvalueedit",
+					"QA 2": "testvalueedit",
+					"QA 4": "testvalueedit",
+					"Customer 1": "testvalueedit"
+				}
+			}
+		}
+	}
+}

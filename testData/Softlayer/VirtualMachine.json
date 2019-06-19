@@ -1,0 +1,294 @@
+{
+	"bluePrintName": "VIRTUALMACHINE_SERVICE",
+	"descriptiveText": "Provides Required Information For Provisioning Virtual Machine",
+	"provider": "Softlayer",
+	"serviceName": "VIRTUALMACHINE_SERVICE",
+	"Category": "Compute",
+	"EstimatedPrice": "N/A",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team:",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			}
+		},
+		"Instance Details": {
+			"Hostname": {
+				"type": "Textbox",
+				"id": "text-input-hostname",
+				"value": {
+					"QA 2": "AnnamTestVM",
+					"QA 4": "AnnamTestVM",
+					"Customer 1": "AnnamTestVM"
+				}
+			},
+			"Domain": {
+				"type": "Textbox",
+				"id": "text-input-domain",
+				"value": {
+					"QA 2": "bfastqa.com",
+					"QA 4": "bfastqa.com",
+					"Customer 1": "bfastqa.com"
+				}
+			},
+			"Dedicated Account Flag": {
+				"type": "RadioButton",
+				"id": "radio-button-dedicated_acct_host_only_Public_VM",
+				"value": {
+					"QA 2": "Public VM",
+					"QA 4": "Public VM",
+					"Customer 1": "Public VM"
+				}
+			},
+			"Billing Type": {
+				"type": "RadioButton",
+				"id": "radio-button-hourly_billing_Hourly_Billing",
+				"value": {
+					"QA 2": "Hourly Billing",
+					"QA 4": "Hourly Billing",
+					"Customer 1": "Hourly Billing"
+				}
+			},
+			"Datacenter": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 2": "Dallas 1",
+					"QA 4": "Dallas 1",
+					"Customer 1": "Dallas 1"
+				}
+			}
+		},
+		"System Specification": {
+			"Operating System": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_operating-system",
+				"value": {
+					"QA 2": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)",
+					"QA 4": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)",
+					"Customer 1": "Ubuntu Linux 16.04 LTS Xenial Xerus Minimal Install (64 bit)"
+				}
+			},
+			"Memory": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_memory",
+				"value": {
+					"QA 2": "4 GB",
+					"QA 4": "4 GB",
+					"Customer 1": "4 GB"
+				}
+			},
+			"Cores": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_cores",
+				"value": {
+					"QA 2": "4 x 2.0 GHz Cores",
+					"QA 4": "4 x 2.0 GHz Cores",
+					"Customer 1": "4 x 2.0 GHz Cores"
+				}
+			}
+		},
+		"Disk Details": {
+			"Disk Type": {
+				"type": "RadioButton",
+				"id": "radio-button-local_disk_San_Disk",
+				"value": {
+					"QA 2": "San Disk",
+					"QA 4": "San Disk",
+					"Customer 1": "San Disk"
+				}
+			},
+			"First Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_first-disk",
+				"value": {
+					"QA 2": "100 GB (SAN)",
+					"QA 4": "100 GB (SAN)",
+					"Customer 1": "100 GB (SAN)"
+				}
+			},
+			"Second Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_second-disk",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Third Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_third-disk",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Fourth Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_fourth-disk",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Fifth Disk": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_fifth-disk",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Network Details": {
+			"Private Vlan Id": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private-vlan-id",
+				"value": {
+					"QA 2": "2232875",
+					"QA 4": "2232875",
+					"Customer 1": "2232875"
+				}
+			},
+			"Private Subnet": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_private-subnet",
+				"value": {
+					"QA 2": "10.16.85.128/26",
+					"QA 4": "10.16.85.128/26",
+					"Customer 1": "10.16.85.128/26"
+				}
+			},
+			"Network Type": {
+				"type": "RadioButton",
+				"id": "radio-button-private_network_only_Private_Network Only",
+				"value": {
+					"QA 2": "Private Network Only",
+					"QA 4": "Private Network Only",
+					"Customer 1": "Private Network Only"
+				}
+			},
+			"Network Speed": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_network-speed",
+				"value": {
+					"QA 2": "100 Mbps Private Network Uplink",
+					"QA 4": "100 Mbps Private Network Uplink",
+					"Customer 1": "100 Mbps Private Network Uplink"
+				}
+			},
+			"Bandwidth Unlimited": {
+				"type": "RadioButton",
+				"id": "radio-button-public_bandwidth_unlimited_Public_Bandwidth Limited",
+				"value": {
+					"QA 2": "Public Bandwidth Limited",
+					"QA 4": "Public Bandwidth Limited",
+					"Customer 1": "Public Bandwidth Limited"
+				}
+			},
+			"Bandwidth Limited": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_bandwidth-limited",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Public Vlan Id": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public-vlan-id",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Public Subnet": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public-subnet",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Add-ons": {
+			"Public Secondary IP Addresses": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public-secondary-ip-addresses",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Primary IPv6 Addresses": {
+				"type": "RadioButton",
+				"id": "radio-button-ipv6_enabled_None",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			},
+			"Public Static IPv6 Addresses": {
+				"type": "RadioButton",
+				"id": "radio-button-ipv6_static_enabled_None",
+				"value": {
+					"QA 2": "",
+					"QA 4": "",
+					"Customer 1": ""
+				}
+			}	
+		},
+		"Other Details": {
+			"Metadata": {
+				"type": "Textbox",
+				"id": "text-input-user_metadata",
+				"value": {
+					"QA 2": "Order Through Automation",
+					"QA 4": "Order Through Automation",
+					"Customer 1": "Order Through Automation"
+				}
+			},
+			"Post Install Script": {
+				"type": "Textbox",
+				"id": "text-input-post_install_script_uri",
+				"value": {
+					"QA 2": "http://www.ibm.com/",
+					"QA 4": "http://www.ibm.com/",
+					"Customer 1": "http://www.ibm.com/"
+				}
+			},
+			"Tags": {
+				"type": "Textbox",
+				"id": "text-input-tags",
+				"value": {
+					"QA 2": "Automation Order Tag",
+					"QA 4": "Automation Order Tag",
+					"Customer 1": "Automation Order Tag"
+				}
+			}
+		}
+	}
+}

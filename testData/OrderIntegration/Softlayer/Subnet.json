@@ -1,0 +1,261 @@
+{
+	"StaticSubnet": {
+		"bluePrintName": "Subnet",
+		"descriptiveText": "Subnet",
+		"providerName": "IBM Cloud",
+		"serviceName": "SUBNET_SERVICE",
+		"Category": "Network",
+		"estimatedCost": "USD 1.00/ MONTH + USD 0.00",
+		"totalCost": "USD 4.00",
+		"Order Parameters": {
+			"Main Parameters": {
+				"Service Instance Name": {
+					"type": "Textbox",
+					"id": "text-input-main_params-serviceName",
+					"value": {
+						"QA 1": "TestAutomation",
+						"QA 2": "TestAutomation",
+						"QA 3": "TestAutomation",
+						"QA 4": "TestAutomation",
+						"Customer 1": "TestAutomation"
+					}
+				},
+				"Team": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_team",
+					"value": {
+						"QA 1": "TEAM1",
+						"QA 2": "TEAM1",
+						"QA 3": "TEAM1",
+						"QA 4": "TEAM1",
+						"Customer 1": "TEAM1"
+					}
+				},
+				"Environment": {
+					"type": "DropdownSearch",
+					"id": "env",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				 "Application": {
+					"type": "DropdownSearch",
+					"id": "App",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				"provider Account": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_provider-account",
+					"value": {
+						"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+					}
+				}
+			},
+			"Subnet Type Specification": {
+				"Subnet Type": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_type",
+					"value": {
+						"QA 1": "Static",
+						"QA 2": "Static",
+						"QA 3": "Static",
+						"QA 4": "Static",
+						"Customer 1": "Static"
+					}
+				},
+				"Network Type": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_network_type",
+					"value": {
+						"QA 1": "Public network",
+						"QA 2": "Public network",
+						"QA 3": "Public network",
+						"QA 4": "Public network",
+						"Customer 1": "Public network"
+					}
+				}
+			},
+			"Network Specification": {
+				"IP Version": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_ip_version",
+					"value": {
+						"QA 1": "IPv4",
+						"QA 2": "IPv4",
+						"QA 3": "IPv4",
+						"QA 4": "IPv4",
+						"Customer 1": "IPv4"
+					}
+				},
+				"Storage Capacity": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_capacity",
+					"value": {
+						"QA 1": "4",
+						"QA 2": "4",
+						"QA 3": "4",
+						"QA 4": "4",
+						"Customer 1": "4"
+					}
+				},
+				"Subnet": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_subnet",
+					"value": {
+						"QA 1": "5.153.30.112/29",
+						"QA 2": "5.153.30.112/29",
+						"QA 3": "5.153.30.112/29",
+						"QA 4": "5.153.30.112/29",
+						"Customer 1": "5.153.30.112/29"
+					}
+				},
+				"Endpoint IP": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_endpoint_ip",
+					"value": {
+						"QA 1": "5.153.30.114",
+						"QA 2": "5.153.30.114",
+						"QA 3": "5.153.30.114",
+						"QA 4": "5.153.30.114",
+						"Customer 1": "5.153.30.114"
+					}
+				}
+			}
+		}
+	},
+	"PortableSubnet": {
+		"bluePrintName": "Subnet",
+		"descriptiveText": "Subnet",
+		"providerName": "IBM Cloud",
+		"serviceName": "SUBNET_SERVICE",
+		"Category": "Network",
+		"estimatedCost": "USD 0.00/ MONTH + USD 0.00",
+		"totalCost": "USD 8.00",
+		"Order Parameters": {
+			"Main Parameters": {
+				"Service Instance Name": {
+					"type": "Textbox",
+					"id": "text-input-main_params-serviceName",
+					"value": {
+						"QA 1": "TestAutomation",
+						"QA 2": "TestAutomation",
+						"QA 3": "TestAutomation",
+						"QA 4": "TestAutomation",
+						"Customer 1": "TestAutomation"
+					}
+				},
+				"Team": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_team",
+					"value": {
+						"QA 1": "TEAM1",
+						"QA 2": "TEAM1",
+						"QA 3": "TEAM1",
+						"QA 4": "TEAM1",
+						"Customer 1": "TEAM1"
+					}
+				},
+				"Environment": {
+					"type": "DropdownSearch",
+					"id": "env",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				 "Application": {
+					"type": "DropdownSearch",
+					"id": "App",
+					"value": {
+						"QA 1": "",
+						"QA 2": "",
+						"QA 4": "NONE",
+						"Customer 1": ""
+					}
+				},
+				"provider Account": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_provider-account",
+					"value": {
+						"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+						"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+					}
+				}
+			},
+			"Subnet Type Specification": {
+				"Subnet Type": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_type",
+					"value": {
+						"QA 1": "Portable",
+						"QA 2": "Portable",
+						"QA 3": "Portable",
+						"QA 4": "Portable",
+						"Customer 1": "Portable"
+					}
+				},
+				"Network Type": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_network_type",
+					"value": {
+						"QA 1": "Public network",
+						"QA 2": "Public network",
+						"QA 3": "Public network",
+						"QA 4": "Public network",
+						"Customer 1": "Public network"
+					}
+				}
+			},
+			"Network Specification": {
+				"IP Version": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_ip_version",
+					"value": {
+						"QA 1": "IPv4",
+						"QA 2": "IPv4",
+						"QA 3": "IPv4",
+						"QA 4": "IPv4",
+						"Customer 1": "IPv4"
+					}
+				},
+				"Storage Capacity": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_capacity",
+					"value": {
+						"QA 1": "4",
+						"QA 2": "4",
+						"QA 3": "4",
+						"QA 4": "4",
+						"Customer 1": "4"
+					}
+				},
+				"VLAN": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_vlan_id",
+					"value": {
+						"QA 1": "756-ams01",
+						"QA 2": "756-ams01",
+						"QA 3": "756-ams01",
+						"QA 4": "756-ams01",
+						"Customer 1": "756-ams01"
+					}
+				}
+			}
+		}
+	}
+}

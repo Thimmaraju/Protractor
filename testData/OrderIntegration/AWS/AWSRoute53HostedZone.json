@@ -1,0 +1,225 @@
+{
+  "bluePrintName": "Route 53 Hosted Zone",
+  "descriptiveText": "AWS CloudFormation template to create Route53 hosted zone resource, which can contain a collection of record sets for a domain.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testRoute53HostedZone",
+  "Category": "Network",
+  "BasePrice": "USD 0.50/ Hosted-Zone / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.50 / MONTH",
+  "TotalCost": "USD 0.50",
+  "serviceId": "CB_AWS_CF_ROUTE53_HOSTEDZONE_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation",
+          "QA 2": "TestAutomation",
+          "QA 4": "TestAutomation",
+          "Customer 1": "TestAutomation"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Create Hosted Zone": {
+      "Domain Name": {
+        "type": "Textbox",
+        "id": "text-input-domainName",
+        "value": {
+          "QA 1": "acbs.ademo.acom",
+          "QA 2": "acbs.ademo.acom",
+          "QA 4": "acbs.ademo.acom",
+          "Customer 1": "acbs.ademo.acom"
+        }
+      },
+      "Comment": {
+        "type": "Textbox",
+        "id": "text-input-comment",
+        "value": {
+          "QA 1": "public hostedzone",
+          "QA 2": "public hostedzone",
+          "QA 4": "public hostedzone",
+          "Customer 1": "public hostedzone"
+        }
+      },
+      "Type": {
+        "type": "RadioButton",
+        "id": "radio-button-type_Public_Hosted Zone",
+        "value": {
+          "QA 1": "Public Hosted Zone",
+          "QA 2": "Public Hosted Zone",
+          "QA 4": "Public Hosted Zone",
+          "Customer 1": "Public Hosted Zone"
+        }
+      }
+    },
+    "Add Tags": {
+      "Tags": {
+        "type": "Button",
+        "id": "button-TagsAdd0",
+        "value": {
+          "QA 1": " ",
+          "QA 2": " ",
+          "QA 4": " ",
+          "Customer 1": " "
+        }
+      },
+      "Key": {
+        "type": "Textbox",
+        "id": "text-input-Key1",
+        "value": {
+          "QA 1": "testkey1c",
+          "QA 2": "testkey1c",
+          "QA 4": "testkey1c",
+          "Customer 1": "testkey1c"
+        }
+      },
+      "Value": {
+        "type": "Textbox",
+        "id": "text-input-Value1",
+        "value": {
+          "QA 1": "testvalues",
+          "QA 2": "testvalues",
+          "QA 4": "testvalues",
+          "Customer 1": "testvalues"
+        }
+      }
+    }
+  },
+  "Edit Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 3": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "",
+          "QA 2": "",
+          "QA 4": "",
+          "Customer 1": ""
+        }
+      }
+    },
+    "Create Hosted Zone": {
+      "Comment": {
+        "type": "Textbox",
+        "id": "text-input-comment",
+        "value": {
+          "QA 1": "public hostedzone2",
+          "QA 2": "public hostedzone2",
+          "QA 4": "public hostedzone2",
+          "Customer 1": "public hostedzone2"
+        }
+      }
+    },
+    "Add Tags": {
+      "Key": {
+        "type": "Textbox",
+        "id": "text-input-Key1",
+        "value": {
+          "QA 1": "testkey123",
+          "QA 2": "testkey123",
+          "QA 4": "testkey123",
+          "Customer 1": "testkey123"
+        }
+      },
+      "Value": {
+        "type": "Textbox",
+        "id": "text-input-Value1",
+        "value": {
+          "QA 1": "testvalue2",
+          "QA 2": "testvalue2",
+          "QA 4": "testvalue2",
+          "Customer 1": "testvalue2"
+        }
+      }
+    }
+  }
+}

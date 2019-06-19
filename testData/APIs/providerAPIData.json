@@ -1,0 +1,7 @@
+{  
+   "catalog":{  
+      "getProvidersFromAPI":{  
+         "endpoint":"/catalog/v2/providers"
+         
+      }
+   }}

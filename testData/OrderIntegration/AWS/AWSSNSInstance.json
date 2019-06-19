@@ -1,0 +1,123 @@
+{
+	"bluePrintName": "Simple Notification Service (SN...",
+	"serviceNameSNS": "Simple Notification Service (SNS)",
+	"descriptiveText": "Simple Notification Service (SNS) is a flexible, fully managed pub/sub messaging and mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients.",
+	"provider": "Amazon",
+	"providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+	"serviceName": "testInstanceForSNS",
+	"Category": "Applications",
+	"BasePrice": "USD 0.50/ 1000000 REQUEST / MONTH + USD 0.00",
+	"EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 0.00 / MONTH",
+	"TotalCost": "USD 0.00",
+	"serviceId": "CB_AWS_CF_SNS_S00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "servicesns01",
+					"QA 2": "servicesns01",
+					"QA 4": "servicesns01",
+					"Customer 1": "servicesns01"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "NONE",
+					"QA 2": "NONE",
+					"QA 4": "NONE",
+					"Customer 1": "NONE"
+				}
+			},
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 2": "AWS-TEAM1 / AWS-TEAM1",
+					"QA 4": "AWS-TEAM1 / AWS-TEAM1",
+					"Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+				}
+			}
+		},
+		"Configure Region": {
+			"AWS Region": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_AWS::Region",
+				"value": {
+					"QA 1": "us-east-1",
+					"QA 2": "us-east-1",
+					"QA 4": "us-east-1",
+					"Customer 1": "us-east-1"
+				}
+			}
+		},
+		"Topic Information": {
+			"Topic Name": {
+				"type": "Textbox",
+				"id": "text-input-topicName",
+				"value": {
+					"QA 1": "topicsns_01",
+					"QA 2": "topicsns_01",
+					"QA 4": "topicsns_01",
+					"Customer 1": "topicsns_01"
+				}
+			},
+			"Display Name": {
+				"type": "Textbox",
+				"id": "text-input-displayName",
+				"value": {
+					"QA 1": "snsDemo",
+					"QA 2": "snsDemo",
+					"QA 4": "snsDemo",
+					"Customer 1": "snsDemo"
+				}
+			}
+		},
+		"Subscription Details": {
+			"Endpoint": {
+				"type": "Textbox",
+				"id": "text-input-endpoint",
+				"value": {
+					"QA 1": "+918888888888",
+					"QA 2": "+918888888888",
+					"QA 4": "+918888888888",
+					"Customer 1": "+918888888888"
+				}
+			},
+			"Protocol": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_protocol",
+				"value": {
+					"QA 1": "SMS",
+					"QA 2": "SMS",
+					"QA 4": "SMS",
+					"Customer 1": "SMS"
+				}
+			}
+		}
+	}
+}

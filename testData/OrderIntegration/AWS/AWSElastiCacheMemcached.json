@@ -1,0 +1,221 @@
+{
+  "bluePrintName": "ElastiCache Memcached",
+  "descriptiveText": "High-performance, distributed memory object caching system, intended for use in speeding up dynamic web applications.",
+  "provider": "Amazon",
+  "serviceInstanceName": "testElastiCacheMemcached",
+  "Category": "Databases",
+  "BasePrice": "USD 0.017/ SIZE / HR + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 169.632 / MONTH",
+  "TotalCost": "USD 169.632",
+  "serviceId": "CB_AWS_CF_EC_MEMCACHED_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Memcached settings": {
+      "Name": {
+        "type": "Textbox",
+        "id": "text-input-name",
+        "value": {
+          "QA 1": "nameelastic",
+          "QA 2": "nameelastic",
+          "QA 4": "nameelastic",
+          "Customer 1": "nameelastic"
+        }
+      },
+      "Engine Version Compatibility": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_engineVersionCompatibility",
+        "value": {
+          "QA 1": "1.4.34",
+          "QA 2": "1.4.34",
+          "QA 4": "1.4.34",
+          "Customer 1": "1.4.34"
+        }
+      },
+      "Port": {
+        "type": "Textbox",
+        "id": "slider-input-box-port",
+        "value": {
+          "QA 1": "6380",
+          "QA 2": "6380",
+          "QA 4": "6380",
+          "Customer 1": "6380"
+        }
+      },
+      "Parameter Group": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_parameterGroup",
+        "value": {
+          "QA 1": "default.memcached1.4",
+          "QA 2": "default.memcached1.4",
+          "QA 4": "default.memcached1.4",
+          "Customer 1": "default.memcached1.4"
+        }
+      },
+      "Node Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_nodeType",
+        "value": {
+          "QA 1": "cache.r4.large",
+          "QA 2": "cache.r4.large",
+          "QA 4": "cache.r4.large",
+          "Customer 1": "cache.r4.large"
+        }
+      },
+      "Number Of Nodes": {
+        "type": "Textbox",
+        "id": "slider-input-box-numberOfNodes",
+        "value": {
+          "QA 1": "1",
+          "QA 2": "1",
+          "QA 4": "1",
+          "Customer 1": "1"
+        }
+      }
+    },
+    "Advanced Memcached settings": {
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      },
+      "Subnet Group": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_subnetGroup",
+        "value": {
+          "QA 1": "default",
+          "QA 2": "default",
+          "QA 4": "default",
+          "Customer 1": "default"
+        }
+      },
+      "Preferred Availability Zones": {
+        "type": "RadioButton",
+        "id": "radio-button-preferredAvailabilityZones_No_preference",
+        "value": {
+          "QA 1": "No preference",
+          "QA 2": "No preference",
+          "QA 4": "No preference",
+          "Customer 1": "No preference"
+        }
+      },
+      "Security Group": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-securityGroup",
+        "value": {
+          "QA 1": [
+            "sg-45f4510c"
+          ],
+          "QA 2": [
+            "sg-45f4510c"
+          ],
+          "QA 4": [
+            "sg-45f4510c"
+          ],
+          "Customer 1": [
+            "sg-45f4510c"
+          ]
+        }
+      }
+    },
+    "Maintenance": {
+      "Maintenance Window": {
+        "type": "RadioButton",
+        "id": "radio-button-maintenanceWindow_No_preference",
+        "value": {
+          "QA 1": "No preference",
+          "QA 2": "No preference",
+          "QA 4": "No preference",
+          "Customer 1": "No preference"
+        }
+      },
+      "Topic For SNS Notification": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_topicForSNSNotification",
+        "value": {
+          "QA 1": "Add SNS Topic ARN",
+          "QA 2": "Add SNS Topic ARN",
+          "QA 4": "Add SNS Topic ARN",
+          "Customer 1": "Add SNS Topic ARN"
+        }
+      },
+      "SNS Topic Arn": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_SNSTopicARN",
+        "value": {
+          "QA 1": "donotdelete",
+          "QA 2": "donotdelete",
+          "QA 4": "donotdelete",
+          "Customer 1": "donotdelete"
+        }
+      }
+    }
+  }
+}

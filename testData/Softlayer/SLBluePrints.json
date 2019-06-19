@@ -1,0 +1,354 @@
+{ 
+	"VIRTUALMACHINE_SERVICE" :
+	{
+		"bluePrintName": "Virtual Server",
+		"descriptiveText": "Provides Required Information For Provisioning Virtual Machine",
+		"provider": "Softlayer",
+		"serviceName": "VIRTUAL_SERVICE",
+		"Category": "Compute",
+		"EstimatedPrice": "N/A",
+		"textinputdetails":
+			 [{
+				"textinputDetailsId": "text-input-hostname",
+				"label": "Hostname",
+				"value": "VMServiceTestVM"
+			},
+			{
+				"textinputDetailsId": "text-input-domain",
+				"label": "Domain",
+				"value": "bfastqa.com"
+			}
+		],
+		"dropdownLabels": 
+			[
+              {
+                "dropdownLabelId": "bx--dropdown-single-parent_datacenter",
+                "label": "Datacenter",
+                "value": "Dallas 9"
+              },
+              {
+                  "dropdownLabelId": "bx--dropdown-single-parent_dedicated-account-flag",
+                  "label"	: "Dedicated Account Flag",
+                  "value"	: "Dedicated VM (Auto Assign)"
+              },
+              {
+                "dropdownLabelId": "bx--dropdown-single-parent_billing-type",
+                "label"	: "Billing Type",
+                "value"	: "Hourly Billing"
+              },
+			  {
+				"dropdownLabelId": "bx--dropdown-single-parent_operating-system",
+				"label": "Operating System",
+				"value": "CentOS - Latest (64 bit)"
+			 },
+			 {
+				"dropdownLabelId": "bx--dropdown-single-parent_memory",
+				"label": "Memory",
+				"value": "12 GB"
+			 },
+			 {
+				"dropdownLabelId": "bx--dropdown-single-parent_cores",
+				"label": "Cores",
+				"value": "4 x 2.0 GHz Cores (Dedicated)"
+			 },
+              {
+                "dropdownLabelId": "bx--dropdown-single-parent_disk-type",
+                "label": "Disk Type",
+                "value": "San Disk"
+              },
+			 {
+				"dropdownLabelId": "bx--dropdown-single-parent_first-disk",
+				"label": "First Disk",
+				"value": "25 GB (SAN)"
+			 },
+			 {
+				"dropdownLabelId": "bx--dropdown-single-parent_second-disk",
+				"label": "Second Disk",
+				"value": "25 GB (SAN)"
+			 },
+			 {
+				"dropdownLabelId": "bx--dropdown-single-parent_third-disk",
+				"label": "Third Disk",
+				"value": "25 GB (SAN)"
+			 },
+			 {
+				"dropdownLabelId": "bx--dropdown-single-parent_fourth-disk",
+				"label": "Fourth Disk",
+				"value": "25 GB (SAN)"
+			 },
+			 {
+				"dropdownLabelId": "bx--dropdown-single-parent_fifth-disk",
+				"label": "Fifth Disk",
+				"value": "25 GB (SAN)"
+			 },
+              {
+                "dropdownLabelId": "bx--dropdown-single-parent_network-type",
+                "label": "Network Type",
+                "value": "Private Network Only"
+              },
+              {
+				"dropdownLabelId": "bx--dropdown-single-parent_private-vlan-id",
+				"label": "Private Vlan Id",
+				"value": "1328369"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_private-subnet",
+				"label": "Private Subnet",
+				"value": "10.121.106.128/26"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_network-speed",
+				"label": "Network Speed",
+				"value": "1 Gbps Private Network Uplink"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_bandwidth-limited",
+				"label": "Bandwidth Limited",
+				"value": "250 GB Bandwidth"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_public-secondary-ip-addresses",
+				"label": "Public Secondary IP Addresses",
+				"value": "4 Public IP Addresses"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_public-vlan-id",
+				"label": "Public Vlan Id",
+				"value": "1328361"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_public-subnet",
+				"label": "Public Subnet",
+				"value": "169.44.36.192/29"
+			}			
+		],
+		"radioButtonLabels":
+		[
+			{
+				"radioButtonId": "radio-button-dedicated_acct_host_only_Dedicated_VM (Auto Assign)",
+				"label": "Dedicated Account Flag",
+				"value": "Dedicated VM (Auto Assign)"
+			},
+			{
+				"radioButtonId": "radio-button-hourly_billing_Hourly_Billing",
+				"label": "Billing Type",
+				"value": "Hourly Billing"
+			},
+			{
+				"radioButtonId": "radio-button-local_disk_San_Disk",
+				"label": "Disk Type",
+				"value": "San Disk"
+			},
+			{
+				"radioButtonId": "radio-button-private_network_only_Private_And Public Network",
+				"label": "Network Type",
+				"value": "Private And Public Network"
+			},
+			{
+				"radioButtonId": "radio-button-public_bandwidth_unlimited_Public_Bandwidth Limited",
+				"label": "Bandwidth Unlimited",
+				"value": "Public Bandwidth Limited"
+			},
+			{
+				"radioButtonId": "radio-button-ipv6_enabled_None",
+				"label": "Primary IPv6 Addresses",
+				"value": "None"
+			},
+			{
+				"radioButtonId": "radio-button-ipv6_static_enabled_None",
+				"label": "Public Static IPv6 Addresses",
+				"value": "None"
+			}
+		]
+	},
+
+	"BAREMETALHOURLY_SERVICE":
+	{
+		"bluePrintName":"Bare Metal Server ( Hourly )",
+		"descriptiveText":"BAREMETALHOURLY_SERVICE",
+		"provider":"Softlayer",
+		"serviceName":"BAREMETALHOURLY_SERVICE",
+		"Category":"Compute",
+		"EstimatedPrice":"N/A",
+		"textinputdetails":[
+		   {
+			  "textinputDetailsId":"text-input-hostname",
+			  "label":"Hostname",
+			  "value":"Automation"
+		   },
+		   {
+			  "textinputDetailsId":"text-input-domain",
+			  "label":"Domain",
+			  "value":"Automation.com"
+		   },
+		   {
+			  "textinputDetailsId":"text-input-user_metadata",
+			  "label":"User Metadata",
+			  "value":"Automation"
+		   },
+		   {
+			  "textinputDetailsId":"text-input-post_install_script_uri",
+			  "label":"Post Install Script URI",
+			  "value":"http://www.ibm.com/"
+		   }
+		],
+		"dropdownLabels":[
+		   {
+			  "dropdownLabelId":"bx--dropdown-single-parent_datacenter",
+			  "label":"Datacenter",
+			  "value":"Amsterdam 1"
+		   },
+		   {
+			  "dropdownLabelId":"bx--dropdown-single-parent_hardware-configuration-(processor-+-ram-+-hard-disk)-",
+			  "label":"Hardware Configuration (Processor + RAM + Hard disk)",
+			  "value":"Single Xeon 1270, 32GB Ram, 2x960GB SSD disks, Non-RAID"
+		   },
+		   {
+			  "dropdownLabelId":"bx--dropdown-single-parent_operating-system",
+			  "label":"Operating System",
+			  "value":"FreeBSD 10.x (64 bit)"
+		   },
+		   {
+			  "dropdownLabelId":"bx--dropdown-single-parent_network-speed-(mbps)",
+			  "label":"Network Speed (Mbps)",
+			  "value":"10 Mbps Private Network Uplink"
+		   }
+		],
+		"radioButtonLabels":
+		[
+			{
+				"radioButtonId": "radio-button-private_network_only_Private_Network Only",
+				"label": "Private Network Only",
+				"value": "Private Network Only"
+			},
+			{
+				"radioButtonId": "radio-button-redundant_network_Non_Redundant Network",
+				"label": "Redundant Network",
+				"value": "Non Redundant Network"
+			},
+			{
+				"radioButtonId": "radio-button-unbonded_network_Bonded_Network",
+				"label": "Unbonded Network",
+				"value": "Bonded Network"
+			}
+		]
+	},
+	
+	"BAREMETALMONTHLY_SERVICE" :
+	{
+		"bluePrintName": "Bare Metal Server ( Monthly )",
+		"descriptiveText": "provides required information for provisioning BareMetal Monthly",
+		"provider": "Softlayer",
+		"serviceName": "BAREMETALMONTHLY_SERVICE",
+		"Category": "Compute",
+		"EstimatedPrice": "N/A",
+		"textinputdetails":
+			 [{
+				"textinputDetailsId": "text-input-hostname",
+				"label": "HostName",
+				"value": "TestBMm"
+			},
+			{
+				"textinputDetailsId": "text-input-domain",
+				"label": "Domain",
+				"value": "bfastqa.com"
+			},
+			{
+				"textinputDetailsId": "text-input-user_metadata",
+				"label": "Metadata",
+				"value": "testmetadata"
+			},
+			{
+				"textinputDetailsId": "text-input-post_install_script_uri",
+				"label": "Post Install Script",
+				"value": "http://www.ibm.com/"
+			},
+			{
+				"textinputDetailsId": "text-input-tags",
+				"label": "Tags",
+				"value": "BMm,automation"
+			}
+		],
+		"dropdownLabels": 
+			[{
+				"dropdownLabelId": "bx--dropdown-single-parent_datacenter",
+				"label": "Datacenter",
+				"value": "Dallas1"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_machine-configuration",
+				"label": "Machine Configuration",
+				"value": "Single E3-1270 (2 Drives)"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_operating-system",
+				"label": "Operating System",
+				"value": "Windows Server 2012 R2 Standard Edition (64 bit)"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_processor",
+				"label": "Processor",
+				"value": "Single Intel Xeon E3-1270 (4 Cores, 3.40 GHz)"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_ram-(gb)",
+				"label": "RAM (GB)",
+				"value": "4 GB DDR2 667"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_first-disk",
+				"label": "First Disk",
+				"value": "500 GB SATA"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_second-disk",
+				"label": "Second Disk",
+				"value": "500 GB SATA"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_private-vlan-id",
+				"label": "Private Vlan Id",
+				"value": "2232875"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_private-subnet",
+				"label": "Private Subnet",
+				"value": "10.16.85.128/26"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_bandwidth-(gb)",
+				"label": "Bandwidth (GB)",
+				"value": "0 GB Bandwidth"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_network-speed(mbps)",
+				"label": "Network Speed(Mbps)",
+				"value": "1 Gbps Private Network Uplink"
+			},
+			{
+				"dropdownLabelId": "bx--dropdown-single-parent_ssh-key-ids",
+				"label": "Ssh Key Ids",
+				"value": "1008757"
+			}
+			
+		],
+		"radioButtonLabels":
+		[
+			{
+				"radioButtonId": "radio-button-private_network_only_Private_Network Only",
+				"label": "Private Network Only",
+				"value": "true"
+			},
+			{
+				"radioButtonId": "radio-button-unbonded_network_Bonded_Network",
+				"label": "Unbonded Network Speed",
+				"value": "true"
+			},
+			{
+				"radioButtonId": "radio-button-redundant_network_Non_Redundant Network",
+				"label": "Redundant Network Speed",
+				"value": "true"
+			}
+		]
+	}
+}

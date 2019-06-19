@@ -1,0 +1,60 @@
+{
+	"bluePrintName": "Telephone Extension",
+	"descriptiveText": "The new corporate standard IP based handset.",
+	"provider": "Managed ServiceNow IT services",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 0.00/ Month + USD 195.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Additional Parameters": {
+                "Quantity": {
+                    "type": "Dropdown",
+                    "id": "bx--dropdown-single-parent_qty",
+                    "value": {
+                        "QA 2": "1",
+                        "QA 4": "1",
+                        "Customer 1": "1"
+                    }
+                }
+            }
+        }
+    }

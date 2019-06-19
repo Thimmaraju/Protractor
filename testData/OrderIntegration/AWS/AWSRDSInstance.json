@@ -1,0 +1,342 @@
+{
+  "bluePrintName": "AWS RDS Instance",
+  "descriptiveText": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale relational databases in the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testAWSRDSInstance",
+  "Category": "Databases",
+  "BasePrice": "USD 0.041/ SIZE / HR + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 25.411 / MONTH",
+  "TotalCost": "USD 25.411",
+  "serviceId": "CB_AWS_CF_RDS_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Instance specifications": {
+      "DB engine": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_engine",
+        "value": {
+          "QA 1": "oracle-ee",
+          "QA 2": "oracle-ee",
+          "QA 4": "oracle-ee",
+          "Customer 1": "oracle-ee"
+        }
+      },
+      "License Model": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_licenseModel",
+        "value": {
+          "QA 1": "bring-your-own-license",
+          "QA 2": "bring-your-own-license",
+          "QA 4": "bring-your-own-license",
+          "Customer 1": "bring-your-own-license"
+        }
+      },
+      "DB engine version": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_dbEngineVersion",
+        "value": {
+          "QA 1": "12.1.0.2.v11",
+          "QA 2": "12.1.0.2.v11",
+          "QA 4": "12.1.0.2.v11",
+          "Customer 1": "12.1.0.2.v11"
+        }
+      },
+      "DB instance class": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_dbInstanceClass",
+        "value": {
+          "QA 1": "db.t2.small",
+          "QA 2": "db.t2.small",
+          "QA 4": "db.t2.small",
+          "Customer 1": "db.t2.small"
+        }
+      },
+      "Multi AZ deployment": {
+        "type": "RadioButton",
+        "id": "radio-button-multiAZ_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      },
+      "Storage type": {
+        "type": "RadioButton",
+        "id": "radio-button-storageType_General_Purpose (SSD)",
+        "value": {
+          "QA 1": "General Purpose (SSD)",
+          "QA 2": "General Purpose (SSD)",
+          "QA 4": "General Purpose (SSD)",
+          "Customer 1": "General Purpose (SSD)"
+        }
+      },
+      "Allocated storage": {
+        "type": "Textbox",
+        "id": "slider-input-box-allocatedStorage",
+        "value": {
+          "QA 1": "100",
+          "QA 2": "100",
+          "QA 4": "100",
+          "Customer 1": "100"
+        }
+      }
+    },
+    "Settings": {
+      "DB instance identifier": {
+        "type": "Textbox",
+        "id": "text-input-dbInstanceIdentifier",
+        "value": {
+          "QA 1": "identif",
+          "QA 2": "identif",
+          "QA 4": "identif",
+          "Customer 1": "identif"
+        }
+      },
+      "Master username": {
+        "type": "Textbox",
+        "id": "text-input-masterUsername",
+        "value": {
+          "QA 1": "master007",
+          "QA 2": "master007",
+          "QA 4": "master007",
+          "Customer 1": "master007"
+        }
+      },
+      "Master password": {
+        "type": "Textbox",
+        "id": "text-input-masterUserPassword",
+        "value": {
+          "QA 1": "password123",
+          "QA 2": "password123",
+          "QA 4": "password123",
+          "Customer 1": "password123"
+        }
+      }
+    },
+    "Network & Security": {
+      "VPC Configuration Mode": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VpcCreationMode",
+        "value": {
+          "QA 1": "Default VPC",
+          "QA 2": "Default VPC",
+          "QA 4": "Default VPC",
+          "Customer 1": "Default VPC"
+        }
+      },
+      "Public accessibility": {
+        "type": "RadioButton",
+        "id": "radio-button-publiclyAccessible_false",
+        "value": {
+          "QA 1": "false",
+          "QA 2": "false",
+          "QA 4": "false",
+          "Customer 1": "false"
+        }
+      },
+      "Availability zone for DB instance": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_availabilityZone",
+        "value": {
+          "QA 1": "us-east-1a",
+          "QA 2": "us-east-1a",
+          "QA 4": "us-east-1a",
+          "Customer 1": "us-east-1a"
+        }
+      }
+    },
+    "Database options": {
+      "Database name": {
+        "type": "Textbox",
+        "id": "text-input-dbName",
+        "value": {
+          "QA 1": "testdb",
+          "QA 2": "testdb",
+          "QA 4": "testdb",
+          "Customer 1": "testdb"
+        }
+      },
+      "Database port": {
+        "type": "Textbox",
+        "id": "slider-input-box-port",
+        "value": {
+          "QA 1": "3306",
+          "QA 2": "3306",
+          "QA 4": "3306",
+          "Customer 1": "3306"
+        }
+      },
+      "DB parameter group": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_parameterGroup",
+        "value": {
+          "QA 1": "default.oracle-ee-12.1",
+          "QA 2": "default.oracle-ee-12.1",
+          "QA 4": "default.oracle-ee-12.1",
+          "Customer 1": "default.oracle-ee-12.1"
+        }
+      },
+      "Option group": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_optionGroups",
+        "value": {
+          "QA 1": "default:oracle-ee-12-1",
+          "QA 2": "default:oracle-ee-12-1",
+          "QA 4": "default:oracle-ee-12-1",
+          "Customer 1": "default:oracle-ee-12-1"
+        }
+      },
+      "Character set name": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_characterSetName",
+        "value": {
+          "QA 1": "AL32UTF8",
+          "QA 2": "AL32UTF8",
+          "QA 4": "AL32UTF8",
+          "Customer 1": "AL32UTF8"
+        }
+      },
+      "Encryption": {
+        "type": "RadioButton",
+        "id": "radio-button-encryption_Disable_encryption",
+        "value": {
+          "QA 1": "Disable encryption",
+          "QA 2": "Disable encryption",
+          "QA 4": "Disable encryption",
+          "Customer 1": "Disable encryption"
+        }
+      }
+    },
+    "Backup": {
+      "Backup retention period": {
+        "type": "Textbox",
+        "id": "slider-input-box-backupRetentionPeriod",
+        "value": {
+          "QA 1": "7",
+          "QA 2": "7",
+          "QA 4": "7",
+          "Customer 1": "7"
+        }
+      },
+      "Backup window": {
+        "type": "RadioButton",
+        "id": "radio-button-preferredBackupWindow_No_preference",
+        "value": {
+          "QA 1": "No preference",
+          "QA 2": "No preference",
+          "QA 4": "No preference",
+          "Customer 1": "No preference"
+        }
+      },
+      "Copy tags to snapshot": {
+        "type": "RadioButton",
+        "id": "radio-button-copyTagsToSnapshot_true",
+        "value": {
+          "QA 1": "true",
+          "QA 2": "true",
+          "QA 4": "true",
+          "Customer 1": "true"
+        }
+      }
+    },
+    "Monitoring": {
+      "Enhanced monitoring": {
+        "type": "RadioButton",
+        "id": "radio-button-enhancedMonitoring_Disable_enhanced monitoring",
+        "value": {
+          "QA 1": "Disable enhanced monitoring",
+          "QA 2": "Disable enhanced monitoring",
+          "QA 4": "Disable enhanced monitoring",
+          "Customer 1": "Disable enhanced monitoring"
+        }
+      }
+    },
+    "Maintenance": {
+      "Auto minor version upgrade": {
+        "type": "RadioButton",
+        "id": "radio-button-autoMinorVersionUpgrade_Enable_auto minor version upgrade",
+        "value": {
+          "QA 1": "Enable auto minor version upgrade",
+          "QA 2": "Enable auto minor version upgrade",
+          "QA 4": "Enable auto minor version upgrade",
+          "Customer 1": "Enable auto minor version upgrade"
+        }
+      },
+      "Maintenance window": {
+        "type": "RadioButton",
+        "id": "radio-button-preferredMaintenanceWindow_No_preference",
+        "value": {
+          "QA 1": "No preference",
+          "QA 2": "No preference",
+          "QA 4": "No preference",
+          "Customer 1": "No preference"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+	"bluePrintName": "Block Storage",
+	"descriptiveText": "Block Storage",
+	"providerName": "IBM Cloud",
+	"serviceName": "BLOCK_STORAGE_SERVICE",
+	"Category": "Storage",
+	"estimatedCost": "USD 0.0022/ HR + USD 0.00",
+	"quntity":"1",
+	"estimatedCostOnOrderReviewPage":"USD 0.00 ONE TIME CHARGE + USD 1.0416 / MONTH",
+	"totalCost": "USD 1.0416",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Storage Details": {
+			"Storage Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_type",
+				"value": {
+					"QA 1": "Endurance",
+					"QA 2": "Endurance",
+					"QA 4": "Endurance",
+					"Customer 1": "Endurance"
+				}
+			},
+			"Location": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Amsterdam 1*",
+					"QA 2": "Amsterdam 1*",
+					"QA 4": "Amsterdam 1*",
+					"Customer 1": "Amsterdam 1*"
+				}
+			},
+			"Billing Method": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_hourly_billing",
+				"value": {
+					"QA 1": "Hourly Billing",
+					"QA 2": "Hourly Billing",
+					"QA 4": "Hourly Billing",
+					"Customer 1": "Hourly Billing"
+				}
+			}
+		},
+		"Volume Specification": {
+			"Storage Size": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_capacity",
+				"value": {
+					"QA 1": "20",
+					"QA 2": "20",
+					"QA 4": "20",
+					"Customer 1": "20"
+				}
+			},
+			"Storage IOPS Options": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_iops",
+				"value": {
+					"QA 1": "0.25",
+					"QA 2": "0.25",
+					"QA 4": "0.25",
+					"Customer 1": "0.25"
+				}
+			},
+			"Snapshot Space Size": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_snapshot_capacity",
+				"value": {
+					"QA 1": "0",
+					"QA 2": "0",
+					"QA 4": "0",
+					"Customer 1": "0"
+				}
+			},
+			"Operating System": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_os_format_type",
+				"value": {
+					"QA 1": "Linux",
+					"QA 2": "Linux",
+					"QA 4": "Linux",
+					"Customer 1": "Linux"
+				}
+			}
+		}
+	}
+}

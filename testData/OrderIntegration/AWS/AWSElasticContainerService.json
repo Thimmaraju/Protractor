@@ -1,0 +1,431 @@
+{
+    "bluePrintName": "Elastic Container Service (ECS)",
+    "descriptiveText": "AWS CloudFormation template to create ECS Cluster, service and a task definition with a container definition using auto scaling group",
+    "provider": "Amazon",
+    "serviceInstanceName": "testElasticContainer",
+    "Category": "Compute",
+    "BasePrice": "USD 0.023/ GB / MONTH + USD 0.00",
+    "EstimatedPrice": "USD 0.023/ GB / MONTH + USD 0.00",
+    "TotalCost": "USD 0.00",
+    "serviceId": "CB_AWS_CF_ECSN_S00",
+    "Order Parameters": {
+        "Main Parameters": {
+            "Service Instance Name": {
+                "type": "Textbox",
+                "id": "text-input-main_params-serviceName",
+                "value": {
+                    "QA 1": "TestAutomation61234",
+                    "QA 2": "TestAutomation61234",
+                    "QA 4": "TestAutomation61234",
+                    "Customer 1": "TestAutomation61234"
+                }
+            },
+            "Team": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_team",
+                "value": {
+                    "QA 1": "TEAM1",
+                    "QA 2": "TEAM1",
+                    "QA 4": "TEAM1",
+                    "Customer 1": "TEAM1"
+                }
+            },
+            "Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "NONE",
+                    "QA 2": "NONE",
+                    "QA 4": "NONE",
+                    "Customer 1": "NONE"
+                }
+            },
+            "Provider Account": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_provider-account",
+                "value": {
+                    "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+                    "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+                    "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+                }
+            }
+        },
+        "Configure Region": {
+            "AWS Region": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_AWS::Region",
+                "value": {
+                    "QA 1": "us-east-1",
+                    "QA 2": "us-east-1",
+                    "QA 4": "us-east-1",
+                    "Customer 1": "us-east-1"
+                }
+            }
+        },
+        "Basic Setting": {
+            "ECS Cluster Name": {
+                "type": "Textbox",
+                "id": "text-input-EcsClusterName",
+                "value": {
+                    "QA 1": "testECScluster123",
+                    "QA 2": "testECScluster123",
+                    "QA 4": "testECScluster123",
+                    "Customer 1": "testECScluster123"
+                }
+            },
+            "Create Empty Cluster": {
+                "type": "RadioButton",
+                "id": "radio-button-createEmptyCluster_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            },
+            "Spot Provisioning Model": {
+                "type": "RadioButton",
+                "id": "radio-button-spotProvisioningModel_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            },
+            "Spot Allocation Strategy": {
+                "type": "RadioButton",
+                "id": "radio-button-SpotAllocationStrategy_diversified",
+                "value": {
+                    "QA 1": "diversified",
+                    "QA 2": "diversified",
+                    "QA 4": "diversified",
+                    "Customer 1": "diversified"
+                }
+            },
+            "ECS Instance Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_EcsInstanceType",
+                "value": {
+                    "QA 1": "t2.large",
+                    "QA 2": "t2.large",
+                    "QA 4": "t2.large",
+                    "Customer 1": "t2.large"
+                }
+            },
+            "Number Of Instances": {
+                "type": "Textbox",
+                "id": "slider-input-box-NumberOfInstances",
+                "value": {
+                    "QA 1": "1",
+                    "QA 2": "1",
+                    "QA 4": "1",
+                    "Customer 1": "1"
+                }
+            },
+            "Device Name": {
+                "type": "Textbox",
+                "id": "text-input-DeviceName",
+                "value": {
+                    "QA 1": "/dev/sdm",
+                    "QA 2": "/dev/sdm",
+                    "QA 4": "/dev/sdm",
+                    "Customer 1": "/dev/sdm"
+                }
+            },
+            "EBS Volume Size": {
+                "type": "Textbox",
+                "id": "slider-input-box-EbsVolumeSize",
+                "value": {
+                    "QA 1": "0",
+                    "QA 2": "0",
+                    "QA 4": "0",
+                    "Customer 1": "0"
+                }
+            },
+            "EBS Volume Type": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_EbsVolumeType",
+                "value": {
+                    "QA 1": "standard",
+                    "QA 2": "standard",
+                    "QA 4": "standard",
+                    "Customer 1": "standard"
+                }
+            },
+            "SSH Key Name": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_SshKeyName",
+                "value": {
+                    "QA 1": "amzn",
+                    "QA 2": "amzn",
+                    "QA 4": "amzn",
+                    "Customer 1": "amzn"
+                }
+            }
+        },
+        "Service Setting": {
+            "Service Name": {
+                "type": "Textbox",
+                "id": "text-input-serviceName",
+                "value": {
+                    "QA 1": "testservicename123",
+                    "QA 2": "testservicename123",
+                    "QA 4": "testservicename123",
+                    "Customer 1": "testservicename123"
+                }
+            },
+            "Launch Type": {
+                "type": "RadioButton",
+                "id": "radio-button-launchType_EC2",
+                "value": {
+                    "QA 1": "EC2",
+                    "QA 2": "EC2",
+                    "QA 4": "EC2",
+                    "Customer 1": "EC2"
+                }
+            },
+            "Number Of Tasks": {
+                "type": "Textbox",
+                "id": "slider-input-box-numberOfTasks",
+                "value": {
+                    "QA 1": "1",
+                    "QA 2": "1",
+                    "QA 4": "1",
+                    "Customer 1": "1"
+                }
+            },
+            "Minimum Healthy Percent": {
+                "type": "Textbox",
+                "id": "slider-input-box-minimumHealthyPercent",
+                "value": {
+                    "QA 1": "100",
+                    "QA 2": "100",
+                    "QA 4": "100",
+                    "Customer 1": "100"
+                }
+            },
+            "Maximum Percent": {
+                "type": "Textbox",
+                "id": "slider-input-box-maximumPercent",
+                "value": {
+                    "QA 1": "200",
+                    "QA 2": "200",
+                    "QA 4": "200",
+                    "Customer 1": "200"
+                }
+            },
+            "Placement Templates": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_placementTemplates",
+                "value": {
+                    "QA 1": "AZ Balanced Spread",
+                    "QA 2": "AZ Balanced Spread",
+                    "QA 4": "AZ Balanced Spread",
+                    "Customer 1": "AZ Balanced Spread"
+                }
+            }
+        },
+        "Network Setting": {
+            "VPC Id": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_VpcId",
+                "value": {
+                    "QA 1": "vpc-8eadd1eb",
+                    "QA 2": "vpc-8eadd1eb",
+                    "QA 4": "vpc-8eadd1eb",
+                    "Customer 1": "vpc-8eadd1eb"
+                }
+            },
+            "Subnet Ids": {
+                "type": "MultiselectDropdown",
+                "id": "text-input-SubnetIds",
+                "value": {
+                    "QA 1": [
+                        "subnet-c5f664b2 (us-east-1b)",
+                        "subnet-f3a23cff (us-east-1f)"
+                    ],
+                    "QA 2": [
+                        "subnet-c5f664b2 (us-east-1b)",
+                        "subnet-f3a23cff (us-east-1f)"
+                    ],
+                    "QA 4": [
+                        "subnet-c5f664b2 (us-east-1b)",
+                        "subnet-f3a23cff (us-east-1f)"
+                    ],
+                    "Customer 1": [
+                        "subnet-c5f664b2 (us-east-1b)",
+                        "subnet-f3a23cff (us-east-1f)"
+                    ]
+                }
+            },
+            "Security Group Id": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_SecurityGroupId",
+                "value": {
+                    "QA 1": "sg-18752353",
+                    "QA 2": "sg-18752353",
+                    "QA 4": "sg-18752353",
+                    "Customer 1": "sg-18752353"
+                }
+            },
+            "IAM Role Instance Profile": {
+                "type": "Dropdown",
+                "id": "bx--dropdown-single-parent_IamRoleInstanceProfile",
+                "value": {
+                    "QA 1": "ecs_test_role",
+                    "QA 2": "ecs_test_role",
+                    "QA 4": "ecs_test_role",
+                    "Customer 1": "ecs_test_role"
+                }
+            }
+        },
+        "Task Setting": {
+            "Task Definition Name": {
+                "type": "Textbox",
+                "id": "text-input-taskDefinitionName",
+                "value": {
+                    "QA 1": "test-Task123",
+                    "QA 2": "test-Task123",
+                    "QA 4": "test-Task123",
+                    "Customer 1": "test-Task123"
+                }
+            },
+            "Task Memory": {
+                "type": "Textbox",
+                "id": "slider-input-box-taskMemory",
+                "value": {
+                    "QA 1": "512",
+                    "QA 2": "512",
+                    "QA 4": "512",
+                    "Customer 1": "512"
+                }
+            },
+            "Task CPU": {
+                "type": "Textbox",
+                "id": "slider-input-box-taskCPU",
+                "value": {
+                    "QA 1": "256",
+                    "QA 2": "256",
+                    "QA 4": "256",
+                    "Customer 1": "256"
+                }
+            },
+            "Task Constraint Type": {
+                "type": "RadioButton",
+                "id": "radio-button-taskConstraintType_memberOf",
+                "value": {
+                    "QA 1": "memberOf",
+                    "QA 2": "memberOf",
+                    "QA 4": "memberOf",
+                    "Customer 1": "memberOf"
+                }
+            }
+        },
+        "Container Setting": {
+            "Container Definition Name": {
+                "type": "Textbox",
+                "id": "text-input-containerDefinitionName",
+                "value": {
+                    "QA 1": "testcontainer-name123",
+                    "QA 2": "testcontainer-name123",
+                    "QA 4": "testcontainer-name123",
+                    "Customer 1": "testcontainer-name123"
+                }
+            },
+            "Container Image": {
+                "type": "Textbox",
+                "id": "text-input-containerImage",
+                "value": {
+                    "QA 1": "busybox",
+                    "QA 2": "busybox",
+                    "QA 4": "busybox",
+                    "Customer 1": "busybox"
+                }
+            },
+            "Memory Hard Limit": {
+                "type": "Textbox",
+                "id": "slider-input-box-memoryHardLimit",
+                "value": {
+                    "QA 1": "256",
+                    "QA 2": "256",
+                    "QA 4": "256",
+                    "Customer 1": "256"
+                }
+            },
+            "Memory Soft Limit": {
+                "type": "Textbox",
+                "id": "slider-input-box-memorySoftLimit",
+                "value": {
+                    "QA 1": "30",
+                    "QA 2": "30",
+                    "QA 4": "30",
+                    "Customer 1": "30"
+                }
+            },
+            "Port Protocol": {
+                "type": "Textbox",
+                "id": "text-input-portProtocol",
+                "value": {
+                    "QA 1": "tcp",
+                    "QA 2": "tcp",
+                    "QA 4": "tcp",
+                    "Customer 1": "tcp"
+                }
+            },
+            "Container CPU": {
+                "type": "Textbox",
+                "id": "slider-input-box-containerCPU",
+                "value": {
+                    "QA 1": "10",
+                    "QA 2": "10",
+                    "QA 4": "10",
+                    "Customer 1": "10"
+                }
+            },
+            "Container Entry Point": {
+                "type": "Textbox",
+                "id": "text-input-containerEntryPoint",
+                "value": {
+                    "QA 1": "sh,-c",
+                    "QA 2": "sh,-c",
+                    "QA 4": "sh,-c",
+                    "Customer 1": "sh,-c"
+                }
+            },
+            "Container Command": {
+                "type": "Textbox",
+                "id": "text-input-containerCommand",
+                "value": {
+                    "QA 1": "tail -f /dev/null",
+                    "QA 2": "tail -f /dev/null",
+                    "QA 4": "tail -f /dev/null",
+                    "Customer 1": "tail -f /dev/null"
+                }
+            }
+        },
+        "Advanced Setting": {
+            "Readonly Root Filesystem": {
+                "type": "RadioButton",
+                "id": "radio-button-readonlyRootFilesystem_false",
+                "value": {
+                    "QA 1": "false",
+                    "QA 2": "false",
+                    "QA 4": "false",
+                    "Customer 1": "false"
+                }
+            }
+        }
+    }
+}

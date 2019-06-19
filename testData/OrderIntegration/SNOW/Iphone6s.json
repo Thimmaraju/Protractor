@@ -1,0 +1,70 @@
+{
+	"bluePrintName": "Procure an iPhone 6s",
+	"descriptiveText": "iPhone 6s offers a multitude of features packaged within cutting edge design. This phone will be part of the corporate mobile contract, and you will not be billed for its use. The device has the following technical specifications:iOS 9, Retina display, A9 chip, Touch ID.",
+	"provider": "Managed ServiceNow IT services",
+	"Category": "Compute",
+	"EstimatedPrice": "USD 50.00/ Month + USD 450.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+      		"Environment": {
+				"type": "DropdownSearch",
+				"id": "env",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			},
+      		"Application": {
+				"type": "DropdownSearch",
+				"id": "App",
+				"value": {
+					"QA 1": "",
+					"QA 2": "",
+					"QA 4": "NONE",
+					"Customer 1": ""
+				}
+			}
+		},
+		"Additional Parameters": {
+                "What color would you like?": {
+                    "type": "Dropdown",
+                    "id": "bx--dropdown-single-parent_color",
+                    "value": {
+                        "QA 2": "Black",
+                        "QA 4": "Black",
+                        "Customer 1": "1"
+                    }
+                },
+            "How many gigs of storage?":{
+                "type":"Dropdown",
+                "id":"bx--dropdown-single-parent_storage",
+                "value":{
+                    "QA 2":"16",
+                    "QA 4": "16"
+                }
+            }
+    }
+
+}
+    
+    }

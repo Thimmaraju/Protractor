@@ -1,0 +1,16 @@
+{
+  "appenders": {
+    "out": {"type": "console","layout": { "type": "coloured" } },
+    "app": {"type": "dateFile",
+    		"filename": "application.log",
+    		"maxLogSize": 10485760,
+    		"layout":
+    			{"type":"pattern",
+    			 "pattern":"[%d{dd-MM-yyyy hh:mm:ss}] [%p] - %m",
+    			 "tokens": {"user": "function(logEvent) {return AuthLibrary.currentUser();"}}
+    			}
+    		},
+  "categories": {
+    "default": { "appenders": ["out","app"], "level": "info" }
+  }
+}

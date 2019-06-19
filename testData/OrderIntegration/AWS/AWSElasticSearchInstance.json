@@ -1,0 +1,232 @@
+{
+  "bluePrintName": "AWS Elasticsearch Service",
+  "descriptiveText": "Amazon Elasticsearch Service (Amazon ES) makes it easy to set up, operate, and scale an Elasticsearch cluster in the cloud.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testElasticsearch",
+  "Category": "Other Services",
+  "BasePrice": "USD 0.018/ SIZE / HR + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 26.919 / MONTH",
+  "TotalCost": "USD 26.919",
+  "serviceId": "CB_AWS_CF_ES_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomationses",
+          "QA 2": "TestAutomationses",
+          "QA 4": "TestAutomationes",
+          "Customer 1": "TestAutomationes"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Define domain": {
+      "Elasticsearch Domain Name": {
+        "type": "Textbox",
+        "id": "text-input-elasticsearchDomainName",
+        "value": {
+          "QA 1": "mynewdomain",
+          "QA 2": "mynewdomain",
+          "QA 4": "mynewdomain",
+          "Customer 1": "mynewdomain"
+        }
+      },
+      "Elasticsearch Version": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_elasticsearchVersion",
+        "value": {
+          "QA 1": "6.2",
+          "QA 2": "6.2",
+          "QA 4": "6.2",
+          "Customer 1": "6.2"
+        }
+      }
+    },
+    "Configure Cluster": {
+      "Enable Zone Awareness": {
+        "type": "RadioButton",
+        "id": "radio-button-enableZoneAwareness_false",
+        "value": {
+          "QA 1": "false",
+          "QA 2": "false",
+          "QA 4": "false",
+          "Customer 1": "false"
+        }
+      },
+      "Instance Count": {
+        "type": "Textbox",
+        "id": "slider-input-box-instanceCount",
+        "value": {
+          "QA 1": "1",
+          "QA 2": "1",
+          "QA 4": "1",
+          "Customer 1": "1"
+        }
+      },
+      "Instance Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_instanceType",
+        "value": {
+          "QA 1": "t2.small.elasticsearch",
+          "QA 2": "t2.small.elasticsearch",
+          "QA 4": "t2.small.elasticsearch",
+          "Customer 1": "t2.small.elasticsearch"
+        }
+      },
+      "Enable Dedicated Master": {
+        "type": "RadioButton",
+        "id": "radio-button-enableDedicatedMaster_false",
+        "value": {
+          "QA 1": "false",
+          "QA 2": "false",
+          "QA 4": "false",
+          "Customer 1": "false"
+        }
+      },
+      "EBS Volume Type": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_ebsVolumeType1",
+        "value": {
+          "QA 1": "General Purpose",
+          "QA 2": "General Purpose",
+          "QA 4": "General Purpose",
+          "Customer 1": "General Purpose"
+        }
+      },
+      "EBS Volume Size": {
+        "type": "Textbox",
+        "id": "slider-input-box-ebsVolumeSize1",
+        "value": {
+          "QA 1": "10",
+          "QA 2": "10",
+          "QA 4": "10",
+          "Customer 1": "10"
+        }
+      },
+      "Automated Snapshot Start Hour": {
+        "type": "Textbox",
+        "id": "slider-input-box-automatedSnapshotStartHour",
+        "value": {
+          "QA 1": "0",
+          "QA 2": "0",
+          "QA 4": "0",
+          "Customer 1": "0"
+        }
+      },
+      "Rest Action Multi Allow Explicit Index": {
+        "type": "RadioButton",
+        "id": "radio-button-restActionMultiAllowExplicitIndex_true",
+        "value": {
+          "QA 1": "true",
+          "QA 2": "true",
+          "QA 4": "true",
+          "Customer 1": "true"
+        }
+      }
+    },
+    "Set up Access": {
+      "VPC": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_VPC",
+        "value": {
+          "QA 1": "vpc-8eadd1eb",
+          "QA 2": "vpc-8eadd1eb",
+          "QA 4": "vpc-8eadd1eb",
+          "Customer 1": "vpc-8eadd1eb"
+        }
+      },
+      "Subnet": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_subnet",
+        "value": {
+          "QA 1": "subnet-c5f664b2 (us-east-1b)",
+          "QA 2": "subnet-c5f664b2 (us-east-1b)",
+          "QA 4": "subnet-c5f664b2 (us-east-1b)",
+          "Customer 1": "subnet-c5f664b2 (us-east-1b)"
+        }
+      },
+      "Security Groups": {
+        "type": "MultiselectDropdown",
+        "id": "text-input-securityGroups",
+        "value": {
+          "QA 1": [
+            "sg-093fdf7f"
+          ],
+          "QA 2": [
+            "sg-093fdf7f"
+          ],
+          "QA 4": [
+            "sg-093fdf7f"
+          ],
+          "Customer 1": [
+            "sg-093fdf7f"
+          ]
+        }
+      },
+      "Set The Domain Access Policy To": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_setTheDomainAccessPolicyTo",
+        "value": {
+          "QA 1": "Do not require Signing Request with IAM credential",
+          "QA 2": "Do not require Signing Request with IAM credential",
+          "QA 4": "Do not require Signing Request with IAM credential",
+          "Customer 1": "Do not require Signing Request with IAM credential"
+        }
+      }
+    }
+  }
+}

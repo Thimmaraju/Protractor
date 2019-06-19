@@ -1,0 +1,89 @@
+{
+	"bluePrintName": "Hardware Firewall(Dedicated)",
+	"descriptiveText": "Hardware Firewall(Dedicated)",
+	"providerName": "IBM Cloud",
+	"serviceName": "HARDWARE_FIREWALL_DEDICATED",
+	"Category": "Security & Identity",
+	"estimatedCost": "USD 699.00/ MONTH + USD 0.00",
+	"totalCost": "USD 699.00",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 3": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 3": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Hardware Firewall Specification": {
+			"Firewall Type": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_firewall_type",
+				"value": {
+					"QA 1": "Hardware Firewall(Dedicated)",
+					"QA 2": "Hardware Firewall(Dedicated)",
+					"QA 3": "Hardware Firewall(Dedicated)",
+					"QA 4": "Hardware Firewall(Dedicated)",
+					"Customer 1": "Hardware Firewall(Dedicated)"
+				}
+			},
+			"Vlan Number": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_public_vlan_id",
+				"value": {
+					"QA 1": "832",
+					"QA 2": "832",
+					"QA 3": "832",
+					"QA 4": "832",
+					"Customer 1": "832"
+				}
+			}
+		}
+	}
+}

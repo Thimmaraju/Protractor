@@ -1,0 +1,178 @@
+{
+  "bluePrintName": "AWS Config",
+  "descriptiveText": "Amazon Web Services (AWS) Config provides information about account resources and how they are working. Use Config to configure rules to govern resource behaviors, security, usage, and more.",
+  "provider": "Amazon",
+  "providerAccount": "AWS-TEAM1 / AWS-TEAM1",
+  "serviceInstanceName": "testConfig",
+  "Category": "Other Services",
+  "BasePrice": "USD 0.003/ UGW1-ConfigurationItemRecorded / MONTH + USD 0.00",
+  "EstimatedPrice": "USD 0.00 ONE TIME CHARGE + USD 2.003 / MONTH",
+  "TotalCost": "USD 2.003",
+  "serviceId": "CB_AWS_CF_CONFIG_S00",
+  "Order Parameters": {
+    "Main Parameters": {
+      "Service Instance Name": {
+        "type": "Textbox",
+        "id": "text-input-main_params-serviceName",
+        "value": {
+          "QA 1": "TestAutomation61234",
+          "QA 2": "TestAutomation61234",
+          "QA 4": "TestAutomation61234",
+          "Customer 1": "TestAutomation61234"
+        }
+      },
+      "Team": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_team",
+        "value": {
+          "QA 1": "TEAM1",
+          "QA 2": "TEAM1",
+          "QA 4": "TEAM1",
+          "Customer 1": "TEAM1"
+        }
+      },
+      "Environment": {
+        "type": "DropdownSearch",
+        "id": "env",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Application": {
+        "type": "DropdownSearch",
+        "id": "App",
+        "value": {
+          "QA 1": "NONE",
+          "QA 2": "NONE",
+          "QA 4": "NONE",
+          "Customer 1": "NONE"
+        }
+      },
+      "Provider Account": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_provider-account",
+        "value": {
+          "QA 1": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 2": "AWS-TEAM1 / AWS-TEAM1",
+          "QA 4": "AWS-TEAM1 / AWS-TEAM1",
+          "Customer 1": "AWS-TEAM1 / AWS-TEAM1"
+        }
+      }
+    },
+    "Configure Region": {
+      "AWS Region": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_AWS::Region",
+        "value": {
+          "QA 1": "us-east-1",
+          "QA 2": "us-east-1",
+          "QA 4": "us-east-1",
+          "Customer 1": "us-east-1"
+        }
+      }
+    },
+    "Resource types to record": {
+      "Record All Resources Supported In This Region": {
+        "type": "RadioButton",
+        "id": "radio-button-recordAllResourcesSupportedInThisRegion_false",
+        "value": {
+          "QA 1": "false",
+          "QA 2": "false",
+          "QA 4": "false",
+          "Customer 1": "false"
+        }
+      },
+      "Specific Types": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_specificTypes",
+        "value": {
+          "QA 1": "AWS::EC2::Instance",
+          "QA 2": "AWS::EC2::Instance",
+          "QA 4": "AWS::EC2::Instance",
+          "Customer 1": "AWS::EC2::Instance"
+        }
+      }
+    },
+    "Amazon S3 bucket*": {
+      "S3 Bucket Configuration": {
+        "type": "RadioButton",
+        "id": "radio-button-s3BucketConfiguration_Create_a bucket",
+        "value": {
+          "QA 1": "Create a bucket",
+          "QA 2": "Create a bucket",
+          "QA 4": "Create a bucket",
+          "Customer 1": "Create a bucket"
+        }
+      },
+      "Bucket Name": {
+        "type": "Textbox",
+        "id": "text-input-bucketName",
+        "value": {
+          "QA 1": "buckettest",
+          "QA 2": "buckettest",
+          "QA 4": "buckettest",
+          "Customer 1": "buckettest"
+        }
+      },
+      "Log File Prefix": {
+        "type": "Textbox",
+        "id": "text-input-logFilePrefix",
+        "value": {
+          "QA 1": "prefix-tests1",
+          "QA 2": "prefix-tests1",
+          "QA 4": "prefix-tests1",
+          "Customer 1": "prefix-tests1"
+        }
+      }
+    },
+    "Amazon SNS topic": {
+      "Stream configuration changes and notifications to an Amazon SNS topic": {
+        "type": "RadioButton",
+        "id": "radio-button-streamConfigurationChangesAndNotificationsToAnAmazonSNSTopic_No",
+        "value": {
+          "QA 1": "No",
+          "QA 2": "No",
+          "QA 4": "No",
+          "Customer 1": "No"
+        }
+      }
+    },
+    "AWS Config role": {
+      "Role Configuration": {
+        "type": "RadioButton",
+        "id": "radio-button-roleConfiguration_Create_a role",
+        "value": {
+          "QA 1": "Create a role",
+          "QA 2": "Create a role",
+          "QA 4": "Create a role",
+          "Customer 1": "Create a role"
+        }
+      },
+      "Role Name": {
+        "type": "Textbox",
+        "id": "text-input-roleName",
+        "value": {
+          "QA 1": "NewRole",
+          "QA 2": "NewRole",
+          "QA 4": "NewRole",
+          "Customer 1": "NewRole"
+        }
+      }
+    },
+    "AWS Config rules": {
+      "Config Rules": {
+        "type": "Dropdown",
+        "id": "bx--dropdown-single-parent_configRules",
+        "value": {
+          "QA 1": "ACM_CERTIFICATE_EXPIRATION_CHECK",
+          "QA 2": "ACM_CERTIFICATE_EXPIRATION_CHECK",
+          "QA 4": "ACM_CERTIFICATE_EXPIRATION_CHECK",
+          "Customer 1": "ACM_CERTIFICATE_EXPIRATION_CHECK"
+        }
+      }
+    }
+  }
+}

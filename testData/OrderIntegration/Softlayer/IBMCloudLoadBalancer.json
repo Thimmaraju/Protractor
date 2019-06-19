@@ -1,0 +1,221 @@
+{
+	"bluePrintName": "IBM Cloud Load Balancer",
+	"descriptiveText": "IBM Cloud Load Balancer",
+	"providerName": "IBM Cloud",
+	"serviceName": "CLOUD_LOAD_BALANCER_SERVICE",
+	"Category": "Network",
+    "EstimatedPrice": "USD 0.018/ HR + USD 0.00",
+    "totalCost": "USD 22.32",
+	"Order Parameters": {
+		"Main Parameters": {
+			"Service Instance Name": {
+				"type": "Textbox",
+				"id": "text-input-main_params-serviceName",
+				"value": {
+					"QA 1": "TestAutomation",
+					"QA 2": "TestAutomation",
+					"QA 4": "TestAutomation",
+					"Customer 1": "TestAutomation"
+				}
+			},
+			"Team": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_team",
+				"value": {
+					"QA 1": "TEAM1",
+					"QA 2": "TEAM1",
+					"QA 4": "TEAM1",
+					"Customer 1": "TEAM1"
+				}
+			},
+			"Environment": {
+                "type": "DropdownSearch",
+                "id": "env",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+             "Application": {
+                "type": "DropdownSearch",
+                "id": "App",
+                "value": {
+                    "QA 1": "",
+                    "QA 2": "",
+                    "QA 4": "NONE",
+                    "Customer 1": ""
+                }
+            },
+			"Provider Account": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_provider-account",
+				"value": {
+					"QA 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 2": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"QA 4": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1",
+					"Customer 1": "softlayer-automation-TEAM1 / softlayer-automation-TEAM1"
+				}
+			}
+		},
+		"Additional Parameters": {
+			"Type":{
+				"type": "RadioButton",
+				"id": "radio-button-type_PUBLIC",
+				"value": {
+					"QA 1": "Public (Internet-facing)",
+					"QA 2": "Public (Internet-facing)",
+					"QA 4": "Public (Internet-facing)",
+					"Customer 1": "Public (Internet-facing)"
+				}
+
+			},
+			"Data Center": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_datacenter",
+				"value": {
+					"QA 1": "Chennai 1",
+					"QA 2": "Chennai 1",
+					"QA 4": "Chennai 1",
+					"Customer 1": "Chennai 1"
+				}
+			},
+			"Name": {
+				"type": "Textbox",
+				"id": "text-input-name",
+				"value": {
+					"QA 1": "testAutomation1",
+					"QA 2": "testAutomation1",
+					"QA 4": "testAutomation1",
+					"Customer 1": "testAutomation1"
+				}
+			},
+			"Private Subnets(back end server side)": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_subnets",
+				"value": {
+					"QA 1": "10.162.60.64/26 bcr01a.che01.1285",
+					"QA 2": "10.162.60.64/26 bcr01a.che01.1285",
+					"QA 4": "10.162.60.64/26 bcr01a.che01.1285",
+					"Customer 1": "10.162.60.64/26 bcr01a.che01.1285"
+				}
+            }
+        },
+        "Protocol Details":{
+			"Frontend Protocol": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_frontend_protocol",
+				"value": {
+					"QA 1": "HTTP",
+					"QA 2": "HTTP",
+					"QA 4": "HTTP",
+					"Customer 1": "HTTP"
+				}
+            },
+            "Frontend Port": {
+				"type": "Textbox",
+				"id": "text-input-frontend_port",
+				"value": {
+					"QA 1": "80",
+					"QA 2": "80",
+					"QA 4": "80",
+					"Customer 1": "80"
+				}
+            },
+            "Backend Protocol": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_backend_protocol",
+				"value": {
+					"QA 1": "HTTP",
+					"QA 2": "HTTP",
+					"QA 4": "HTTP",
+					"Customer 1": "HTTP"
+				}
+            },
+            "Backend Port": {
+				"type": "Textbox",
+				"id": "text-input-backend_port",
+				"value": {
+					"QA 1": "90",
+					"QA 2": "90",
+					"QA 4": "90",
+					"Customer 1": "90"
+				}
+			},
+			"Load Balancer Method": {
+				"type": "Dropdown",
+				"id": "bx--dropdown-single-parent_load_balancing_method",
+				"value": {
+					"QA 1": "round_robin",
+					"QA 2": "round_robin",
+					"QA 4": "round_robin",
+					"Customer 1": "round_robin"
+				}
+			}
+
+		}
+		
+	},
+	"Edit Parameters": {
+		"Main Parameters": {},
+		"Additional Parameters": {
+			
+		},
+			"Protocol Details":{
+				"Frontend Protocol": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_frontend_protocol",
+					"value": {
+						"QA 1": "TCP",
+						"QA 2": "TCP",
+						"QA 4": "TCP",
+						"Customer 1": "TCP"
+					}
+				},
+				"Frontend Port": {
+					"type": "Textbox",
+					"id": "text-input-frontend_port",
+					"value": {
+						"QA 1": "90",
+						"QA 2": "90",
+						"QA 4": "90",
+						"Customer 1": "90"
+					}
+				},
+				"Backend Protocol": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_backend_protocol",
+					"value": {
+						"QA 1": "TCP",
+						"QA 2": "TCP",
+						"QA 4": "TCP",
+						"Customer 1": "TCP"
+					}
+				},
+				"Backend Port": {
+					"type": "Textbox",
+					"id": "text-input-backend_port",
+					"value": {
+						"QA 1": "100",
+						"QA 2": "100",
+						"QA 4": "100",
+						"Customer 1": "100"
+					}
+				},
+				"Load Balancer Method": {
+					"type": "Dropdown",
+					"id": "bx--dropdown-single-parent_load_balancing_method",
+					"value": {
+						"QA 1": "least_connection",
+						"QA 2": "least_connection",
+						"QA 4": "least_connection",
+						"Customer 1": "least_connection"
+					}
+				}
+	
+			
+		}
+	}
+
+}
